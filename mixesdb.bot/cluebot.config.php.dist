@@ -1,0 +1,8 @@
+<?PHP
+	$owner = 'Cobi';
+	$user = 'MDBot';
+	$pass = '';
+	$status = 'rw';
+	$maxlag = 9999;
+	$maxlagkeepgoing = true;
+?>
