@@ -248,7 +248,7 @@
 			if (!$wpapi->edit($apage,$adata,'Archiving '.count($archsects).' discussion'.((count($archsects) > 1)?'s':'').' from [['.$page.']]. (BOT)',true,true))
 				return false;
 			if (!$wpapi->edit($page,$pdata,'Archiving '.count($archsects).' discussion'.((count($archsects) > 1)?'s':'').' to [['.$apage.']]. (BOT)',true,true,$wpStarttime,$wpEdittime)) {
-				$wpapi->edit($apage,$rv2[0]['*'],'Unarchiving '.count($archsects).' discussion'.((count($archsects) > 1)?'s':'').' from [['.$page.']]. (Archive failed) (BOT)',true,true);
+				$wpapi->edit($apage,$x,'Unarchiving '.count($archsects).' discussion'.((count($archsects) > 1)?'s':'').' from [['.$page.']]. (Archive failed) (BOT)',true,true);
 				return false;
 			}
 
