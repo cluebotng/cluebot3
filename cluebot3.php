@@ -262,67 +262,56 @@
                 return false;
             }
 
-            $pid = pcntl_fork();
-            if ($pid == 0) {
-                $search = array();
-                $replace = array();
-                foreach ($archsects as $header => $data) {
-                    $anchor = str_replace('%', '.', urlencode(str_replace(' ', '_', $header)));
-                    $newanchor = str_replace('%', '.', urlencode(str_replace(' ', '_', trim($data['header']))));
-                    $search[] = $page.'#'.$anchor;
-                    $replace[] = $apage.'#'.$newanchor;
-                    $search[] = $page.'#'.str_replace('.20', '_', $anchor);
-                    $replace[] = $apage.'#'.str_replace('.20', '_', $newanchor);
-                    $search[] = $page.'#'.$header;
-                    $replace[] = $apage.'#'.trim($data['header']);
-                }
+            $search = array();
+            $replace = array();
+            foreach ($archsects as $header => $data) {
+                $anchor = str_replace('%', '.', urlencode(str_replace(' ', '_', $header)));
+                $newanchor = str_replace('%', '.', urlencode(str_replace(' ', '_', trim($data['header']))));
+                $search[] = $page.'#'.$anchor;
+                $replace[] = $apage.'#'.$newanchor;
+                $search[] = $page.'#'.str_replace('.20', '_', $anchor);
+                $replace[] = $apage.'#'.str_replace('.20', '_', $newanchor);
+                $search[] = $page.'#'.$header;
+                $replace[] = $apage.'#'.trim($data['header']);
+            }
 
-                $pagelist = array();
-                $continue = null;
+            $pagelist = array();
+            $continue = null;
+            $bl = $wpapi->backlinks($page, 500, $continue);
+            foreach ($bl as $data) {
+                $pagelist[] = $data['title'];
+            }
+            while (count($bl) >= 500) {
                 $bl = $wpapi->backlinks($page, 500, $continue);
                 foreach ($bl as $data) {
                     $pagelist[] = $data['title'];
                 }
-                while (count($bl) >= 500) {
-                    $bl = $wpapi->backlinks($page, 500, $continue);
-                    foreach ($bl as $data) {
-                        $pagelist[] = $data['title'];
+            }
+
+            print_r($search);
+            print_r($replace);
+
+            $forktasklist = array();
+            $count = 0;
+            foreach ($pagelist as $title) {
+                ++$count;
+                $group = floor($count / 500);
+                $forktasklist[$group][] = $title;
+            }
+            unset($pagelist);
+
+            for ($i = 0;$i < count($forktasklist);++$i) {
+                foreach ($forktasklist[$i] as $title) {
+                    $data = $wpq->getpage($title);
+                    $newdata = str_replace($search, $replace, $data);
+                    if ($data != $newdata) {
+                        $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
                     }
                 }
-
-                print_r($search);
-                print_r($replace);
-
-                $forktasklist = array();
-                $count = 0;
-                foreach ($pagelist as $title) {
-                    ++$count;
-                    $group = floor($count / 500);
-                    $forktasklist[$group][] = $title;
-                }
-                unset($pagelist);
-
-                for ($i = 0;$i < count($forktasklist);++$i) {
-                    $pid = pcntl_fork();
-                    if ($pid == 0) {
-                        foreach ($forktasklist[$i] as $title) {
-                            $data = $wpq->getpage($title);
-                            $newdata = str_replace($search, $replace, $data);
-                            if ($data != $newdata) {
-                                $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
-                            }
-                        }
-                        die();
-                    }
-                }
-                die();
             }
         }
         if ($noindex != 1) {
-            if (pcntl_fork() == 0) {
-                generateindex($page, $archiveprefix, $level);
-                die();
-            }
+            generateindex($page, $archiveprefix, $level);
         }
     }
 
@@ -534,25 +523,25 @@
     $wpapi->login($user, $pass);
 
     while (1) {
-        $pid = pcntl_fork();
-        if ($pid == 0) {
-            $titles = array();
-            $continue = null;
-            $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
+        $titles = array();
+        $continue = null;
+        $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
+        if($ei != null) {
             foreach ($ei as $data) {
                 $titles[] = $data['title'];
             }
             while (isset($ei[499])) {
                 $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
-                foreach ($ei as $data) {
-                    $titles[] = $data['title'];
+                if($ei != null) {
+                    foreach ($ei as $data) {
+                        $titles[] = $data['title'];
+                    }
                 }
             }
+        }
 
-            foreach ($titles as $title) {
-                parsetemplate($title);
-            }
-            die();
+        foreach ($titles as $title) {
+            parsetemplate($title);
         }
         $time = time();
         while ((time() - $time) < 21600) {

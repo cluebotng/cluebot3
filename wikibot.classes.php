@@ -62,11 +62,8 @@
             curl_setopt($this->ch, CURLOPT_POSTFIELDS, $data);
             curl_setopt($this->ch, CURLOPT_HTTPHEADER, array('Expect:'));
             $data = curl_exec($this->ch);
-            global $logfd;
-            if (!is_resource($logfd)) {
-                $logfd = fopen('php://stderr', 'w');
-            }
-            fwrite($logfd, 'POST: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n");
+
+            print 'POST: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
 
             return $data;
         }
@@ -90,11 +87,8 @@
             curl_setopt($this->ch, CURLOPT_CONNECTTIMEOUT, 10);
             curl_setopt($this->ch, CURLOPT_HTTPGET, 1);
             $data = curl_exec($this->ch);
-            global $logfd;
-            if (!is_resource($logfd)) {
-                $logfd = fopen('php://stderr', 'w');
-            }
-            fwrite($logfd, 'GET: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n");
+
+            print 'GET: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
 
             return $data;
         }
@@ -197,7 +191,8 @@
         private $http;
         private $edittoken;
         private $tokencache;
-        private $user, $pass;
+        private $user;
+        private $pass;
         public $apiurl = 'https://en.wikipedia.org/w/api.php';
 
         /**
@@ -485,14 +480,16 @@
                     }
                 }
             }
-            foreach ($x['query']['pages'] as $key => $data) {
-                $data['revisions']['ns'] = $data['ns'];
-                $data['revisions']['title'] = $data['title'];
-                $data['revisions']['currentuser'] = $x['query']['userinfo']['name'];
-                $data['revisions']['continue'] = $x['query-continue']['revisions']['rvstartid'];
-                $data['revisions']['pageid'] = $key;
+            if ($x['query'] != null && array_key_exists('pages', $x['query'])) {
+                foreach ($x['query']['pages'] as $key => $data) {
+                    $data['revisions']['ns'] = $data['ns'];
+                    $data['revisions']['title'] = $data['title'];
+                    $data['revisions']['currentuser'] = $x['query']['userinfo']['name'];
+                    $data['revisions']['continue'] = $x['query-continue']['revisions']['rvstartid'];
+                    $data['revisions']['pageid'] = $key;
 
-                return $data['revisions'];
+                    return $data['revisions'];
+                }
             }
         }
 
@@ -802,7 +799,6 @@
     class wikipediaindex
     {
         private $http;
-        public $indexurl = 'https://en.wikipedia.org/w/index.php';
         private $postinterval = 0;
         private $lastpost;
         private $edittoken;
@@ -857,6 +853,7 @@
             if (!$rv[0]['*']) {
                 $rv[0]['*'] = $wpq->getpage($page);
             }
+
             $now = gmdate('YmdHis', time());
             $token = htmlspecialchars($this->edittoken);
             $tmp = date_parse($rv[0]['timestamp']);
@@ -1037,11 +1034,8 @@
                 }
             }
             $x = $this->http->get($this->indexurl.'?title='.urlencode($title).'&action=rollback&from='.urlencode($user).'&token='.urlencode($token).(($reason != null) ? '&summary='.urlencode($reason) : '').'&bot='.(($bot == true) ? '1' : '0'));
-            global $logfd;
-            if (!is_resource($logfd)) {
-                $logfd = fopen('php://stderr', 'w');
-            }
-            fwrite($logfd, 'Rollback return: '.$x."\n");
+
+            print 'Rollback return: '.$x."\n";
             if (!preg_match('/action complete/iS', $x)) {
                 return false;
             }
