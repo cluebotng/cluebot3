@@ -3,3 +3,7 @@ cluebot3.config.php
 cluebotcommons.config.php
 mixesdb.bot/cluebot.config.php
 utils/utils.config.php
+
+# Database stuff
+utils/activity.txt
+utils/mdashes.txt

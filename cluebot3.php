@@ -1,30 +1,5 @@
 <?PHP
 
-
-
-    /*
-     * TODO:
-     *  Archive stats (size, number of topics, most recent, etc).
-     */
-
-    declare (ticks = 1);
-
-    function sig_handler($signo)
-    {
-        switch ($signo) {
-            case SIGCHLD:
-                while (($x = pcntl_waitpid(0, $status, WNOHANG)) != -1) {
-                    if ($x == 0) {
-                        break;
-                    }
-                    $status = pcntl_wexitstatus($status);
-                }
-                break;
-        }
-    }
-
-    pcntl_signal(SIGCHLD,   'sig_handler');
-
     include 'cluebot3.config.php';
     include 'wikibot.classes.php';
 
