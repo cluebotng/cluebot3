@@ -418,7 +418,10 @@
             }
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&format=php&list=usercontribs&ucuser='.urlencode($user).'&uclimit='.urlencode($count).'&ucdir='.urlencode($dir).$append);
             $x = unserialize($x);
-            $continue = $x['query-continue']['usercontribs']['ucstart'];
+
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('usercontribs', $x['query-continue']) && array_key_exists('ucstart', $x['query-continue']['usercontribs'])) {
+                $continue = $x['query-continue']['usercontribs']['ucstart'];
+            }
 
             return $x['query']['usercontribs'];
         }
@@ -519,7 +522,11 @@
             }
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&list=allusers&format=php&auprop=blockinfo|editcount|registration|groups&aulimit='.urlencode($limit).$append);
             $x = unserialize($x);
-            $continue = $x['query-continue']['allusers']['aufrom'];
+
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('allusers', $x['query-continue']) && array_key_exists('aufrom', $x['query-continue']['allusers'])) {
+                $continue = $x['query-continue']['allusers']['aufrom'];
+            }
+
             if (($requirestart == true) and ($x['query']['allusers'][0]['name'] != $start)) {
                 return false;
             }
@@ -546,7 +553,10 @@
             $category = 'Category:'.str_ireplace('category:', '', $category);
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&list=categorymembers&cmtitle='.urlencode($category).'&format=php&cmlimit='.$count.$append);
             $x = unserialize($x);
-            $continue = $x['query-continue']['categorymembers']['cmcontinue'];
+
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('categorymembers', $x['query-continue']) && array_key_exists('cmcontinue', $x['query-continue']['categorymembers'])) {
+                $continue = $x['query-continue']['categorymembers']['cmcontinue'];
+            }
 
             return $x['query']['categorymembers'];
         }
@@ -581,7 +591,9 @@
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&list=allcategories&acprop=size&format=php'.$append);
             $x = unserialize($x);
 
-            $start = $x['query-continue']['allcategories']['acfrom'];
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('allcategories', $x['query-continue']) && array_key_exists('acfrom', $x['query-continue']['allcategories'])) {
+                $start = $x['query-continue']['allcategories']['acfrom'];
+            }
 
             return $x['query']['allcategories'];
         }
@@ -610,7 +622,10 @@
 
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&list=backlinks&bltitle='.urlencode($page).'&format=php&bllimit='.$count.$append);
             $x = unserialize($x);
-            $continue = $x['query-continue']['backlinks']['blcontinue'];
+
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('backlinks', $x['query-continue']) && array_key_exists('blcontinue', $x['query-continue']['backlinks'])) {
+                $continue = $x['query-continue']['backlinks']['blcontinue'];
+            }
 
             return $x['query']['backlinks'];
         }
@@ -633,7 +648,10 @@
             }
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&list=embeddedin&eititle='.urlencode($page).'&format=php&eilimit='.$count.$append);
             $x = unserialize($x);
-            $continue = $x['query-continue']['embeddedin']['eicontinue'];
+
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('embeddedin', $x['query-continue']) && array_key_exists('eicontinue', $x['query-continue']['embeddedin'])) {
+                $continue = $x['query-continue']['embeddedin']['eicontinue'];
+            }
 
             return $x['query']['embeddedin'];
         }
@@ -656,7 +674,10 @@
             }
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&list=allpages&apprefix='.urlencode($prefix).'&format=php&aplimit='.$count.$append);
             $x = unserialize($x);
-            $continue = $x['query-continue']['allpages']['apfrom'];
+
+            if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('allpages', $x['query-continue']) && array_key_exists('apfrom', $x['query-continue']['allpages'])) {
+                $continue = $x['query-continue']['allpages']['apfrom'];
+            }
 
             return $x['query']['allpages'];
         }
