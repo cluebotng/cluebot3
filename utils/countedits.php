@@ -40,8 +40,6 @@
 		}
 	}
 
-//	print_r($autocounts);
-
 	$logs = array();
 
 	$lastcount = 5000;
@@ -57,9 +55,6 @@
 			$lastlogid = $log['logid'];
 		}
 	}
-//	print_r($logs);
-
-//	print_r($wpapi->usercontribs('ClueBot'));
 	
 	echo '== Report for User:'.$u.' =='."\n";
 	echo 'User groups: '.implode(' ',$info[0]['groups'])."\n";
@@ -99,5 +94,3 @@
 	}
 	echo '|}'."\n";
 
-//	print_r($wpapi->logs($u));
-?>

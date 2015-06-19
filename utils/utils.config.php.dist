@@ -1,6 +1,3 @@
 <?PHP
 	$user = 'ClueBot II';
 	$pass = 'aSg463ohLS#@saIu';
-//	$proxyhost = 'www.acm.uiuc.edu';
-//	$proxyport = 8888;
-?>

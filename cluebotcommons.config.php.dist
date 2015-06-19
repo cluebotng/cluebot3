@@ -3,4 +3,4 @@
 	$user = 'ClueBot Commons';
 	$pass = '';
 	$status = 'rw';
-?>
+

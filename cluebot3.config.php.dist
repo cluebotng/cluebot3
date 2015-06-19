@@ -5,7 +5,4 @@
 	$status = 'rw';
 	$maxlag = 2;
 	$maxlagkeepgoing = true;
-//	$proxyhost = 'localhost';
-//	$proxyport = 1888;
-//	$proxytype = CURLPROXY_SOCKS5;
-?>
+
