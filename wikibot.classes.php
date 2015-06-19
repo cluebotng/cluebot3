@@ -485,7 +485,7 @@
                     $data['revisions']['ns'] = $data['ns'];
                     $data['revisions']['title'] = $data['title'];
                     $data['revisions']['currentuser'] = $x['query']['userinfo']['name'];
-                    $data['revisions']['continue'] = (($x['query-continue']['revisions'] != null && array_key_exists('rvstartid', $x['query-continue']['revisions'])) ? $x['query-continue']['revisions']['rvstartid'] : null);
+                    $data['revisions']['continue'] = (($x['query-continue'] != null) ? $x['query-continue']['revisions']['rvstartid'] : null);
                     $data['revisions']['pageid'] = $key;
 
                     return $data['revisions'];
