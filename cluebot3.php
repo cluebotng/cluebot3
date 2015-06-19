@@ -257,8 +257,8 @@
 			//generatestats($page,$archiveprefix);
 			//generatemasterdetailedindex($page,$archiveprefix,$level);
 
-//NOFORK			$pid = pcntl_fork();
-			if (/*NOFORK:$pid == 0*/true) {
+			$pid = pcntl_fork();
+			if ($pid == 0) {
 				$search = array();
 				$replace = array();
 				foreach ($archsects as $header => $data) {
@@ -295,8 +295,8 @@
 				unset($pagelist);
 
 				for ($i=0;$i<count($forktasklist);$i++) {
-//NOFORK					$pid = pcntl_fork();
-					if (/*NOFORK:$pid == 0*/true) {
+					$pid = pcntl_fork();
+					if ($pid == 0) {
 						foreach ($forktasklist[$i] as $title) {
 							$data = $wpq->getpage($title);
 							$newdata = str_replace($search,$replace,$data);
@@ -305,13 +305,13 @@
 								$wpapi->edit($title,$newdata,'Fixing links to archived content. (BOT)',true,true);
 							}
 						}
-//NOFORK						die();
+						die();
 					}
 				}
-//NOFORK				die();
+				die();
 			}
 		}
-		if ($noindex != 1) if (/*NOFORK:pcntl_fork() == 0*/true) { generateindex($page,$archiveprefix,$level); /*NOFORK:die();*/ }
+		if ($noindex != 1) if (pcntl_fork() == 0) { generateindex($page,$archiveprefix,$level); die(); }
 	}
 
 	function generateindex ($origpage,$archiveprefix,$level) {
@@ -517,8 +517,8 @@
 
 
 	while (1) {
-//NOFORK		$pid = pcntl_fork();
-		if (/*NOFORK:$pid == 0*/true) {
+		$pid = pcntl_fork();
+		if ($pid == 0) {
 			$titles = array();
 			$continue = null;
 			$ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis',500,$continue);
@@ -531,7 +531,7 @@
 			foreach ($titles as $title) {
 				parsetemplate($title);
 			}
-//NOFORK			die();
+			die();
 		} //die();
 		$time = time();
 		while ((time() - $time) < 21600) { // was 3600.
