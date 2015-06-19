@@ -21,8 +21,6 @@
 	$wpapi = new wikipediaapi;
 	$wpi = new wikipediaindex;
 
-	$wpapi->apiurl = 'http://mixesdb.com/db/api.php';
-	$wpi->indexurl = 'http://mixesdb.com/db/index.php';
 
 	$wpapi->login($user,$pass);
 
@@ -40,11 +38,9 @@
 		if ($continue == null) $keepgoing = false;
 	}
 
-//	print_r($pages);die();
 
 	foreach ($pages as $pg) {
 		$data = $wpapi->revisions($pg,1,'older',true,null,true,false,false,false);
-//		if (pcntl_fork() == 0) {
 			$data = $data[0]['*'];
 			$newdata = str_ireplace(
 				array('<pre>' , '</pre>' , '{| border="1" cellpadding="4" style="border-collapse:collapse;"', '{{center}}|', ' align="center" |'),
@@ -54,7 +50,5 @@
 				$wpi->forcepost($pg,$newdata,'Doing mass replace on main namespace.');
 			}
 
-//			die();
-//		}
 	}
 ?>
