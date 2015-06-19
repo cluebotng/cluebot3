@@ -1,5 +1,6 @@
 <?PHP
 
+
     include 'cluebot3.config.php';
     include 'wikibot.classes.php';
 
@@ -526,13 +527,13 @@
         $titles = array();
         $continue = null;
         $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
-        if($ei != null) {
+        if ($ei != null) {
             foreach ($ei as $data) {
                 $titles[] = $data['title'];
             }
             while (isset($ei[499])) {
                 $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
-                if($ei != null) {
+                if ($ei != null) {
                     foreach ($ei as $data) {
                         $titles[] = $data['title'];
                     }
