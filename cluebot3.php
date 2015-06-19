@@ -556,14 +556,18 @@
             $titles = array();
             $continue = null;
             $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
-            foreach ($ei as $data) {
-                $titles[] = $data['title'];
-            }
+            if($ei) {
+	            foreach ($ei as $data) {
+	                $titles[] = $data['title'];
+	            }
+	        }
             while (isset($ei[499])) {
                 $ei = $wpapi->embeddedin('User:'.$user.'/ArchiveThis', 500, $continue);
-                foreach ($ei as $data) {
-                    $titles[] = $data['title'];
-                }
+                if($ei) {
+	                foreach ($ei as $data) {
+	                    $titles[] = $data['title'];
+	                }
+	            }
             }
 
             foreach ($titles as $title) {
