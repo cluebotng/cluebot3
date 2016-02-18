@@ -219,14 +219,14 @@
             $this->user = $user;
             $this->pass = $pass;
             $x = $this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass));
-            $logger->addInfo($x);
+            $logger->addDebug($x);
             $x = unserialize($x);
             if ($x['login']['result'] == 'Success') {
                 return true;
             }
             if ($x['login']['result'] == 'NeedToken') {
                 $x = $this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass, 'lgtoken' => $x['login']['token']));
-                $logger->addInfo($x);
+                $logger->addDebug($x);
                 $x = unserialize($x);
                 if ($x['login']['result'] == 'Success') {
                     return true;
