@@ -218,14 +218,16 @@
             global $logger;
             $this->user = $user;
             $this->pass = $pass;
-            $x = unserialize($this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass)));
-            $logger->addInfo(print_r($x, true));
+            $x = $this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass));
+            $logger->addInfo($x);
+            $x = unserialize($x);
             if ($x['login']['result'] == 'Success') {
                 return true;
             }
             if ($x['login']['result'] == 'NeedToken') {
-                $x = unserialize($this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass, 'lgtoken' => $x['login']['token'])));
-                $logger->addInfo(print_r($x, true));
+                $x = $this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass, 'lgtoken' => $x['login']['token']));
+                $logger->addInfo($x);
+                $x = unserialize($x);
                 if ($x['login']['result'] == 'Success') {
                     return true;
                 }
@@ -745,8 +747,8 @@
             }
 
             $x = $this->http->post($this->apiurl, $params);
+            $logger->addDebug($x);
             $x = unserialize($x);
-            $logger->addDebug(print_r($x, true));
             if ($x['edit']['result'] == 'Success') {
                 return true;
             }
