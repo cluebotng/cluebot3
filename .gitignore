@@ -11,3 +11,5 @@ utils/mdashes.txt
 # Temp files
 *.pyc
 *~
+
+/vendor/

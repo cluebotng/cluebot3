@@ -1,5 +1,8 @@
 <?PHP
-
+    date_default_timezone_set('Europe/London');
+    include 'vendor/autoload.php';
+    $logger = new Monolog\Logger('cluebot3');
+    $logger->pushHandler(new Monolog\Handler\RotatingFileHandler('~/logs/cluebot3.log', 2, Monolog\Logger::INFO, true, 0600, true));
 
     include 'cluebot3.config.php';
     include 'wikibot.classes.php';
@@ -82,6 +85,7 @@
 
     function doarchive($page, $archiveprefix, $archivename, $age, $minarch, $minkeep, $defaulthead, $archivenow, $level, $noindex, $maxsects, $maxbytes, $htransform, $maxarchsize, $archnumberstart, $key)
     {
+        global $logger;
         global $wpq;
         global $wpapi;
         global $wpi;
@@ -218,8 +222,6 @@
             $tmpsectsprintr['archsects'][] = $id;
         }
 
-        print_r($tmpsectsprintr);
-
         if ((count($archsects) > 0) and (count($archsects) >= $minarch)) {
             $pdata = $header;
             foreach ($keepsects as $array) {
@@ -230,7 +232,7 @@
                 global $pass;
                 $ckey = trim(md5(trim($page).trim($archiveprefix).trim($pass)));
                 if (trim($key) != $ckey) {
-                    echo 'Incorrect key and archiveprefix.  $archiveprefix=\''.$archiveprefix.'\';$correctkey=\''.$ckey.'\';'."\n";
+                    $logger->addError('Incorrect key and archiveprefix.  $archiveprefix=\''.$archiveprefix.'\';$correctkey=\''.$ckey.'\';');
                     $archiveprefix = $page.'/Archives/';
                 }
             }
@@ -289,9 +291,6 @@
                 }
             }
 
-            print_r($search);
-            print_r($replace);
-
             $forktasklist = array();
             $count = 0;
             foreach ($pagelist as $title) {
@@ -318,6 +317,7 @@
 
     function generateindex($origpage, $archiveprefix, $level)
     {
+        global $logger;
         global $user;
         global $wpapi;
         global $wpi;
@@ -325,7 +325,6 @@
         $tmp = extractnamespace($archiveprefix);
         $array = $wpapi->listprefix($tmp[1], namespacetoid($tmp[0]), 500);
         if (is_array($array)) {
-            print_r($array);
             $data = '';
             $ddata = '{|class="wikitable sortable"'."\n".'! Order !! Header !! Start Date !! End Date !! Comments !! Size !! Archive'."\n";
             $newarray = array();
@@ -339,8 +338,8 @@
                 $ddata .= '{{User:'.$user.'/Detailed Indices/'.$page.'}}'."\n";
             }
             $ddata .= '|}';
-            var_dump($wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)'));
-            var_dump($wpapi->edit('User:'.$user.'/Master Detailed Indices/'.$origpage, $ddata, 'Setting detailed index for [['.$origpage.']]. (BOT)'));
+            $logger->addInfo($wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)'));
+            $logger->addInfo($wpapi->edit('User:'.$user.'/Master Detailed Indices/'.$origpage, $ddata, 'Setting detailed index for [['.$origpage.']]. (BOT)'));
         }
     }
 
@@ -403,6 +402,7 @@
 
     function parsetemplate($page)
     {
+        global $logger;
         global $wpq;
         global $wpapi;
         global $user;
@@ -478,12 +478,11 @@
 
             unset($data[0]);
             $set = $data;
-            print_r($set);// return NULL;
             if ((isset($set['once']) ? trim($set['once']) : 0) == 1) {
                 $wpapi->edit($page, substr($pagedata, 0, $positions[$pkey][0]).'<!-- '.substr($pagedata, $positions[$pkey][0], $positions[$pkey][1]).' -->'.substr($pagedata, $positions[$pkey][0] + $positions[$pkey][1]), 'Commenting out config. (BOT)', true, true);
                 sleep(3);
             }
-            echo 'doarchive('.$page.','
+            $logger->addInfo('doarchive('.$page.','
                 .$set['archiveprefix'].','
                 .$set['format'].','
                 .$set['age'].','
@@ -499,7 +498,7 @@
                 .(isset($set['maxarchsize']) ? $set['maxarchsize'] : 0).','
                 .(isset($set['numberstart']) ? $set['numberstart'] : 1).','
                 .(isset($set['key']) ? $set['key'] : '')
-                .")\n";
+                .')');
             if ($pkey > 0) {
                 sleep(2);
             }

@@ -1,0 +1,14 @@
+{
+    "name": "cluenet/cluebot3",
+    "description": "ClueBot III - Archiving Bot For English Wikipedia",
+    "require": {
+        "monolog/monolog": "^1.17"
+    },
+    "license": "GNU General Public License",
+    "authors": [
+        {
+            "name": "Damian Zaremba",
+            "email": "damian@damianzaremba.co.uk"
+        }
+    ]
+}

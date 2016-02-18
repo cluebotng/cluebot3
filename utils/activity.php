@@ -125,7 +125,7 @@
             $titles2['us']['User talk:'.$t] = $c;
         }
 
-        print_r($titles2);
+        $logger->addDebug($titles2);
 
         $pages = '';
 

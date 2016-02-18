@@ -28,7 +28,6 @@
             curl_setopt($this->ch, CURLOPT_COOKIEJAR, '/tmp/cluewikibot.cookies.'.$this->uid.'.dat');
             curl_setopt($this->ch, CURLOPT_COOKIEFILE, '/tmp/cluewikibot.cookies.'.$this->uid.'.dat');
             curl_setopt($this->ch, CURLOPT_MAXCONNECTS, 100);
-            curl_setopt($this->ch, CURLOPT_CLOSEPOLICY, CURLCLOSEPOLICY_LEAST_RECENTLY_USED);
             curl_setopt($this->ch, CURLOPT_USERAGENT, 'ClueBot/1.1');
             if (isset($proxyhost) and isset($proxyport) and ($proxyport != null) and ($proxyhost != null)) {
                 curl_setopt($this->ch, CURLOPT_PROXYTYPE, isset($proxytype) ? $proxytype : CURLPROXY_HTTP);
@@ -49,6 +48,7 @@
          **/
         public function post($url, $data)
         {
+            global $logger;
             $time = microtime(1);
             curl_setopt($this->ch, CURLOPT_URL, $url);
             curl_setopt($this->ch, CURLOPT_FOLLOWLOCATION, $this->postfollowredirs);
@@ -62,7 +62,7 @@
             curl_setopt($this->ch, CURLOPT_HTTPHEADER, array('Expect:'));
             $data = curl_exec($this->ch);
 
-            echo 'POST: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
+            $logger->addDebug('POST: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data).' b)');
 
             return $data;
         }
@@ -76,6 +76,7 @@
          **/
         public function get($url)
         {
+            global $logger;
             $time = microtime(1);
             curl_setopt($this->ch, CURLOPT_URL, $url);
             curl_setopt($this->ch, CURLOPT_FOLLOWLOCATION, $this->getfollowredirs);
@@ -87,7 +88,7 @@
             curl_setopt($this->ch, CURLOPT_HTTPGET, 1);
             $data = curl_exec($this->ch);
 
-            echo 'GET: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
+            $logger->addDebug('GET: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data).' b)');
 
             return $data;
         }
@@ -214,16 +215,17 @@
          **/
         public function login($user, $pass)
         {
+            global $logger;
             $this->user = $user;
             $this->pass = $pass;
             $x = unserialize($this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass)));
-            var_export($x);
+            $logger->addInfo(print_r($x, true));
             if ($x['login']['result'] == 'Success') {
                 return true;
             }
             if ($x['login']['result'] == 'NeedToken') {
                 $x = unserialize($this->http->post($this->apiurl.'?action=login&format=php', array('lgname' => $user, 'lgpassword' => $pass, 'lgtoken' => $x['login']['token'])));
-                var_export($x);
+                $logger->addInfo(print_r($x, true));
                 if ($x['login']['result'] == 'Success') {
                     return true;
                 }
@@ -454,13 +456,15 @@
          **/
         public function revisions($page, $count = 1, $dir = 'older', $content = false, $revid = null, $wait = true, $getrbtok = false, $dieonerror = true, $redirects = false)
         {
+            global $logger;
             $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&prop=revisions&titles='.urlencode($page).'&rvlimit='.urlencode($count).'&rvprop=timestamp|ids|user|comment'.(($content) ? '|content' : '').'&format=php&meta=userinfo&rvdir='.urlencode($dir).(($revid !== null) ? '&rvstartid='.urlencode($revid) : '').(($getrbtok == true) ? '&rvtoken=rollback' : '').(($redirects == true) ? '&redirects' : ''));
             $x = unserialize($x);
             if ($revid !== null) {
                 $found = false;
                 if (!isset($x['query']['pages']) or !is_array($x['query']['pages'])) {
                     if ($dieonerror == true) {
-                        die('No such page.'."\n");
+                        $logger->addError('No such page');
+                        die();
                     } else {
                         return false;
                     }
@@ -468,7 +472,8 @@
                 foreach ($x['query']['pages'] as $data) {
                     if (!isset($data['revisions']) or !is_array($data['revisions'])) {
                         if ($dieonerror == true) {
-                            die('No such page.'."\n");
+                            $logger->addError('No such page');
+                            die();
                         } else {
                             return false;
                         }
@@ -489,7 +494,8 @@
                         return $this->revisions($page, $count, $dir, $content, $revid, false, $getrbtok, $dieonerror);
                     } else {
                         if ($dieonerror == true) {
-                            die('Revision error.'."\n");
+                            $logger->addError('Revision error');
+                            die();
                         }
                     }
                 }
@@ -708,7 +714,7 @@
          **/
         public function edit($page, $data, $summary = '', $minor = false, $bot = true, $wpStarttime = null, $wpEdittime = null, $checkrun = true)
         {
-            global $run, $user;
+            global $run, $user, $logger;
 
             $wpq = new wikipediaquery();
             $wpq->queryurl = str_replace('api.php', 'query.php', $this->apiurl);
@@ -740,7 +746,7 @@
 
             $x = $this->http->post($this->apiurl, $params);
             $x = unserialize($x);
-            var_export($x);
+            $logger->addDebug(print_r($x, true));
             if ($x['edit']['result'] == 'Success') {
                 return true;
             }
@@ -750,7 +756,7 @@
                     if ($this->login($this->user, $this->pass)) {
                         $this->gettokens('Main Page', true);
                     } else {
-                        echo "\n\n".'Bah!  Could not login!'."\n\n";
+                        $logger->addError('Bah! Could not login!');
 
                         return false;
                     }
@@ -771,6 +777,7 @@
          **/
         public function move($old, $new, $reason)
         {
+            global $logger;
             $tokens = $this->gettokens($old);
             $params = array(
                 'action' => 'move',
@@ -783,7 +790,7 @@
 
             $x = $this->http->post($this->apiurl, $params);
             $x = unserialize($x);
-            var_export($x);
+            $logger->addInfo($x);
         }
 
         /**
@@ -796,9 +803,9 @@
          **/
         public function rollback($title, $user, $reason, $token = null)
         {
+            global $logger;
             if (($token == null) or ($token == '')) {
                 $token = $this->revisions($title, 1, 'older', false, null, true, true);
-                print_r($token);
                 if ($token[0]['user'] == $user) {
                     $token = $token[0]['rollbacktoken'];
                 } else {
@@ -815,12 +822,10 @@
                 'markbot' => 0,
             );
 
-            echo 'Posting to API: ';
-            var_export($params);
-
+            $logger->addDebug('Posting to API: '.$params);
             $x = $this->http->post($this->apiurl, $params);
             $x = unserialize($x);
-            var_export($x);
+            $logger->addInfo($x);
 
             return (isset($x['rollback']['summary']) and isset($x[ 'rollback' ][ 'revid' ]) and $x[ 'rollback' ][ 'revid' ])
                 ? true
@@ -1001,6 +1006,7 @@
          **/
         public function diff($title, $oldid, $id, $wait = true)
         {
+            global $logger;
             $deleted = '';
             $added = '';
 
@@ -1013,10 +1019,11 @@
 
                         return $this->diff($title, $oldid, $id, false);
                     } else {
-                        echo 'OLDID as detected: '.$m[0][2].' Wanted: '.$oldid."\n";
-                        echo 'NEWID as detected: '.$m[1][2].' Wanted: '.$id."\n";
-                        echo $html;
-                        die('Revision error.'."\n");
+                        $logger->addError('OLDID as detected: '.$m[0][2].' Wanted: '.$oldid);
+                        $logger->addError('NEWID as detected: '.$m[1][2].' Wanted: '.$id);
+                        $logger->addDebug($html);
+                        $logger->addError('Revision error');
+                        die();
                     }
                 }
             }
@@ -1059,6 +1066,7 @@
          **/
         public function rollback($title, $user, $reason = null, $token = null, $bot = true)
         {
+            global $logger;
             if (($token == null) or (!$token)) {
                 $wpapi = new wikipediaapi();
                 $wpapi->apiurl = str_replace('index.php', 'api.php', $this->indexurl);
@@ -1071,7 +1079,7 @@
             }
             $x = $this->http->get($this->indexurl.'?title='.urlencode($title).'&action=rollback&from='.urlencode($user).'&token='.urlencode($token).(($reason != null) ? '&summary='.urlencode($reason) : '').'&bot='.(($bot == true) ? '1' : '0'));
 
-            echo 'Rollback return: '.$x."\n";
+            $logger->addInfo('Rollback return: '.$x);
             if (!preg_match('/action complete/iS', $x)) {
                 return false;
             }

@@ -36,7 +36,7 @@
                         and (!fnmatch('*month*', $duration))
                         and (!fnmatch('*year*', $duration))
                     ) {
-                        print_r($log);
+                        $logger->addWarning($log);
                     }
                 }
             }

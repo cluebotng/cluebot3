@@ -1,7 +1,7 @@
 <?PHP
 	include '../wikibot.classes.php';
 	include 'utils.config.php';
-	
+
 	$wpapi = new wikipediaapi;
 
 	$wpapi->login($user,$pass);
@@ -55,7 +55,7 @@
 			$lastlogid = $log['logid'];
 		}
 	}
-	
+
 	echo '== Report for User:'.$u.' =='."\n";
 	echo 'User groups: '.implode(' ',$info[0]['groups'])."\n";
 	echo 'Edits (including deleted edits): '.$info[0]['editcount']."\n";
@@ -93,4 +93,3 @@
 		echo '| '.$k.' || '.$v.' || '.($v/$count * 100).'%'."\n";
 	}
 	echo '|}'."\n";
-
