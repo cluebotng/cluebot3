@@ -7,3 +7,7 @@ utils/utils.config.php
 # Database stuff
 utils/activity.txt
 utils/mdashes.txt
+
+# Temp files
+*.pyc
+*~
