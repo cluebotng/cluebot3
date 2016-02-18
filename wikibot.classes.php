@@ -697,7 +697,9 @@
             if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('allpages', $x['query-continue']) && array_key_exists('apfrom', $x['query-continue']['allpages'])) {
                 $continue = $x['query-continue']['allpages']['apfrom'];
             }
-
+            if(!array_key_exists('query', $x)) {
+              return null;
+            }
             return $x['query']['allpages'];
         }
 
