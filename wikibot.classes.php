@@ -508,8 +508,12 @@
                     if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('revisions', $x['query-continue']) && array_key_exists('rvstartid', $x['query-continue']['revisions'])) {
                         $continue = $x['query-continue']['revisions']['rvstartid'];
                     }
-                    $data['revisions']['ns'] = $data['ns'];
-                    $data['revisions']['title'] = $data['title'];
+                    if (array_key_exists('ns', $data)) {
+                        $data['revisions']['ns'] = $data['ns'];
+                    }
+                    if (array_key_exists('title', $data)) {
+                        $data['revisions']['title'] = $data['title'];
+                    }
                     $data['revisions']['currentuser'] = $x['query']['userinfo']['name'];
                     $data['revisions']['continue'] = $continue;
                     $data['revisions']['pageid'] = $key;
@@ -697,9 +701,10 @@
             if (is_array($x) && array_key_exists('query-continue', $x) && array_key_exists('allpages', $x['query-continue']) && array_key_exists('apfrom', $x['query-continue']['allpages'])) {
                 $continue = $x['query-continue']['allpages']['apfrom'];
             }
-            if(!array_key_exists('query', $x)) {
-              return null;
+            if (!array_key_exists('query', $x)) {
+                return;
             }
+
             return $x['query']['allpages'];
         }
 
