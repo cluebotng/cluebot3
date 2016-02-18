@@ -2,7 +2,7 @@
     date_default_timezone_set('Europe/London');
     include 'vendor/autoload.php';
     $logger = new Monolog\Logger('cluebot3');
-    $logger->pushHandler(new Monolog\Handler\RotatingFileHandler(getenv('HOME').'/logs/cluebot3.log', 2, Monolog\Logger::INFO, true, 0600, true));
+    $logger->pushHandler(new Monolog\Handler\RotatingFileHandler(getenv('HOME').'/logs/cluebot3.log', 2, Monolog\Logger::INFO, true, 0600, false));
 
     include 'cluebot3.config.php';
     include 'wikibot.classes.php';
@@ -338,8 +338,8 @@
                 $ddata .= '{{User:'.$user.'/Detailed Indices/'.$page.'}}'."\n";
             }
             $ddata .= '|}';
-            $logger->addInfo($wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)'));
-            $logger->addInfo($wpapi->edit('User:'.$user.'/Master Detailed Indices/'.$origpage, $ddata, 'Setting detailed index for [['.$origpage.']]. (BOT)'));
+            $wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)');
+            $wpapi->edit('User:'.$user.'/Master Detailed Indices/'.$origpage, $ddata, 'Setting detailed index for [['.$origpage.']]. (BOT)');
         }
     }
 
