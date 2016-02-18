@@ -274,12 +274,24 @@
                 $x = unserialize($x);
                 foreach ($x['query']['pages'] as $y) {
                     $tokens['edittoken'] = $y['edittoken'];
-                    $tokens['deletetoken'] = $y['deletetoken'];
-                    $tokens['protecttoken'] = $y['protecttoken'];
-                    $tokens['movetoken'] = $y['movetoken'];
-                    $tokens['blocktoken'] = $y['blocktoken'];
-                    $tokens['unblocktoken'] = $y['unblocktoken'];
-                    $tokens['emailtoken'] = $y['emailtoken'];
+                    if (array_key_exists('deletetoken', $y)) {
+                        $tokens['deletetoken'] = $y['deletetoken'];
+                    }
+                    if (array_key_exists('protecttoken', $y)) {
+                        $tokens['protecttoken'] = $y['protecttoken'];
+                    }
+                    if (array_key_exists('movetoken', $y)) {
+                        $tokens['movetoken'] = $y['movetoken'];
+                    }
+                    if (array_key_exists('blocktoken', $y)) {
+                        $tokens['blocktoken'] = $y['blocktoken'];
+                    }
+                    if (array_key_exists('unblocktoken', $y)) {
+                        $tokens['unblocktoken'] = $y['unblocktoken'];
+                    }
+                    if (array_key_exists('emailtoken', $y)) {
+                        $tokens['emailtoken'] = $y['emailtoken'];
+                    }
                     $this->tokencache[$title] = array(
                             'timestamp' => time(),
                             'tokens' => $tokens,

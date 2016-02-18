@@ -324,22 +324,24 @@
 
         $tmp = extractnamespace($archiveprefix);
         $array = $wpapi->listprefix($tmp[1], namespacetoid($tmp[0]), 500);
-        print_r($array);
-        $data = '';
-        $ddata = '{|class="wikitable sortable"'."\n".'! Order !! Header !! Start Date !! End Date !! Comments !! Size !! Archive'."\n";
-        foreach ($array as $page) {
-            $tmp = $wpapi->revisions($page['title'], 1, 'newer');
-            $newarray[$page['title']] = $tmp[0]['timestamp'];
+        if (is_array($array)) {
+            print_r($array);
+            $data = '';
+            $ddata = '{|class="wikitable sortable"'."\n".'! Order !! Header !! Start Date !! End Date !! Comments !! Size !! Archive'."\n";
+            $newarray = array();
+            foreach ($array as $page) {
+                $tmp = $wpapi->revisions($page['title'], 1, 'newer');
+                $newarray[$page['title']] = $tmp[0]['timestamp'];
+            }
+            asort($newarray);
+            foreach ($newarray as $page => $time) {
+                $data .= '* [['.$page.'|'.str_replace($archiveprefix, '', $page).']]'."\n";
+                $ddata .= '{{User:'.$user.'/Detailed Indices/'.$page.'}}'."\n";
+            }
+            $ddata .= '|}';
+            var_dump($wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)'));
+            var_dump($wpapi->edit('User:'.$user.'/Master Detailed Indices/'.$origpage, $ddata, 'Setting detailed index for [['.$origpage.']]. (BOT)'));
         }
-        asort($newarray);
-        foreach ($newarray as $page => $time) {
-            $data .= '* [['.$page.'|'.str_replace($archiveprefix, '', $page).']]'."\n";
-/*			$ddata .= */generatedetailedindex($page, $level);
-            $ddata .= '{{User:'.$user.'/Detailed Indices/'.$page.'}}'."\n";
-        }
-        $ddata .= '|}';
-        var_dump($wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)'));
-        var_dump($wpapi->edit('User:'.$user.'/Master Detailed Indices/'.$origpage, $ddata, 'Setting detailed index for [['.$origpage.']]. (BOT)'));
     }
 
     function generatedetailedindex($apage, $level, $adata = null, $ret = false)
@@ -425,15 +427,19 @@
             $tmp = array('{');
             $tmp2 = array();
             while (($depth != 0) and ($pos < strlen($data))) {
-                $tmp[$part] .= $data{$pos};
+                if (isset($tmp[$part])) {
+                    $tmp[$part] .= substr($data, $pos, 1);
+                } else {
+                    $tmp[$part] = substr($data, $pos, 1);
+                }
                 if (!$q) {
-                    if ($data{$pos} == '{') {
+                    if (substr($data, $pos, 1) == '{') {
                         ++$depth;
                     }
-                    if ($data{$pos} == '}') {
+                    if (substr($data, $pos, 1) == '}') {
                         --$depth;
                     }
-                    if (($data{$pos} == '|') or ($depth == 0)) {
+                    if ((substr($data, $pos, 1) == '|') or ($depth == 0)) {
                         if ($depth == 0) {
                             $tmp[$part] = substr($tmp[$part], 0, -1);
                         }
@@ -484,7 +490,7 @@
                 .(isset($set['minarchthreads']) ? $set['minarchthreads'] : 0).','
                 .(isset($set['minkeepthreads']) ? $set['minkeepthreads'] : 0).','
                 .(isset($set['header']) ? $set['header'] : '{{Talkarchive}}').','
-                .(isset($set['archivenow']) ? explode(',', $set['archivenow']) : array('{{User:ClueBot III/ArchiveNow}}')).','
+                .(isset($set['archivenow']) ? $set['archivenow'] : '{{User:ClueBot III/ArchiveNow}}').','
                 .(isset($set['headerlevel']) ? $set['headerlevel'] : 2).','
                 .(isset($set['nogenerateindex']) ? $set['nogenerateindex'] : 0).','
                 .(isset($set['maxkeepthreads']) ? $set['maxkeepthreads'] : 0).','
