@@ -1,7 +1,6 @@
 <?PHP
 
 
-
     function diff($old, $new, $nret = true, $inline = false)
     {
         $file1 = tempnam('/tmp', 'diff_');

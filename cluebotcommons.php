@@ -1,7 +1,6 @@
 <?PHP
 
 
-
     include 'wikibot.classes.php';
     include 'cluebot/cluebot.config.php'; /* MySQL information */
     include 'cluebotcommons.config.php';

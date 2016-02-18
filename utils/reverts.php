@@ -1,7 +1,6 @@
 <?PHP
 
 
-
     include '../wikibot.classes.php';
 
     $page = $argv[1];

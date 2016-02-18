@@ -1,7 +1,6 @@
 <?PHP
 
 
-
     /**
      * @author Cobi Carter
      **/
@@ -63,7 +62,7 @@
             curl_setopt($this->ch, CURLOPT_HTTPHEADER, array('Expect:'));
             $data = curl_exec($this->ch);
 
-            print 'POST: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
+            echo 'POST: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
 
             return $data;
         }
@@ -88,7 +87,7 @@
             curl_setopt($this->ch, CURLOPT_HTTPGET, 1);
             $data = curl_exec($this->ch);
 
-            print 'GET: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
+            echo 'GET: '.$url.' ('.(microtime(1) - $time).' s) ('.strlen($data)." b)\n";
 
             return $data;
         }
@@ -986,7 +985,7 @@
          * @param $id New revision ID.
          * @param $wait Whether or not to wait for the diff to become available.  (Default true)
          *
-         * @return Array of added data, removed data, and a rollback token if one was fetchable.
+         * @return array of added data, removed data, and a rollback token if one was fetchable.
          **/
         public function diff($title, $oldid, $id, $wait = true)
         {
@@ -1026,10 +1025,10 @@
                 $rbtoken = $m[1];
                 $rbtoken = urldecode($rbtoken);
 
-                return array($added,$deleted,$rbtoken);
+                return array($added, $deleted, $rbtoken);
             }
 
-            return array($added,$deleted);
+            return array($added, $deleted);
         }
 
         /**
@@ -1060,7 +1059,7 @@
             }
             $x = $this->http->get($this->indexurl.'?title='.urlencode($title).'&action=rollback&from='.urlencode($user).'&token='.urlencode($token).(($reason != null) ? '&summary='.urlencode($reason) : '').'&bot='.(($bot == true) ? '1' : '0'));
 
-            print 'Rollback return: '.$x."\n";
+            echo 'Rollback return: '.$x."\n";
             if (!preg_match('/action complete/iS', $x)) {
                 return false;
             }
@@ -1132,7 +1131,7 @@
          *
          * @param $user Username to check whether or not the user has email enabled.
          *
-         * @return True or false depending on whether or not the user has email enabled.
+         * @return true or false depending on whether or not the user has email enabled.
          **/
         public function hasemail($user)
         {

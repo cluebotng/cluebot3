@@ -1,7 +1,6 @@
 <?PHP
 
 
-
     include '../wikibot.classes.php';
     include 'utils.config.php';
 

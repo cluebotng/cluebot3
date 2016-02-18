@@ -20,7 +20,7 @@
                 }
                 if ((substr(trim(substr($d, $i, $j)), -1 * $level, $level) == str_repeat('=', $level)) and (substr(trim(substr($d, $i, $j)), (-1 * $level) - 1, 1) != '=')) {
                     if ($s == 1) {
-                        $sections[] = array($th,$tb);
+                        $sections[] = array($th, $tb);
                     } else {
                         $header = $tb;
                     }
@@ -35,7 +35,7 @@
         }
 
         if ($s == 1) {
-            $sections[] = array($th,$tb);
+            $sections[] = array($th, $tb);
         } else {
             $header = $tb;
         }
@@ -48,7 +48,7 @@
                 ++$i;
                 $id = trim($section[0]).' '.$i;
             }
-            $ret[$id] = array('header' => $section[0],'content' => $section[1]);
+            $ret[$id] = array('header' => $section[0], 'content' => $section[1]);
         }
 
         return $ret;
@@ -57,9 +57,9 @@
     function extractnamespace($page)
     {
         if (preg_match('/^((user|wikipedia|image|mediawiki|template|help|category|portal)? ?(talk)?):(.*)$/i', $page, $m)) {
-            return array($m[1],$m[4]);
+            return array($m[1], $m[4]);
         } else {
-            return array('',$m[4]);
+            return array('', $m[4]);
         }
     }
 
@@ -466,7 +466,7 @@
                 }
                 ++$pos;
             }
-            $positions[$pkey] = array($x,$pos);
+            $positions[$pkey] = array($x, $pos);
             $data = $tmp2;
             unset($pos, $depth, $tmp, $x, $q, $tmp2, $part);
 
