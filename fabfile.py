@@ -62,13 +62,6 @@ def stop():
     sudo('jstop cluebot3 | true')
 
 
-def start():
-    sudo('jsub -once -continuous -N cluebot3 -mem 12G' +
-         ' -e %s/cluebot3.err ' % LOG_DIR +
-         ' -o %s/cluebot3.out ' % LOG_DIR +
-         ' php -f %s/cluebot3.php | true' % DEST_DIR)
-
-
 def update_code():
     print('Resetting local changes')
     sudo('cd "%(dir)s" && git reset --hard && git clean -fd' %
@@ -82,8 +75,6 @@ def update_code():
 
 def restart():
     stop()
-    time.sleep(1)
-    start()
 
 
 def deploy():
