@@ -16,6 +16,9 @@ env.sudo_prefix = "/usr/bin/sudo -ni"
 
 
 def _check_workingdir_clean():
+    '''
+    Internal function, checks for any uncommitted local changes
+    '''
     p = subprocess.Popen(['git', 'diff', '--exit-code'],
                          stdout=subprocess.PIPE,
                          stderr=subprocess.PIPE)
@@ -28,6 +31,9 @@ def _check_workingdir_clean():
 
 
 def _check_remote_up2date():
+    '''
+    Internal function, ensures the local HEAD hash is the same as the remote HEAD hash for master
+    '''
     p = subprocess.Popen(['git', 'ls-remote', REPO_URL, 'master'],
                          stdout=subprocess.PIPE,
                          stderr=subprocess.PIPE)
@@ -45,6 +51,9 @@ def _check_remote_up2date():
 
 
 def _setup():
+    '''
+    Internal function, configures the correct environment directories
+    '''
     PARENT_DEST_DIR = os.path.dirname(DEST_DIR)
     if not files.exists(PARENT_DEST_DIR):
         sudo('mkdir -p "%(dir)s"' % {'dir': PARENT_DEST_DIR})
@@ -55,16 +64,27 @@ def _setup():
 
 
 def _stop():
+    '''
+    Internal function, calls jstop on the bot grid job
+    '''
     print('Stopping bot')
     sudo('jstop cluebot3 | true')
 
 
 def _start():
+    '''
+    Internal function, calls jstart on the start.sh script
+    '''
     print('Starting bot')
     sudo('jstart -N cluebot3 -e /dev/null -o /dev/null -mem 15G %s/start.sh' % DEST_DIR)
 
 
-def _update_code():
+def _update_code(start=True):
+    '''
+    Clone or pull the git repo into the defined DEST_DIR
+    :param start: (Bool) Should services be started/restarted
+    Also updates bigbrotherrc if start = True
+    '''
     print('Resetting local changes')
     sudo('cd "%(dir)s" && git reset --hard && git clean -fd' %
          {'dir': DEST_DIR})
@@ -76,19 +96,42 @@ def _update_code():
     sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar self-update' % {'dir': DEST_DIR})
     sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar install' % {'dir': DEST_DIR})
 
-    print('Updating bigbrotherrc')
-    sudo('cd "%(dir)s" && cp -f bigbrotherrc ~/.bigbrotherrc' % {'dir': DEST_DIR})
+    if start:
+        print('Updating bigbrotherrc')
+        sudo('cd "%(dir)s" && cp -f bigbrotherrc ~/.bigbrotherrc' % {'dir': DEST_DIR})
 
 
 def restart():
+    '''
+    Stop then start the bot grid task
+    '''
     _stop()
     _start()
 
 
-def deploy():
+def _deploy(start=True):
+    '''
+    Internal deployment function
+    :param start: (Bool) Should services be started/restarted
+    '''
     _check_workingdir_clean()
     _check_remote_up2date()
 
     _setup()
-    _update_code()
-    restart()
+    _update_code(start)
+    if start:
+        restart()
+
+
+def deploy():
+    '''
+    Deploy the code and restart the bot
+    '''
+    _deploy(True)
+
+
+def init():
+    '''
+    Deploy the code, but don't configure service monitoring or restart the job
+    '''
+    _deploy(False)
