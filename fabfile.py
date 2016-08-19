@@ -61,7 +61,7 @@ def _stop():
 
 def _start():
     print('Starting bot')
-    sudo('%s/start.sh' % DEST_DIR)
+    sudo('jstart -N cluebot3 -e /dev/null -o /dev/null -mem 15G %s/start.sh' % DEST_DIR)
 
 
 def _update_code():
