@@ -1,2 +1,2 @@
 # Cluebot3
-jstart -N cluebot3 -e /dev/null -o /dev/null -mem 15G 'php -f /data/project/cluebot3/cluebot3/cluebot3.php'
+jstart -N cluebot3 -e /dev/null -o /dev/null -mem 15G /data/project/cluebot3/start.sh
