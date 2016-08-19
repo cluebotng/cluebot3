@@ -1,6 +1,4 @@
-<?PHP
-
-
+<?php
     /**
      * @author Cobi Carter
      **/
@@ -41,10 +39,10 @@
         /**
          * Post to a URL.
          *
-         * @param $url The URL to post to.
-         * @param $data The post-data to post, should be an array of key => value pairs.
+         * @param $url The URL to post to
+         * @param $data The post-data to post, should be an array of key => value pairs
          *
-         * @return Data retrieved from the POST request.
+         * @return Data retrieved from the POST request
          **/
         public function post($url, $data)
         {
@@ -70,9 +68,9 @@
         /**
          * Get a URL.
          *
-         * @param $url The URL to get.
+         * @param $url The URL to get
          *
-         * @return Data retrieved from the GET request.
+         * @return Data retrieved from the GET request
          **/
         public function get($url)
         {
@@ -137,9 +135,9 @@
         /**
          * Gets the content of a page.
          *
-         * @param $page The wikipedia page to fetch.
+         * @param $page The wikipedia page to fetch
          *
-         * @return The wikitext for the page.
+         * @return The wikitext for the page
          **/
         public function getpage($page)
         {
@@ -152,9 +150,9 @@
         /**
          * Gets the page id for a page.
          *
-         * @param $page The wikipedia page to get the id for.
+         * @param $page The wikipedia page to get the id for
          *
-         * @return The page id of the page.
+         * @return The page id of the page
          **/
         public function getpageid($page)
         {
@@ -167,9 +165,9 @@
         /**
          * Gets the number of contributions a user has.
          *
-         * @param $user The username for which to get the edit count.
+         * @param $user The username for which to get the edit count
          *
-         * @return The number of contributions the user has.
+         * @return The number of contributions the user has
          **/
         public function contribcount($user)
         {
@@ -210,8 +208,8 @@
         /**
          * This function takes a username and password and logs you into wikipedia.
          *
-         * @param $user Username to login as.
-         * @param $pass Password that corrisponds to the username.
+         * @param $user Username to login as
+         * @param $pass Password that corrisponds to the username
          **/
         public function login($user, $pass)
         {
@@ -239,7 +237,7 @@
         /**
          * This function returns the edit token.
          *
-         * @return Edit token.
+         * @return Edit token
          **/
         public function getedittoken()
         {
@@ -255,10 +253,10 @@
         /**
          * This function returns the various tokens for a certain page.
          *
-         * @param $title Page to get the tokens for.
-         * @param $flush Optional - internal use only.  Flushes the token cache.
+         * @param $title Page to get the tokens for
+         * @param $flush Optional - internal use only.  Flushes the token cache
          *
-         * @return An associative array of tokens for the page.
+         * @return An associative array of tokens for the page
          **/
         public function gettokens($title, $flush = false)
         {
@@ -314,7 +312,7 @@
          * @param $dir The direction to pull items.  "older" or "newer".  (Default 'older')
          * @param $ts The timestamp to start at.  Null for the beginning/end (depending on direction).  (Default null)
          *
-         * @return Associative array of recent changes metadata.
+         * @return Associative array of recent changes metadata
          **/
         public function recentchanges($count = 10, $namespace = null, $dir = 'older', $ts = null)
         {
@@ -335,14 +333,14 @@
         /**
          * This function returns search results from Wikipedia's internal search engine.
          *
-         * @param $search The query string to search for.
+         * @param $search The query string to search for
          * @param $limit The number of results to return. (Default 10)
          * @param $offset The number to start at.  (Default 0)
          * @param $namespace The namespace ID to filter by.  Null means no filtering.  (Default 0)
          * @param $what What to search, 'text' or 'title'.  (Default 'text')
          * @param $redirs Whether or not to list redirects.  (Default false)
          *
-         * @return Associative array of search result metadata.
+         * @return Associative array of search result metadata
          **/
         public function search($search, $limit = 10, $offset = 0, $namespace = 0, $what = 'text', $redirs = false)
         {
@@ -381,7 +379,7 @@
          * @param $end Where to stop enumerating logs.  Null means whenever limit is satisfied or there are no more logs.  (Default null)
          * @param $dir Direction to enumerate logs.  "older" or "newer".  (Default 'older')
          *
-         * @return Associative array of logs metadata.
+         * @return Associative array of logs metadata
          **/
         public function logs($user = null, $title = null, $limit = 50, $type = null, $start = null, $end = null, $dir = 'older')
         {
@@ -416,13 +414,13 @@
         /**
          * Retrieves metadata about a user's contributions.
          *
-         * @param $user Username whose contributions we want to retrieve.
+         * @param $user Username whose contributions we want to retrieve
          * @param $count Number of entries to return.  (Default 50)
          * @param[in,out] $continue Where to continue enumerating if part of a larger, split request.  This is filled with the next logical continuation value.  (Default null)
          *
          * @param $dir Which direction to enumerate from, "older" or "newer".  (Default 'older')
          *
-         * @return Associative array of contributions metadata.
+         * @return Associative array of contributions metadata
          **/
         public function usercontribs($user, $count = 50, &$continue = null, $dir = 'older')
         {
@@ -444,7 +442,7 @@
         /**
          * Returns revision data (meta and/or actual).
          *
-         * @param $page Page for which to return revision data for.
+         * @param $page Page for which to return revision data for
          * @param $count Number of revisions to return. (Default 1)
          * @param $dir Direction to start enumerating multiple revisions from, "older" or "newer". (Default 'older')
          * @param $content Whether to return actual revision content, true or false.  (Default false)
@@ -454,7 +452,7 @@
          * @param $dieonerror Whether or not to kill the process with an error if an error occurs.  (Default false)
          * @param $redirects Whether or not to follow redirects.  (Default false)
          *
-         * @return Associative array of revision data.
+         * @return Associative array of revision data
          **/
         public function revisions($page, $count = 1, $dir = 'older', $content = false, $revid = null, $wait = true, $getrbtok = false, $dieonerror = true, $redirects = false)
         {
@@ -532,7 +530,7 @@
          * @param $requirestart Whether or not to require that $start be a valid username.  (Default false)
          * @param[out] $continue This is filled with the name to continue from next query.  (Default null)
          *
-         * @return Associative array of user metadata.
+         * @return Associative array of user metadata
          **/
         public function users($start = null, $limit = 1, $group = null, $requirestart = false, &$continue = null)
         {
@@ -560,11 +558,11 @@
         /**
          * Get members of a category.
          *
-         * @param $category Category to enumerate from.
+         * @param $category Category to enumerate from
          * @param $count Number of members to enumerate.  (Default 500)
          * @param[in,out] $continue Where to continue enumerating from.  This is automatically filled in when run.  (Default null)
          *
-         * @return Associative array of category member metadata.
+         * @return Associative array of category member metadata
          **/
         public function categorymembers($category, $count = 500, &$continue = null)
         {
@@ -593,7 +591,7 @@
          * @param $dir Direction to enumerate in.  'ascending' or 'descending'.  (Default 'ascending')
          * @param $prefix Only enumerate categories with this prefix.  (Default null)
          *
-         * @return Associative array of category list metadata.
+         * @return Associative array of category list metadata
          **/
         public function listcategories(&$start = null, $limit = 50, $dir = 'ascending', $prefix = null)
         {
@@ -624,13 +622,13 @@
         /**
          * Enumerate all backlinks to a page.
          *
-         * @param $page Page to search for backlinks to.
+         * @param $page Page to search for backlinks to
          * @param $count Number of backlinks to list.  (Default 500)
          * @param[in,out] $continue Where to start enumerating from.  This is automatically filled in.  (Default null)
          *
          * @param $filter Whether or not to include redirects.  Acceptible values are 'all', 'redirects', and 'nonredirects'.  (Default null)
          *
-         * @return Associative array of backlink metadata.
+         * @return Associative array of backlink metadata
          **/
         public function backlinks($page, $count = 500, &$continue = null, $filter = null)
         {
@@ -656,11 +654,11 @@
         /**
          * Gets a list of transcludes embedded in a page.
          *
-         * @param $page Page to look for transcludes in.
+         * @param $page Page to look for transcludes in
          * @param $count Number of transcludes to list.  (Default 500)
          * @param[in,out] $continue Where to start enumerating from.  This is automatically filled in.  (Default null)
          *
-         * @return Associative array of transclude metadata.
+         * @return Associative array of transclude metadata
          **/
         public function embeddedin($page, $count = 500, &$continue = null)
         {
@@ -682,12 +680,12 @@
         /**
          * Gets a list of pages with a common prefix.
          *
-         * @param $prefix Common prefix to search for.
+         * @param $prefix Common prefix to search for
          * @param $namespace Numeric namespace to filter on.  (Default 0)
          * @param $count Number of pages to list.  (Default 500)
          * @param[in,out] $continue Where to start enumerating from.  This is automatically filled in.  (Default null)
          *
-         * @return Associative array of page metadata.
+         * @return Associative array of page metadata
          **/
         public function listprefix($prefix, $namespace = 0, $count = 500, &$continue = null)
         {
@@ -711,15 +709,15 @@
         /**
          * Edits a page.
          *
-         * @param $page Page name to edit.
-         * @param $data Data to post to page.
-         * @param $summary Edit summary to use.
+         * @param $page Page name to edit
+         * @param $data Data to post to page
+         * @param $summary Edit summary to use
          * @param $minor Whether or not to mark edit as minor.  (Default false)
          * @param $bot Whether or not to mark edit as a bot edit.  (Default true)
          * @param $wpStarttime Time in MW TS format of beginning of edit.  (Default now)
          * @param $wpEdittime Time in MW TS format of last edit to that page.  (Default correct)
          *
-         * @return bool True on success, false on failure.
+         * @return bool True on success, false on failure
          **/
         public function edit($page, $data, $summary = '', $minor = false, $bot = true, $wpStarttime = null, $wpEdittime = null, $checkrun = true)
         {
@@ -780,9 +778,9 @@
         /**
          * Moves a page.
          *
-         * @param $old Name of page to move.
-         * @param $new New page title.
-         * @param $reason Move summary to use.
+         * @param $old Name of page to move
+         * @param $new New page title
+         * @param $reason Move summary to use
          **/
         public function move($old, $new, $reason)
         {
@@ -805,9 +803,9 @@
         /**
          * Rollback an edit.
          *
-         * @param $title Title of page to rollback.
-         * @param $user Username of last edit to the page to rollback.
-         * @param $reason Edit summary to use for rollback.
+         * @param $title Title of page to rollback
+         * @param $user Username of last edit to the page to rollback
+         * @param $reason Edit summary to use for rollback
          * @param $token Rollback token.  If not given, it will be fetched.  (Default null)
          **/
         public function rollback($title, $user, $reason, $token = null)
@@ -868,14 +866,14 @@
         /**
          * Post data to a page, nicely.
          *
-         * @param $page Page title.
-         * @param $data Data to post to page.
+         * @param $page Page title
+         * @param $data Data to post to page
          * @param $summery Edit summary.  (Default '')
          * @param $minor Whether to mark edit as minor.  (Default false)
          * @param $rv Revision data.  If not given, it will be fetched.  (Default null)
          * @param $bot Whether to mark edit as bot.  (Default true)
          *
-         * @return HTML data from the page.
+         * @return HTML data from the page
          *
          * @deprecated
          * @see wikipediaapi::edit
@@ -943,8 +941,8 @@
         /**
          * Post data to a page.
          *
-         * @param $page Page title.
-         * @param $data Data to post to page.
+         * @param $page Page title
+         * @param $data Data to post to page
          * @param $summery Edit summary.  (Default '')
          * @param $minor Whether to mark edit as minor.  (Default false)
          * @param $edithtml HTML from the edit form.  If not given, it will be fetched.  (Default null)
@@ -952,7 +950,7 @@
          * @param $mlkg Whether to keep going after encountering a maxlag error and sleeping or not.  (Default null)
          * @param $bot Whether to mark edit as bot.  (Default true)
          *
-         * @return HTML data from the page.
+         * @return HTML data from the page
          *
          * @deprecated
          * @see wikipediaapi::edit
@@ -1006,12 +1004,12 @@
         /**
          * Get a diff.
          *
-         * @param $title Page title to get the diff of.
-         * @param $oldid Old revision ID.
-         * @param $id New revision ID.
+         * @param $title Page title to get the diff of
+         * @param $oldid Old revision ID
+         * @param $id New revision ID
          * @param $wait Whether or not to wait for the diff to become available.  (Default true)
          *
-         * @return array of added data, removed data, and a rollback token if one was fetchable.
+         * @return array of added data, removed data, and a rollback token if one was fetchable
          **/
         public function diff($title, $oldid, $id, $wait = true)
         {
@@ -1062,13 +1060,13 @@
         /**
          * Rollback an edit.
          *
-         * @param $title Page title to rollback.
-         * @param $user Username of last edit to the page to rollback.
+         * @param $title Page title to rollback
+         * @param $user Username of last edit to the page to rollback
          * @param $reason Reason to rollback.  If null, default is generated.  (Default null)
          * @param $token Rollback token to use.  If null, it is fetched.  (Default null)
          * @param $bot Whether or not to mark as bot.  (Default true)
          *
-         * @return HTML or false if failure.
+         * @return HTML or false if failure
          *
          * @deprecated
          * @see wikipediaapi::rollback
@@ -1099,11 +1097,11 @@
         /**
          * Move a page.
          *
-         * @param $old Page title to move.
-         * @param $new New title to move to.
-         * @param $reason Move page summary.
+         * @param $old Page title to move
+         * @param $new New title to move to
+         * @param $reason Move page summary
          *
-         * @return HTML page.
+         * @return HTML page
          *
          * @deprecated
          * @see wikipediaapi::move
@@ -1133,11 +1131,11 @@
         /**
          * Uploads a file.
          *
-         * @param $page Name of page on the wiki to upload as.
-         * @param $file Name of local file to upload.
-         * @param $desc Content of the file description page.
+         * @param $page Name of page on the wiki to upload as
+         * @param $file Name of local file to upload
+         * @param $desc Content of the file description page
          *
-         * @return HTML content.
+         * @return HTML content
          **/
         public function upload($page, $file, $desc)
         {
@@ -1158,9 +1156,9 @@
         /**
          * Check if a user has email enabled.
          *
-         * @param $user Username to check whether or not the user has email enabled.
+         * @param $user Username to check whether or not the user has email enabled
          *
-         * @return true or false depending on whether or not the user has email enabled.
+         * @return true or false depending on whether or not the user has email enabled
          **/
         public function hasemail($user)
         {
@@ -1175,11 +1173,11 @@
         /**
          * Sends an email to a user.
          *
-         * @param $user Username to send email to.
-         * @param $subject Subject of email to send.
-         * @param $body Body of email to send.
+         * @param $user Username to send email to
+         * @param $subject Subject of email to send
+         * @param $body Body of email to send
          *
-         * @return HTML content.
+         * @return HTML content
          **/
         public function email($user, $subject, $body)
         {

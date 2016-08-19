@@ -3,22 +3,19 @@ import sys
 import os.path
 from fabric.api import run, env, sudo
 from fabric.contrib import files
-import time
 
-LOGIN_HOST = 'tools-login.wmflabs.org'
-DEST_TOOL = 'cluebot'
-DEST_DIR = '/data/project/%s/cluebot3' % DEST_TOOL
-LOG_DIR = '/data/project/%s/logs' % DEST_TOOL
+DEST_DIR = '/data/project/cluebot3/cluebot3'
+LOG_DIR = '/data/project/cluebot3/logs'
 REPO_URL = 'https://github.com/DamianZaremba/cluebot3.git'
 
 # Internal settings
-env.hosts = [LOGIN_HOST]
+env.hosts = ['tools-login.wmflabs.org']
 env.use_ssh_config = True
-env.sudo_user = 'tools.%s' % DEST_TOOL
+env.sudo_user = 'tools.cluebot3'
 env.sudo_prefix = "/usr/bin/sudo -ni"
 
 
-def check_workingdir_clean():
+def _check_workingdir_clean():
     p = subprocess.Popen(['git', 'diff', '--exit-code'],
                          stdout=subprocess.PIPE,
                          stderr=subprocess.PIPE)
@@ -30,7 +27,7 @@ def check_workingdir_clean():
         sys.exit(1)
 
 
-def check_remote_up2date():
+def _check_remote_up2date():
     p = subprocess.Popen(['git', 'ls-remote', REPO_URL, 'master'],
                          stdout=subprocess.PIPE,
                          stderr=subprocess.PIPE)
@@ -47,22 +44,31 @@ def check_remote_up2date():
         sys.exit(1)
 
 
-def setup():
+def _setup():
     PARENT_DEST_DIR = os.path.dirname(DEST_DIR)
     if not files.exists(PARENT_DEST_DIR):
         sudo('mkdir -p "%(dir)s"' % {'dir': PARENT_DEST_DIR})
 
     if not files.exists(DEST_DIR):
         print('Cloning repo')
-        sudo('git clone "%(url)s" "%(dir)s"' %
-             {'dir': DEST_DIR, 'url': REPO_URL})
+        sudo('git clone "%(url)s" "%(dir)s"' % {'dir': DEST_DIR, 'url': REPO_URL})
 
 
-def stop():
+def _stop():
+    print('Stopping bot')
     sudo('jstop cluebot3 | true')
 
 
-def update_code():
+def _start():
+    print('Starting bot')
+    '''
+    sudo(('jstart -N start-cluebot3 -e /dev/null -o /dev/null -mem 12G '
+          'php -f %s/cluebot3.php' % DEST_DIR))
+    '''
+    return
+
+
+def _update_code():
     print('Resetting local changes')
     sudo('cd "%(dir)s" && git reset --hard && git clean -fd' %
          {'dir': DEST_DIR})
@@ -73,14 +79,16 @@ def update_code():
     print('Running composer')
     sudo('cd "%(dir)s" && ./composer.phar install' % {'dir': DEST_DIR})
 
+
 def restart():
-    stop()
+    _stop()
+    _start()
 
 
 def deploy():
-    check_workingdir_clean()
-    check_remote_up2date()
+    _check_workingdir_clean()
+    _check_remote_up2date()
 
-    setup()
-    update_code()
+    _setup()
+    _update_code()
     restart()

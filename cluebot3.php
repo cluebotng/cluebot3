@@ -1,4 +1,4 @@
-<?PHP
+<?php
     date_default_timezone_set('Europe/London');
     include 'vendor/autoload.php';
     $logger = new Monolog\Logger('cluebot3');
@@ -300,7 +300,7 @@
             }
             unset($pagelist);
 
-            for ($i = 0;$i < count($forktasklist);++$i) {
+            for ($i = 0; $i < count($forktasklist); ++$i) {
                 foreach ($forktasklist[$i] as $title) {
                     $data = $wpq->getpage($title);
                     $newdata = str_replace($search, $replace, $data);

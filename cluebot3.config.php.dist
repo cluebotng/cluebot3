@@ -1,8 +1,8 @@
-<?PHP
-	$owner = 'Cobi';
-	$user = 'ClueBot III';
-	$pass = '';
-	$status = 'rw';
-	$maxlag = 2;
-	$maxlagkeepgoing = true;
+<?php
+    $owner = 'Cobi';
+    $user = 'ClueBot III';
+    $pass = '';
+    $status = 'rw';
+    $maxlag = 2;
+    $maxlagkeepgoing = true;
 

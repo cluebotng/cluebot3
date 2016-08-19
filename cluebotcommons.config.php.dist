@@ -1,6 +1,0 @@
-<?PHP
-	$owner = 'Cobi';
-	$user = 'ClueBot Commons';
-	$pass = '';
-	$status = 'rw';
-
