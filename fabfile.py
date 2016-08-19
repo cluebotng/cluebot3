@@ -62,7 +62,7 @@ def _stop():
 def _start():
     print('Starting bot')
     '''
-    sudo(('jstart -N start-cluebot3 -e /dev/null -o /dev/null -mem 12G '
+    sudo(('jstart -N start-cluebot3 -e /dev/null -o /dev/null -mem 15G '
           'php -f %s/cluebot3.php' % DEST_DIR))
     '''
     return
