@@ -77,6 +77,7 @@ def _update_code():
     sudo('cd "%(dir)s" && git pull origin master' % {'dir': DEST_DIR})
 
     print('Running composer')
+    sudo('cd "%(dir)s" && ./composer.phar self-update' % {'dir': DEST_DIR})
     sudo('cd "%(dir)s" && ./composer.phar install' % {'dir': DEST_DIR})
 
 
