@@ -80,6 +80,9 @@ def _update_code():
     sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar self-update' % {'dir': DEST_DIR})
     sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar install' % {'dir': DEST_DIR})
 
+    print('Updating bigbrotherrc')
+    sudo('cd "%(dir)s" && cp -f bigbrotherrc ~/.bigbrotherrc' % {'dir': DEST_DIR})
+
 
 def restart():
     _stop()

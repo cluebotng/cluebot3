@@ -1,0 +1,2 @@
+# Cluebot3
+#jstart -N cluebot3 -e /dev/null -o /dev/null -mem 12G /usr/bin/php -f /data/project/cluebot3/cluebot3/cluebot3.php

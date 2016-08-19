@@ -1,4 +1,0 @@
-# Make sure the bot is running
-# */2 * * * * jstart -N start-cluebot3 -e /dev/null -o /dev/null -mem 12G php -f /data/project/cluebot3/cluebot3/cluebot3.php
-
-# This needs to end in a new line..
