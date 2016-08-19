@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import os.path
+import time
 from fabric.api import run, env, sudo
 from fabric.contrib import files
 
@@ -94,7 +95,7 @@ def _update_code(start=True):
 
     print('Running composer')
     sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar self-update' % {'dir': DEST_DIR})
-    sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar install' % {'dir': DEST_DIR})
+    sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar install --no-dev' % {'dir': DEST_DIR})
 
     if start:
         print('Updating bigbrotherrc')
@@ -106,6 +107,7 @@ def restart():
     Stop then start the bot grid task
     '''
     _stop()
+    time.sleep(10)
     _start()
 
 

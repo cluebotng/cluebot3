@@ -54,13 +54,13 @@ There are 2 sets of logging that can be looked at when investigating an issue.
 for long periods of time. Due to some of the coding warnings around uninitilized variables etc can spew out at MB/s!
 
 2. application logs - these are generated in select places within the code (where there use to be print statements),
-the log rotation and retention is managed within the application.
+the log rotation and retention is managed within the application. Logs can be found under ~/logs/cluebot3-yyyy-mm-dd.log
 
 The change feed for the user can also be checked [here](https://en.wikipedia.org/w/index.php?limit=50&title=Special%3AContributions&contribs=user&target=ClueBot+III&namespace=&tagfilter=&year=2016&month=-1).
 
 #### External monitoring
 
-There is currently a perl script, which runs on a cron, that checks the last time a change was made by the ClueBot III user.
+There is currently a perl script, which runs on a cron, that checks the last time a change was made by the [ClueBot III](https://en.wikipedia.org/wiki/User:ClueBot_III) user.
 
 This emails [Damian](https://en.wikipedia.org/wiki/User:DamianZaremba) and [Rich](https://en.wikipedia.org/wiki/User:Rich_Smith).
 
@@ -84,6 +84,6 @@ The bot was originally written by [Cobi](https://en.wikipedia.org/wiki/User:Cobi
 Want to help?
 -------------
 
-ClueBot III needs some TLC/performance work doing to it, to bring it up to newer standards and ensure a better service to the users.
+[ClueBot III](https://en.wikipedia.org/wiki/User:ClueBot_III) needs some TLC/performance work doing to it, to bring it up to newer standards and ensure a better service to the users.
 
 If you'd like to help improve the bot, feel free to send some [pull requests](https://github.com/DamianZaremba/cluebot3/pulls).

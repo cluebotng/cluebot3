@@ -1,7 +1,15 @@
 {
     "name": "cluenet/cluebot3",
-    "description": "ClueBot III - Archiving Bot For English Wikipedia",
+    "description": "ClueBot III - Archiving Bot For Wikipedia",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "@stable",
+        "phing/phing": "@stable",
+        "phploc/phploc": "@stable",
+        "phpmd/phpmd": "@stable",
+        "sebastian/phpcpd": "@stable"
+    },
     "require": {
+        "php": ">=5.3.5",
         "monolog/monolog": "^1.17"
     },
     "license": "GNU General Public License",

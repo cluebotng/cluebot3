@@ -1,0 +1,10 @@
+sudo: false
+language: php
+php:
+  - '5.5'
+  - '5.6'
+install:
+  - composer require 'phing/phing=@stable'
+  - ./vendor/bin/phing composer-install
+script:
+  - ./vendor/bin/phing validate
