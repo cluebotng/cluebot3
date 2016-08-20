@@ -469,7 +469,7 @@
          *
          * @return Associative array of revision data
          **/
-        public function revisions($page, $count = 1, $dir = 'older', $content = false, $revid = null, $wait = true, $getrbtok = false, $dieonerror = true, $redirects = false)
+        public function revisions($page, $count = 1, $dir = 'older', $content = false, $revid = null, $wait = true, $getrbtok = false, $dieonerror = false, $redirects = false)
         {
             global $logger;
             $url = $this->apiurl.'?action=query&rawcontinue=1&prop=revisions&titles='.urlencode($page).'&rvlimit='.urlencode($count).'&rvprop=timestamp|ids|user|comment'.(($content) ? '|content' : '').'&format=php&meta=userinfo&rvdir='.urlencode($dir).(($revid !== null) ? '&rvstartid='.urlencode($revid) : '').(($getrbtok == true) ? '&rvtoken=rollback' : '').(($redirects == true) ? '&redirects' : '');
