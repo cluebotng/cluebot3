@@ -472,13 +472,14 @@
         public function revisions($page, $count = 1, $dir = 'older', $content = false, $revid = null, $wait = true, $getrbtok = false, $dieonerror = true, $redirects = false)
         {
             global $logger;
-            $x = $this->http->get($this->apiurl.'?action=query&rawcontinue=1&prop=revisions&titles='.urlencode($page).'&rvlimit='.urlencode($count).'&rvprop=timestamp|ids|user|comment'.(($content) ? '|content' : '').'&format=php&meta=userinfo&rvdir='.urlencode($dir).(($revid !== null) ? '&rvstartid='.urlencode($revid) : '').(($getrbtok == true) ? '&rvtoken=rollback' : '').(($redirects == true) ? '&redirects' : ''));
+            $url = $this->apiurl.'?action=query&rawcontinue=1&prop=revisions&titles='.urlencode($page).'&rvlimit='.urlencode($count).'&rvprop=timestamp|ids|user|comment'.(($content) ? '|content' : '').'&format=php&meta=userinfo&rvdir='.urlencode($dir).(($revid !== null) ? '&rvstartid='.urlencode($revid) : '').(($getrbtok == true) ? '&rvtoken=rollback' : '').(($redirects == true) ? '&redirects' : '');
+            $x = $this->http->get($url);
             $x = unserialize($x);
             if ($revid !== null) {
                 $found = false;
                 if (!isset($x['query']['pages']) or !is_array($x['query']['pages'])) {
                     if ($dieonerror == true) {
-                        $logger->addError('No such page');
+                        $logger->addError('No such page: ' . $url);
                         die();
                     } else {
                         return false;
@@ -487,7 +488,7 @@
                 foreach ($x['query']['pages'] as $data) {
                     if (!isset($data['revisions']) or !is_array($data['revisions'])) {
                         if ($dieonerror == true) {
-                            $logger->addError('No such page');
+                            $logger->addError('No such page: ' . $url);
                             die();
                         } else {
                             return false;
@@ -509,7 +510,7 @@
                         return $this->revisions($page, $count, $dir, $content, $revid, false, $getrbtok, $dieonerror);
                     } else {
                         if ($dieonerror == true) {
-                            $logger->addError('Revision error');
+                            $logger->addError('Revision error: ' . $url);
                             die();
                         }
                     }
@@ -1032,7 +1033,8 @@
             $deleted = '';
             $added = '';
 
-            $html = $this->http->get($this->indexurl.'?title='.urlencode($title).'&action=render&diff='.urlencode($id).'&oldid='.urlencode($oldid).'&diffonly=1');
+            $url = $this->indexurl.'?title='.urlencode($title).'&action=render&diff='.urlencode($id).'&oldid='.urlencode($oldid).'&diffonly=1';
+            $html = $this->http->get($url);
 
             if (preg_match_all('/\&amp\;(oldid\=)(\d*)\\\'\>(Revision as of|Current revision as of)/USs', $html, $m, PREG_SET_ORDER)) {
                 if ((($oldid != $m[0][2]) and (is_numeric($oldid))) or (($id != $m[1][2]) and (is_numeric($id)))) {
@@ -1044,7 +1046,7 @@
                         $logger->addError('OLDID as detected: '.$m[0][2].' Wanted: '.$oldid);
                         $logger->addError('NEWID as detected: '.$m[1][2].' Wanted: '.$id);
                         $logger->addDebug($html);
-                        $logger->addError('Revision error');
+                        $logger->addError('Revision error: ' . $url);
                         die();
                     }
                 }
