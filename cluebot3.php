@@ -355,6 +355,7 @@
             foreach ($newarray as $page => $time) {
                 $data .= '* [['.$page.'|'.str_replace($archiveprefix, '', $page).']]'."\n";
                 $ddata .= '{{User:'.$user.'/Detailed Indices/'.$page.'}}'."\n";
+                generatedetailedindex($page, $level);
             }
             $ddata .= '|}';
             $wpapi->edit('User:'.$user.'/Indices/'.$origpage, $data, 'Setting index for [['.$origpage.']]. (BOT)');
