@@ -10,7 +10,7 @@ LOG_DIR = '/data/project/cluebot3/logs'
 REPO_URL = 'https://github.com/DamianZaremba/cluebot3.git'
 
 # Internal settings
-env.hosts = ['tools-login.wmflabs.org']
+env.hosts = ['login-stretch.tools.wmflabs.org']
 env.use_ssh_config = True
 env.sudo_user = 'tools.cluebot3'
 env.sudo_prefix = "/usr/bin/sudo -ni"
