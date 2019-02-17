@@ -94,8 +94,8 @@ def _update_code(start=True):
     sudo('cd "%(dir)s" && git pull origin master' % {'dir': DEST_DIR})
 
     print('Running composer')
-    sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar self-update' % {'dir': DEST_DIR})
-    sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar install --no-dev' % {'dir': DEST_DIR})
+    sudo('cd "%(dir)s" && php composer.phar self-update' % {'dir': DEST_DIR})
+    sudo('cd "%(dir)s" && php composer.phar install --no-dev' % {'dir': DEST_DIR})
 
     if start:
         print('Updating cron')
