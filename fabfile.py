@@ -84,7 +84,7 @@ def _update_code(start=True):
     '''
     Clone or pull the git repo into the defined DEST_DIR
     :param start: (Bool) Should services be started/restarted
-    Also updates bigbrotherrc if start = True
+    Also updates cron if start = True
     '''
     print('Resetting local changes')
     sudo('cd "%(dir)s" && git reset --hard && git clean -fd' %
@@ -98,8 +98,8 @@ def _update_code(start=True):
     sudo('cd "%(dir)s" && php -n -d extension=json.so composer.phar install --no-dev' % {'dir': DEST_DIR})
 
     if start:
-        print('Updating bigbrotherrc')
-        sudo('cd "%(dir)s" && cp -f bigbrotherrc ~/.bigbrotherrc' % {'dir': DEST_DIR})
+        print('Updating cron')
+        sudo('crontab %(dir)s/crontab' % {'dir': DEST_DIR})
 
 
 def restart():

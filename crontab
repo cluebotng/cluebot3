@@ -1,0 +1,2 @@
+# Ensure continuous jobs are running
+*/5 * * * * jlocal /data/project/cluebot3/bigbrother.sh cluebot3 /data/project/cluebot3/cluebot3/start.sh
