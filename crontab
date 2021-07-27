@@ -1,2 +1,2 @@
 # Ensure continuous jobs are running
-*/5 * * * * jlocal /data/project/cluebot3/cluebot3/bigbrother.sh cluebot3 /data/project/cluebot3/cluebot3/start.sh
+* * * * * /usr/bin/jsub -once -quiet /data/project/cluebot3/apps/cluebot3/bigbrother.sh cluebot3 -e /dev/null -o /dev/null /data/project/cluebot3/apps/cluebot3/run_bot.sh

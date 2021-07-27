@@ -1,139 +1,80 @@
-import subprocess
-import sys
-import os.path
 import time
-from fabric.api import run, env, sudo
-from fabric.contrib import files
+from pathlib import PosixPath
 
-DEST_DIR = '/data/project/cluebot3/cluebot3'
-LOG_DIR = '/data/project/cluebot3/logs'
-REPO_URL = 'https://github.com/DamianZaremba/cluebot3.git'
-
-# Internal settings
-env.hosts = ['login-stretch.tools.wmflabs.org']
-env.use_ssh_config = True
-env.sudo_user = 'tools.cluebot3'
-env.sudo_prefix = "/usr/bin/sudo -ni"
+import requests
+from fabric import Connection, Config, task
+from patchwork import files
 
 
-def _check_workingdir_clean():
-    '''
-    Internal function, checks for any uncommitted local changes
-    '''
-    p = subprocess.Popen(['git', 'diff', '--exit-code'],
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.PIPE)
-    p.communicate()
-
-    if p.returncode != 0:
-        print('There are local, uncommited changes.')
-        print('Refusing to deploy.')
-        sys.exit(1)
+def _get_latest_github_release(org, repo):
+    """Return the latest release tag from GitHub"""
+    r = requests.get(f"https://api.github.com/repos/{org}/{repo}/releases/latest")
+    r.raise_for_status()
+    return r.json()["tag_name"]
 
 
-def _check_remote_up2date():
-    '''
-    Internal function, ensures the local HEAD hash is the same as the remote HEAD hash for master
-    '''
-    p = subprocess.Popen(['git', 'ls-remote', REPO_URL, 'master'],
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.PIPE)
-    remote_sha1 = p.communicate()[0].split('\t')[0].strip()
+RELEASE = _get_latest_github_release("damianzaremba", "cluebot3")
+TOOL_DIR = PosixPath("/data/project/cluebot3")
 
-    p = subprocess.Popen(['git', 'rev-parse', 'HEAD'],
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.PIPE)
-    local_sha1 = p.communicate()[0].strip()
-
-    if local_sha1 != remote_sha1:
-        print('There are comitted changes, not pushed to github.')
-        print('Refusing to deploy.')
-        sys.exit(1)
+c = Connection(
+    "login.tools.wmflabs.org",
+    config=Config(overrides={"sudo": {"user": "tools.cluebot3", "prefix": "/usr/bin/sudo -ni"}}),
+)
 
 
 def _setup():
-    '''
-    Internal function, configures the correct environment directories
-    '''
-    PARENT_DEST_DIR = os.path.dirname(DEST_DIR)
-    if not files.exists(PARENT_DEST_DIR):
-        sudo('mkdir -p "%(dir)s"' % {'dir': PARENT_DEST_DIR})
+    """Setup the core directory structure"""
+    if not files.exists(c, f'{TOOL_DIR / "apps"}'):
+        print("Creating apps path")
+        c.sudo(f'mkdir -p {TOOL_DIR / "apps"}')
 
-    if not files.exists(DEST_DIR):
-        print('Cloning repo')
-        sudo('git clone "%(url)s" "%(dir)s"' % {'dir': DEST_DIR, 'url': REPO_URL})
+    release_dir = f'{TOOL_DIR / "apps" / "cluebot3"}'
+    if not files.exists(c, release_dir):
+        print("Cloning repo")
+        c.sudo(f"git clone https://github.com/damianzaremba/cluebot3.git {release_dir}")
 
 
 def _stop():
-    '''
-    Internal function, calls jstop on the bot grid job
-    '''
-    print('Stopping bot')
-    sudo('jstop cluebot3 | true')
+    """Stop grid job."""
+    print("Stopping grid job")
+    c.sudo("jstop cluebot3 | true")
 
 
 def _start():
-    '''
-    Internal function, calls jstart on the start.sh script
-    '''
-    print('Starting bot')
-    sudo('jstart -N cluebot3 -e /dev/null -o /dev/null -mem 15G %s/start.sh' % DEST_DIR)
+    """Start grid job."""
+    print("Starting grid jobs")
+    c.sudo(f"{TOOL_DIR}/apps/cluebot3/bigbrother.sh cluebot3 -e /dev/null -o /dev/null"
+           f" {TOOL_DIR}/apps/cluebot3/start.sh")
 
 
-def _update_code(start=True):
-    '''
-    Clone or pull the git repo into the defined DEST_DIR
-    :param start: (Bool) Should services be started/restarted
-    Also updates cron if start = True
-    '''
-    print('Resetting local changes')
-    sudo('cd "%(dir)s" && git reset --hard && git clean -fd' %
-         {'dir': DEST_DIR})
+def _update_bot():
+    """Update the bot release."""
+    print(f"Moving bot to {RELEASE}")
+    release_dir = TOOL_DIR / "apps" / "cluebot3"
 
-    print('Updating code')
-    sudo('cd "%(dir)s" && git pull origin master' % {'dir': DEST_DIR})
+    c.sudo(f"git -C {release_dir} reset --hard")
+    c.sudo(f"git -C {release_dir} clean -fd")
+    c.sudo(f"git -C {release_dir} fetch -a")
+    c.sudo(f"git -C {release_dir} checkout {RELEASE}")
 
-    print('Running composer')
-    sudo('cd "%(dir)s" && php composer.phar self-update' % {'dir': DEST_DIR})
-    sudo('cd "%(dir)s" && php composer.phar install --no-dev' % {'dir': DEST_DIR})
+    c.sudo(f'{release_dir / "composer.phar"} self-update')
+    c.sudo(f'{release_dir / "composer.phar"} install -d {release_dir}')
 
-    if start:
-        print('Updating cron')
-        sudo('crontab %(dir)s/crontab' % {'dir': DEST_DIR})
+    print('Updating crontab entries')
+    c.sudo(f'crontab - < {release_dir / "crontab"}')
 
 
-def restart():
-    '''
-    Stop then start the bot grid task
-    '''
+@task()
+def restart(c):
+    """Restart the grid jobs, without changing releases."""
     _stop()
     time.sleep(10)
     _start()
 
 
-def _deploy(start=True):
-    '''
-    Internal deployment function
-    :param start: (Bool) Should services be started/restarted
-    '''
-    _check_workingdir_clean()
-    _check_remote_up2date()
-
+@task()
+def deploy(c):
+    """Deploy the bot to the current release."""
     _setup()
-    _update_code(start)
-    if start:
-        restart()
-
-
-def deploy():
-    '''
-    Deploy the code and restart the bot
-    '''
-    _deploy(True)
-
-
-def init():
-    '''
-    Deploy the code, but don't configure service monitoring or restart the job
-    '''
-    _deploy(False)
+    _update_bot()
+    restart(c)
