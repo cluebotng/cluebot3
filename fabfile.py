@@ -44,7 +44,7 @@ def _start():
     """Start grid job."""
     print("Starting grid jobs")
     c.sudo(f"{TOOL_DIR}/apps/cluebot3/bigbrother.sh cluebot3 -e /dev/null -o /dev/null"
-           f" {TOOL_DIR}/apps/cluebot3/start.sh")
+           f" {TOOL_DIR}/apps/cluebot3/run_bot.sh")
 
 
 def _update_bot():
