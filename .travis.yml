@@ -1,9 +1,0 @@
-sudo: false
-language: php
-php:
-  - '7.0'
-install:
-  - composer require 'phing/phing=@stable'
-  - ./vendor/bin/phing composer-install
-script:
-  - ./vendor/bin/phing validate

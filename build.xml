@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="cluebot3" default="validate" description="ClueBot III">
-
-    <php expression="include('vendor/autoload.php')"/>
+<project name="cluebotng" default="validate" description="ClueBot NG">
+    <autoloader autoloaderpath="vendor/autoload.php"/>
+    <autoloader autoloaderpath="vendor/squizlabs/php_codesniffer/autoload.php"/>
 
     <fileset dir="${phing.dir}" id="src.fileset.php">
         <include name="*.php"/>
@@ -13,7 +13,7 @@
 
     <target name="composer-install" description="Install Dependencies via Composer">
         <echo>Installing Composer dependencies.</echo>
-        <exec command="php ./composer.phar install --optimize-autoloader" dir="${phing.dir}" logoutput="true" checkreturn="true"/>
+        <exec command="./composer.phar install --optimize-autoloader" dir="${phing.dir}" logoutput="true" checkreturn="true"/>
     </target>
 
     <target name="phplint" description="Lint all source php files.">
