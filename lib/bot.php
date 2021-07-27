@@ -32,7 +32,7 @@ function splitintosections($d, $level = 2)
     for ($i = 0; $i < strlen($d); ++$i) {
         if (
             (substr($d, $i, $level) == str_repeat('=', $level))
-            and ($d{$i + $level} != '=')
+            and ($d[$i + $level] != '=')
             and (($i == 0) or ($d{$i - 1} == "\n"))
         ) {
             $j = 0;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="cluebotng" default="validate" description="ClueBot NG">
+<project name="cluebot3" default="validate" description="ClueBot NG">
     <autoloader autoloaderpath="vendor/autoload.php"/>
     <autoloader autoloaderpath="vendor/squizlabs/php_codesniffer/autoload.php"/>
 
