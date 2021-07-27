@@ -33,10 +33,10 @@ function splitintosections($d, $level = 2)
         if (
             (substr($d, $i, $level) == str_repeat('=', $level))
             and ($d[$i + $level] != '=')
-            and (($i == 0) or ($d{$i - 1} == "\n"))
+            and (($i == 0) or ($d[$i - 1] == "\n"))
         ) {
             $j = 0;
-            while (($d{$i + $j} != "\n") and ($i + $j < strlen($d))) {
+            while (($d[$i + $j] != "\n") and ($i + $j < strlen($d))) {
                 ++$j;
             }
             if (
@@ -54,7 +54,7 @@ function splitintosections($d, $level = 2)
                 $i += $j - 1;
             }
         } else {
-            $tb .= $d{$i};
+            $tb .= $d[$i];
         }
     }
 
@@ -560,7 +560,7 @@ function parsetemplate($page)
                     unset($tmp);
                     $tmp = array();
                 }
-                if ($data{$pos} == '=') {
+                if ($data[$pos] == '=') {
                     if ($part == 0) {
                         $tmp[$part] = substr($tmp[$part], 0, -1);
                         $part = 1;
