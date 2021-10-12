@@ -41,7 +41,7 @@ class WikipediaQuery
             $__wp__http = new Http();
         }
         $this->http = &$__wp__http;
-        $this->api = new WikipediaQuery();
+        $this->api = new WikipediaApi();
     }
 
     /**

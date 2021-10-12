@@ -21,10 +21,10 @@
 
 namespace ClueBot3;
 
-require_once 'lib/httpi.php';
-require_once 'lib/wikpedia.api.php';
-require_once 'lib/wikpedia.index.php';
-require_once 'lib/wikpedia.query.php';
+require_once 'lib/http.php';
+require_once 'lib/wikipedia.api.php';
+require_once 'lib/wikipedia.index.php';
+require_once 'lib/wikipedia.query.php';
 require_once 'lib/bot.php';
 require_once 'cluebot3.config.php';
 
@@ -42,9 +42,9 @@ $logger->pushHandler(
     )
 );
 
-$wpq = new WikipediaAuery();
+$wpq = new WikipediaQuery();
 $wpi = new WikipediaIndex();
-$wpapi = new WikipediAapi();
+$wpapi = new WikipediaApi();
 
 $wpapi->login($user, $pass);
 
