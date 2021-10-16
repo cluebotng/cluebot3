@@ -145,7 +145,7 @@ function doarchive(
     ));
     unset($tmp);
 
-    $cursects = splitintosections($rv[0]['*'], $level);
+    $cursects = splitintosections($rv[0]['slots']['main']['*'], $level);
 
     $ans = array();
     $anr = array();
@@ -183,11 +183,11 @@ function doarchive(
         }
     }
     if ($lastrvid == null) {
-        $tmp = array(array('*' => ''));
+        $tmp = array(array('slots' => array('main' => array('*' => ''))));
     } else {
         $tmp = $wpapi->revisions($page, 1, 'older', true, $lastrvid);
     }
-    $oldsects = splitintosections($tmp[0]['*'], $level);
+    $oldsects = splitintosections($tmp[0]['slots']['main']['*'], $level);
     $header = $cursects[0];
     unset($cursects[0]);
     unset($oldsects[0]);
