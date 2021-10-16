@@ -330,7 +330,7 @@ class WikipediaApi
         $redirects = false
     ) {
         global $logger;
-        $url = $this->apiurl . '?action=query&rawcontinue=1&prop=revisions&titles=' .
+        $url = $this->apiurl . '?action=query&rawcontinue=1&prop=revisions&rvslots=main&titles=' .
                urlencode($page) . '&rvlimit=' . urlencode($count) . '&rvprop=timestamp|ids|user|comment' .
                (($content) ? '|content' : '') . '&format=php&meta=userinfo&rvdir=' . urlencode($dir) .
                (($revid !== null) ? '&rvstartid=' . urlencode($revid) : '') .

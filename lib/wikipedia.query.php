@@ -66,7 +66,7 @@ class WikipediaQuery
         $this->checkurl();
         $ret = $this->api->revisions($page, 1, 'older', true, null, true, false, false, false);
 
-        return $ret[0]['*'];
+        return $ret[0]['slots']['main']['*'];
     }
 
     /**
