@@ -13,7 +13,7 @@ def _get_latest_github_release(org, repo):
     return r.json()["tag_name"]
 
 
-RELEASE = _get_latest_github_release("damianzaremba", "cluebot3")
+RELEASE = _get_latest_github_release("cluebotng", "cluebot3")
 TOOL_DIR = PosixPath("/data/project/cluebot3")
 
 c = Connection(
@@ -31,7 +31,7 @@ def _setup():
     release_dir = f'{TOOL_DIR / "apps" / "cluebot3"}'
     if not files.exists(c, release_dir):
         print("Cloning repo")
-        c.sudo(f"git clone https://github.com/damianzaremba/cluebot3.git {release_dir}")
+        c.sudo(f"git clone https://github.com/cluebotng/cluebot3.git {release_dir}")
 
 
 def _stop():

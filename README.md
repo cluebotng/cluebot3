@@ -86,4 +86,4 @@ Want to help?
 
 [ClueBot III](https://en.wikipedia.org/wiki/User:ClueBot_III) needs some TLC/performance work doing to it, to bring it up to newer standards and ensure a better service to the users.
 
-If you'd like to help improve the bot, feel free to send some [pull requests](https://github.com/DamianZaremba/cluebot3/pulls).
+If you'd like to help improve the bot, feel free to send some [pull requests](https://github.com/cluebotng/cluebot3/pulls).
