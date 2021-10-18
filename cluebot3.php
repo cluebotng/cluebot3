@@ -43,7 +43,9 @@ $wpq = new \Wikipedia\Query($wph, $logger);
 $wpi = new \Wikipedia\Index($wph, $logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
 
-$wpapi->login($user, $pass);
+if (!$wpapi->login($user, $pass)) {
+    die('Failed to authenticate');
+}
 
 while (1) {
     $titles = array();
