@@ -600,6 +600,13 @@ function parsetemplate($page)
             );
             sleep(3);
         }
+
+        // If the page has an apostrophe the archiveprefix might encoded e.g.
+        // {{User:ClueBot III/ArchiveThis|archiveprefix=Talk:Parkinson&#39;s law/Archives/}}
+        // Ensure we decode the HTML entries back to normal characters,
+        // otherwise when we url encode this it becomes a complete mess
+        $set['archiveprefix'] = html_entity_decode($set['archiveprefix'], ENT_QUOTES);
+
         $logger->addInfo('doarchive(' . $page . ','
             . $set['archiveprefix'] . ','
             . $set['format'] . ','
