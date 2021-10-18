@@ -605,7 +605,7 @@ function parsetemplate($page)
         // {{User:ClueBot III/ArchiveThis|archiveprefix=Talk:Parkinson&#39;s law/Archives/}}
         // Ensure we decode the HTML entries back to normal characters,
         // otherwise when we url encode this it becomes a complete mess
-        $set['archiveprefix'] = html_entity_decode($set['archiveprefix'], ENT_QUOTES);
+        $set['archiveprefix'] = ltrim(html_entity_decode($set['archiveprefix'], ENT_QUOTES));
 
         $logger->addInfo('doarchive(' . $page . ','
             . $set['archiveprefix'] . ','
