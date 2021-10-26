@@ -43,11 +43,11 @@ $wpq = new \Wikipedia\Query($wph, $logger);
 $wpi = new \Wikipedia\Index($wph, $logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
 
-if (!$wpapi->login($user, $pass)) {
-    die('Failed to authenticate');
-}
+while (true) {
+    if (!$wpapi->login($user, $pass)) {
+        die('Failed to authenticate');
+    }
 
-while (1) {
     $titles = array();
     $continue = null;
     $ei = $wpapi->embeddedin('User:' . $user . '/ArchiveThis', 500, $continue);
