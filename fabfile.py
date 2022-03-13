@@ -17,7 +17,7 @@ RELEASE = _get_latest_github_release("cluebotng", "cluebot3")
 TOOL_DIR = PosixPath("/data/project/cluebot3")
 
 c = Connection(
-    "login.tools.wmflabs.org",
+    "login-buster.toolforge.org",
     config=Config(overrides={"sudo": {"user": "tools.cluebot3", "prefix": "/usr/bin/sudo -ni"}}),
 )
 
@@ -35,16 +35,17 @@ def _setup():
 
 
 def _stop():
-    """Stop grid job."""
-    print("Stopping grid job")
-    c.sudo("jstop cluebot3 | true")
+    """Stop k8s job."""
+    print("Stopping k8s job")
+    c.sudo("toolforge-jobs delete cluebot3")
 
 
 def _start():
-    """Start grid job."""
-    print("Starting grid jobs")
-    c.sudo(f"{TOOL_DIR}/apps/cluebot3/bigbrother.sh cluebot3 -e /dev/null -o /dev/null"
-           f" {TOOL_DIR}/apps/cluebot3/run_bot.sh")
+    """Start k8s job."""
+    print("Starting k8s jobs")
+    c.sudo("toolforge-jobs run cluebot3 --image tf-php74"
+           " --continuous --mem 1024Mi --cpu 1 --command "
+           "'cd /data/project/cluebot3/apps/cluebot3/ && exec php -f cluebot3.php'")
 
 
 def _update_bot():
@@ -60,15 +61,11 @@ def _update_bot():
     c.sudo(f'{release_dir / "composer.phar"} self-update')
     c.sudo(f'{release_dir / "composer.phar"} install -d {release_dir}')
 
-    print('Updating crontab entries')
-    c.sudo(f'crontab - < {release_dir / "crontab"}')
-
 
 @task()
 def restart(c):
-    """Restart the grid jobs, without changing releases."""
+    """Restart the k8s jobs, without changing releases."""
     _stop()
-    time.sleep(10)
     _start()
 
 
