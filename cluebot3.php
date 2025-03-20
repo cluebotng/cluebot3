@@ -1,7 +1,7 @@
 <?php
 
     /*
-     * Copyright (C) 2015 Jacobi Carter
+     * Copyright (C) 2015 Naomi Persephone Amethyst
      *
      * This file is part of ClueBot III.
      *

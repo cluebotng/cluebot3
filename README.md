@@ -79,7 +79,7 @@ I suspect it is due to the size of the archive pages when the loops are done to 
 License
 -------
 
-The bot was originally written by [Cobi](https://en.wikipedia.org/wiki/User:Cobi) and is licensed under GPLv2.
+The bot was originally written by [NaomiAmethyst](https://en.wikipedia.org/wiki/User:NaomiAmethyst) and is licensed under GPLv2.
 
 Want to help?
 -------------
