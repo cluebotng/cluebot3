@@ -42,8 +42,6 @@ if (!getenv('NO_HOME')) {
             false
         )
     );
-} else {
-    $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stdout', \Monolog\Logger::INFO));
 }
 
 $wph = new \Wikipedia\Http($logger);
