@@ -26,17 +26,25 @@ require_once 'cluebot3.config.php';
 
 date_default_timezone_set('Europe/London');
 include 'vendor/autoload.php';
+
+// Logger
 $logger = new \Monolog\Logger('cluebot3');
-$logger->pushHandler(
-    new \Monolog\Handler\RotatingFileHandler(
-        getenv('HOME') . '/logs/cluebot3.log',
-        2,
-        \Monolog\Logger::INFO,
-        true,
-        0600,
-        false
-    )
-);
+
+// Log to disk unless we are in a build pack
+if (!getenv('NO_HOME')) {
+    $logger->pushHandler(
+        new \Monolog\Handler\RotatingFileHandler(
+            getenv('HOME') . '/logs/cluebot3.log',
+            2,
+            \Monolog\Logger::INFO,
+            true,
+            0600,
+            false
+        )
+    );
+} else {
+    $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stdout', \Monolog\Logger::INFO));
+}
 
 $wph = new \Wikipedia\Http($logger);
 $wpq = new \Wikipedia\Query($wph, $logger);
