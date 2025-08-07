@@ -14,6 +14,7 @@ def _get_latest_release(org: str, repo: str) -> str:
     return r.json()["tag_name"]
 
 
+EMIT_LOG_MESSAGES = os.environ.get("EMIT_LOG_MESSAGES", "true") == "true"
 TARGET_RELEASE = os.environ.get("TARGET_RELEASE")
 TARGET_USER = os.environ.get("TARGET_USER", "cluebot3")
 TOOL_DIR = PosixPath("/data/project") / TARGET_USER
@@ -24,6 +25,11 @@ c = Connection(
     "login.toolforge.org",
     config=Config(overrides={"sudo": {"user": f"tools.{TARGET_USER}", "prefix": "/usr/bin/sudo -ni"}}),
 )
+
+
+def _do_log_message(message: str):
+    """Emit a log message (from the tool account)."""
+    c.sudo(f"{'' if EMIT_LOG_MESSAGES else 'echo '}dologmsg '{message}'")
 
 
 def _push_file_to_remote(file_name: str, replace_vars: Optional[Dict[str, Any]] = None):
@@ -40,7 +46,7 @@ def _push_file_to_remote(file_name: str, replace_vars: Optional[Dict[str, Any]] 
     c.sudo(f"bash -c \"base64 -d <<< '{encoded_contents}' > '{target_path}'\"")
 
 
-def build_bot():
+def _build_bot():
     """Update the bot release."""
     latest_release = TARGET_RELEASE or _get_latest_release("cluebotng", "cluebot3")
     print(f"Moving cluebot3 to {latest_release}")
@@ -53,6 +59,7 @@ def build_bot():
         f"-i {IMAGE_TAG} "
         "https://github.com/cluebotng/cluebot3.git"
     )
+    return latest_release
 
 
 def _update_jobs():
@@ -69,12 +76,22 @@ def _restart():
 
 @task()
 def deploy_jobs(_ctx):
+    """Deploy the jobs."""
     _update_jobs()
+
+
+@task()
+def deploy_bot(_ctx):
+    """Deploy the bot."""
+    target_release = _build_bot()
+    _restart()
+    _do_log_message(f"bot deployed @ {target_release}")
+
 
 
 @task()
 def deploy(_ctx):
     """Deploy the current release."""
-    build_bot()
+    _build_bot()
     _update_jobs()
     _restart()
