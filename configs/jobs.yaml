@@ -1,0 +1,8 @@
+---
+- name: cluebot3
+  image: '{{ image_namespace }}/{{ image_tag }}:latest'
+  command: run-bot
+  health-check-script: health-check
+  continuous: true
+  cpu: '1'
+  mem: 1Gi

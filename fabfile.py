@@ -1,77 +1,80 @@
-import time
+import base64
+import os
 from pathlib import PosixPath
+from typing import Optional, Dict, Any
 
 import requests
 from fabric import Connection, Config, task
-from patchwork import files
 
 
-def _get_latest_github_release(org, repo):
+def _get_latest_release(org: str, repo: str) -> str:
     """Return the latest release tag from GitHub"""
     r = requests.get(f"https://api.github.com/repos/{org}/{repo}/releases/latest")
     r.raise_for_status()
     return r.json()["tag_name"]
 
 
-RELEASE = _get_latest_github_release("cluebotng", "cluebot3")
-TOOL_DIR = PosixPath("/data/project/cluebot3")
+TARGET_RELEASE = os.environ.get("TARGET_RELEASE")
+TARGET_USER = os.environ.get("TARGET_USER", "cluebot3")
+TOOL_DIR = PosixPath("/data/project") / TARGET_USER
+IMAGE_NAMESPACE = f"tool-{TARGET_USER}"
+IMAGE_TAG = "reviewer"
 
 c = Connection(
-    "login-buster.toolforge.org",
-    config=Config(overrides={"sudo": {"user": "tools.cluebot3", "prefix": "/usr/bin/sudo -ni"}}),
+    "login.toolforge.org",
+    config=Config(overrides={"sudo": {"user": f"tools.{TARGET_USER}", "prefix": "/usr/bin/sudo -ni"}}),
 )
 
 
-def _setup():
-    """Setup the core directory structure"""
-    if not files.exists(c, f'{TOOL_DIR / "apps"}'):
-        print("Creating apps path")
-        c.sudo(f'mkdir -p {TOOL_DIR / "apps"}')
+def _push_file_to_remote(file_name: str, replace_vars: Optional[Dict[str, Any]] = None):
+    replace_vars = {} if replace_vars is None else replace_vars
 
-    release_dir = f'{TOOL_DIR / "apps" / "cluebot3"}'
-    if not files.exists(c, release_dir):
-        print("Cloning repo")
-        c.sudo(f"git clone https://github.com/cluebotng/cluebot3.git {release_dir}")
+    with (PosixPath(__file__).parent / "configs" / file_name).open("r") as fh:
+        file_contents = fh.read()
 
+    for key, value in replace_vars.items():
+        file_contents = file_contents.replace(f'{"{{"} {key} {"}}"}', value)
 
-def _stop():
-    """Stop k8s job."""
-    print("Stopping k8s job")
-    c.sudo("toolforge-jobs delete cluebot3")
+    encoded_contents = base64.b64encode(file_contents.encode("utf-8")).decode("utf-8")
+    target_path = (TOOL_DIR / file_name).as_posix()
+    c.sudo(f"bash -c \"base64 -d <<< '{encoded_contents}' > '{target_path}'\"")
 
 
-def _start():
-    """Start k8s job."""
-    print("Starting k8s jobs")
-    c.sudo("toolforge-jobs run cluebot3 --image tf-php74"
-           " --continuous --mem 1024Mi --cpu 1 --command "
-           "'cd /data/project/cluebot3/apps/cluebot3/ && exec php -f cluebot3.php'")
-
-
-def _update_bot():
+def build_bot():
     """Update the bot release."""
-    print(f"Moving bot to {RELEASE}")
-    release_dir = TOOL_DIR / "apps" / "cluebot3"
+    latest_release = TARGET_RELEASE or _get_latest_release("cluebotng", "cluebot3")
+    print(f"Moving cluebot3 to {latest_release}")
 
-    c.sudo(f"git -C {release_dir} reset --hard")
-    c.sudo(f"git -C {release_dir} clean -fd")
-    c.sudo(f"git -C {release_dir} fetch -a")
-    c.sudo(f"git -C {release_dir} checkout {RELEASE}")
+    # Build
+    c.sudo(
+        f"XDG_CONFIG_HOME={TOOL_DIR} toolforge "
+        f"build start -L "
+        f"--ref {latest_release} "
+        f"-i {IMAGE_TAG} "
+        "https://github.com/cluebotng/cluebot3.git"
+    )
 
-    c.sudo(f'{release_dir / "composer.phar"} self-update')
-    c.sudo(f'{release_dir / "composer.phar"} install -d {release_dir}')
+
+def _update_jobs():
+    _push_file_to_remote("jobs.yaml", {
+        "image_namespace": IMAGE_NAMESPACE,
+        "image_tag": IMAGE_TAG,
+    })
+    c.sudo(f"XDG_CONFIG_HOME={TOOL_DIR} toolforge jobs load {TOOL_DIR / 'jobs.yaml'}")
+
+
+def _restart():
+    c.sudo(f"XDG_CONFIG_HOME={TOOL_DIR} toolforge jobs restart cluebot3")
 
 
 @task()
-def restart(c):
-    """Restart the k8s jobs, without changing releases."""
-    _stop()
-    _start()
+def deploy_jobs(_ctx):
+    _update_jobs()
 
 
 @task()
-def deploy(c):
-    """Deploy the bot to the current release."""
-    _setup()
-    _update_bot()
-    restart(c)
+def deploy(_ctx):
+    """Deploy the current release."""
+    build_bot()
+    _update_jobs()
+    _restart()
