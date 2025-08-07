@@ -1,0 +1,13 @@
+name: Deploy
+on: { push: { tags: [ 'v*' ] } }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cluebotng/ci-execute-fabric@main
+        with:
+          task: deploy
+          user: cluebot3
+          release: ${{ github.ref }}
+          ssh_key: ${{ secrets.CI_SSH_KEY }}
