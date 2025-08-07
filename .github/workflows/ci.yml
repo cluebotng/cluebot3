@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: docker-registry.tools.wmflabs.org/toolforge-php74-sssd-base:latest
+      image: docker-registry.tools.wmflabs.org/toolforge-php82-sssd-base
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
