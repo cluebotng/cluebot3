@@ -19,8 +19,7 @@
      */
     $owner = 'Cobi';
     $user = 'ClueBot III';
-    $pass = '';
+    $pass = getenv('CLUEBOT3_BOT_PASSWORD');
     $status = 'rw';
     $maxlag = 2;
     $maxlagkeepgoing = true;
-
