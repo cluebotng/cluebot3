@@ -54,8 +54,8 @@ $current_uptime = filemtime("/proc/1");
 
 /* If we have been running for less than 6 hours, then all good (back off) */
 if ($current_uptime > (time() - 21600)) {
-$logger->addInfo('Uptime less than 6 hours (' . $current_uptime . ')');
-exit(0);
+    $logger->addInfo('Uptime less than 6 hours (' . $current_uptime . ')');
+    exit(0);
 }
 
 /* Otherwise, we need to die */

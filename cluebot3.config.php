@@ -1,4 +1,5 @@
 <?php
+
     /*
      * Copyright (C) 2015 Jacobi Carter
      *
@@ -17,6 +18,7 @@
      * You should have received a copy of the GNU General Public License
      * along with ClueBot III.  If not, see <http://www.gnu.org/licenses/>.
      */
+
     $owner = 'Cobi';
     $user = 'ClueBot III';
     $pass = getenv('CLUEBOT3_BOT_PASSWORD');
