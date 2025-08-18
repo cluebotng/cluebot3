@@ -362,23 +362,12 @@ function doarchive(
             }
         }
 
-        $forktasklist = array();
-        $count = 0;
+        $logger->addInfo("[" . $page . "] found " . count($pagelist) . " pages to check links on");
         foreach ($pagelist as $title) {
-            ++$count;
-            $group = floor($count / 500);
-            $forktasklist[$group][] = $title;
-        }
-        unset($pagelist);
-
-        $logger->addInfo("[" . $page . "] found " . count($forktasklist) . " pages to fix links on");
-        for ($i = 0; $i < count($forktasklist); ++$i) {
-            foreach ($forktasklist[$i] as $title) {
-                $data = $wpq->getpage($title);
-                $newdata = str_replace($search, $replace, $data);
-                if ($data != $newdata) {
-                    $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
-                }
+            $data = $wpq->getpage($title);
+            $newdata = str_replace($search, $replace, $data);
+            if ($data != $newdata) {
+                $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
             }
         }
     }
