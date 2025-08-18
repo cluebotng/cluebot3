@@ -8,11 +8,11 @@
     "packages": [
         {
             "name": "cluebotng/wikipedia",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cluebotng/wikipedia.git",
-                "reference": "39132a103ebdd53fb93ddaec7dfce3a171aa7221"
+                "reference": "8898bc71a0006dadeca27b67dc513eaabe9a89b0"
             },
             "require": {
                 "php": ">=7.2"
