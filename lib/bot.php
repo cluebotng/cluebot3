@@ -608,6 +608,11 @@ function parsetemplate($page)
         // otherwise when we url encode this it becomes a complete mess
         $set['archiveprefix'] = ltrim(html_entity_decode($set['archiveprefix'], ENT_QUOTES));
 
+        // Handle `2160<!--90 days-->`
+        if (str_contains($set['age'], "<!--")) {
+            $set['age'] = explode("<!--", $set['age'])[0];
+        }
+
         $logger->addInfo('doarchive(' . $page . ','
             . $set['archiveprefix'] . ','
             . $set['format'] . ','
