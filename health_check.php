@@ -31,6 +31,15 @@ include 'vendor/autoload.php';
 $logger = new \Monolog\Logger('cluebot3');
 $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stdout', \Monolog\Logger::INFO));
 
+/* Get out uptime, since this is for a container, just check the 'init' pid */
+$current_uptime = filemtime("/proc/1");
+
+/* If we have been running for less than 6 hours, then all good (back off) */
+if ($current_uptime > (time() - 21600)) {
+    $logger->addInfo('Uptime less than 6 hours (' . $current_uptime . ')');
+    exit(0);
+}
+
 // API
 $wph = new \Wikipedia\Http($logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
@@ -46,15 +55,6 @@ $last_contrib_timestamp = $usercontribs[0]['timestamp'];
  /* If we edited within the last 24 hours, then all good */
 if (strtotime($last_contrib_timestamp) > (time() - 86400)) {
     $logger->addInfo('Last contribution was within last 24h (' . $last_contrib_timestamp . ')');
-    exit(0);
-}
-
-/* Get out uptime, since this is for a container, just check the 'init' pid */
-$current_uptime = filemtime("/proc/1");
-
-/* If we have been running for less than 6 hours, then all good (back off) */
-if ($current_uptime > (time() - 21600)) {
-    $logger->addInfo('Uptime less than 6 hours (' . $current_uptime . ')');
     exit(0);
 }
 
