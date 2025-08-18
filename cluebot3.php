@@ -22,6 +22,7 @@
 namespace ClueBot3;
 
 require_once 'lib/bot.php';
+require_once 'lib/worker.php';
 require_once 'cluebot3.config.php';
 
 date_default_timezone_set('Europe/London');
@@ -74,9 +75,11 @@ while (true) {
     }
 
     $logger->addInfo("Processing " . count($titles) . " titles");
+    $pool = new \Pool(10);
     foreach ($titles as $title) {
-        parsetemplate($title);
+        $pool->submit(new WorkerThread($title));
     }
+    $pool->shutdown();
 
     $logger->addInfo("Sleeping until next execution");
     $start_time = time();
