@@ -129,9 +129,9 @@ function doarchive(
 
     $rv = $wpapi->revisions($page, 1, 'older', true);
     if (!is_array($rv)) {
+        $logger->addInfo("[" . $page . "] skipping due to no revisions");
         return false;
     }
-    $rv2 = $rv;
 
     $wpStarttime = gmdate('YmdHis', time());
     $tmp = date_parse($rv[0]['timestamp']);
@@ -259,18 +259,11 @@ function doarchive(
         }
     }
 
-    foreach ($oldsects as $id => $array) {
-        $tmpsectsprintr['oldsects'][] = $id;
-    }
-    foreach ($cursects as $id => $array) {
-        $tmpsectsprintr['cursects'][] = $id;
-    }
-    foreach ($keepsects as $id => $array) {
-        $tmpsectsprintr['keepsects'][] = $id;
-    }
-    foreach ($archsects as $id => $array) {
-        $tmpsectsprintr['archsects'][] = $id;
-    }
+    $logger->addInfo("[" . $page . "] calculated sections: " .
+                     count($oldsects) . " old, " .
+                     count($cursects) . " current, " .
+                     count($keepsects) . " keep, " .
+                     count($archsects) . " archive");
 
     if ((count($archsects) > 0) and (count($archsects) >= $minarch)) {
         $pdata = $header;
@@ -378,6 +371,7 @@ function doarchive(
         }
         unset($pagelist);
 
+        $logger->addInfo("[" . $page . "] found " . count($forktasklist) . " pages to fix links on");
         for ($i = 0; $i < count($forktasklist); ++$i) {
             foreach ($forktasklist[$i] as $title) {
                 $data = $wpq->getpage($title);
@@ -389,6 +383,7 @@ function doarchive(
         }
     }
     if ($noindex != 1) {
+        $logger->addInfo("[" . $page . "] generating index page");
         generateindex($page, $archiveprefix, $level);
     }
 }
