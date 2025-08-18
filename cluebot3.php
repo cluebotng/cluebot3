@@ -74,6 +74,7 @@ while (true) {
     }
 
     $logger->addInfo("Processing " . count($titles) . " titles");
+    shuffle($titles);
     foreach ($titles as $title) {
         parsetemplate($title);
     }
