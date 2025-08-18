@@ -586,6 +586,7 @@ function parsetemplate($page)
         unset($data[0]);
         $set = $data;
         if ((isset($set['once']) ? trim($set['once']) : 0) == 1) {
+            $logger->addInfo('Commenting out bot configuration on ' . $page);
             $wpapi->edit(
                 $page,
                 substr($pagedata, 0, $positions[$pkey][0]) .
@@ -625,7 +626,7 @@ function parsetemplate($page)
             . (isset($set['key']) ? $set['key'] : '')
             . ')');
         if ($pkey > 0) {
-            sleep(2);
+            sleep(1);
         }
         doarchive(
             $page,
