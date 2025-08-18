@@ -444,7 +444,7 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
     $checksum = md5(md5($version) . md5($adata));
 
     $cdata = $wpq->getpage('User:' . $user . '/Detailed Indices/' . $apage);
-    if (preg_match('/\<\!-- CB3 MD5:([0-9a-f]{32}) --\>/i', $cdata, $m)) {
+    if ($cdata && preg_match('/\<\!-- CB3 MD5:([0-9a-f]{32}) --\>/i', $cdata, $m)) {
         if (trim(strtolower($m[1])) == trim(strtolower($checksum))) {
             return;
         }
