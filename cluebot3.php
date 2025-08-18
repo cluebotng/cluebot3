@@ -30,8 +30,10 @@ include 'vendor/autoload.php';
 // Logger
 $logger = new \Monolog\Logger('cluebot3');
 
-// Log to disk unless we are in a build pack
-if (!getenv('NO_HOME')) {
+// In a build pack log to stderr (no NFS), else log to disk (NFS)
+if (getenv('NO_HOME')) {
+    $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::INFO));
+} else {
     $logger->pushHandler(
         new \Monolog\Handler\RotatingFileHandler(
             getenv('HOME') . '/logs/cluebot3.log',
@@ -71,11 +73,14 @@ while (true) {
         }
     }
 
+    $logger->addInfo("Processing " . count($titles) . " titles");
     foreach ($titles as $title) {
         parsetemplate($title);
     }
-    $time = time();
-    while ((time() - $time) < 21600) {
+
+    $logger->addInfo("Sleeping until next execution");
+    $start_time = time();
+    while ((time() - $start_time) < 21600) {
         sleep(1);
     }
 }
