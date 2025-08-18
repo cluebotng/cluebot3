@@ -4,5 +4,5 @@
   command: run-bot
   health-check-script: health-check
   continuous: true
-  cpu: '1'
+  cpu: 2
   mem: 1Gi
