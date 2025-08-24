@@ -385,6 +385,12 @@ function generateindex($origpage, $archiveprefix, $level)
     global $wpi;
 
     $tmp = extractnamespace($archiveprefix);
+    if (!isset($tmp[1])) {
+        $logger->addError("[" . $origpage . "] failed to get valid prefix for '" .
+                          $archiveprefix . "': " . var_export($tmp, true));
+        return;
+    }
+
     $array = $wpapi->listprefix($tmp[1], namespacetoid($tmp[0]), 500);
     if (is_array($array)) {
         $data = '';
