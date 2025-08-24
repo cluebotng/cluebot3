@@ -164,7 +164,7 @@ function doarchive(
     $done = false;
     $lastrvid = null;
     while (!$done) {
-        $rv = $wpapi->revisions($page, 5000, $dir = 'older', false, $lastrvid);
+        $rv = $wpapi->revisions($page, 500, $dir = 'older', false, $lastrvid);
         foreach ($rv as $rev) {
             if (preg_match('/(\d+)\-(\d+)\-(\d+)T(\d+):(\d+):(\d+)/', $rev['timestamp'], $m)) {
                 $time = gmmktime($m[4], $m[5], $m[6], $m[2], $m[3], $m[1]);
