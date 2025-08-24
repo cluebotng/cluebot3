@@ -497,6 +497,17 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
     return $data;
 }
 
+function strip_comments($text, $trim = true)
+{
+    if (str_contains($text, "<!--")) {
+        $text = preg_replace("/<!--.+-->/", "", $text);
+        if ($trim) {
+            $text = trim($text);
+        }
+    }
+    return $text;
+}
+
 function parsetemplate($page)
 {
     global $logger;
@@ -598,9 +609,9 @@ function parsetemplate($page)
         // otherwise when we url encode this it becomes a complete mess
         $set['archiveprefix'] = ltrim(html_entity_decode($set['archiveprefix'], ENT_QUOTES));
 
-        // Handle `2160<!--90 days-->`
-        if (str_contains($set['age'], "<!--")) {
-            $set['age'] = explode("<!--", $set['age'])[0];
+        // Clean all keys
+        foreach ($set as $k => $v) {
+            $set[$k] = strip_comments($v, $k == 'archiveprefix' ? false : true);
         }
 
         $logger->addInfo('doarchive(' . $page . ','
