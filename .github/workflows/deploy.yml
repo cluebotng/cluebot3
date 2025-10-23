@@ -1,13 +1,12 @@
 name: Deploy
 on: { push: { tags: [ 'v*' ] } }
 jobs:
-  deploy:
+  update-components:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: cluebotng/ci-execute-fabric@main
+      - uses: cluebotng/ci-update-component-ref@main
         with:
-          task: deploy-bot
-          user: cluebot3
-          release: ${{ github.ref }}
-          ssh_key: ${{ secrets.CI_SSH_KEY }}
+          tool: 'cluebot3'
+          component: 'cluebot3'
+          ref: '${{ github.ref }}'
+          gh_app_key: '${{ secrets.CI_COMPONENT_CONFIGS_APP_KEY }}'
