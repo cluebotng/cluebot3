@@ -73,13 +73,13 @@ while (true) {
         }
     }
 
-    $logger->addInfo("Processing " . count($titles) . " titles");
+    $logger->info("Processing " . count($titles) . " titles");
     shuffle($titles);
     foreach ($titles as $title) {
         parsetemplate($title);
     }
 
-    $logger->addInfo("Sleeping until next execution");
+    $logger->info("Sleeping until next execution");
     $start_time = time();
     while ((time() - $start_time) < 21600) {
         sleep(1);
