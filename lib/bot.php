@@ -129,7 +129,7 @@ function doarchive(
 
     $rv = $wpapi->revisions($page, 1, 'older', true);
     if (!is_array($rv)) {
-        $logger->addInfo("[" . $page . "] skipping due to no revisions");
+        $logger->info("[" . $page . "] skipping due to no revisions");
         return false;
     }
 
@@ -259,7 +259,7 @@ function doarchive(
         }
     }
 
-    $logger->addInfo("[" . $page . "] calculated sections: " .
+    $logger->info("[" . $page . "] calculated sections: " .
                      count($oldsects) . " old, " .
                      count($cursects) . " current, " .
                      count($keepsects) . " keep, " .
@@ -275,7 +275,7 @@ function doarchive(
             global $pass;
             $ckey = trim(md5(trim($page) . trim($archiveprefix) . trim($pass)));
             if (trim($key) != $ckey) {
-                $logger->addError('Incorrect key and archiveprefix.  $archiveprefix=\'' .
+                $logger->error('Incorrect key and archiveprefix.  $archiveprefix=\'' .
                                   $archiveprefix . '\';$correctkey=\'' . $ckey . '\';');
                 $archiveprefix = $page . '/Archives/';
             }
@@ -362,7 +362,7 @@ function doarchive(
             }
         }
 
-        $logger->addInfo("[" . $page . "] found " . count($pagelist) . " pages to check links on");
+        $logger->info("[" . $page . "] found " . count($pagelist) . " pages to check links on");
         foreach ($pagelist as $title) {
             $data = $wpq->getpage($title);
             $newdata = str_replace($search, $replace, $data);
@@ -372,7 +372,7 @@ function doarchive(
         }
     }
     if ($noindex != 1) {
-        $logger->addInfo("[" . $page . "] generating index page");
+        $logger->info("[" . $page . "] generating index page");
         generateindex($page, $archiveprefix, $level);
     }
 }
@@ -386,7 +386,7 @@ function generateindex($origpage, $archiveprefix, $level)
 
     $tmp = extractnamespace($archiveprefix);
     if (!isset($tmp[1])) {
-        $logger->addError("[" . $origpage . "] failed to get valid prefix for '" .
+        $logger->error("[" . $origpage . "] failed to get valid prefix for '" .
                           $archiveprefix . "': " . var_export($tmp, true));
         return;
     }
@@ -587,7 +587,7 @@ function parsetemplate($page)
         unset($data[0]);
         $set = $data;
         if ((isset($set['once']) ? trim($set['once']) : 0) == 1) {
-            $logger->addInfo('Commenting out bot configuration on ' . $page);
+            $logger->info('Commenting out bot configuration on ' . $page);
             $wpapi->edit(
                 $page,
                 substr($pagedata, 0, $positions[$pkey][0]) .
@@ -614,7 +614,7 @@ function parsetemplate($page)
             $set[$k] = strip_comments($v, $k == 'archiveprefix' ? false : true);
         }
 
-        $logger->addInfo('doarchive(' . $page . ','
+        $logger->info('doarchive(' . $page . ','
             . $set['archiveprefix'] . ','
             . $set['format'] . ','
             . $set['age'] . ','
