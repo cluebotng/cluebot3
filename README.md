@@ -8,7 +8,7 @@ It is designed to archive pages, where the `{{User:ClueBot III/ArchiveThis}}` pa
 License
 -------
 
-The bot was originally written by [Cobi](https://en.wikipedia.org/wiki/User:Cobi) and is licensed under GPLv2.
+The bot was originally written by [Naomi Amethyst](https://en.wikipedia.org/wiki/User:NaomiAmethyst) and is licensed under GPLv2.
 
 Want to help?
 -------------
