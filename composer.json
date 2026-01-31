@@ -3,8 +3,9 @@
     "description": "ClueBot III - Archiving Bot For Wikipedia",
     "require-dev": {
         "overtrue/phplint": "@stable",
-	"squizlabs/php_codesniffer": "^4.0",
-        "phpmd/phpmd" : "@stable"
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "^11.0"
     },
     "repositories": [
         {
@@ -15,6 +16,19 @@
     "require": {
         "monolog/monolog": "^3.0",
         "cluebotng/wikipedia": "^v1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClueBot3\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ClueBot3\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
     },
     "config": {
         "platform": {
