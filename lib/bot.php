@@ -32,11 +32,11 @@ function splitintosections($d, $level = 2)
     for ($i = 0; $i < strlen($d); ++$i) {
         if (
             (substr($d, $i, $level) == str_repeat('=', $level))
-            and ($d[$i + $level] != '=')
+            and (($i + $level) < strlen($d) and $d[$i + $level] != '=')
             and (($i == 0) or ($d[$i - 1] == "\n"))
         ) {
             $j = 0;
-            while (($d[$i + $j] != "\n") and ($i + $j < strlen($d))) {
+            while (($i + $j < strlen($d)) and ($d[$i + $j] != "\n")) {
                 ++$j;
             }
             if (
@@ -83,7 +83,7 @@ function extractnamespace($page)
     if (preg_match('/^((user|wikipedia|image|mediawiki|template|help|category|portal)? ?(talk)?):(.*)$/i', $page, $m)) {
         return array($m[1], $m[4]);
     } else {
-        return array('', $m[4]);
+        return array('', $page);
     }
 }
 
@@ -174,7 +174,7 @@ function doarchive(
                 }
             }
         }
-        if ((!isset($rv[4999])) and ($done == false)) {
+        if ((!isset($rv[499])) and ($done == false)) {
             break;
         }
         $lastrvid = $rev['revid'];
@@ -276,7 +276,7 @@ function doarchive(
             $ckey = trim(md5(trim($page) . trim($archiveprefix) . trim($pass)));
             if (trim($key) != $ckey) {
                 $logger->error('Incorrect key and archiveprefix.  $archiveprefix=\'' .
-                                  $archiveprefix . '\';$correctkey=\'' . $ckey . '\';');
+                                  $archiveprefix . '\';');
                 $archiveprefix = $page . '/Archives/';
             }
         }

@@ -80,8 +80,5 @@ while (true) {
     }
 
     $logger->info("Sleeping until next execution");
-    $start_time = time();
-    while ((time() - $start_time) < 21600) {
-        sleep(1);
-    }
+    sleep(21600);
 }
