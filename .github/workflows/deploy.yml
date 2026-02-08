@@ -12,7 +12,7 @@ jobs:
   update-components:
     runs-on: ubuntu-latest
     steps:
-      - uses: cluebotng/ci-update-component-ref@main
+      - uses: cluebotng/ci-update-component-ref@8e4650ab6aa94f2c4b08a1518e798a6e68e4bd44
         with:
           tool: 'cluebot3'
           component: 'cluebot3'

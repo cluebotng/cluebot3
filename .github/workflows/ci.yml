@@ -4,9 +4,7 @@ concurrency:
   group: ${{ github.head_ref || github.ref }}
   cancel-in-progress: true
 permissions:
-  contents: write
-  packages: write
-  issues: write
+  contents: read
 jobs:
   jobs:
     strategy:
@@ -46,3 +44,7 @@ jobs:
         run: |
           composer exec phpcs -- --standard=PSR12 --ignore=vendor/ .
         if: matrix.target == 'phpcs'
+
+      - name: Composer Security Audit
+        run: composer audit
+        if: matrix.target == 'phplint'
