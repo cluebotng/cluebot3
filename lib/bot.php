@@ -26,6 +26,7 @@ function splitintosections($d, $level = 2)
     $ret = array();
     $sections = array();
 
+    $header = '';
     $th = '';
     $tb = '';
     $s = 0;
@@ -101,7 +102,8 @@ function namespacetoid($namespace)
             'portal' => 100,    'portal talk' => 101,
         );
 
-    return $convert[strtolower(str_replace('_', ' ', $namespace))];
+    $key = strtolower(str_replace('_', ' ', $namespace));
+    return isset($convert[$key]) ? $convert[$key] : null;
 }
 
 function doarchive(
@@ -175,6 +177,9 @@ function doarchive(
             }
         }
         if ((!isset($rv[499])) and ($done == false)) {
+            break;
+        }
+        if (!isset($rev)) {
             break;
         }
         $lastrvid = $rev['revid'];
@@ -259,6 +264,9 @@ function doarchive(
         $transforms = explode('&&&', $htransform);
         foreach ($transforms as $v) {
             $v = explode('===', $v, 2);
+            if (count($v) < 2) {
+                continue;
+            }
             $search[] = $v[0];
             $replace[] = $v[1];
         }
@@ -307,9 +315,13 @@ function doarchive(
         $apage = $archiveprefix . gmdate(str_replace('%%i', $i, $archivename), (time() - ($age * 60 * 60)));
 
         if (($maxarchsize > 10000) and (strpos($archivename, '%%i') !== false)) {
+            $maxiter = 1000;
             while (strlen($wpq->getpage($apage)) > $maxarchsize) {
-                $apage = $archiveprefix . gmdate(str_replace('%%i', $i, $archivename), (time() - ($age * 60 * 60)));
                 ++$i;
+                $apage = $archiveprefix . gmdate(str_replace('%%i', $i, $archivename), (time() - ($age * 60 * 60)));
+                if (--$maxiter <= 0) {
+                    break;
+                }
             }
         }
 
