@@ -32,7 +32,7 @@ function splitintosections($d, $level = 2)
     for ($i = 0; $i < strlen($d); ++$i) {
         if (
             (substr($d, $i, $level) == str_repeat('=', $level))
-            and (($i + $level) < strlen($d) and $d[$i + $level] != '=')
+            and (substr($d, $i + $level, 1) != '=')
             and (($i == 0) or ($d[$i - 1] == "\n"))
         ) {
             $j = 0;
@@ -276,7 +276,7 @@ function doarchive(
             $ckey = trim(md5(trim($page) . trim($archiveprefix) . trim($pass)));
             if (trim($key) != $ckey) {
                 $logger->error('Incorrect key and archiveprefix.  $archiveprefix=\'' .
-                                  $archiveprefix . '\';');
+                                  $archiveprefix . '\';$correctkey=\'' . $ckey . '\';');
                 $archiveprefix = $page . '/Archives/';
             }
         }
