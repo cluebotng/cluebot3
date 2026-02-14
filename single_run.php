@@ -22,6 +22,7 @@
 namespace ClueBot3;
 
 require_once 'lib/bot.php';
+require_once 'lib/config.php';
 require_once 'cluebot3.config.php';
 
 date_default_timezone_set('Europe/London');
@@ -56,4 +57,4 @@ if (getenv("BYPASS_SAFETY_CHECK") != "1") {
 }
 
 $logger->info("Processing " . $target_title);
-parsetemplate($target_title);
+process_page($title);
