@@ -1,0 +1,8 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Computer animation/Archives/
+|format=Y/F
+|age=720
+|minkeepthreads=4
+|archivebox=yes
+|box-advert=yes
+}}

@@ -1,0 +1,99 @@
+{{Talk header}}
+{{British English}}
+{{ArticleHistory
+|action1         = PR
+|action1date     = 12:30, 27 July 2013 (UTC) 
+|action1link     = Wikipedia:Peer review/International System of Units/archive1
+|action1result   = reviewed
+|action1oldid    = 565943451
+
+|action2         = GAN
+|action2date     = 21:01, 12 September 2013 (UTC)
+|action2link     = Talk:International System of Units/GA1
+|action2result   = not listed
+|action2oldid    = 572624213
+
+|action3         = GAN
+|action3date     = 20:57, 22 November 2013 (UTC)
+|action3link     = Talk:International System of Units/GA2
+|action3result   = listed
+|action3oldid    = 582861394
+
+|topic           = NatSci
+
+|action4 = GAR
+|action4date = 15:57, 4 December 2023 (UTC)
+|action4link = Wikipedia:Good article reassessment/International System of Units/1
+|action4result = delisted
+|action4oldid = 1188116072
+|currentstatus = DGA
+}}
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject Physics|importance=top}}
+}}
+{{Banner holder |collapsed=yes |1=
+{{Spoken article requested|[[User:ScientistBuilder|ScientistBuilder]] ([[User talk:ScientistBuilder|talk]])|The International System of Units is vital to many fields, including physics, chemistry, biology, engineering, business, and astronomy.}}
+{{Broken anchors|links=
+* <nowiki>[[Dimensional analysis#Definition|Dimension symbol]]</nowiki>  The anchor (#Definition) has been [[Special:Diff/1107253819|deleted by other users]] before. <!-- {"title":"Definition","appear":{"revid":278424384,"parentid":278420612,"timestamp":"2009-03-19T22:53:55Z","removed_section_titles":[],"added_section_titles":["Definition","Mathematical properties","Mechanics","Other fields of physics and chemistry","Commensurability","Transcendental functions","Incorporating units","Other uses"]},"disappear":{"revid":1107253819,"parentid":1107253030,"timestamp":"2022-08-29T01:10:18Z","removed_section_titles":["Mathematical formulation","Definition"],"added_section_titles":["Formulation","Properties"]}} -->
+}}
+}}
+{{Archive box|image=[[Image:Crystal Clear app file-manager.png]]|nobot=yes|collapsed=yes|title=Archives (mm/yyyy)|
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:International System of Units/Archives/
+|format=m/Y
+|age=8765
+|index=yes
+}}
+}}
+
+== Article History of the metre should not only be a history of definitions of the metre ==
+
+I propose to replace in the article [[History of the metre]] the four sections [https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1271854731#Universal_measure Universal measure], [https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1271854731#Meridional_definition Meridional definition], [https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1271854731#M%C3%A8tre_des_Archives Mètre des Archives] and [https://en.wikipedia.org/w/index.php?title=History_of_the_metre&oldid=1271854731#International_prototype_metre International prototype metre] by the recently suppressed subsections in the article [[Metre]], section [https://en.wikipedia.org/w/index.php?title=Metre&diff=prev&oldid=1271733612#History_of_definition History of definition]:
+
+[https://en.wikipedia.org/w/index.php?title=Metre&diff=prev&oldid=1271733612#Universal_measure:_the_metre_linked_to_the_figure_of_the_Earth Universal measure: the metre linked to the figure of the Earth],
+
+the introductory paragraph of the section [https://en.wikipedia.org/w/index.php?title=Metre&diff=prev&oldid=1271733612#Metrology_and_paradigm_shift_in_physics Metrology and paradigm shift in physics] and
+
+the text of the subsection [https://en.wikipedia.org/w/index.php?title=Metre&diff=prev&oldid=1271733612#Wavelength_definition Wavelength definition] up to  Albert Michelson soon took up the idea and improved it.
+
+Alternatively an article named for example [[Errors in sciences and Internationalisation of the metre]] could be created.
+
+[[User:Charles Inigo|Charles Inigo]] ([[User talk:Charles Inigo|talk]]) 13:13, 26 January 2025 (UTC)
+
+:Feel free to create [[Draft:Errors in sciences and Internationalisation of the metre]] so that everybody can have a clear view of what you have in mind. [[User:Fgnievinski|fgnievinski]] ([[User talk:Fgnievinski|talk]]) 17:07, 26 January 2025 (UTC)
+
+::I rather propose the article [[History of the metre]] should beginn with the sections which have recently been removed from the article [[Metre]].
+
+::You can consult the old ([https://en.wikipedia.org/w/index.php?title=Metre&diff=prev&oldid=1271733612 12:24, 25 January 2025]) version of the article [[Metre]] of which a link is provided below in order to have a clear view of what I have in mind :
+
+::From [https://en.wikipedia.org/w/index.php?title=Metre&diff=prev&oldid=1271733612#Universal_measure:_the_metre_linked_to_the_figure_of_the_Earth Universal measure: the metre linked to the figure of the Earth] up to "Charles Sanders Peirce's work promoted the advent of American science at the forefront of global metrology. Alongside his intercomparisons of artifacts of the metre and contributions to gravimetry through improvement of reversible pendulum, Peirce was the first to tie experimentally the metre to the wave length of a spectral line. According to him the standard length might be compared with that of a wave of light identified by a line in the solar spectrum. Albert Michelson soon took up the idea and improved it". [[User:Charles Inigo|Charles Inigo]] ([[User talk:Charles Inigo|talk]]) 06:51, 27 January 2025 (UTC)
+:::The content of [[History of the metre]] should not be discussed here. [[User:Johnjbarton|Johnjbarton]] ([[User talk:Johnjbarton|talk]]) 17:56, 27 January 2025 (UTC)
+
+== "[[:SI]]" listed at [[Wikipedia:Redirects for discussion|Redirects for discussion]] ==
+[[File:Information.svg|30px]]
+The redirect <span class="plainlinks">[//en.wikipedia.org/w/index.php?title=SI&redirect=no SI]</span> has been listed at [[Wikipedia:Redirects for discussion|redirects for discussion]] to determine whether its use and function meets the [[Wikipedia:Redirect|redirect guidelines]]. Readers of this page are welcome to comment on this redirect at '''{{slink|Wikipedia:Redirects for discussion/Log/2024 November 13#SI}}''' until a consensus is reached. <!-- Template:RFDNote --> [[User:BD2412|<span style="background:gold">'''''BD2412'''''</span>]] [[User talk:BD2412|'''T''']] 21:08, 13 November 2024 (UTC)
+
+:{{done}} the result was keep [[User:Johnjbarton|Johnjbarton]] ([[User talk:Johnjbarton|talk]]) 17:56, 27 January 2025 (UTC)
+
+== Colours used in the Figure of SI Base Units and Constants  ==
+
+Why o why are the colours in such a weird order ? Why not just stick with the order of the colours in the rainbow. The use of the colour yellow for seconds screams off the page as an anomaly. Who in their right mind would put yellow next to red and then orange next to green. Please, please can someone recolour this graphic so it is not so offensive. Thank you ! [[Special:Contributions/46.208.209.96|46.208.209.96]] ([[User talk:46.208.209.96|talk]]) 08:30, 2 April 2025 (UTC)
+
+:[[File:SI Illustration Base Units and Constants Colour Full.svg|thumb]]
+:"Who in their right mind" is the [[International Bureau of Weights and Measures]], from whom the image was obtained.
+:You have not explained why you consider having certain colours adjacent is so "offensive". The only improvement might be to invert the text colour for any segment whose colouring currently contravenes [[MOS:CONTRAST]]. [[User:Bazza_7|Bazza&nbsp;<span style="color:grey">7</span>]] ([[User_talk:Bazza_7|talk]]) 09:02, 2 April 2025 (UTC)
+:This seems to be an old version of the SI circle. The correct circle (with colours in rainbow order) can be found at https://www.bipm.org/en/measurement-units/si-promotion. I suggest changing it. /Tobias [[Special:Contributions/192.71.100.250|192.71.100.250]] ([[User talk:192.71.100.250|talk]]) 09:20, 19 May 2025 (UTC)
+
+== Is the litre an SI unit? ==
+
+Please provide your opinion at [[Talk:Litre#The_litre_is_not_an_SI_unit|Litre]]. [[User:Dondervogel 2|Dondervogel 2]] ([[User talk:Dondervogel 2|talk]]) 16:40, 11 May 2025 (UTC)
+
+== Error in the formula for 1 Kg definition. ==
+
+I don't get the formula for 1 Kg to work, computing the expression on the right side of the equal sign gives you 1/Kg, so how that can equal 1 Kg beats me. Planck's constant is Js and when you multiply that with the hyperfine transision frequency which is Hz you get J which is kg times (m/s) squared and if you then divide that by the speed of light squared you get Kg. The equation has numerator and denominator switched I think. [[Special:Contributions/178.174.125.168|178.174.125.168]] ([[User talk:178.174.125.168|talk]]) 19:06, 30 May 2025 (UTC)
+
+:Most of what you say is correct, up to "you get kg". And kg is what you want, so the numerator and denominator are the right way round. However the formula would be much easier to follow if it were developed as a product of its three constituent ratios.---[[User:Ehrenkater|Ehrenkater]] ([[User talk:Ehrenkater|talk]]) 19:16, 30 May 2025 (UTC)
+
+== Eventual definition of the Second ==
+
+[[Quantum logic clock]]s lead the candidates for a future redefinition of the [[Second (SI unit)|second]]. The [[NIST]] <sup>27</sup>[[Aluminium|Al]]<sup>+</sup> quantum logic clock's transition frequency, as of April 2025, is 1 121 015 393 207 859.16(18) Hz relative to the current SI second.[[User:EdPeggJr|EdPeggJr]] ([[User talk:EdPeggJr|talk]]) 03:00, 15 July 2025 (UTC)

@@ -1,0 +1,68 @@
+{{Talk header}}
+{{Article history
+|action1=FAC
+|action1date=21:12, 19 September 2007
+|action1link=Wikipedia:Featured article candidates/Sikh/archive1
+|action1result=not promoted
+|action1oldid=158385741
+
+|action2=GAN
+|action2date=05:13, 10 April 2008 (UTC)
+|action2result=not listed
+|action2oldid=204627128
+
+|currentstatus=FFAC
+}}
+{{WikiProject banner shell|class=B|
+{{WikiProject Religion|importance=High}}
+{{WikiProject Sikhism}}
+{{WikiProject India|importance=Low}}
+{{WikiProject Guild of Copy Editors|user=Miniapolis|date=3 October 2014}}
+}}
+{{To do}}
+{{Spoken article requested|Sikhs|Dear Sir, I humbly request that you should make all 'Sikhs' an audio recording because Sikhism is one of the world's major religions, and making it an audio recording will allow the visually impaired to hear about the tenets of their faith and the issues that effect the Sikhs}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:Sikhs/Archive
+| numberstart=3
+| maxarchsize=100000
+| header={{Automatic archive navigator}}
+| minkeepthreads=4
+| format= %%i
+|archivebox=yes
+|box-advert=yes
+}}
+
+== Need fix on Jawaharlal Nehru ==
+The name of Jawaharlal Nehru needs to be fixed to point to the wikipedia webpage about him. I do not remember how to do it. [[Special:Contributions/184.152.110.187|184.152.110.187]] ([[User talk:184.152.110.187|talk]]) 14:50, 18 October 2024 (UTC)
+:Done. [[User:RegentsPark|RegentsPark]] <small>([[User talk:RegentsPark|comment]])</small> 17:08, 18 October 2024 (UTC)
+
+== False copyvio alarm ==
+
+Earwig points to http://www.sikhs.org/english/eg28.htm as a potential copyvio. This is a false alarm, as the text in question is properly attributed as a quote (although shortening the quotes might do good for the article). [[User:Викидим|Викидим]] ([[User talk:Викидим|talk]]) 20:43, 17 December 2024 (UTC)
+
+== [[Kamber Darbar]] ==
+
+This stub has been proposed for deletion. The clock is ticking. [[User:Bearian|Bearian]] ([[User talk:Bearian|talk]]) 02:06, 24 January 2025 (UTC)
+
+== Kaur ==
+
+Kaur does not mean princess. It means “Kaur” bird who is bravest in birds. [[User:Datassd|Datassd]] ([[User talk:Datassd|talk]]) 03:54, 25 April 2025 (UTC)
+
+:Hi,
+:Can you substantiate this claim?
+:The conventional meaning of "Kaur" is "princess" but if there's an alternative definition that can be substantiated by a source, then I'm all ears :) [[User:AnyBurro9312|AnyBurro9312]] ([[User talk:AnyBurro9312|talk]]) 12:17, 7 July 2025 (UTC)
+::Hello,
+::This is a debatable topic, especially because the Sikh Reference Library, which housed many original manuscripts and records of Sikh history, was burned by the Indian Army in 1984 during Operation Blue Star. That deliberate destruction created a serious gap in our ability to verify many aspects of Sikh heritage, including the deeper meanings behind names like Singh and Kaur.
+::What is clear, however, is that “Singh” and “Kaur” were given by the Sikh Gurus, particularly Guru Gobind Singh Ji, to eliminate caste based and status based divisions in Indian society. These names were revolutionary they replaced surnames that revealed caste, clan, or social standing.
+::Singh, meaning lion, was given to Sikh men to symbolize bravery and fearlessness.
+::Kaur was given to Sikh women through the same process — not as a symbol of royalty, but as a title of courage, bravery, sovereignty, and spiritual strength.
+::The idea that “Kaur” means “princess” is not rooted in Sikh tradition, nor is it supported by original Sikh texts. This interpretation appears to be a later insertion, likely promoted through state propaganda or colonial-era translations, in an effort to dilute the radical egalitarian values of Sikhism.
+::In Sikh thought, no one is born above or below another. The concept of someone being a “princess” by birth contradicts the very foundations of Sikhi, where birth, class, and lineage are irrelevant. Sikhism is based on Gurbani and actions, not ancestry.
+::To suggest that only royal women can be brave is deeply problematic and runs against everything the Gurus stood for. Kaur was meant to empower all women equally not to crown them with fictional or symbolic royalty, but to affirm their full status as sovereign individuals in the Khalsa.
+::Furthermore, some have raised interesting ideas such as “Kaur” possibly relating to a brave bird, though this lacks direct documentation that was destroyed in 1984. What matters most is the spirit behind the name: courage, bravery, freedom, and resistance to oppression.
+::In short, “Kaur” does not mean princess in the Sikh sense. It means warrior, sovereign, equal a title given by the Gurus to uplift women and free them from caste, patriarchy, and subjugation.
+:: [[User:Datassd|Datassd]] ([[User talk:Datassd|talk]]) 14:22, 7 July 2025 (UTC)
+:::That's all well and good but you need to substantiate this claim by providing a source in the form a citation from a published text (preferrably from a Sikh scholar) for it to be added to the Wikipedia page. Otherwise, it's just an opinion and will need a [[Citation needed|"Citation Needed"]] tag [[User:AnyBurro9312|AnyBurro9312]] ([[User talk:AnyBurro9312|talk]]) 10:32, 15 July 2025 (UTC)
+::::I will be submitting and incorporating historical evidence. Furthermore, I have not located any substantial or credible historical documentation establishing a connection between the term ‘Kaur’ meaning ‘princess,’ and any such claimed interpretation remains highly challengeable…
+:::: [[User:Datassd|Datassd]] ([[User talk:Datassd|talk]]) 17:51, 15 July 2025 (UTC)

@@ -23,6 +23,7 @@ namespace ClueBot3\Tests;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
+use ClueBot3\UserConfig\DefaultConfig;
 
 use function ClueBot3\UserConfig\build_config_from_config_block;
 use function ClueBot3\UserConfig\find_config_blocks;
@@ -38,21 +39,26 @@ final class ConfigGenerationTest extends TestCase
                     continue;
                 }
 
-                $raw_config = file_get_contents('tests/data/config-snippets/' . $entry . '/raw.txt');
-                $expected_config = file_get_contents('tests/data/config-snippets/' . $entry . '/expected.txt');
-                $expected_tests[] = [$raw_config, $expected_config];
+                $raw_config = file_get_contents('tests/data/config-snippets/' . $entry . '/page.txt');
+                $expected_config = file_get_contents('tests/data/config-snippets/' . $entry . '/normative.txt');
+                $meta = json_decode(file_get_contents('tests/data/config-snippets/' . $entry . '/meta.json'), true);
+
+                $expected_tests[] = [$raw_config, $expected_config, $meta];
             }
         }
         return $expected_tests;
     }
 
     #[DataProvider('existingConfigsData')]
-    public function testGeneratedConfigMatchesExpectedConfig(string $raw_config, string $expected_config): void
-    {
+    public function testGeneratedConfigMatchesExpectedConfig(
+        string $raw_config,
+        string $expected_config,
+        array $meta
+    ): void {
         $config_blocks = find_config_blocks("ClueBot III", $raw_config);
         $this->assertEquals(count($config_blocks), 1);
 
-        $config = build_config_from_config_block("Test Page", $config_blocks[0]);
+        $config = build_config_from_config_block($meta['title'], $config_blocks[0]);
         $this->assertNotNull($config);
 
         $generated_config = $config->toWiki();

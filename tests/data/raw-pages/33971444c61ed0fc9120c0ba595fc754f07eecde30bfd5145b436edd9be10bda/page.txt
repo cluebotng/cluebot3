@@ -1,0 +1,40 @@
+{{Talk header}}
+{{ArticleHistory
+|action1=PR
+|action1date=14:28, 25 September 2005
+|action1link=Wikipedia:Peer review/Metrication/archive1
+|action1result=reviewed
+|action1oldid=23960382
+
+|action2=FAC
+|action2date=00:34, 16 October 2005
+|action2link=Wikipedia:Featured article candidates/Metrication/archive1
+|action2result=promoted
+|action2oldid=25622844
+
+|action3=FAR
+|action3date=13:58, 29 August 2006
+|action3link=Wikipedia:Featured article review/Metrication/archive1
+|action3result=demoted
+|action3oldid=72328441
+
+|maindate=October 29, 2005
+|currentstatus=FFA
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Metrication/Archive
+|format= %%i
+|age=2160
+|numberstart=2
+}}
+{{British-English}}
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject History|importance=low}}
+{{WikiProject Physics|importance=low}}
+}}
+
+== Electronic component pitch ==
+
+SMD components use the 0.1" pitch rarely. Isn't [[Surface-mount technology|SMD]] more popular now? <span style="color:#aad;display:inline-block;transform:rotate(-45deg)">❏</span>&nbsp;[[User:Okterakt|Okterakt]] <span style="color:#aad;display:inline-block;transform:rotate(45deg)">🦊</span> '''<span style="color:#5bcefa">U</span><span style="color:#f5a9b8">w</span><span style="color:#5bcefa">U</span>''' ([[User talk:Okterakt|talk]]) 15:28, 5 November 2025 (UTC)
+
+:oops, I just reverted your change and then noticed this discussion. The vast majority of headers are based on 1/10-inch pitch. The vast majority of IC's with separate legs are also based on 1/10-inch or 1/20-inch. A very few use 0.2 mm (some ZigBee connectors). However, as you said, some SMDs (eg [[Ball grid array|BGA]] but not [[Quad flat package|quad packs]]) are based on 0.5 or 0.4 mm. Even in BGA packs, some use metric and some use 1/20-inch.<span style="border:1px solid blue;border-radius:4px;color:blue;box-shadow: 3px 3px 4px grey;">[[User:Stepho-wrs|'''&nbsp;Stepho&nbsp;''']]&nbsp;<span style="font-size:xx-small; vertical-align:top">[[User Talk:Stepho-wrs|talk]]&nbsp;</span></span> 02:16, 6 November 2025 (UTC)
