@@ -125,7 +125,7 @@ function doarchive(
     global $logger;
     global $wpq;
     global $wpapi;
-    global $wpi;
+    global $wph;
 
     $rv = $wpapi->revisions($page, 1, 'older', true);
     if (!is_array($rv)) {
@@ -174,7 +174,7 @@ function doarchive(
                 }
             }
         }
-        if ((!isset($rv[4999])) and ($done == false)) {
+        if ((!isset($rv[499])) and ($done == false)) {
             break;
         }
         $lastrvid = $rev['revid'];
@@ -363,11 +363,25 @@ function doarchive(
         }
 
         $logger->info("[" . $page . "] found " . count($pagelist) . " pages to check links on");
-        foreach ($pagelist as $title) {
-            $data = $wpq->getpage($title);
-            $newdata = str_replace($search, $replace, $data);
-            if ($data != $newdata) {
-                $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
+        foreach (array_chunk($pagelist, 50) as $titles) {
+            $revisionData = $wph->unserialize(
+                $wph->get(
+                    $wpapi->apiurl . '?action=query&prop=revisions&rvslots=main&rvprop=content&format=php&titles=' .
+                    urlencode(implode('|', $titles))
+                )
+            );
+
+            foreach ($revisionData['query']['pages'] as $pageData) {
+                if (!isset($pageData['revisions'][0]['slots']['main']['*'])) {
+                    continue;
+                }
+
+                $title = $pageData['title'];
+                $data = $pageData['revisions'][0]['slots']['main']['*'];
+                $newdata = str_replace($search, $replace, $data);
+                if ($data != $newdata) {
+                    $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
+                }
             }
         }
     }
@@ -382,7 +396,6 @@ function generateindex($origpage, $archiveprefix, $level)
     global $logger;
     global $user;
     global $wpapi;
-    global $wpi;
 
     $tmp = extractnamespace($archiveprefix);
     if (!isset($tmp[1])) {
@@ -425,7 +438,6 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
 {
     global $user;
     global $wpq;
-    global $wpi;
     global $wpapi;
 
     $i = 1;
