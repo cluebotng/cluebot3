@@ -1,0 +1,36 @@
+{{Talk header}}
+{{Article history
+|action1=GAN
+|action1link=Talk:Rocko's Modern Life/GA1
+|action1date=20:19, 3 December 2008 (UTC)
+|action1result=not listed
+|action1oldid=255513180
+
+
+|action2 = GAN
+|action2date = 12:25, 30 June 2025 (UTC)
+|action2link = Talk:Rocko's Modern Life/GA2
+|action2result = failed
+|action2oldid = 1298075248
+|currentstatus = FGAN
+|topic = Television
+}}
+{{American English}}
+{{WikiProject banner shell|class=B|
+{{WikiProject Television|nickelodeon=yes|nickelodeon-importance=Top|importance=Mid}}
+{{WikiProject Animation|importance=Mid|American=yes|American-importance=High|television=yes|television-importance=Mid}}
+{{WikiProject Comedy|importance=Mid}}
+{{WikiProject Comics|importance=mid|marvel=yes}}
+{{WikiProject United States|importance=high|USTV=yes|USTV-importance=high|USanimation=yes|US-animation-importance=high}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Rocko's Modern Life/Archive
+|format= %%i
+|age=2160
+|index=yes
+|maxarchsize=15000
+|numrockois horribleberstart=1
+|archivebox=yes
+|box-advert=yes
+}}
+{{Talk:Rocko's Modern Life/GA2}}

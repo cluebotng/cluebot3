@@ -1,0 +1,16 @@
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Linguistics|applied=yes}}
+{{WikiProject Endangered languages}}
+{{WikiProject Anthropology|importance=top}}
+}}
+{{course assignment | course = User:ProfGray/Religions of the Hebrew Bible | term = Spring 2015 }}
+
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Linguistic anthropology/Archive
+|format= %%i
+|age=2160
+|maxarchsize=150000
+|numberstart=1
+|archivebox=yes
+|box-advert=yes
+}}

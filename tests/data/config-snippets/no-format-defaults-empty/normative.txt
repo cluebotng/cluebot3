@@ -1,0 +1,4 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Example/Archive
+|age=2160
+}}

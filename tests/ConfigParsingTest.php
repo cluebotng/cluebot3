@@ -39,29 +39,31 @@ final class ConfigParsingTest extends TestCase
                 }
 
                 $wiki_text = file_get_contents('tests/data/raw-pages/' . $entry . '/page.txt');
-                $expected_results = [];
-                foreach (glob('tests/data/raw-pages/' . $entry . '/*.json') as $expected_result_path) {
-                    $expected_results[] = json_decode(file_get_contents($expected_result_path), true);
-                }
-                $expected_tests[] = [$wiki_text, $expected_results];
+                $expected_results = json_decode(
+                    file_get_contents('tests/data/raw-pages/' . $entry . '/configs.json'),
+                    true
+                );
+                $meta = json_decode(file_get_contents('tests/data/raw-pages/' . $entry . '/meta.json'), true);
+
+                $expected_tests[] = [$wiki_text, $expected_results, $meta];
             }
         }
         return $expected_tests;
     }
 
     #[DataProvider('existingConfigsData')]
-    public function testCorrectNumberOfConfigBlocksFound(string $wiki_text, array $expected_results): void
+    public function testCorrectNumberOfConfigBlocksFound(string $wiki_text, array $expected_results, array $meta): void
     {
         $config_blocks = find_config_blocks("ClueBot III", $wiki_text);
         $this->assertEquals(count($expected_results), count($config_blocks));
     }
 
     #[DataProvider('existingConfigsData')]
-    public function testParsedConfigOptionsMatch(string $wiki_text, array $expected_results): void
+    public function testParsedConfigOptionsMatch(string $wiki_text, array $expected_results, array $meta): void
     {
         $config_blocks = find_config_blocks("ClueBot III", $wiki_text);
         foreach ($expected_results as $idx => $expected_config) {
-            $config = build_config_from_config_block("Test Page", $config_blocks[$idx]);
+            $config = build_config_from_config_block($meta['title'], $config_blocks[$idx]);
             $this->assertNotNull($config);
 
             $boolean_fields = [

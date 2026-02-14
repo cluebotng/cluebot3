@@ -1,0 +1,10 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:New Deal/Archive
+|format= %%i
+|age=2160
+|minarchthreads=1
+|minkeepthreads=4
+|header={{Automatic archive navigator}}
+|maxarchsize=100000
+|numberstart=5
+}}

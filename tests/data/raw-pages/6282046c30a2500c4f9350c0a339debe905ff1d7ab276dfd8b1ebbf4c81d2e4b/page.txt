@@ -1,0 +1,29 @@
+{{Talk header}}
+{{Not a forum}}
+{{Indian English}}
+{{On this day|date1=2011-12-27|oldid1=467840463|date2=2014-12-27|oldid2=639820265}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject India|importance=Top|music=yes|music-importance=Top}}
+{{WikiProject Songs}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Jana Gana Mana/Archive
+|format= %%i
+|numberstart=4
+|maxarchsize=250000
+|minkeepthreads=5
+|age=2160
+}}
+
+== "Janga Gana Mana" listed at [[Wikipedia:Redirects for discussion|Redirects for discussion]] ==
+[[File:Information.svg|30px]]
+An editor has identified a potential problem with the redirect [[:Janga Gana Mana]] and has thus listed it [[Wikipedia:Redirects for discussion|for discussion]]. This discussion will occur at [[Wikipedia:Redirects for discussion/Log/2022 January 9#Janga Gana Mana]] until a consensus is reached, and readers of this page are welcome to contribute to the discussion. <!-- from Template:RFDNote --> <span class="nowrap">---'''[[User:CX Zoom|CX Zoom]]'''(<sup>he</sup>/<sub>him</sub>)</span> <span class="nowrap">(<sup>[[User talk:CX Zoom|let's talk]]</sup>&#124;<sub>[[Special:Contributions/CX Zoom|contribs]]</sub>)</span> 22:08, 9 January 2022 (UTC)
+
+== Unclear section "Raga used in the Anthem" ==
+
+I have tagged that section as needing clarification. It appears to be a fairly abstruse discussion of technical details of Indian music: it would benefit from being explained more clearly. I note in particular that the words "raga" and "raag" both appear - I believe they are different transcriptions of the same word. Also the syntax is confusing. --[[User:ColinFine|ColinFine]] ([[User talk:ColinFine|talk]]) 21:08, 22 May 2022 (UTC)
+
+== A Commons file used on this page or its Wikidata item has been nominated for deletion ==
+The following Wikimedia Commons file used on this page or its Wikidata item has been nominated for deletion:
+* [[commons:File:Jana Gana Mana 1942 performance with introduction.mp3|Jana Gana Mana 1942 performance with introduction.mp3]]<!-- COMMONSBOT: discussion | 2025-09-25T16:53:43.129964 | Jana Gana Mana 1942 performance with introduction.mp3 -->
+Participate in the deletion discussion at the [[commons:Commons:Deletion requests/File:Jana Gana Mana 1942 performance with introduction.mp3|nomination page]]. —[[User:Community Tech bot|Community Tech bot]] ([[User talk:Community Tech bot|talk]]) 16:53, 25 September 2025 (UTC)

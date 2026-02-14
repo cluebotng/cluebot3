@@ -1,0 +1,20 @@
+{{Talk header}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Example Multi Config/Archive
+|age=2160
+|format= %%i
+}}
+
+== First discussion ==
+
+Some discussion here. [[User:Example|Example]] ([[User talk:Example|talk]]) 12:00, 1 January 2024 (UTC)
+
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Example Multi Config/Archive 2
+|age=4320
+|numberstart=3
+}}
+
+== Second discussion ==
+
+More discussion. [[User:Example|Example]] ([[User talk:Example|talk]]) 12:00, 2 January 2024 (UTC)
