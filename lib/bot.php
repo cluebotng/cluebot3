@@ -508,149 +508,40 @@ function strip_comments($text, $trim = true)
     return $text;
 }
 
-function parsetemplate($page)
+function process_page($page)
 {
     global $logger;
     global $wpq;
-    global $wpapi;
     global $user;
 
-    $pagedata = $wpq->getpage($page);
-
-    $positions = array();
-
-    $x = 0;
-    while (($x = stripos($pagedata, '{{user:' . $user . '/archivethis', $x)) !== false) {
-        $positions[] = $x;
-        ++$x;
-    }
-
-    foreach ($positions as $pkey => $x) {
-        $set = array();
-        $data = substr($pagedata, $x);
-        $pos = 1;
-        $depth = 1;
-        $q = 0;
-        $part = 0;
-        $tmp = array('{');
-        $tmp2 = array();
-        while (($depth != 0) and ($pos < strlen($data))) {
-            if (isset($tmp[$part])) {
-                $tmp[$part] .= substr($data, $pos, 1);
-            } else {
-                $tmp[$part] = substr($data, $pos, 1);
+    if ($pagedata = $wpq->getpage($page)) {
+        $config_blocks = Config\find_config_blocks($user, $pagedata);
+        foreach ($config_blocks as $config_block) {
+            $config = Config\build_config_from_config_block($config_block);
+            if (!$config->is_valid()) {
+                $logger->warning("Skipping invalid config on " . $page . ": " . $config_block);
+                continue;
             }
-            if (!$q) {
-                if (substr($data, $pos, 1) == '{') {
-                    ++$depth;
-                }
-                if (substr($data, $pos, 1) == '}') {
-                    --$depth;
-                }
-                if ((substr($data, $pos, 1) == '|') or ($depth == 0)) {
-                    if ($depth == 0) {
-                        $tmp[$part] = substr($tmp[$part], 0, -1);
-                    }
-                    $tmp[$part] = substr($tmp[$part], 0, -1);
-                    $part = 0;
-                    if (!isset($tmp[1])) {
-                        $tmp2[] = $tmp[0];
-                    } else {
-                        $tmp2[strtolower(trim($tmp[0]))] = rtrim($tmp[1]);
-                    }
-                    unset($tmp);
-                    $tmp = array();
-                }
-                if ($data[$pos] == '=') {
-                    if ($part == 0) {
-                        $tmp[$part] = substr($tmp[$part], 0, -1);
-                        $part = 1;
-                    }
-                }
-                if (substr($data, $pos, 8) == '<nowiki>') {
-                    $tmp[$part] = substr($tmp[$part], 0, -1);
-                    $q = 1;
-                    $pos += 7;
-                }
-            }
-            if (substr($data, $pos, 9) == '</nowiki>') {
-                $tmp[$part] = substr($tmp[$part], 0, -1);
-                $q = 0;
-                $pos += 8;
-            }
-            ++$pos;
-        }
-        $positions[$pkey] = array($x, $pos);
-        $data = $tmp2;
-        unset($pos, $depth, $tmp, $x, $q, $tmp2, $part);
 
-        unset($data[0]);
-        $set = $data;
-        if ((isset($set['once']) ? trim($set['once']) : 0) == 1) {
-            $logger->info('Commenting out bot configuration on ' . $page);
-            $wpapi->edit(
+            $logger->info("Handling archive config on " . $page . ": " . $config->to_wiki());
+            doarchive(
                 $page,
-                substr($pagedata, 0, $positions[$pkey][0]) .
-                                '<!-- ' . substr(
-                                    $pagedata,
-                                    $positions[$pkey][0],
-                                    $positions[$pkey][1]
-                                ) . ' -->' . substr($pagedata, $positions[$pkey][0] + $positions[$pkey][1]),
-                'Commenting out config. (BOT)',
-                true,
-                true
+                $config->archiveprefix,
+                $config->format,
+                $config->age,
+                $config->minarchthreads,
+                $config->minkeepthreads,
+                $config->header,
+                $config->archivenow,
+                $config->headerlevel,
+                $config->nogenerateindex,
+                $config->maxkeepthreads,
+                $config->maxkeepbytes,
+                $config->transformheader,
+                $config->maxarchsize,
+                $config->numberstart,
+                $config->key,
             );
-            sleep(3);
         }
-
-        // If the page has an apostrophe the archiveprefix might encoded e.g.
-        // {{User:ClueBot III/ArchiveThis|archiveprefix=Talk:Parkinson&#39;s law/Archives/}}
-        // Ensure we decode the HTML entries back to normal characters,
-        // otherwise when we url encode this it becomes a complete mess
-        $set['archiveprefix'] = ltrim(html_entity_decode($set['archiveprefix'], ENT_QUOTES));
-
-        // Clean all keys
-        foreach ($set as $k => $v) {
-            $set[$k] = strip_comments($v, $k == 'archiveprefix' ? false : true);
-        }
-
-        $logger->info('doarchive(' . $page . ','
-            . $set['archiveprefix'] . ','
-            . $set['format'] . ','
-            . $set['age'] . ','
-            . (isset($set['minarchthreads']) ? $set['minarchthreads'] : 0) . ','
-            . (isset($set['minkeepthreads']) ? $set['minkeepthreads'] : 0) . ','
-            . (isset($set['header']) ? $set['header'] : '{{Talkarchive}}') . ','
-            . (isset($set['archivenow']) ? $set['archivenow'] : '{{User:ClueBot III/ArchiveNow}}') . ','
-            . (isset($set['headerlevel']) ? $set['headerlevel'] : 2) . ','
-            . (isset($set['nogenerateindex']) ? $set['nogenerateindex'] : 0) . ','
-            . (isset($set['maxkeepthreads']) ? $set['maxkeepthreads'] : 0) . ','
-            . (isset($set['maxkeepbytes']) ? $set['maxkeepbytes'] : 0) . ','
-            . (isset($set['transformheader']) ? $set['transformheader'] : '') . ','
-            . (isset($set['maxarchsize']) ? $set['maxarchsize'] : 0) . ','
-            . (isset($set['numberstart']) ? $set['numberstart'] : 1) . ','
-            . (isset($set['key']) ? $set['key'] : '')
-            . ')');
-        if ($pkey > 0) {
-            sleep(1);
-        }
-        doarchive(
-            $page,
-            $set['archiveprefix'],
-            $set['format'],
-            $set['age'],
-            (isset($set['minarchthreads']) ? $set['minarchthreads'] : 0),
-            (isset($set['minkeepthreads']) ? $set['minkeepthreads'] : 0),
-            (isset($set['header']) ? $set['header'] : '{{Talkarchive}}'),
-            (isset($set['archivenow']) ? explode(',', $set['archivenow']) : array('{{User:ClueBot III/ArchiveNow}}')),
-            (isset($set['headerlevel']) ? $set['headerlevel'] : 2),
-            (isset($set['nogenerateindex']) ? $set['nogenerateindex'] : 0),
-            (isset($set['maxkeepthreads']) ? $set['maxkeepthreads'] : 0),
-            (isset($set['maxkeepbytes']) ? $set['maxkeepbytes'] : 0),
-            (isset($set['transformheader']) ? $set['transformheader'] : ''),
-            (isset($set['maxarchsize']) ? $set['maxarchsize'] : 0),
-            (isset($set['numberstart']) ? $set['numberstart'] : 1),
-            (isset($set['key']) ? $set['key'] : '')
-        );
     }
 }
