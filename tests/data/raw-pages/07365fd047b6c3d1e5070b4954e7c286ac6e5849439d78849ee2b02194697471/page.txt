@@ -1,0 +1,15 @@
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject Fashion|importance=high}}
+{{WikiProject Bangladesh|importance=high}}
+{{WikiProject India|importance=mid}}
+{{WikiProject Sri Lanka|importance=mid}}
+{{WikiProject Women's History|importance=Mid}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Sari/Archive
+|format= %%i
+|age=1080
+|maxarchsize=1000
+|numberstart=1
+|archivebox=yes
+}}

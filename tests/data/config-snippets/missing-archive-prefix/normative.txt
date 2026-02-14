@@ -1,0 +1,6 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Test Page/Archives/
+|format=Y/F
+|archivebox=yes
+|box-advert=yes
+}}

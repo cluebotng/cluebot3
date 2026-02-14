@@ -1,0 +1,58 @@
+{{Talk header}}
+{{Afd-merged-from|List of franchises that have won Academy, Emmy, Grammy, and Tony Awards|List of franchises that have won Academy, Emmy, Grammy, and Tony Awards (2nd nomination)|30 July 2022}}
+{{Old peer review|archive=1|reviewedname=List of people who have won Academy, Emmy, Grammy, and Tony Awards}}
+{{Old XfD multi| date = 29 December 2009 (UTC) | result = '''keep''' | page = List of persons who have won Academy, Emmy, Grammy, and Tony Awards }}
+{{WikiProject banner shell|blp=other|class=List|listas=People Who Have Won Academy Emmy Grammy And Tony Awards, List Of|
+{{WikiProject Reference Desk Article Collaboration|1=Wikipedia:Reference_desk/Archives/Entertainment/2007_August_5#Tony_and_Academy_awards}}
+{{WikiProject Awards|importance=Mid}}
+{{WikiProject Lists|class=list|importance=low}}
+{{WikiProject Film|American-task-force=yes|Awards-task-force=yes}}
+{{WikiProject Television|importance=Low|American=yes}}
+{{WikiProject Theatre|importance=low}}
+{{WikiProject United States|importance=Low|USFilm=yes|USTV=yes}}
+}}
+{{User:ClueBot III/ArchiveThis
+| age=2160|<!--90 days-->
+| archiveprefix=Talk:List of EGOT winners/Archive
+| numberstart=2
+| maxarchsize=100000
+| header={{Automatic archive navigator}}
+| minkeepthreads=5
+| format= %%i
+| box-advert=yes
+}}
+
+{{old move|date=6 February 2025|from=List of EGOT winners|destination=EGOT|result=moved|link=Special:Permalink/1275227334#Suggested move to "EGOT"}}
+
+== Suggested move to "EGOT" ==
+
+<div class="boilerplate mw-archivedtalk" style="background-color: var(--background-color-success-subtle, #efe); color: var(--color-base, inherit); margin: 0; padding: 0 10px 0 10px; border: 1px dotted var(--border-color-subtle, #AAAAAA);"><!-- Template:RM top -->
+:''The following is a closed discussion of a [[Wikipedia:Requested moves|requested move]]. <span style="color: var(--color-error, red);">'''Please do not modify it.'''</span> Subsequent comments should be made in a new section on the talk page. Editors desiring to contest the closing decision should consider a [[Wikipedia:move review|move review]] '''after''' discussing it on the closer's talk page. No further edits should be made to this discussion.''
+
+The result of the move request was: '''moved.''' <small>([[Wikipedia:Requested moves/Closing instructions#Closure by a page mover|closed by non-admin page mover]])</small> [[User:Bensci54|Bensci54]] ([[User talk:Bensci54|talk]]) 17:05, 13 February 2025 (UTC)
+----
+
+[[:List of EGOT winners]] → {{no redirect|EGOT}} – The term "EGOT" for the title of the article is simpler and more broad. Other lists of winners of media awards are under just the name of the award, i.e. [[Triple Crown of Acting]] and [[Academy Honorary Award]]. [[User:ClovisBarnhopper|ClovisBarnhopper]] ([[User talk:ClovisBarnhopper|talk]]) 16:45, 6 February 2025 (UTC)
+*'''Support'''. I think the current title is a little too narrow. There is stuff in this article about PEGOT, REGOT, and EGOT equivalents outside US. The proposal makes more sense. --[[User talk:Quiz shows|Quiz shows]] 01:03, 10 February 2025 (UTC)
+
+:'''Support''' per [[WP:CONCISE]] ―<span style="border: 1px solid black; padding: 1px; border-radius: 5px;">[[User:Howardcorn33|<b>Howard</b>]] • [[User talk:Howardcorn33|🌽<sup>33</sup>]]</span> 12:45, 11 February 2025 (UTC)
+*'''Support'''. Obvious improvement. --[[User:Cerebral726|<b style="font-family:Times New Roman; color:#008080"> ''Cerebral726'' </b>]][[User talk:Cerebral726|<b style="font-family:Times New Roman; color:#3e4f73">''(talk)''</b>]] 20:18, 11 February 2025 (UTC)
+<div style="padding-left: 1.6em; font-style: italic; border-top: 1px solid #a2a9b1; margin: 0.5em 0; padding-top: 0.5em">The discussion above is closed. <b style="color: var(--color-error, red);">Please do not modify it.</b> Subsequent comments should be made on the appropriate discussion page. No further edits should be made to this discussion.</div><!-- from [[Template:Archive bottom]] -->
+</div><div style="clear:both;" class=></div>
+
+== Add Leslie Odom Jr. to "Without an Oscar" list ==
+
+As stated above.  [[User:Kaeldi07|Kaeldi07]] ([[User talk:Kaeldi07|talk]]) 18:43, 23 March 2025 (UTC)
+
+== Add Maggie Smith to the list of winners ==
+
+The wiki article on Maggie Smith reflects that she has won all of these awards [[Special:Contributions/2601:282:80:E9C0:A233:45BA:734:D8DC|2601:282:80:E9C0:A233:45BA:734:D8DC]] ([[User talk:2601:282:80:E9C0:A233:45BA:734:D8DC|talk]]) 22:00, 13 April 2025 (UTC)
+
+== A Commons file used on this page or its Wikidata item has been nominated for speedy deletion ==
+The following Wikimedia Commons file used on this page or its Wikidata item has been nominated for speedy deletion:
+* [[commons:File:Scott Rudin.webp|Scott Rudin.webp]]<!-- COMMONSBOT: speedy | 2025-05-21T15:21:28.624806 | Scott Rudin.webp -->
+You can see the reason for deletion at the file description page linked above. —[[User:Community Tech bot|Community Tech bot]] ([[User talk:Community Tech bot|talk]]) 15:21, 21 May 2025 (UTC)
+
+== Order ==
+
+Just for clarity, what order are people added to the list? For instance, Lloyd Webber, Rice, and Legend all completed their EGOT at the same time, yet there appears to be no reason fro Lloyd Webber to come first - the only point of separation between him and Rice is the Oscar, which would place Rice above Lloyd George. [[User:Alextheconservative|Alextheconservative]] ([[User talk:Alextheconservative|talk]]) 15:42, 31 August 2025 (UTC)

@@ -1,0 +1,51 @@
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject Electronics |importance=High}}
+{{WikiProject Physics |importance=High}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Microwave/Archive
+|format= %%i
+|age=8640
+|maxarchsize=17500
+|numberstart=1
+|archivebox=yes
+|box-advert=yes
+|minkeepthreads=4
+}}
+
+== Semi-protected edit request on 6 December 2023 ==
+
+{{Edit semi-protected|Microwave|answered=yes}}
+[[Electromagnetic spectrum]] [[User:Safin RS|Safin RS]] ([[User talk:Safin RS|talk]]) 15:23, 6 December 2023 (UTC)https://en.wikipedia.org/wiki/Jagadish_Chandra_Bose#:~:text=Jagadish%20Chandra%20Bose%20was%20born,Bose%20and%20Bhagawan%20Chandra%20Bose.
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done:''' it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:ESp --> [[User:Liu1126|Liu1126]] ([[User talk:Liu1126|talk]]) 16:48, 6 December 2023 (UTC)
+
+== Semi-protected edit request on 7 January 2024 ==
+
+{{edit semi-protected|Microwave|answered=yes}}
+In the History section, can we have consistency when mentioning the early inventors nationalities? Either add the nationality of all mentioned or remove them. There is a German physicist, Indian physicist and a Russian physicist. No mention of Maxwell, Lodge and Rayleigh being British and Righi being an Italian physicist.
+
+Bose was in fact British Indian and in modern terms he would be classed as Bagladeshi not Indian.
+
+Thank you. [[User:K1200sbmw|K1200sbmw]] ([[User talk:K1200sbmw|talk]]) 19:47, 7 January 2024 (UTC)
+
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done:''' it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:ESp --> [[User:Geardona|Geardona]] ([[User talk:Geardona|talk to me?]]) 00:25, 8 January 2024 (UTC)
+
+== Semi-protected edit request on 1 September 2024 ==
+
+{{edit semi-protected|Microwave|answered=yes}}
+Line:
+"The main effect of absorption of microwaves is to heat materials; the electromagnetic fields cause polar molecules to vibrate."
+
+Heating is far from the "main effect" of microwaves, just one effect of many that microwaves have on molecules. Just because microwaves are most well known in the public conscience in the form of microwave ovens does not make this the most important thing. Further, microwaves cause a rotational excitation of molecules, not a vibrational one-- vibration is caused by IR.
+
+Suggested:
+"Absorption of microwaves heats materials by transferring energy to the molecules, causing them to rotate. [[User:Orisgeinkras|Orisgeinkras]] ([[User talk:Orisgeinkras|talk]]) 01:41, 1 September 2024 (UTC)
+
+:Needs a [[WP:RS]] for the rotational effect. [[User:Zefr|Zefr]] ([[User talk:Zefr|talk]]) 02:27, 1 September 2024 (UTC)
+
+{{nd}} - this issue was addressed at [[Talk:Microwave oven]], [https://en.wikipedia.org/w/index.php?title=Talk:Microwave_oven&diff=prev&oldid=1243448470 here]. [[User:Zefr|Zefr]] ([[User talk:Zefr|talk]]) 16:11, 1 September 2024 (UTC)
+
+::Agree with [[User:Zefr|Zefr]] and [https://en.wikipedia.org/w/index.php?title=Talk:Microwave_oven&diff=prev&oldid=1243448470 Talk:Microwave oven], the word "rotate" would be misleading for readers. And heating (molecular motion) is clearly the main effect of microwaves, so I am okay with the sentence in question.  
+
+::Should we maybe address [[User:Orisgeinkras|Orisgeinkras]]'s issue by adding an additional sentence such as: "The main way microwaves heat substances is by exciting the rotational [[energy level]]s of [[polar molecule]]s"   
+::Here's a citation: "''It is the ... rotation of molecules which have characteristic frequencies so low that they lie in the microwave range and dominate microwave spectra''"  [https://books.google.com/books?id=3LFeBReoDh0C&printsec=frontcover&dq=microwave+spectrometry+rotational  Townes, Schawlow (1975) Microwave Spectrometry, p.2] <!-- Template:Unsigned --><small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Chetvorno|Chetvorno]] ([[User talk:Chetvorno#top|talk]] • [[Special:Contributions/Chetvorno|contribs]]) 17:52, 1 September 2024 (UTC)</small>
