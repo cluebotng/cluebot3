@@ -1,0 +1,60 @@
+{{Talk header}}
+{{Article history
+|action1=GAN
+|action1date=18:58, 9 December 2005 
+|action1result=listed
+|action1oldid=30631019
+
+|action2=FAC
+|action2date=00:48, 16 April 2006
+|action2link=Wikipedia:Featured article candidates/Archaeology/archive1
+|action2result=not promoted
+|action2oldid=48376441
+
+|action3=GAR
+|action3link=Talk:Archaeology/Archive 2#Delisted GA
+|action3date=21:09, 28 October 2006
+|action3result=delisted
+|action3oldid=84092137
+
+|currentstatus=DGA
+}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Archaeology|importance=Top}}
+{{WikiProject Anthropology|importance=Top}}
+{{WikiProject History|importance=mid}}
+}}
+{{Copied|from=Archaeology|from_oldid=936407469|to=Archaeology of the Holocaust|to_oldid=936712419}}
+{{User:ClueBot III/ArchiveThis
+| age                 =2160
+| archiveprefix       =Talk:Archaeology/Archive
+| numberstart         =2
+| maxarchsize         =75000
+| header              ={{Automatic archive navigator}}
+| minkeepthreads      =5
+| format              = %%i
+}}
+== [[Votive site]] article ==
+
+Greetings, The ''Votive site'' article lacks references since it was created in 2004. Asking for help here as I'm not familiar with the topic. Regards, [[User:JoeNMLC|JoeNMLC]] ([[User talk:JoeNMLC|talk]]) 12:04, 28 September 2023 (UTC)
+:{{Done}} - Thank you [[User:Joe Roe]] for redirecting to [[Votive offering]] article. Cheers! [[User:JoeNMLC|JoeNMLC]] ([[User talk:JoeNMLC|talk]]) 14:00, 28 September 2023 (UTC)
+
+==Wiki Education assignment: Slavery in Latin America==
+{{dashboard.wikiedu.org assignment | course = Wikipedia:Wiki_Ed/University_of_Maryland/Slavery_in_Latin_America_(Fall_2023) | assignments = [[User:Michaelmccalla|Michaelmccalla]] | start_date = 2023-08-29 | end_date = 2023-12-16 }}
+
+<span class="wikied-assignment" style="font-size:85%;">— Assignment last updated by [[User:Michaelmccalla|Michaelmccalla]] ([[User talk:Michaelmccalla|talk]]) 00:21, 16 October 2023 (UTC)</span>
+
+== Egyptology ==
+
+While we don't want the article (in particular, the historical part) to be too long, shouldn't we include the work of Napoleon's savants, like Denon? [[User:Kdammers|Kdammers]] ([[User talk:Kdammers|talk]]) 16:51, 8 February 2024 (UTC)
+
+== Volunteering in Scottish Archaeology ==
+
+I am a Scottish Archaeologist and regularly organise free volunteer events for the public. I would like to propose an addition to the page about volunteering in Scotland, but am aware of the perceived COI. Is there a consensus that I could add the element or get someone to do it for me?
+
+thanks
+
+murray [[User:Stirlingdigger|Stirlingdigger]] ([[User talk:Stirlingdigger|talk]]) 15:33, 17 February 2025 (UTC)
+:Really one for [[Prehistoric Scotland]], and maybe pages on later periods, rather than this global overview page. You should ask there, & it would no doubt help if you had done something to improve what appears at first glance to be a rather brief and under-referenced page. You could also talk to the [[Wikimedia UK]] Scottish Wikimedian in residence, still I think in post (in Edinburgh). [[User:Johnbod|Johnbod]] ([[User talk:Johnbod|talk]]) 01:23, 18 February 2025 (UTC)
+::thanks very much, good plan.
+::murray [[User:Stirlingdigger|Stirlingdigger]] ([[User talk:Stirlingdigger|talk]]) 05:38, 18 February 2025 (UTC)

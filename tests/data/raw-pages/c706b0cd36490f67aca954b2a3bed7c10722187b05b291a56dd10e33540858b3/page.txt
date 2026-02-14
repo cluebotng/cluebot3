@@ -1,0 +1,31 @@
+{{Article history
+|action1=PR
+|action1date=03:02, 28 May 2006
+|action1link=Wikipedia:Peer review/Alkane/archive1
+|action1result=reviewed
+|action1oldid=55512136
+
+|action2=GAN
+|action2date=15:10, 2 June 2006
+|action2result=not listed
+|action2oldid=56274644
+
+|action3=WPR
+|action3date=21:47, 10 February 2007
+|action3link=Wikipedia:WikiProject Chemistry/Peer review#Alkane
+|action3oldid=106890868
+
+|currentstatus=FGAN
+}}
+{{WikiProject banner shell|class=B|vital=yes|
+{{WikiProject Chemistry|importance=Top}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Alkane/Archive
+|format= %%i
+|age=730
+|index=yes
+|archivebox=yes
+|header={{aan}}
+|numberstart=1
+}}

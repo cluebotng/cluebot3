@@ -1,0 +1,15 @@
+{{Talk header}}
+{{WikiProject banner shell|class=C|1=
+{{WikiProject Computing|importance=Mid|riscos=yes}}
+{{WikiProject Video games|class=C|importance=Low}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Acorn Archimedes/Archive
+|format= %%i
+|age=2160
+|header={{aan}}
+|maxarchsize=100000
+|numberstart=1
+|archivebox=yes
+|box-advert=yes
+}}

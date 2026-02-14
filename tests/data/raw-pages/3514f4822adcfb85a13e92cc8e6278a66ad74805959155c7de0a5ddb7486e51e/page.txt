@@ -1,0 +1,6 @@
+{{Talk header}}
+{{WikiProject banner shell |class=B|1=
+{{WikiProject Zoo}}
+{{WikiProject New York City|importance=Top}}
+}}
+{{User:ClueBot III/ArchiveThis|archiveprefix=Talk:Bronx Zoo/Archive|format=%%i|age=2160|minthreadsleft = 5|maxarchsize=100000}}

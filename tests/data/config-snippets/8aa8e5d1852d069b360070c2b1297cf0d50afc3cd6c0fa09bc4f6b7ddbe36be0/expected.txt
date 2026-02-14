@@ -1,0 +1,9 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Vladimir the Great/Archive
+|format= %%i
+|age=4320
+|minarchthreads=1
+|minkeepthreads=8
+|header={{Automatic archive navigator}}
+|maxarchsize=120000
+}}
