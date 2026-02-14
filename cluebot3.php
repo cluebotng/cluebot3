@@ -48,7 +48,7 @@ while (true) {
     $titles = get_target_titles();
     $logger->info("Processing " . count($titles) . " titles");
     foreach ($titles as $title) {
-        parsetemplate($title);
+        process_page($title);
     }
 
     $logger->info("Sleeping until next execution");
