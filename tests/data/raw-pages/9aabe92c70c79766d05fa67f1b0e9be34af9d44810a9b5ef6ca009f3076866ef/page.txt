@@ -1,0 +1,53 @@
+{{Talk header}}
+{{Article history
+|action1=FAC
+|action1date=09:20, 8 April 2006
+|action1link=Wikipedia:Featured article candidates/Nostradamus
+|action1result=promoted
+|action1oldid=47507089
+
+|action2 = FAR
+|action2date = 2021-02-27
+|action2link = Wikipedia:Featured article review/Nostradamus/archive2
+|action2result = demoted
+|action2oldid = 1008908790
+
+|maindate=May 31, 2006
+|currentstatus=FFA
+}}
+{{WikiProject banner shell|collapsed=yes|class=C|vital=yes|listas=Nostradamus|blp=no|1=
+{{WikiProject Biography |s&a-work-group=yes |s&a-priority= }}
+{{WikiProject France |importance= High}}
+{{WikiProject Astrology |importance= Mid}}
+{{WikiProject Skepticism|importance=Mid}}
+{{WikiProject Medicine |importance= Low}}
+}}
+{{User:ClueBot III/ArchiveThis
+|age=4320
+|archiveprefix=Talk:Nostradamus/Archive
+|numberstart=9
+|maxarchsize=100000
+|header={{talkarchivenav}}
+|minkeepthreads=4
+|minarchthreads=1
+|format= %%i
+}}
+
+== Upgrade needed ==
+This is a 2006 promotion that has not been maintained to [[WP:WIAFA|FA standards]].  Some work should be undertaken to avoid a [[WP:FAR|Featured article review]]:
+* There is uncited text and unattributed opinions, one sample only, that appears as original research: The popular legend that he attempted the ancient methods of flame gazing, water gazing or both simultaneously is based on a naive reading of his first two verses, which merely liken his efforts to those of the Delphic and Branchidic oracles. The first of these is reproduced at the bottom of this article and the second can be seen by visiting the relevant facsimile site ... and ... As well as being the subject of hundreds of books (both fiction and nonfiction), Nostradamus's life has been depicted in several films and videos, and his life and writings continue to be a subject of media interest. ... samples only.
+* Harvref errors, see [[:Category:Harv and Sfn template errors]]
+[[User:SandyGeorgia|'''Sandy'''<span style="color: green;">Georgia</span>]] ([[User talk:SandyGeorgia|Talk]])  14:14, 26 November 2020 (UTC)
+: None of these issues have been addressed, so a [[WP:FAR]] is probably adviseable.  [[User:SandyGeorgia|'''Sandy'''<span style="color: green;">Georgia</span>]] ([[User talk:SandyGeorgia|Talk]])  22:22, 26 December 2020 (UTC)
+
+== "Sources" and "Further reading" ==
+
+There is a confusion between the sections "Sources" and "Further reading". Some texts in "Sources" are rather "Further reading". What does "Sources" exactly mean ? Editions of Nostradamus' texts ? [[User:Marvoir|Marvoir]] ([[User talk:Marvoir|talk]]) 17:34, 26 February 2022 (UTC)
+
+== "Prophetic powers" in the introduction ==
+
+SURELY you rework the introduction how are you gonna say "Academic sources reject the notion that Nostradamus had any genuine supernatural prophetic abilities" yeah ofc bc academic sources dont believe in magic. Surely just word it into something less obvious and less embarrassing. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 01:57, 31 October 2022 (UTC)
+
+== Original family name? ==
+
+Prior to the family conversion to Christianity [[Special:Contributions/83.137.6.234|83.137.6.234]] ([[User talk:83.137.6.234|talk]]) 18:32, 4 September 2023 (UTC)

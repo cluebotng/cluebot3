@@ -1,0 +1,445 @@
+{{Shortcut|WT:HOCKEY|WT:NHL|WT:IIHF}}
+{{WikiProject banner shell|
+{{WikiProject Ice Hockey}}
+}}
+{{to do}}
+{{Wikipedia:Wikipedia Signpost/Templates/Signpost article link for WikiProjects|link=Wikipedia:Wikipedia Signpost/2009-01-03/WikiProject report|writer= [[User:Cryptic C62|Cryptic C62]]|||day =3|month=January|year=2009}}
+{{Wikipedia:Wikipedia Signpost/Templates/Signpost article link for WikiProjects|link=Wikipedia:Wikipedia Signpost/2010-11-01/WikiProject report|writer=[[User:Mabeenot|Mabeenot]]||day=1|month=November|year=2010}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Wikipedia talk:WikiProject Ice Hockey/Archive
+|format=%%i
+|age=720
+|minarchthreads=1
+|minkeepthreads=5
+|header=<nowiki>{{Talkarchive}}</nowiki>
+|maxkeepthreads=0
+|maxkeepbytes=250000
+|maxarchsize=125000
+|numberstart=79
+}}
+{{User:HBC Archive Indexerbot/OptIn|target=Wikipedia talk:WikiProject Ice Hockey/Archive index|mask=Wikipedia talk:WikiProject Ice Hockey/Archive<#>|leading_zeros=0|indexhere=no}}
+{{archives|index=Wikipedia_talk:WikiProject_Ice_Hockey/Archive index|1={{flatlist}}
+;{{nobold|2004–06}}
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive1|1]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive2|2]]
+
+;{{nobold|2006}}
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive3|3]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive4|4]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive5|5]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive6|6]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive7|7]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive8|8]]
+
+;{{nobold|2007}}
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive9|9]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive10|10]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive11|11]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive12|12]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive13|13]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive14|14]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive15|15]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive16|16]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive17|17]]
+
+;{{nobold|2008}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive18|18]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive19|19]]
+: [[Wikipedia_talk:WikiProject_Ice_Hockey/Archive20|20]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive21|21]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive22|22]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive23|23]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive24|24]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive25|25]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive26|26]]
+
+;{{nobold|2009}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive27|27]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive28|28]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive29|29]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive30|30]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive31|31]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive32|32]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive33|33]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive34|34]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive35|35]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive36|36]]
+
+;{{nobold|2010}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive37|37]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive38|38]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive39|39]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive40|40]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive41|41]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive42|42]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive43|43]]
+
+;{{nobold|2011}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive44|44]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive45|45]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive46|46]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive47|47]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive48|48]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive49|49]]
+
+;{{nobold|2012}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive50|50]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive51|51]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive52|52]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive53|53]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive54|54]]
+
+;{{nobold|2013}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive55|55]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive56|56]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive57|57]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive58|58]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive59|59]]
+
+;{{nobold|2014}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive60|60]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive61|61]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive62|62]]
+
+;{{nobold|2015}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive63|63]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive64|64]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive65|65]]
+
+;{{nobold|2016}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive66|66]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive67|67]]
+
+;{{nobold|2017}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive68|68]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive69|69]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive70|70]]
+
+;{{nobold|2018}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive71|71]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive72|72]]
+
+;{{nobold|2019}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive73|73]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive74|74]]
+
+;{{nobold|2020}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive75|75]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive76|76]]
+
+;{{nobold|2021}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive77|77]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive78|78]]
+
+;{{nobold|2022}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive79|79]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive80|80]]
+
+;{{nobold|2023}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive81|81]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive82|82]]
+
+;{{nobold|2024}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive83|83]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive84|84]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive85|85]]
+
+;{{nobold|2025}}
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive86|86]]
+: [[Wikipedia talk:WikiProject Ice Hockey/Archive87|87]]
+{{endflatlist}}}}
+
+== Wondering whether Gymrat16 is back as an anonymous editor ==
+
+I know some of you encountered the nastiness involving Gymrat16 this summer that led to his eventual ban. First we had [https://en.wikipedia.org/wiki/Special:Contributions/76.79.204.130 this IP editor who showed up on Friday], jumped right into hockey-related articles, and got into a back-and-forth with {{ping|Sbaio}} over the inclusion (or lack thereof) of sources for certain material, which was an issue Gymrat16 used to raise from time to time. I note, as well, that Gymrat regularly attacked Sbaio, which is why I've pinged the latter user here. [https://en.wikipedia.org/w/index.php?title=Alexander_Ovechkin&diff=prev&oldid=1313517603 I reverted one of that IP user's edits to the Alex Ovechkin article on the basis that the edit made the paragraph in question just plain too long and hard to read.] So then, last night, [https://en.wikipedia.org/wiki/Special:Contributions/2601:40D:8202:ECA0:B519:551F:AA8C:E939 a different new IP editor showed up] and [https://en.wikipedia.org/w/index.php?title=Alexander_Ovechkin&diff=prev&oldid=1313962630 reverted my edit] with an edit summary reading thus: "if you’re complaining about reading a paragraph then that is your problem no one else’s since no one else is complaining and it isn’t even that long. Just the regular season in one since lots happened in it while another is for the playoffs. So meet half way as compromise." That's a sure sign in my mind that the two IP editors are the same person. So that edit was at 21:05 last night. Perhaps coincidentally (though I doubt it), at 19:22 last night (i.e., about an hour 45 minutes earlier), Gymrat16 [https://en.wikipedia.org/w/index.php?title=User_talk:Gymrat16&diff=prev&oldid=1313945784 posted an unblock request on his talk page]. What I'm wondering is whether those of you who have dealt directly with him more recently than I have think there's enough here to perhaps merit opening a sockpuppet investigation. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 13:50, 29 September 2025 (UTC)
+
+:The geolocation would help reveal it. @[[User:Sbaio|Sbaio]], you may have the several IPs from way back to cross-analyze them. I remember Gymrat being pretty upset about being labeled a sock back then. Both IPs above geolocate to different locations though, so it's important to know which one could be our perpetrator. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 14:01, 29 September 2025 (UTC)
+::If you think it's worth opening a sockpuppet investigation, I can do so (might not be until tomorrow, however) and you can then post a comment about it. I definitely remember how furious Gymrat was about being linked to Moka Mo as a sockpuppet; the administrators overturned that ban based on evidence he provided that they found convincing. This time around would be a little different in that the IP editors are potential socks of ''Gymrat16 himself'', rather than Gymrat allegedly acting as someone else's sock. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 14:04, 29 September 2025 (UTC)
+:::The IPs are most likely Gymrat16. I looked through my talk page and all of the IPs below come from Michigan:
+:::*{{IP user|2600:1007:B050:43A8:89B0:FD55:1A80:34DD}}
+:::*{{IP user|2600:1007:B0A9:34E9:192E:9E69:7981:D04A}}
+:::*{{IP user|2601:40D:8281:F3C0:8123:5953:E398:8F69}}
+:::*{{IP user|2601:40D:8281:F3C0:5960:9529:5B4E:2136}}
+:::In addition, the last two IPs come from same range and same location (Novi, Michigan) like {{IP user|2601:40D:8202:ECA0:B519:551F:AA8C:E939}} that was used in Ovechkin's page. Therefore, it is obvious that Gymrat16 is evading his block. – [[User talk:Sbaio|sbaio]] 15:57, 29 September 2025 (UTC)
+::::Do you know whether the proper avenue for dealing with that is via the sockpuppet investigation page, or is ANI or some other forum more appropriate? [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 16:37, 29 September 2025 (UTC)
+:::::SPI is the best venue. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 16:51, 29 September 2025 (UTC)
+::::::Thanks. I'll try to get to it tomorrow or, more likely, Wednesday. Just expecting that my real job will entail a busy afternoon and a busy day tomorrow. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 17:01, 29 September 2025 (UTC)
+:::::::Ultimately I had some free time this afternoon, so I've posted it. [https://en.wikipedia.org/wiki/Wikipedia:Sockpuppet_investigations/Gymrat16 The link is here, should any of you wish to comment.] [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 19:01, 29 September 2025 (UTC)
+::::::::The case is well written and lays the foundation for a long-term abuse page if needed. Cheers. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 21:10, 29 September 2025 (UTC)
+:::::::::Thanks. An administrator blocked the user with the IP address ending in -E939, which was the most recently active of them, after concluding that 76.79.204.130 is not likely the same person because of the geolocation for that one being in California while the others were all from Michigan. Guess we'll see what the next IP address is. I tend to think the one in California is also Gymrat, perhaps via location-spoofing or similar, but what can you do. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 12:38, 30 September 2025 (UTC)
+
+I uncovered multiple IPs that Gymrat16 recently used to evade his block (all of them point to Michigan):
+* {{IP user|2601:40D:8202:ECA0:D8D6:82BA:84B5:D21B}}
+* {{IP user|2600:1007:B08D:4BA3:19A:DD73:3E6A:D248}}
+* {{IP user|2600:1007:B200:B114:3CC6:1D1C:8DEA:2627}}
+* {{IP user|2601:40D:8202:ECA0:E4B2:CC85:9179:36AD}}
+* {{IP user|2601:40D:8202:ECA0:409:C8B0:499E:91B7}}
+* {{IP user|2601:40D:8202:ECA0:3006:23CB:719F:FDDC}}
+* {{IP user|2601:40D:8202:ECA0:4436:6B8F:118C:535E}}
+* {{IP user|2601:40D:8202:ECA0:343B:2D65:ACFD:528F}}
+
+And I suspect there are more. Gymrat16's requests to unblock him will not help as he keeps evading the block. – [[User talk:Sbaio|sbaio]] 06:12, 11 October 2025 (UTC)
+
+:{{yo|Sbaio}} The 2601 ones in that batch are in the same /64 range so they can be bundled for easier tracking and reporting like so: {{IPuser|2601:40D:8202:ECA0:0:0:0:0/64}}. One can always add "/64" to the contribs search of an [[IPv6 address]] to pull up the range. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 07:46, 11 October 2025 (UTC)
+::{{tq|One can always add "/64" to the contribs search of an [[IPv6 address]] to pull up the range.|q=yes}} – I know this, but not used it as I wanted to list exact IPs. – [[User talk:Sbaio|sbaio]] 07:55, 11 October 2025 (UTC)
+*{{yo|1995hoo|Sbaio|Flibirigit|Conyo14}} [[Wikipedia:Sockpuppet investigations/Gymrat16#12 October 2025|I've just filed another SPI report]]. Anyone from this project who is interested can feel free to add relevant commentary there to assist the admins. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 23:07, 12 October 2025 (UTC)
+*:Nice work and thank you. I didn’t see it last night and then I slept late this morning because of the holiday, so by the time I saw it an admin had already acted. Your point about the combination of aviation and hockey is particularly compelling. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 12:39, 13 October 2025 (UTC)
+*::{{yo|1995hoo}} Thanks! The editing pattern is really unique. Hopefully the blocks will encourage him to go away so the rest of us can edit in peace, fingers crossed. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 15:02, 13 October 2025 (UTC)
+
+He is back as {{IP user|2600:1007:0:0:0:0:0:0/32}}. – [[User talk:Sbaio|sbaio]] 16:44, 17 October 2025 (UTC)
+:Perhaps it's time to report all this, to WP:AN. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 16:46, 17 October 2025 (UTC)
+::The admin boards will typically punt these matters to SPI. [https://en.wikipedia.org/wiki/Wikipedia:Sockpuppet_investigations/Gymrat16#17_October_2025 I've filed a new SPI there] while pinging admin asilvering from the last report. Thanks for flagging sbaio. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 17:09, 17 October 2025 (UTC)
+:::I see he was editing his talk page again today. It’s somewhat surprising the admins haven’t revoked his talk page access, but I suppose there’s no real harm in letting him yell into the wind, as it were. I notice how the timing of this latest round of logged-in edits came right after the latest round of blocks, much as one of the anonymous edits that prompted me to open the initial SPI on September 29 came right around the same time when he posted an unlock request. It’s simply too striking to be a coincidence. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 21:32, 17 October 2025 (UTC)
+*There are a couple more IPs editing [[Alexander Ovechkin]] I just reported to the SPI as they are almost certainly him based on technical and behavioral evidence. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 23:06, 19 October 2025 (UTC)
+*:I feel like this is a modified version of a Weird Al song title: "The Saga Continues." [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 02:31, 20 October 2025 (UTC)
+
+== Biography intros and [[MOS:SOB]] ==
+@[[User:Nikkimaria|Nikkimaria]] recently pointed out at [[David Reinbacher]] and a couple other articles that our current standard for introductions in biographies has two links in a row, e.g. "an Austrian professional [[ice hockey]] [[defenceman]] for the [[Montreal Canadiens]]," and that [[MOS:SEAOFBLUE]] potentially advises against this, stating "when possible, do not place links next to each other that appear to be a single link." It seems ambiguous if this is what the MOS is talking about so I'd like some other opinions. I personally like the current wording, so if it is a MOS problem I would rather remove the link from 'ice hockey' than change anything else. [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 22:41, 30 September 2025 (UTC)
+:Does both the sport and position need to be linked in the introduction? One or the other should be sufficient. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 22:51, 30 September 2025 (UTC)
+::That was my thought. I'd rather link the position since it's more likely that the reader already has a surface level understanding of ice hockey. [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 23:07, 30 September 2025 (UTC)
+:::Or we could write {{tq|...is an Austrian [[ice hockey]] player...|q=yes}} and place position in other sentence. Such approach is applied to a lot of other sports biograhies. – [[User talk:Sbaio|sbaio]] 03:42, 1 October 2025 (UTC)
+::::I agree with something like this. It's an absolute must that the position ''and'' sport one plays be linked in the lead, that is a standard in any sports biography, no matter what we assume of the reader.[[User:Echoedmyron|Echoedmyron]] ([[User talk:Echoedmyron|talk]]) 09:34, 1 October 2025 (UTC)
+:::::Position is linked in the infobox, so I don't even think we'd necessarily need to find another place to link in in the lead [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 02:54, 2 October 2025 (UTC)
+
+::::::Either solution is fine with me. [[User:Nikkimaria|Nikkimaria]] ([[User talk:Nikkimaria|talk]]) 02:58, 2 October 2025 (UTC)
+
+:I don’t see an issue with the current format and am actively opposed to any major change to it - separating the two into consecutive sentences (as is currently the case at Reinbacher) reads awkwardly and flows poorly. The SOB changes are overstated IMO, I’ve mostly seen it invoked for cases where nearly an entire sentence is linked to separate articles. The goal should be conciseness and readability over all else, and in addition, the sheer amount of work needed to change the sheer amount of articles that use the current format isn’t worth it, quiet simply put. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 11:35, 1 October 2025 (UTC)
+::What I had in mind is {{tq|...is an Austrian professional [[ice hockey]] player for the [[Laval Rocket]] of the [[American Hockey League]] (AHL) while under contract to the [[Montreal Canadiens]] of the [[National Hockey League]] (NHL).|q=yes}} so it does not really change. Position would have to be placed in some other sentence. – [[User talk:Sbaio|sbaio]] 16:29, 1 October 2025 (UTC)
+:::@[[User:Sbaio|Sbaio]] I was more expressing my disagreement with Nikkimaria's wording on [[David Reinbacher]] (which on a different issue, seems to have been removed by [[WP:LTA/HABS|another Rubbaband Mang sock]]) - I personally find:
+:::{{tq|David Reinbacher is an Austrian professional ice hockey player. He is a defenceman...}} 
+:::to be extremely awkward, poorly-flowing wording. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 17:30, 1 October 2025 (UTC)
+::::Also worth noting, for comparison with other wikiprojects - B2B bluelinks (or one unlinked) of sport-then-position (like ours) are also the standard in baseball pages ([[Aaron Judge]], [[Cal Raleigh]]) and football pages ([[James Cook (running back)]], [[Sam Darnold]]). Basketball doesn't seem to do that ([[Luka Doncic]], [[LeBron James]]), but IIRC positions are also more fluid/less specialized in basketball, so it's harder to define outright. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 17:42, 1 October 2025 (UTC)
+:::::[[Bill Russell]] has {{tqq|was an American professional [[basketball]] player who played [[Center (basketball)|center]] for ...}} [[Bob Feller]] has {{tqq|was an American [[baseball]] player who was a [[pitcher]] for ...}} —[[User:Bagumba|Bagumba]] ([[User talk:Bagumba|talk]]) 17:43, 2 October 2025 (UTC)
+::::::Russell's could work for one-team players, but not as well for ones that played for multiple teams, and Feller's kinda comes off as a run-on sentence. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 17:54, 2 October 2025 (UTC)
+:::::::Sure, but the thread started out focused just on presentation of the sport and position w.r.t. MOS. —[[User:Bagumba|Bagumba]] ([[User talk:Bagumba|talk]]) 19:01, 2 October 2025 (UTC)
+:::::I agree with everything The Kip has said. I've never had an issue with [sport] [position] in any GA or FA, and "player who is a [position]" is absolutely redundant. Were I still an English teacher, I'd put a red pen through "who is a" in a heartbeat. My understanding of SOB is that it's best to avoid split bluelinks where one specific one would suffice. — '''[[User:GhostRiver|<span style="font-family:Georgia; color:#91A3B0">Ghost</span>]][[User talk:GhostRiver|<span style="font-family:Georgia; color:#4997D0">River</span>]]''' 19:51, 31 October 2025 (UTC)
+::::::Any of a more specific link, omitting one of the links, or separating the two is fine; just the side-by-side is an issue. [[User:Nikkimaria|Nikkimaria]] ([[User talk:Nikkimaria|talk]]) 00:47, 1 November 2025 (UTC)
+:@[[User:Nikkimaria|Nikkimaria]] Not to come off as rude, but it’d be best to discontinue changing intros until we’ve reached some sort of consensus here. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 02:28, 2 October 2025 (UTC)
+{{Ping|Wheatzilopochtli}} I don't see a consensus for your edits. [[User:Kante4|Kante4]] ([[User talk:Kante4|talk]]) 15:14, 7 October 2025 (UTC)
+
+:I will refrain from changing it anywhere else. To be honest I had not been keeping up with the thread and I saw some edits being made so I assumed there had been consensus. My fault. [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 15:20, 7 October 2025 (UTC)
+
+==LTA and SPI cases related to this project==
+<!-- START PIN -->{{Pin message|}}<!-- [[User:DoNotArchiveUntil]] 23:31, 27 March 2035 (UTC) -->{{User:ClueBot III/DoNotArchiveUntil|2058651092}}<!-- END PIN -->
+
+I think we should maintain a list of long-term abuse (LTA) or sockpuppet investigations (SPI) that regularly affect this project. I often forget the links to these pages, and it would help fight vandals. There are four I am aware of. Are there any more? [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 11:41, 5 October 2025 (UTC)
+
+*[[Wikipedia:Long-term abuse/Rubbaband Mang]] (shortcut: [[WP:LTA/HABS]])
+*[[Wikipedia:Sockpuppet investigations/Rubbaband Mang]]
+*[[Wikipedia:Sockpuppet investigations/Kaepertank]]
+*[[Wikipedia:Sockpuppet investigations/Gymrat16]]
+
+From time to time, [[WP:LTA/PTC]] and [[Wikipedia:Sockpuppet investigations/ProTaylorCraft]]. Thankfully, they’re a hoaxster so pretty easy to catch. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 13:28, 5 October 2025 (UTC)
+:Is there a preferred place within [[Wikipedia:WikiProject Ice Hockey/Navigation]] where we could have such a list? [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 13:40, 5 October 2025 (UTC)
+::Personally, I would prefer making any such list as low-profile as possible, in the interest of denying recognition. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 17:13, 5 October 2025 (UTC)
+:::I'm not sure that such a list is against [[WP:DENY]] when the LTA and SPI cases already exist. Is there a specific suggestion to maintain a lower profile list? [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 18:37, 5 October 2025 (UTC)
+::::Sure, I don't think having a list is against denying recognition. As I mentioned, I just think it should be kept low-profile. Thus I would prefer not having it in the navigation sidebar. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 22:09, 5 October 2025 (UTC)
+:::::I think it could be pinned to this chat page. Are there other thoughts? [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 22:16, 5 October 2025 (UTC)
+::::::One possibility I was thinking of is the [[Wikipedia:WikiProject Ice Hockey/Clean up|cleanup department]] page. A link on this talk page, or the project page itself, would be more easily discoverable by new editors, which has its pros and cons. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 22:21, 5 October 2025 (UTC)
+:::::::I've added a pin to this section in the meantime. Further suggestions welcome. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 16:17, 15 November 2025 (UTC)
+:::@[[User:Isaacl|Isaacl]] IMO, DENY works great for garden-variety trolls and vandals, but LTAs and frequent sockpuppeteers like those listed above ultimately become pervasive enough such that they can't simply be ignored/reverted. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 05:40, 6 October 2025 (UTC)
+::::I didn't say anything about ignoring such editors. Denying recognition is about minimizing the amount of cognitive effort spent on problem editors; it doesn't mean no time should be spent. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 07:23, 6 October 2025 (UTC)
+*There's also [[WP:Sockpuppet investigations/Khoa41860]]. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 18:01, 5 October 2025 (UTC)
+* Also [[Wikipedia:Sockpuppet investigations/Moka Mo]]. – [[User talk:Sbaio|sbaio]] 11:40, 10 October 2025 (UTC)
+* And [[Wikipedia:Sockpuppet investigations/BouwMaster]] (unexplained changes to logo sizes in infobox). – [[User talk:Sbaio|sbaio]] 04:44, 31 October 2025 (UTC)
+* We should also mention [[Wikipedia:Sockpuppet investigations/Roje Vala]]. – [[User talk:Sbaio|sbaio]] 09:05, 31 October 2025 (UTC)
+
+== PWHL Draft & NHL entry draft ==
+
+Perhaps we need consistency, for PWHL & NHL draft titles?  Either we upper case or lower case. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 16:01, 12 October 2025 (UTC)
+
+:Both should be lowercase. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 16:11, 12 October 2025 (UTC)
+:Much as I hate to say it given that it’s a relic from a now-sitebanned editor’s tendentiousness, consensus was to lowercase and I don’t think that’s changed. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 16:15, 12 October 2025 (UTC)
+::Well: the battering from the MOS Mafia bludgeoned the discussion, anyway, but a good bit of wind was taken out of their sails in that ANI explosion.  It's high time we reversed the nonsense and started calling things what the leagues use as [[WP:COMMONNAME|proper names]], and revert to NHL Entry Draft. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   16:20, 12 October 2025 (UTC)
+:::Consensus has not changed. It is not time to disrupt Wikipedia by changing it without an RFC. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 17:14, 12 October 2025 (UTC)
+::::It disrupted the hell out of Wikipedia to change it in the first place, by that token, and their antics weren't restricted to this project; I don't know if you followed the eventual ANI thread (I'm a regular at the drama board), but I haven't seen such widespread palpable rage against a clique since the ARS was finally brought to heel, and the fallout eventually saw two of them indeffed and a third topic-banned from capitalization disputes.  The degree to which "consensus has not changed" is that it hasn't actually been tested.  Time to test that. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   18:54, 12 October 2025 (UTC)
+:::::Only one of them was indeffed entirely (Dicklyon), the other two were TBANned from capitalization - otherwise, I mostly agree. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 19:35, 12 October 2025 (UTC)
+:::::Seems like wasting time when we are still climbing hockey mountain. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 00:14, 13 October 2025 (UTC)
+:::::I don't think we need to necessarily worry about new things being lowercased. Just in this specific example, PWHL Draft -> PWHL draft is easier. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 00:42, 13 October 2025 (UTC)
+:I had changed it to lowercase to match NHL but eventually I changed it back. The league and all the sources use uppercase; I think it should stay uppercase. [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 03:20, 13 October 2025 (UTC)
+::Oh I just did some research on it too. It appears sources do capitalize it. A rarity, but we should go by what the sources do. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 16:18, 13 October 2025 (UTC)
+: I am vehemently against re-capitalizing everything. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 12:41, 13 October 2025 (UTC)
+::I don't think anyone's in favor of re-capitalizing "everything."  Nor is anyone proposing re-capitalizing "everything."  I'm in favor of, as per COMMONNAME, capitalizing proper names. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   19:44, 13 October 2025 (UTC)
+:::I meant everything that had been de-capitalized. Pretty much everything you are proposing. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 11:28, 14 October 2025 (UTC) 11:27, 14 October 2025 (UTC)
+I've no objections to uppercasing "NHL Entry Draft" & the related pages. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 19:55, 13 October 2025 (UTC)
+
+:We probably would need an RM to reverse that decision. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 20:07, 13 October 2025 (UTC)
+::Yes, a formal request would be required, but I think we have more important tasks at hand. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 21:11, 13 October 2025 (UTC)
+::We certainly do. An informal WikiProject discussion can't be used to reverse [[Talk:NHL entry draft#Requested move 14 April 2024|a previous RM consensus]]; it requires a new RM. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 21:53, 13 October 2025 (UTC)
+::Indeed, an RM would be the next step. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 19:12, 20 October 2025 (UTC)
+
+== Featured article review for [[Calgary Hitmen]] ==
+
+I have nominated [[Calgary Hitmen]] for a [[Wikipedia:Featured article review/Calgary Hitmen/archive1|featured article review here]]. Please join the discussion on whether this article meets the [[Wikipedia:What is a featured article?|featured article criteria]]. Articles are typically reviewed for two weeks. If substantial concerns are not addressed during the review period, the article will be moved to the Featured Article Removal Candidates list for a further period, where editors may declare "Keep" or "Delist" in regards to the article's featured status. The instructions for the review process are [[Wikipedia:Featured article review|here]].<!--Template:FARMessage--> [[User:Hog Farm|Hog Farm]] <sub> ''[[User talk:Hog Farm|Talk]]''</sub> 00:31, 19 October 2025 (UTC)
+
+== Diacritics, again ==
+
+I've noticed {{ping|Colonies Chris}} has been (unevenly) unhiding diacritics on players names on some NHL team season pages. Perhaps he's unaware of [[WP:NCIH]], which recommends ''not'' doing that. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 15:37, 20 October 2025 (UTC)
+
+:Could you give an example page that's been affected? [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 16:02, 20 October 2025 (UTC)
+::I've undone the changes, see [[1982–83 Toronto Maple Leafs season]] & [[1987–88 Toronto Maple Leafs season]] for examples. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 16:03, 20 October 2025 (UTC)
+:Given the NHL's recent embracing of diacritics, I'd be open to revisiting NCIH if there hasn't been a recent discussion on it [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 17:22, 20 October 2025 (UTC)
+::I feel this would be a site-wide decision for Wikipedia, not just sports. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 17:25, 20 October 2025 (UTC)
+:::As I [[Wikipedia talk:Naming conventions (ice hockey)#c-Isaacl-20231106171100-Fomalhaut76-20231104120800|discussed in 2023]], there is an English Wikipedia project-wide discussion to be had on how to balance common usage versus determining if a person has decided on a specific anglicization of their name. But the specific guidance under [[Wikipedia:Naming conventions (ice hockey)]] is within the scope of this WikiProject. We can decide whether or not the current ice hockey-specific guidance continues to be suitable, given the current usage of names by the various hockey leagues. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 17:35, 20 October 2025 (UTC)
+::Problem with that? You'd have to start dividing up non-player pages, i.e. before & after NHL began putting diacritics on sweaters. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 17:31, 20 October 2025 (UTC)
+: NCIH is a guideline, not part of the MOS. The MOS supersedes any guideline. At WP:MILHIST, the project came down hard on a guideline which contradicted the MOS, namely, GNG. Always defer to the MOS. The MOS says diacritics are acceptable as long as they are found in [[WP:RS]]. If they are not, then one must use the common name. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 17:39, 20 October 2025 (UTC)
+::As I [[Wikipedia talk:Naming conventions (ice hockey)#c-Isaacl-20231106171100-Fomalhaut76-20231104120800|discussed previously]], the problem is that there is no English Wikipedia project-wide guidance on what constitutes a reliable source for someone's name. Some people feel by default, if a person has not in some way made it clear that they have anglicized their name, sources using an anglicized version are not reliable with respect to the spelling of the name. The ice hockey guidance is just a stop gap approach. For better or worse, the appearance of names on league uniforms and official roster lists influences common usage. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 17:48, 20 October 2025 (UTC)
+:::Right, but all I'm saying is that according to the MOS, diacritics are acceptable if there is a source supporting it. Blanket removal of diacritics on North American pages is not allowable per the MOS. The guideline is in breach of the MOS. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 18:34, 20 October 2025 (UTC) 18:33, 20 October 2025 (UTC)
+::::There are sources that use and don't use diacritics, so no consensus. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 18:39, 20 October 2025 (UTC)
+:::::Exactly, which is why you default to the MOS. Which says they are allowed. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 19:56, 21 October 2025 (UTC) 11:50, 21 October 2025 (UTC)
+::::Again, where would you divide the line. At (for example) [[Pittsburgh Penguins]], we wouldn't show diacritics in Jagr's name. Why? Because he didn't use them, when he played for the Penguins & sources 'then', didn't either. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 18:41, 20 October 2025 (UTC)
+:::::There is no line. If there is a [[WP:RS]] that says they have diacritics in their name, the MOS says you can use that name. The guideline that states North American articles are somehow special goes against the MOS and should be deprecated and ignored. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 11:50, 21 October 2025 (UTC)
+::::::The part of the MOS that goes against COMMONNAME should be deprecated and ignored.  If we're doing ''that.'' [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   19:31, 21 October 2025 (UTC)
+:::::::{{reply|GoodDay}} Jágr did use diacritics, because that is his surname. The only problem here is that Americans and probably Canadians did not bother to use diacritics and just butchered many players' names. – [[User talk:Sbaio|sbaio]] 02:40, 22 October 2025 (UTC)
+::::::::Canadians use diacritics (the French Canadians). It is the Americans who do not. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 11:34, 22 October 2025 (UTC)
+::::::::When he played in the NHL, there were no diacritics on his sweater name or in sports coverage. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 03:06, 22 October 2025 (UTC)
+::::The guidance says {{tq|Wikipedia normally retains these special characters, except where there is a well-established English spelling that replaces them with English standard letters.}} The problem is that editors disagree on what is a well-established English spelling. Should it matter if typographical limitations was the reason a certain spelling became well-established? Nonetheless, as I said two years ago, I think the desire for the current ice hockey-specific guidance has waned, and it's reasonable to re-examine it. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 04:34, 21 October 2025 (UTC)
+:::::The guideline should be deprecated. It goes against the MOS. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 11:50, 21 October 2025 (UTC)
+::::::Does that include player page titles, too? [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 19:51, 21 October 2025 (UTC)
+::[[MOS:DIACRITICS]] says: {{tq2|Use of diacritics is determined on a topic-by-topic basis; a [[Wikipedia:Consensus#Levels of consensus|small group of editors]] cannot prohibit or require the use of diacritics within a given class of articles.}} —[[User:Bagumba|Bagumba]] ([[User talk:Bagumba|talk]]) 19:06, 20 October 2025 (UTC)
+:::That works both ways, of course; a small group of editors cannot ''require'' their use. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   19:30, 21 October 2025 (UTC)
+::::[[WP:STRAWMAN]] - The quoted text already states that. You are now just trying to incite. Please add constructive contributions. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 19:46, 21 October 2025 (UTC)
+:::::There are ''many'' player bios pages, whose titles are currently against [[WP:COMMONNAME]]. You see, the current arrangement is a compromise between non-player & player North American pages. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 19:49, 21 October 2025 (UTC)
+::::::According the page Bagumba linked, proper names can have diacritics. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 19:55, 21 October 2025 (UTC)
+:::::::Currently, many of them with diacritics, are going ''against'' WP:COMMONNAME. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 19:58, 21 October 2025 (UTC)
+::::::::And as WP:COMMONNAME is written, yes you are correct. {{xt|it generally prefers the name that is most commonly used (as determined by its prevalence in a significant majority of independent, reliable, English-language sources)}} and {{xt|The choice between anglicized and local spellings should follow English-language usage}} and {{xt|For a non-English name, phrase, or word, adopt the spelling most commonly used in English-language reliable sources, including but not limited to those already cited in the article}}, so yes, those players who like Teemu Selanne, should have their names spelled without the diacritics due to a plethora of independent English-language sources using that spelling, with a redirect. Keeping in mind that the NHL or any team site is not considered independent of the subject matter. [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 20:11, 21 October 2025 (UTC)
+:::::::::Just an observation regarding the NHL and teams—they’re not really consistent, either. At the Caps game last night, I couldn’t help but noticing that while Martin Fehervary has diacritics on his sweater, when they show his name on the videoboard they omit them. Kind of weird inconsistency as they update the on-screen graphics every offseason. [[User:1995hoo|1995hoo]] ([[User talk:1995hoo|talk]]) 11:41, 22 October 2025 (UTC)
+I believe my aforementioned reverts were correct. The players didn't use diacritics on their sweaters during that time period & sources didn't either. We shouldn't allow such retro changes to the past. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 15:52, 21 October 2025 (UTC)
+: As currently constituted, yes your reverts were correct. I just believe the NCIH should be deprecated, and/or reworded to state that North American articles have a preference for names without diacritics, as they represent common usage.  [[User:Llammakey|Llammakey]] ([[User talk:Llammakey|talk]]) 19:50, 21 October 2025 (UTC)
+::NCIH already sets the latter forth.  Shall I now cast [[WP:ASPERSIONS|aspersions]] at ''you'' for "trying to incite?"  Please add constructive contributions, rather than shrill denunciations of anyone who disagrees with you. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   11:40, 22 October 2025 (UTC)
+:::[[WP:VEXBYSTERANG]] might apply here. There are several heated comments in this string. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 16:03, 22 October 2025 (UTC)
+
+== Spengler Cup in International? ==
+
+Hey folks, curious if the Spengler Cup stats are worthy for inclusion. I'm currently working on [[Draft:Colten Ellis]] and realized he played in the Spengler Cup last year. Wondering if it's worth adding his stats or just keeping it to WJC U18. Cheers, [[User:Kline|<span style="color:#1666E5">'''Kline'''</span>]] • [[User talk:Kline|<span style="color:#E4117A ">'''talk'''</span>]] • [[Special:Contributions/Kline|<span style="color:#1666E5">'''contribs'''</span>]] 21:59, 21 October 2025 (UTC)
+:As per [[Wikipedia:WikiProject Ice Hockey/Player pages format]], only world championships (junior or senior) and the Olympics are included. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 22:28, 21 October 2025 (UTC)
+::@[[User:Flibirigit|Flibirigit]] Thanks.. looks like another clean up task to be done, since I ended up looking at other players who played in the Spengler having their stats included. Cheers, [[User:Kline|<span style="color:#1666E5">'''Kline'''</span>]] • [[User talk:Kline|<span style="color:#E4117A ">'''talk'''</span>]] • [[Special:Contributions/Kline|<span style="color:#1666E5">'''contribs'''</span>]] 22:44, 21 October 2025 (UTC)
+::@[[User:Flibirigit|Flibirigit]] There seemed to be an unofficial consensus to include the 4 Nations as well, given the teams were selected by their national governing bodies. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 23:30, 21 October 2025 (UTC)
+
+== NYT for your enjoyment ==
+
+[https://www.nytimes.com/athletic/6738183/2025/10/22/nhl-rivalries-wikipedia-ranking/ The 24 Wikipedia pages for NHL rivalries, ranked by their single wildest passage] [[User:Gråbergs Gråa Sång|Gråbergs Gråa Sång]] ([[User talk:Gråbergs Gråa Sång|talk]]) 14:17, 22 October 2025 (UTC)
+
+:None of these are "good" articles, but they exist for reasons haha. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 17:28, 22 October 2025 (UTC)
+:Hopefully all of those statements are [[WP:V|verified]] and not [[WP:OR|original research]]. Maybe someone with NYT/Athletic access can check? [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 18:31, 22 October 2025 (UTC)
+
+== List of NHL players with 500 goals ==
+Should we get [[List of NHL players with 500 goals]] protected till the end of the season so that IPs can't update it every time Ovechkin scores? Thoughts? [[User:Masterhatch|Masterhatch]] ([[User talk:Masterhatch|talk]]) 03:04, 25 October 2025 (UTC)
+
+:It's been very active the past 4 days. I'd say it's fine to semi-protect. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 03:24, 25 October 2025 (UTC)
+:I don't know if any admins are willing to protect for that reason, but I suppose it doesn't hurt to ask. One option that might help is that if there is consensus here to do so, I'd be willing to create an article edit notice template on the page like the one at {{t|Editnotices/Page/List of NHL statistical leaders}}. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 06:39, 25 October 2025 (UTC)
+
+== NHL team seasons templates ==
+
+For example: <br>
+at [[Template:Boston Bruins seasons]], should were ''italicize'' the 2025-26 season entry, as it's in progress? or remove it entirely. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 21:50, 26 October 2025 (UTC)
+
+:The longstanding practice was to italicize current season, but I am not sure if that is done anymore. – [[User talk:Sbaio|sbaio]] 06:13, 27 October 2025 (UTC)
+::I've completed the task. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 22:01, 27 October 2025 (UTC)
+
+== Discussion at [[:Talk:Charles M. Schulz#GA/FA plans|Talk:Charles M. Schulz §&nbsp;GA/FA plans]] ==
+[[File:Symbol watching blue lashes high contrast.svg|25px|link=|alt=]]&nbsp;You are invited to join the discussion at [[:Talk:Charles M. Schulz#GA/FA plans|Talk:Charles M. Schulz §&nbsp;GA/FA plans]], which is within the scope of this WikiProject.  [[User:Sjones23|sjones23]] ([[User talk:Sjones23|talk]] - [[User:Sjones23/Wikipedia contributions|contributions]]) 22:00, 27 October 2025 (UTC)<!-- Template:WikiProject please see -->
+
+== List of NHL rivalries addition ==
+
+@[[User:Freekbob30|Freekbob30]] has consistently been adding Blues-Stars as a rivalry despite not linking any citations that prove it to be so. I've already reverted them twice and talked on their page about it, but they are not responding at all. Can anyone advise on next steps? Is [[WP:AN3]] required here? [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 19:23, 2 November 2025 (UTC)
+
+== Jack Xhekaj's birthplace. ==
+
+Why are we refraining from using [[Serbia]] as [[Arber Xhekaj]]'s father's birthplace. [[Kosovo]] is <u>not</u> a sovereign state. It's a part of Serbia. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 14:33, 5 November 2025 (UTC)
+:Because the sources associated with that statement say "Kosovo"? [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 15:04, 5 November 2025 (UTC)
+::Even so, it doesn't change the fact that it's a part of Serbia. Unless you're treating Kosovo, like Manitoba or Nevada. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 15:16, 5 November 2025 (UTC)
+:::Well, Kosovo is recognized by [https://en.wikipedia.org/wiki/International_recognition_of_Kosovo 109 countries]. They also participate in European competitions, like football, basketball, handball and so on, so it's different... [[User:Kante4|Kante4]] ([[User talk:Kante4|talk]]) 15:45, 5 November 2025 (UTC)
+::::Is there a relevant MOS? I feel like a topic as hot button as this is likely to have a guideline. [[User:Wheatzilopochtli|Wheatzilopochtli]] ([[User talk:Wheatzilopochtli|talk]]) 15:55, 5 November 2025 (UTC)
+:::::Yes; the relevant MOS would have the birthplace as the extant polity at the time of birth.  Kosovo's declaration of independence was well after Jack Xhekaj's birth, so the birthplace should be given not as "Serbia," but rightly as [[Yugoslavia]].  Come to that, the mother shouldn't be listed in the "Czech Republic," but as being born in [[Czechoslovakia]]. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   17:12, 5 November 2025 (UTC)
+::::::I concur, the ''birth'' countries should be used. [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 17:14, 5 November 2025 (UTC)
+:::::::I'm fine with that too, but would prefer sources that state that. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 17:33, 5 November 2025 (UTC)
+:Kosovo vs Serbia is getting into questions of politics that I'm uncomfortable talking about in this setting, but regardless, as Ravenswing says it should be the country at the time of birth; in this case, Yugoslavia. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 18:06, 5 November 2025 (UTC)
+::Is it necessary to mention the country at all? The city could be sufficient. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 18:17, 5 November 2025 (UTC)
+:::I would say yes, given we don't expect the average user to know where [[Drenas]] is. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 18:32, 5 November 2025 (UTC)
+::::Hell, I wouldn't expect the ''informed'' user to have the faintest idea where Drenas is. [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   03:15, 6 November 2025 (UTC)
+
+== Death cause at Infobox ice hockey biography ==
+Just want to let everyone know that a <code>| death_cause =</code> parameter was added to [[:Template:Infobox ice hockey biography]] in [[Special:Diff/1313656691|27 September 2025]]. Looks like this has not been discussed anywhere and was added without consensus. – [[User talk:Sbaio|sbaio]] 08:19, 8 November 2025 (UTC)
+:Remove that. It's wildly unnecessary for even regular bios. [[User:Conyo14|Conyo14]] ([[User talk:Conyo14|talk]]) 14:44, 8 November 2025 (UTC)
+::It's been self-reverted by the editor who added it in response to an edit request I made on the template talk page on behalf of Conyo14. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 15:04, 8 November 2025 (UTC)
+:::I noticed it was used for hockey players who died in action during a World War. In that case it seemed appropriate, and there are very few players to whom it applied. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 15:34, 8 November 2025 (UTC)
+
+==  [[Wikipedia:Proposed deletion|Proposed deletion]] of [[:Shinnik Bobruisk]] ==
+[[File:Ambox warning yellow.svg|left|link=|alt=Notice|48px|]]
+
+The article [[:Shinnik Bobruisk]] has been [[Wikipedia:Proposed deletion|proposed for deletion]]&#32;because of the following concern:
+<blockquote>'''Unsourced for 14 years, and tagged as such for 4 years. Defunct hockey club.'''</blockquote>
+
+While all constructive contributions to Wikipedia are appreciated, pages may be [[WP:DEL#REASON|deleted for any of several reasons]].
+
+You may prevent the proposed deletion by removing the {{Tlc|proposed deletion/dated}} notice, but please explain why in your [[Help:edit summary|edit summary]] or on [[Talk:Shinnik Bobruisk|the article's talk page]].
+
+Please consider improving the page to address the issues raised. Removing {{Tlc|proposed deletion/dated}} will stop the [[Wikipedia:Proposed deletion|proposed deletion process]], but other [[Wikipedia:deletion process|deletion process]]es exist. In particular, the [[Wikipedia:Criteria for speedy deletion|speedy deletion]] process can result in deletion without discussion, and [[Wikipedia:Articles for deletion|articles for deletion]] allows discussion to reach [[Wikipedia:Consensus|consensus]] for deletion.<!-- Template:Proposed deletion notify --> [[User:Bearian|Bearian]] ([[User talk:Bearian|talk]]) 15:30, 8 November 2025 (UTC)
+
+:{{yo|Bearian}} I've redirected it to the league article where it's mentioned as an alternative to deletion per [[WP:ATD-R]]. Please consider doing this on other sports team articles you deem non-notable where possible, thanks. [[User:Left guide|Left guide]] ([[User talk:Left guide|talk]]) 22:11, 8 November 2025 (UTC)
+::Thank you! [[User:Bearian|Bearian]] ([[User talk:Bearian|talk]]) 22:14, 8 November 2025 (UTC)
+
+== Template:Hockey color and other ==
+
+Notifying everyone that an editor recreated [[:Template:Hockey color]], [[:Template:Hockey color cell]] and [[:Template:Hockey color cell2]] that were previously deleted per [[Wikipedia:Templates for discussion/Log/2020 November 30#Template:Ice hockey color cell]]. All of them were previously discussed at [[Wikipedia talk:WikiProject Ice Hockey/Archive76#New wiki-code templates for all 32 NHL ice hockey teams]]. – [[User talk:Sbaio|sbaio]] 11:09, 10 November 2025 (UTC)
+
+:It was me.  I'm "an editor."
+:Hi folks, I'm Mike Vitale.  I've been editing WP since 2007, but not consistently.  However, I have been consistently editing hockey-related pages since sometime around 2022 (I'm not going to go do the research to figure out exactly when it was, but it was sometime around there.)  Most (but not all) of my hockey-related edits are around women's hockey.  Part of the reason I don't often edit around the men's game is because there are FAR more people who will update those pages, and I'm filling a need in editing pages for the women's side of the sport, which I feel is underrepresented.  I have brought two women's hockey lists to FL-status, [[List of Olympic women's ice hockey players for the United States]] and [[List of Minnesota Golden Gophers women's ice hockey seasons]].  I'm not looking for accolades; I'm just providing some background and noting that I'm not just someone "passing through" making edits which haven't been thought through.  I also created the {{tlx|Game-won}} and related templates, which are now being used on all current NHL season pages (last I looked).
+:I have a background as a software developer, and that's the mindset that I take when editing Wikipedia.  In this particular instance, it's been around "How can I make it easier for myself and others to use the correct colors in the correct order when editing?"  In software, we would create a function to accomplish that.  That's how I view templates and modules.  And while I don't really know Lua, I'm getting much better at editing templates on WP.
+:So...Even though I'm reasonably meticulous when I edit pages, I still make mistakes.  Take, for example [https://en.wikipedia.org/w/index.php?title=2025%E2%80%9326_Minnesota_Frost_season&oldid=1320683498 this old revision] of the [[2025–26 Minnesota Frost season]].  Looking at the "Preseason" and "Regular season" schedules, there are two different purple colors employed, and the purple is on the top border during preseason, and on the bottom during the regular season.  (I'm not going to comb through history to figure out if I actually created that problem; I'm just going to assume it was me.)
+:My solution to this problem was to employ usages of the {{tlx|Hockey color}} template, which I [[WP:BOLD|boldly]] created a few months ago.  As noted above, I've been editing hockey pages since around 2022, so I therefore wasn't active in the ice hockey section of WP for the November 30, 2020 TfD discussion.
+:I strongly prefer having a reusable way to employ correct and standard colors for hockey teams, and these templates accomplish that.  I was scratching my own itch in (re-)creating the templates, which I did without knowing their history.  Now that I know their history, my opinion remains unchanged -- these templates allow standard usage of team's colors.  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 13:22, 10 November 2025 (UTC)
+::The color coding is completely unnecessary. We need less decoration, not more. [[User:Flibirigit|Flibirigit]] ([[User talk:Flibirigit|talk]]) 13:57, 10 November 2025 (UTC)
+:::Well, this is pretty much a moot point now.  The templates have been deleted even though I contested their deletion.  So much for trying to improve things in WP:HOCKEY.  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 17:18, 10 November 2025 (UTC)
+:As I mentioned in the linked discussion in the archives of this talk page, I don't have an issue with having the colours centralized so their current use will be consistent. (Eliminating existing uses of colour is a separate issue.) [[Module:Sports color/ice hockey]] is as good a place as any to store this. (I don't always agree with the validity of the sources used by one of the editors who frequently updates team colours, but the changes are generally still a net positive: picking up real branding changes, while sometimes shifting the exact shade of colour used, which is typically an approximation anyway compared with the appearance on physical objects like jerseys, for various reasons.) I don't know how the deleted template was implemented, but I'm guessing it accessed the info from there? [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 18:19, 10 November 2025 (UTC)
+::Yes.  The templates were substantially similar to any of the other "... color", "... color cell", and "... color cell2" templates that exist for other sports listed in {{tlx|Sports color templates}}.  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 18:30, 10 November 2025 (UTC)
+:::Looking at {{tl|Basketball color cell}}, it generates CSS style rules to set the background and text colors. Did the templates you created do this, or did it generate style rules to generate colour borders? [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 18:53, 10 November 2025 (UTC)
+::::The {{tlx|Hockey color cell}} and {{tlx|Hockey color cell2}} did similar things to the associated basketball templates.  However, I'm unaware if those two templates had any usages yet -- I hadn't gotten around to using/implementing them anywhere.  I created them to match other sports templates that I found (such as the basketball ones.)
+::::The {{tlx|Hockey color}} took two parameters, the team name, and the color number to use from {{tlx|Module:Sports color/ice hockey}}, and it simply returned a color code.  How that color code could have been used would only be limited to how people wanted it used; it's just a color code.
+::::Until @[[User:Sbaio|Sbaio]] reverted a bunch of my changes on some PWHL pages last night (and then CSD'ed the templates a few hours later), it had been in use.
+::::Example usage:
+::::<syntaxhighlight lang="wikitext">
+::::{{Game log start|title=Regular season schedule (Home: 0–0–0; Road: 0–0–0) |style=background:inherit; border-top:#{{Hockey color |Minnesota Frost |1}} 5px solid; border-bottom:#{{Hockey color |Minnesota Frost |3}} 5px solid; }}{{Game log end}}
+::::</syntaxhighlight>
+::::Before deletion, this would have produced:
+::::{{Game log start|title=Regular season schedule (Home: 0–0–0; Road: 0–0–0) |style=background:inherit; border-top:#250E62 5px solid; border-bottom:#A77BCA 5px solid; }}{{Game log end}}
+::::Is it more typing to use these templates?  Yes.  But, in my opinion, it reduces the editor's cognitive load in not having to remember which color code to use in which order.  See my link above about the old revision on the Minnesota Frost page for an example of how easy it is to make mistakes. --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 01:09, 11 November 2025 (UTC)
+:::::Deleted templates and a color code do the same thing. So why fix what is not broken? In addition, what happens when a team changes its color scheme? Are you going to fix it to use correct colors for older seasons? Certainly not. There are hundreds of ice hockey pages that use colors so I doubt that you are going to apply it to them. – [[User talk:Sbaio|sbaio]] 05:19, 11 November 2025 (UTC)
+::::::The template is only deleted because you CSD'ed it.
+::::::Not all pages need to be coded in the exact same fashion.  It's possible for some pages to use a template, and for others to be coded using a straight color code.
+::::::As for what I might or might not fix now or at some point in the future, please don't assume what's on my to-do list.  Might I get to them all in due time?  Yes.  Might I leave some of them using color codes while others use a working template?  Also yes.  Either answer is acceptable to me.
+::::::Further, as to how it would be handled when a team changes its color scheme, that's answered within the {{tlx|Module:Sports color/ice hockey}} already.  The colors for the "Winnipeg Jets" are different from the colors for the "Winnipeg Jets (1972–1996)".  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 02:28, 12 November 2025 (UTC)
+:::::::"Winnipeg Jets (1972–1996)" and "Winnipeg Jets" are two unrelated franchises (just like "Ottawa Senators (original)" and "Ottawa Senators"). So no, it is not handled. – [[User talk:Sbaio|sbaio]] 04:01, 12 November 2025 (UTC)
+::::::::You know, that's a good point.  I hadn't considered that in this instance, they're different franchises.
+::::::::Doesn't really change my mind, however.  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 04:26, 12 November 2025 (UTC)
+:::::::::It could be handled in a similar way, but I think it comes down to what is the goal of having a bit of colour embellishment? Personally I think the key goal is to provide a visual cue that helps readers make a connection to the relevant franchise. I think that goal is better served by a consistent colour scheme across all seasons, rather than trying to match branding for a specific year. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 17:06, 12 November 2025 (UTC)
+::::::::::Branding for a specific year is done in pretty much every sports page. So it is a very good idea to replicate the color scheme used during specific season. – [[User talk:Sbaio|sbaio]] 17:37, 13 November 2025 (UTC)
+:::::::::::Looking at the templates in {{tl|Sports color templates}}, the gridiron football template supports specifying a year, while the others do not. Personally, I feel branding information is better displayed with colour swatches, uniform mockups, and other merchandise. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 19:58, 13 November 2025 (UTC)
+:In the previous discussion @[[User:Sbaio|Sbaio]] linked, at [[Wikipedia talk:WikiProject Ice Hockey/Archive76#New wiki-code templates for all 32 NHL ice hockey teams]], the deletion reason was "Unused templates."
+:The {{tlx|Hockey color}} template ''was'', in fact, in use until he reverted many of my edits from last night.
+:So reverting a number of edits, in order to make a template be unused, so that you can THEN nominate the template for CSD G4 and point to the old discussion with "unused template" as the deletion reason is okay?  That's disappointing.  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 01:16, 11 November 2025 (UTC)
+::I disagree with the deletion rationale for the {{tl|hockey color}} template (though perhaps it should return to its original name, {{tl|ice hockey color}}). Although there wasn't much discussion in the 2020 thread, the specific objections were to a return to using background colours. [[User:Isaacl|isaacl]] ([[User talk:Isaacl|talk]]) 01:45, 11 November 2025 (UTC)
+::Update: Sorry.  I copy/pasted the wrong link for the "Unused templates" deletion reason.  I should have pointed to [[Wikipedia:Templates for discussion/Log/2020 November 30#Template:Ice hockey color cell]].  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 02:18, 11 November 2025 (UTC)
+:I disagree with deletion, although I understand the rationale being that it was a recreation of a deleted template where there was a consensus to delete. But I think that [[User:MikeVitale]] made a reasonable call to recreate the template as he saw a need for it. 
+:<br />
+:The template serves a purpose of making the process of assigning team colours to team infoboxes and wikitables more user friendly. I guess the WP decided they were against it five years ago but it’s pretty nonsensical that folks decided to approve team colour bordering, making it standard, but effectively insisting that it must be done the “old fashioned way” when that template could’ve easily been used for it. 
+:<br />
+:(FWIW, I am a big fan of having some colour on pages). — [[User:Pyropylon98|<span style="color:orange;">'''Pyropylon98'''</span>]] ([[User talk:Pyropylon98|<span style="color:teal;">talk</span>]] • [[Special:Contributions/Pyropylon98|<span style="color:teal;">contribs</span>]]) 04:57, 11 November 2025 (UTC)
+::The longstanding consensus in this WikiProject is to use as less decorations as possible so that is the reason why ice hockey templates (mainly BLP infoboxes) differ from all other sports. – [[User talk:Sbaio|sbaio]] 05:21, 11 November 2025 (UTC)
+:::I’m aware, I just don’t see an issue with having templates that make it a bit easier to implement the decorations that ''are'' permitted. — [[User:Pyropylon98|<span style="color:orange;">'''Pyropylon98'''</span>]] ([[User talk:Pyropylon98|<span style="color:teal;">talk</span>]] • [[Special:Contributions/Pyropylon98|<span style="color:teal;">contribs</span>]]) 05:30, 11 November 2025 (UTC)
+::::It certainly does not make it easier as very few editors (not even mentioning IPs) will know about the template. It is easier to just put a color code than think about a template that you never heard of. In addition, is someone going to update it regularly? I doubt that. And how about hundreds of ice hockey pages from other leagues than NHL and PWHL? Nobody is going to implement it there. And what happens when a team changes its color scheme? Nobody is going to fix that (changing back to color code). Therefore, there are more disadvantages with such templates than advantages. – [[User talk:Sbaio|sbaio]] 05:48, 11 November 2025 (UTC)
+:::::Editing Wikipedia is a constant learning curve.  There's always something new to learn, and also things are constantly changing because someone comes up with a new idea and starts implementing it.
+:::::I am not asking for everyone to know everything at all times.  I'm also not asking for every single page within WP:HOCKEY to be edited at the same time.
+:::::Regarding the "hundreds of ice hockey pages from other leagues than the NHL..."  There's absolutely nothing in {{tlx|Module:Sports color/ice hockey}} stopping those editors who are passionate about the [[ECHL]], or the [[Auroraliiga]], or the [[Kontinental Hockey League|KHL]] from adding their team's/league's colors and making use of templates which use the module.
+:::::Simply because it hasn't been done yet doesn't mean that it can't be done in the future.  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 17:54, 15 November 2025 (UTC)
+:::[[WP:CCC|Consensus can change]].  --[[User:MikeVitale|<span style="color: #ce6300; background: #fff">Mike</span>]][[User_talk:MikeVitale|<span style="color: #fff; background: #ce6300;">Vitale</span>]] 03:13, 12 November 2025 (UTC)
+::::Indeed it can.  I see no reason not to have more color myself.  (Never mind that editors are just as likely to change colors on team templates as they are to change uniform and logo files.)   [[User talk:Ravenswing|'''<span style="background:#2B22AA;color:#E285FF"> '' Ravenswing '' </span>'''  ]]   11:29, 12 November 2025 (UTC)
+:::::+1. Don't really care either way, but wouldn't mind the addition - while I don't think we should ''completely'' overhaul our infoboxes, we've oft been criticized for how basic ours are in comparison to other sports. [[User:The Kip|<span style="color:#333f42;">'''The'''</span>]] [[User talk:The Kip|<span style="color:#b4975a;">'''Kip'''</span>]] <span style="color:#C8102E;"><small><sup>([[Special:Contributions/The Kip|contribs]])</sup></small></span> 19:51, 12 November 2025 (UTC)
+
+== Good article reassessment for [[Evander Kane]] ==
+[[Evander Kane]] has been nominated for a good article reassessment. If you are interested in the discussion, please participate by adding your comments to the [[Wikipedia:Good article reassessment/Evander Kane/1|reassessment page]]. If concerns are not addressed during the review period, the good article status may be removed from the article. [[User:Z1720|Z1720]] ([[User talk:Z1720|talk]]) 01:31, 12 November 2025 (UTC)
+
+== 1990-91 Calgary Flames season ==
+
+Anybody have ''any'' reliable sources, which show which players served as Flames captain during the rotation of that position, in their 1990-91 season? [[User:GoodDay|GoodDay]] ([[User talk:GoodDay|talk]]) 17:54, 16 November 2025 (UTC)

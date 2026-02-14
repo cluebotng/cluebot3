@@ -1,0 +1,38 @@
+{{Talk header}}
+{{Controversial}}
+{{Not a forum}}
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject Extinction |importance=top}}
+{{WikiProject Geology|importance=mid}}
+{{WikiProject Environment |importance=High}}
+{{WikiProject Climate change |importance=Mid}}
+{{WikiProject Ecology |importance=High}}
+{{WikiProject Futures studies |importance=High}}
+}}
+{{Refideas|
+{{Cite journal |last=Ritchie |first=Hannah |last2=Roser |first2=Max |date=2021-04-15 |title=Habitat loss |url=https://ourworldindata.org/habitat-loss |journal=Our World in Data}}
+|comment = This is a great series of articles and data visualisations analysing on human impacts on extinciton and habitats throughout the Holocene|
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Holocene extinction/Archive_
+|format=%%i
+|age=4320
+|numberstart=3
+}}
+{{Distressing article}}
+{{Old merge full
+| otherpage = Quaternary extinction
+| date = 24-08-21
+| result = Not merged
+| talk = Talk:Holocene extinction/Archive_3#Proposed merge from Quaternary extinction
+| URL = }}
+{{Section sizes}} 
+{{archives|age=180|bot=ClueBot III|search=yes}}
+{{Broken anchors|links=
+* <nowiki>[[World Scientists' Warning to Humanity#Second notice|World Scientists’ Warning to Humanity: A Second Notice]]</nowiki>  The anchor (#Second notice) is no longer available because it was [[Special:Diff/862281082|deleted by a user]] before. <!-- {"title":"Second notice","appear":{"revid":810837568,"parentid":794715964,"timestamp":"2017-11-17T19:36:37Z","removed_section_titles":[],"added_section_titles":["Second notice","CITEREF2017"]},"disappear":{"revid":862281082,"parentid":849873536,"timestamp":"2018-10-03T10:40:35Z","removed_section_titles":["Second notice"],"added_section_titles":["History"]},"very_different":"18≥7","rename_to":"History"} -->
+}}
+
+== Neutral Point of View ==
+
+I am no expert in this field nor pretend to be. But I have done a lot of research into Paleontology and the human response - i.e. domestication, bronze age, Iron Age, etc... Most articles I read on Wikipedia are for the most part scientific and consider both sides in a neutral point of view as all scientific work should be.  That being said, I have never read an article (outside of politics) that is so one-sided in the presented view.  Nothing in science is that one-sided. There is little debate and what is the small amount included is quickly dismissed.  The wording itself is many times biased. I think this article could benefit from being more objective. [[User:Concordia Nova|Concordia Nova]] ([[User talk:Concordia Nova|talk]]) 18:54, 26 August 2025 (UTC)
+:”I have never read an article (outside of politics) that is so one-sided in the presented view.” You should check out the article on [[climate change]]!--[[User:C.J. Griffin|C.J. Griffin]] ([[User talk:C.J. Griffin|talk]]) 21:02, 26 August 2025 (UTC)

@@ -1,0 +1,75 @@
+{{Article history
+|action1=FAC
+|action1date=17:16, 6 July 2006
+|action1link=Wikipedia:Featured article candidates/It's a Wonderful Life/archive1
+|action1result=not promoted
+|action1oldid=62329512
+
+|currentstatus=FFAC
+|otddate=2012-12-20
+|otdoldid=528761630
+}}
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject Christianity|importance=Mid|christmas=yes|christmas-importance=high}}
+{{WikiProject Film|core=yes|American-task-force=yes}}
+{{WikiProject United States|importance=Low|USFilm=yes|USFilm-importance=top}}
+{{WikiProject California|importance=Low|la=yes|la-importance=mid}}
+{{WikiProject New York City|importance=Mid}}
+{{WikiProject Holidays|importance=Mid|Christmas=yes|Christmas-importance=high}}
+{{WikiProject Library of Congress|importance=Low}}
+}}
+{{Top 25 Report|Dec 20 2020 (17th)}}
+
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:It's a Wonderful Life/Archive
+|format= %%i
+|age=240
+|index=yes
+|maxarchsize=30000
+|minkeepthreads=3
+|numberstart=1
+|archivebox=yes
+|box-advert=yes
+}}
+
+== "Classic" ==
+
+"it became a Christmas classic."
+
+"It Happened One Christmas was a 1977 television movie remake of the classic film"
+
+Is it ok to call something a "classic" in an encyclopedia as a factual statement? Or is it more of a subjective kind of thing? I'm asking out of curiosity. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 23:15, 25 March 2024 (UTC)
+
+:In this case, the claims that the film is a classic appear to be well-sourced or are direct quotations, so I don't really see that there's a POV issue here. [[User:Doniago|DonIago]] ([[User talk:Doniago|talk]]) 01:44, 26 March 2024 (UTC)
+:: [[User:DonIago]] Isn't there a difference between "it is regarded as a classic" (for which you can give sources) and "it IS a classic" (which isn't really provable)? It sounds like saying "the movie is great" to me. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 03:31, 26 March 2024 (UTC)
+:::It's fine. There are plenty of sources, including direct quotes, that describe the film as classic. If ''It's a Wonderful Life'' isn't a classic, then nothing is. [[User:Toughpigs|Toughpigs]] ([[User talk:Toughpigs|talk]]) 05:04, 26 March 2024 (UTC)
+::::There are no rules for how many sources you need to "prove" something is a classic, so it should be avoided. It would be better to say "it's widely regarded as a classic". that you can prove. that's my opinion. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 12:26, 26 March 2024 (UTC)
+:::::You seem to have the tenacity of a Wikipedian, which is a good thing (to a point). In this case, stating something is a classic is the same as any other obvious descriptor, see [[WP:BLUESKY]]. [[User:Randy Kryn|Randy Kryn]] ([[User talk:Randy Kryn|talk]]) 12:55, 26 March 2024 (UTC)
+::::::I think calling something a classic should be avoided in favour of "is regarded as a classic". I guess there are cases were it is ok though, like "Romeo and Juliet" or something. I think it can sound like praise, so one should be careful. That's my opinion. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 13:24, 26 March 2024 (UTC)
+:::::::Being careful is exactly why in the other cases where you raised this as a concern my view was that the use of the word "classic" was a POV violation; because in those cases there was insufficient sourcing or the word wasn't being used as part of a quotation. [[User:Doniago|DonIago]] ([[User talk:Doniago|talk]]) 14:28, 26 March 2024 (UTC)
+::::::::Don't you think there is a difference between saying "it is a classic" versus "it is regarded as a classic" (given that there a lots of sources). Are both the same? Sorry, i'm just curious. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 15:36, 26 March 2024 (UTC)
+:::::::::I think after a certain point of X reputable sources claiming it's a classic that it becomes a bit of a pedantic and syntactical difference. I guess what I'm confused about is why, since there's support for the use of the word "classic" in general in this instance, you're not just [[WP:BOLD|changing the text]] rather than continuing to discuss it? This is different from the other instances where the word "classic" was being used without clear evidence supporting the word itself. [[User:Doniago|DonIago]] ([[User talk:Doniago|talk]]) 16:18, 26 March 2024 (UTC)
+::::::::::"I think after a certain point of X reputable sources claiming it's a classic that it becomes a bit of a pedantic and syntactical difference."
+::::::::::I think the difference is important because it sounds like praise. That's the way i see it. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 16:26, 26 March 2024 (UTC)
+::::::::::[[User:Donlago]]
+::::::::::"I guess what I'm confused about is why, since there's support for the use of the word "classic" in general in this instance, you're not just changing the text rather than continuing to discuss it?"
+::::::::::1. Because as a German speaking person I am super reluctant to change anything around here (I now changed it anyway, primarily because of the "Be bold!" link you gave me) :)
+::::::::::2. I am interested in people's opinions about this because I think it's an interesting question that some disagree with me on. [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 21:54, 26 March 2024 (UTC)
+:::::::::::Fair enough. If you're looking for a broader consensus on the matter, rather than addressing it case-by-case, you could raise the question at [[WT:FILM]]. [[User:Doniago|DonIago]] ([[User talk:Doniago|talk]]) 02:18, 27 March 2024 (UTC)
+::::::::::::Thanks! [[User:Dornwald|Dornwald]] ([[User talk:Dornwald|talk]]) 02:54, 27 March 2024 (UTC)
+
+My mother went to Altoona High School, Altoona Pa in the late 30's. They had a retractable gym floor that covered a swimming pool. I wondered were the production team for "It's A Wonderful Life" got the idea for the dance scene where the floor opens? [[Special:Contributions/108.228.153.68|108.228.153.68]] ([[User talk:108.228.153.68|talk]]) 23:30, 2 June 2024 (UTC)
+
+== Royalties ==
+
+In the synopsis section it says that the 1974 copyright lapse led to the film being available for showing on TV without fees, resulting in it gaining widespread viewing, etc. But in the more detailed history of the copyright section it says that the lapse in the film copyright was backstopped by other copyrights and that TV stations still had to pay royalties to show it.  Which is correct?  Could the incorrect information please be corrected or clarified?  Thank you. [[User:Penthrift|Penthrift]] ([[User talk:Penthrift|talk]]) 04:35, 15 May 2025 (UTC)
+
+== Stephan's Quintet section ==
+
+I'm not sure that the details about the associated space photograph deserves its own section, seeing as it is only one sentence. I proposed moving it somewhere in the production section, or fleshing it out if there is more to be added here. Thank you! [[User:Yojo98|Yojo98]] ([[User talk:Yojo98|talk]]) 21:21, 21 July 2025 (UTC)
+:The section pointing out the [[Stephan's Quintet]] connection seems fine and has been present in the article long-term. Readers probably find it informative (I did, not knowing the association before reading this article years ago). [Struck as inaccruate: <s>An interesting point, not made in the section but if a source is found could be, is that one of the "head" angels in the film is named 'Franklin'</s> a year after Franklin D. Roosevelt's death which put most of the nation into mourning. [[User:Randy Kryn|Randy Kryn]] ([[User talk:Randy Kryn|talk]]) 00:14, 22 July 2025 (UTC)
+::Do you have any evidence that the name Franklin is anything other than a coincidence? [[User:Doniago|DonIago]] ([[User talk:Doniago|talk]]) 01:22, 22 July 2025 (UTC)
+:::No, but this was a Frank Capra picture filmed in early 1946. [Edit:The head angel's name is Joseph] <s>Capra would have named the head angel Franklin (or, the only other choice, kept the name in the script if it was a coincidence) with Roosevelt in mind, it just needs a source. That would</s> fill out the section which, even though short, provides an astronomical context for those who enjoy the opening of the film. [[User:Randy Kryn|Randy Kryn]] ([[User talk:Randy Kryn|talk]]) 02:58, 22 July 2025 (UTC)
+::I understand your point, but for comparison the Sesame Street section is a good comparative. It's a more fleshed out paragraph, by comparison there are many sub-sections which are only one sentence in the article already. I think this information would be best served combined into another main section as a sub-section. [[User:Yojo98|Yojo98]] ([[User talk:Yojo98|talk]]) 13:24, 22 July 2025 (UTC)
+:I don't think Wikipedia should generally have single-sentence paragraphs, much less single-sentence sections. I'd support moving the text unless there's more to be said on the matter. [[User:Doniago|DonIago]] ([[User talk:Doniago|talk]]) 01:21, 22 July 2025 (UTC)
+::It turns out I was incorrect, the head angel's name is Joseph, not Franklin, and I came here as soon as I rewatched the scene. Interesting fact is that the opening of the film makes it appear that Joseph and Clarence are talking directly to God, who has received the prayers from the townspeople asking him to help George Bailey. The discussion should have stayed on the Stephan's Quintet, my fault for sidetracking it.[[User:Randy Kryn|Randy Kryn]] ([[User talk:Randy Kryn|talk]]) 04:21, 27 July 2025 (UTC)

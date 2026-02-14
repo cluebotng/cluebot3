@@ -1,0 +1,10 @@
+{
+    "age": "2160",
+    "archiveprefix": "Talk:New Deal\/Archive",
+    "numberstart": "5",
+    "maxarchsize": "100000",
+    "header": "{{Automatic archive navigator}}",
+    "minkeepthreads": "4",
+    "minarchthreads": "1",
+    "format": " %%i"
+}

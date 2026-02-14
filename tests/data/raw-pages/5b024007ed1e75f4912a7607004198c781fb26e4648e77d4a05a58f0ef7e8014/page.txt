@@ -1,0 +1,93 @@
+{{Talk header}}
+{{WikiProject banner shell|blp=yes|class=B|listas=Zztop|
+{{WikiProject Biography
+|musician-priority=mid
+|musician-work-group=yes
+}}
+{{WikiProject Rock music|importance=High}}
+{{WikiProject Houston| importance=low}}
+{{WikiProject United States|importance=low|TX=yes|TX-importance=low| }}
+}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:ZZ Top/Archive
+| numberstart=1
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=10
+| minarchthreads=3
+| format= %%i
+}}
+{{Top 25 report|Jul 25 2021}}
+
+== Leade section ==
+
+The leade section of this article sounds strange and very different from almost all other leades of musicians. Specifically this part:
+<blockquote>
+ZZ Top has been praised by critics and fellow musicians alike for their technical mastery. Of the group, music writer Cub Koda said "As genuine roots musicians, they have few peers; Gibbons is one of America's finest blues guitarists working in the arena rock idiom [...] while Hill and Beard provide the ultimate rhythm section support."
+</blockquote>
+[[User:Aisteco|Aisteco]] ([[User talk:Aisteco|talk]]) 02:07, 5 August 2015 (UTC)
+
+It's strange alright, especially: who the hell is cub coda and what does he have to do with anything that anyone cares about? That was probably written in by Cub Coda (whoever that is).  <!-- Template:Unsigned --><small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Texasman444|Texasman444]] ([[User talk:Texasman444#top|talk]] • [[Special:Contributions/Texasman444|contribs]]) 15:31, 15 February 2019 (UTC)</small> <!--Autosigned by SineBot-->
+
+== Harold Strohmann on drums ==
+
+With regard to these edits, they need to be reliably sourced - which currently there aren't.  A google search for "Harold Strohmann ZZ Top" brings back zero results, and the link to a picture proves nothing at all.
+
+Please provide reliable sourcing before re-adding this detail - simply "knowing" the data is not enough - it needs to have been reported elsewhere.  [[User:Chaheel Riens|Chaheel Riens]] ([[User talk:Chaheel Riens|talk]]) 15:13, 15 November 2017 (UTC)
+
+:Even a search for "Harold Strohmann" + "drum" gives a grand total of 5 results? <small>Careful, Chaheel Riens.... you might get booed off the Talk page and then you'll have to quit. [[User:Martinevans123|Martinevans123]] ([[User talk:Martinevans123|talk]]) 15:19, 15 November 2017 (UTC) </small>
+
+::[[Animal (Muppet)|Quit?  Never!]]  [[User:Chaheel Riens|Chaheel Riens]] ([[User talk:Chaheel Riens|talk]]) 17:56, 15 November 2017 (UTC)
+
+== Pronunciation ==
+
+In British English it would be "Zed Zed Top" (see note above about the [[Alan Ayckbourn]] play ''[[Comic Potential]]''). But I don't see any easy or elegant way of giving the normal American English pronunciation. [[User:Martinevans123|Martinevans123]] ([[User talk:Martinevans123|talk]]) 21:52, 2 November 2019 (UTC)
+::not sure I'd point it out, just seem hilarious to think of DJs and the general population in the UK mispronouncing their name...
+::"ZZ Top" is a proper noun, so it's pronounced only how ZZ Top themselves decide. It's only words/letters that aren't proper nouns that are pronounced in their local dialect.  <!-- Template:Unsigned IP --><small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/117.20.71.135|117.20.71.135]] ([[User talk:117.20.71.135#top|talk]]) 03:33, 9 August 2020 (UTC)</small> <!--Autosigned by SineBot-->
+:::The general population of the UK have never pronounced this name as 'zed zed top'. They pronounce it like Americans, they're not idiots (mostly). The different characterisations of the letter 'Z' do cause problems elsewhere though. The pun of [[World War Z]] sounding like 'World War Three' doesn't work in British English, where it is indeed pronounced as 'World War Zed'. --[[User:Ef80|Ef80]] ([[User talk:Ef80|talk]]) 18:29, 10 June 2024 (UTC)
+
+==The ZZ Top Beard==
+
+Something should be said about their iconic beards. [[User:Presario2200|Presario2200]] ([[User talk:Presario2200|talk]]) 13:18, 12 March 2020 (UTC)
+
+==Attribution==
+Text and references copied from [[Dusty Hill]] to [[ZZ Top]],  See former article's history for a list of contributors.  <span style="text-shadow:#396 0.2em 0.2em 0.5em; class=texhtml">[[User:7&amp;6=thirteen|<b style="color:#060">7&amp;6=thirteen</b>]] ([[User talk:7&amp;6=thirteen|<b style="color:#000">☎</b>]])</span> 15:47, 29 July 2021 (UTC)
+
+== Elwood Francis ==
+
+Elwood is ''''NOT'''' a touring member. He is officially the new bass player for ZZ Top. If proof is required, you can find it here.
+<ref>https://variety.com/2021/music/news/billy-gibbons-interview-zz-top-dusty-hill-died-carrying-on-1235031028/</ref>
+Now kindly restore my changes to the correct information, please.
+
+No1ZZTopfan 19:35, 30 July 2021 (UTC) <!-- Template:Unsigned --><span class="autosigned" style="font-size:85%;">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:No1ZZTopfan|No1ZZTopfan]] ([[User talk:No1ZZTopfan#top|talk]] • [[Special:Contributions/No1ZZTopfan|contribs]]) 19:35, 30 July 2021 (UTC)</span>
+
+:Tend to agree, even if that source says " filling in". The quite from Gibbons seems to make it pretty clear. [[User:Martinevans123|Martinevans123]] ([[User talk:Martinevans123|talk]]) 19:43, 30 July 2021 (UTC)
+
+::Tend to disagree at this moment. “Seeming” to make it “pretty clear” is not the same as making it clear. Nowhere in the source article is a flat statement made that Elwood has been made a member of the band. That’s a very specific and legal deal. Filling in does not a member make. The article should specify this important difference. I do agree that at some point fairly soon it very well may become official, but until it is official the article should certainly not list him as a member. If I missed something specifically stating Elwood is now an official member in that article, please enlighten me with the quote. [[Special:Contributions/73.69.251.97|73.69.251.97]] ([[User talk:73.69.251.97|talk]]) 22:44, 14 September 2021 (UTC)
+
+{{reflist-talk}}
+
+== 1980 [[Rockpalast]] concert ==
+
+YouTube is literally awash with clips from the 1980  [[Rockpalast]] concert, which was later issued on the DVD ''[[Double Down Live: 1980 & 2008]]''. Likewise music media platforms on the web are awash with downloadable sound files of the same. It shouldn't be too hard to find an acceptable source that this concert actually took place?  [[User:Martinevans123|Martinevans123]] ([[User talk:Martinevans123|talk]]) 15:00, 12 October 2021 (UTC)
+
+== other appearances ==
+
+ZZ top appeared in in a W.A.S.P video: ”Blind in Texas”. [[Special:Contributions/92.32.89.28|92.32.89.28]] ([[User talk:92.32.89.28|talk]]) 17:25, 28 October 2022 (UTC)
+
+== "[[:Aerosmith/ZZ Top Tour]]" listed at [[Wikipedia:Redirects for discussion|Redirects for discussion]] ==
+[[File:Information.svg|30px]]
+The redirect <span class="plainlinks">[//en.wikipedia.org/w/index.php?title=Aerosmith/ZZ_Top_Tour&redirect=no Aerosmith/ZZ Top Tour]</span> has been listed at [[Wikipedia:Redirects for discussion|redirects for discussion]] to determine whether its use and function meets the [[Wikipedia:Redirect|redirect guidelines]]. Readers of this page are welcome to comment on this redirect at {{slink|Wikipedia:Redirects for discussion/Log/2023 February 28#Aerosmith/ZZ Top Tour}} until a consensus is reached. <!-- from Template:RFDNote --> [[Special:Contributions/2600:1700:9BF3:220:34F4:792E:B1E7:2AB0|2600:1700:9BF3:220:34F4:792E:B1E7:2AB0]] ([[User talk:2600:1700:9BF3:220:34F4:792E:B1E7:2AB0|talk]]) 05:59, 28 February 2023 (UTC)
+
+== Grammatical number of "ZZ Top" ==
+
+''ZZ Top has released 15 studio albums and sold an estimated 50 million records worldwide. They have won three MTV Video Music Awards''
+
+I believe, or at least I have seen it mentioned, that, in AmE, bands are treated as grammatically singular; so, whereas in BrE we would say "ZZ Top have released", in AmE it is "has released". Even so, is it not illogical, or disruptive to reading, to follow "ZZ Top has" with "They have"? [[Special:Contributions/2A00:23C8:7B09:FA01:65DF:3F82:5C40:BD43|2A00:23C8:7B09:FA01:65DF:3F82:5C40:BD43]] ([[User talk:2A00:23C8:7B09:FA01:65DF:3F82:5C40:BD43|talk]]) 23:15, 9 February 2024 (UTC)
+
+:Tend to agree. No one would want to call band them "it", I guess. [[User:Martinevans123|Martinevans123]] ([[User talk:Martinevans123|talk]]) 23:40, 9 February 2024 (UTC)
+
+== Error ==
+
+The first show where their tech played wasn't Illinois it was Corbin Kentucky, I was there, Dusty weny home at the Corbin show. [[Special:Contributions/2603:6013:9540:8720:B149:4002:295B:F13E|2603:6013:9540:8720:B149:4002:295B:F13E]] ([[User talk:2603:6013:9540:8720:B149:4002:295B:F13E|talk]]) 08:50, 2 August 2025 (UTC)

@@ -1,0 +1,34 @@
+{{Talk header}}
+{{WikiProject banner shell|class=Start|
+{{WikiProject Food and drink|importance=low}}
+{{WikiProject South Africa|importance= Mid}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Biltong/Archives/
+|format=Y/F
+|age=8640
+|minkeepthreads=1
+|archivebox=yes
+|box-advert=yes
+}}
+
+== contrary info ==
+
+According to information here  [[Curing salt]]
+
+Quote
+
+Though it has been suggested that the reason for using nitrite-containing curing salt is to prevent [[botulism]], a 2018 study by the British Meat Producers Association determined that legally permitted levels of nitrite have no effect on the growth of the ''[[Clostridium botulinum]]'' bacteria that causes botulism, in line with the UK's Advisory Committee on the Microbiological Safety of Food opinion that nitrites are not required to prevent ''C. botulinum'' growth and extend shelf life.
+
+end quote
+
+While this article  states:
+
+The potassium nitrate kills ''[[Clostridium botulinum]]'', the deadly bacterium that causes [[botulism]]
+
+[[User:Redgumweb|Redgumweb]] ([[User talk:Redgumweb|talk]]) 06:45, 24 September 2024 (UTC)
+
+:That's not inherently a contradiction. Consider that "Not required" could mean "The microbes are already dead even without any nitrite." even while admitting that it does indeed work.
+
+== Jerky ==
+Just to be pedantic, this article states that jerky is typically heated to 160 degrees, but proper jerky is purely air-dried. Home 'dehydrator' machines use heat because there isn't enough airflow to properly dry the goods inside without it. But that makes inferior jerky.  <!-- Template:Unsigned IP --><small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/2601:449:4582:CB00:0:0:0:5AE2|2601:449:4582:CB00:0:0:0:5AE2]] ([[User talk:2601:449:4582:CB00:0:0:0:5AE2#top|talk]]) 09:45, 16 January 2025 (UTC)</small> <!--Autosigned by SineBot-->

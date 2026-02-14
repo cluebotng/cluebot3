@@ -1,0 +1,1 @@
+{{User:ClueBot III/ArchiveThis|age=4320|archiveprefix=Talk:Vladimir the Great/Archive|numberstart=1|maxarchsize=120000|header={{Automatic archive navigator}}|minkeepthreads=8|minarchthreads=1|format= %%i}}

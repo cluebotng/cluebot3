@@ -1,0 +1,10 @@
+{
+    "age": "2160",
+    "archiveprefix": "Talk:ZZ Top\/Archive",
+    "numberstart": "1",
+    "maxarchsize": "75000",
+    "header": "{{Automatic archive navigator}}",
+    "minkeepthreads": "10",
+    "minarchthreads": "3",
+    "format": " %%i"
+}

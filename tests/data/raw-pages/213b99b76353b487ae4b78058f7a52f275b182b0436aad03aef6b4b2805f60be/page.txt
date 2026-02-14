@@ -1,0 +1,197 @@
+{{Skip to talk}}
+{{Talk header|noarchive=yes|search=no}}
+{{Controversial}}
+{{Round in circles|search=yes}}
+{{British English}}
+{{Article history
+|action1=FAC
+|action1date=02:06, 30 Jan 2005
+|action1link=Wikipedia:Featured article candidates/David Irving/archive1
+|action1result=not promoted
+|action1oldid=10011448
+
+|action2=FAC
+|action2date=19:48, 7 August 2005
+|action2link=Wikipedia:Featured article candidates/David Irving/archive2
+|action2result=not promoted
+|action2oldid=20489681
+
+|action3=PR
+|action3date=02:42, 4 November 2010
+|action3link=Wikipedia:Peer review/David Irving/archive1
+|action3result=reviewed
+|action3oldid=394334723
+
+|action4=GAN
+|action4date=20:14, 12 February 2011
+|action4link=/GA1
+|action4result=listed
+|action4oldid=413529431
+
+| action5       = GAR
+| action5date   = 06:32, 3 August 2011
+| action5link   = /GA2
+| action5result = kept
+| action5oldid  = 442813937
+
+|topic=Socsci|otd1date=2017-03-24|otd1oldid=771906205
+
+|action6 = GAR
+|action6date = 19:29, 18 March 2025 (UTC)
+|action6link = Wikipedia:Good article reassessment/David Irving/1
+|action6result = kept
+|action6oldid = 1280689886
+|currentstatus = GA
+}}
+{{WikiProject banner shell|collapsed=yes|blp=yes|class=GA|vital=yes|listas=Irving, David|1=
+{{WikiProject Biography|a&e-work-group=yes|a&e-priority=mid}}
+{{WikiProject Alternative Views|importance=Mid}}
+{{WikiProject Crime and Criminal Biography|importance=low}}
+{{WikiProject Journalism|importance=low}}
+{{WikiProject Skepticism|importance=mid}}
+{{WikiProject Military history|class=GA|Historiography-task-force=yes|WWII=yes}}
+{{WikiProject England|importance=Low}}
+{{WikiProject East Anglia|importance=mid|Essex=yes|Essex-importance=mid}}
+{{WikiProject History|importance=Mid}}
+}}
+{{press|author=Cahal Milmo and Aline Nassif |date=25 April 2008 |url=http://www.independent.co.uk/news/uk/this-britain/legal-victory-for--bb-owner-who-evicted-irving-for-being-too-moody-815405.html |title=Legal victory for B&B owner who evicted Irving for being too moody |org=[[The Independent]] |section=April 2008
+|author2=Cnaan Liphsiz|date2=5 May 2009|url2=http://www.haaretz.com/hasen/spages/1082777.html|title2=Wikipedia editors: Coverage of Israel 'problematic'|org2=[[Ha'aretz]] |section2=May 2009}}
+
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:David Irving/Archive
+|format= %%i
+|age=2160<!--90 days-->
+|archivebox=yes
+|box-advert=yes
+|maxarchsize=100000
+|numberstart=10
+|minkeepthreads=4
+|header={{automatic archive navigator}}
+}}
+{{section sizes}}
+
+==GA Reassessment==
+{{Wikipedia:Good article reassessment/David Irving/1}}
+
+== Discredited? ==
+
+The sources provided for the discredited comment in the lead are rather lacking. One is a blurb from a website for a PBS documentary 20 years ago, an awful source. Another is from a book published by journalist [[Peter Wyden]], who doesn't have credentials as a historians. Then the comment by Graham Long refers to Irving being "discredited" but does not state he has been "discredited by historians", so this is SYNTH. 
+
+I think this comment should be removed until there's actual evidence in the form of statements by multiple historians (or polling data for historians) proving it. [[User:JDiala|JDiala]] ([[User talk:JDiala|talk]]) 07:56, 15 April 2025 (UTC)
+:This is an impressive attempt at barrel-bottom-scraping.  Taking everything together, the sources are more than adequate.  If you feel a need to reinforce it, perhaps you could explore some of the >3000 sources potentially useful for this purpose: [https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22david+Irving%22+discredited&btnG=].  [[User:Nomoskedasticity|Nomoskedasticity]] ([[User talk:Nomoskedasticity|talk]]) 09:03, 15 April 2025 (UTC)
+::The sources in that link do not justify the claim. [[User:JDiala|JDiala]] ([[User talk:JDiala|talk]]) 08:49, 16 April 2025 (UTC)
+:::Please, stop @[[User:JDiala|JDiala]]. Our fellow @[[User:Nomoskedasticity|Nomoskedasticity]] made a serious and useful suggestion for your. You can look at [[Denial (2016 film)]] too. After this, you need provide some [[WP:RS]]s to support your claims. If you don't like the sources here, you can notify [[WP:RSN]]. [[WP:NOTDUMB]]. You can learn a lot if you take some time to navigate in archives of this discussion. [[User:Ixocactus|Ixocactus]] ([[User talk:Ixocactus|talk]]) 18:39, 16 April 2025 (UTC)
+::::This is a bizarre personal attack. Material needs to be properly sourced. The onus is on those wanting to include material to properly explain why their source supports their claim. It just seems odd to me that for such a definitive statement being made, editors have had difficulty finding actual historians calling him discredited. I should also note (for utmost clarity) that I am not a supporter of Irving or his views. However, I do take the integrity of the project seriously, especially for BLP articles. [[User:JDiala|JDiala]] ([[User talk:JDiala|talk]]) 23:37, 16 April 2025 (UTC)
+:::::Try {{cite book|title=Telling Lies About Hitler |first1=Richard J. |last1=Evans |page=271 |date=2002 |publisher=Verso}}<span style="font-family:Monotype Corsiva;font-size:10pt;color:#000000">--[[User:Toddy1| Toddy1]] [[User talk:Toddy1|(talk)]]</span> 13:58, 25 May 2025 (UTC)
+
+== Semi-protected edit request on 24 September 2025 ==
+
+{{edit semi-protected|David Irving|answered=yes}}
+Change "In his works, he falsely claimed that Adolf Hitler did not know of the extermination of Jews, or, if he did, he opposed it.[2]" to [blank]. 
+
+This citation is unfounded. Page 101 and 102 of the cited text (ISBN 046502152) are as follows: 
+101
+used the word liquidate was reason enough to surmise that
+Hitler’s order
+used Mauthausen and hostage to reassert the prescribed phraseology.lO’
+As for Mauthausen, if Hitler did indeed mean what he said when he
+ordered the Roman Jews to be sent
+there, he was surely aware that it
+was
+perhaps the deadliest of all concentration camps. In January 1941 the
+head of the Reich Security Service SS-Obergruppenfulzrer Reinhard
+Heydrich divided the concentration camps into three grades to deter-
+mine conditions
+of detention and
+work in each.lo2 Grade 111 was
+intended to deal with the worst category of prisoner, and was reserved
+solely for Mauthausen. The mortality rate, especially for Jews, was terri-
+ble. Deportation to Mauthausen was effectively a death sentence, often
+by forced labor in the quarries or in camp constru~tion.’~~
+Thus Hitler’s intervention was not one that ‘mitigated’ the lot of the
+Jews of Rome. On the contrary, it counteracted a concerted
+local attempt
+to save them and condemned them to extermination. Hitler’s order was
+not a revision of Himmler’s, but a forceful reaffirmation of it. Hitler surely
+knew that for the Jews to be deported
+from Italy ‘as hostages’ was their
+death warrant, whether it
+was to Mauthausen or whether this was simply
+a euphemistic deception on
+his part. I could
+not avoid the conclusion that
+in this instance, too, Irving had manipulated and falsified the documen-
+tation. He suppressed material that he knew ran against his case, in order
+to support an untenable conclusion which was in fact the exact opposite
+of what the documents indicated.
+VI I
+After this lengthy examination of Irving’s ‘chain of documents,’ '''I had to conclude that Irving consistently and repeatedly manipulated the histor-ical evidence in order to give the impression that it supported his view that Hitler did not know about the extermination of the Jews, or, if he did, opposed it.''' Irving’s method of working with documents had been noted
+by previous investigators, who had trodden the same path through the
+obscure undergrowth of his footnote references. Thus, for example, Irv-
+ing’s use in Hitler’s War of Foreign Minister Joachim von Ribbentrop’s
+Nuremberg prison notes to support the thesis that Hitler
+knew nothing
+.
+102
+LYING ABOUT HITLER
+of the ‘Final Solution’ had already been exposed as a falsification in the
+197Os.lo4 In a footnote on page 851 of the 1977 edition of Hider’s War,
+Irving had reported:
+'''Writing a confidential study on Hitler in his Nuremberg prison cell, Ribbentrop also exonerated him wholly. “How things came to the destruction of the Jews, I just don’t know. As to whether Himmler began it, or Hitler put up with it, I don’t know. But that he ''ordered it I refuse to believe'', because such an act would be wholly incom-patible with the picture I always had of him.”'''
+The journalists Gitta Sereny and Lewis Chester had tracked down
+this reference for a critical assessment
+of Irving’s book in 1977. The orig-
+inal document in the Bavarian State Archives contained an additional
+sentence, not included by Irving: “On the other hand, judging from his
+(i,e., Hitler’s) Last Will, one must suppose that he at least knew about it,
+if, in his fanaticism against the Jews, he didn’t also order it.” When con-
+fronted with the omission, Irving had said that the sentence concerned
+was “irrelevant” to the logic of his argument and that he did not “want to
+confuse the reader.”lo5
+Following the appearance of the article by Chester and Sereny, Irv-
+ing had written to the editor
+of The Sunday Times on 14 September 1977
+claiming: “The passage from Ribbentrop’s statement which I omitted is
+totally irrelevant to my claim that u p to October 1943 there is no evidence
+for the claim that Hitler knew what was going on.”lo6 But this irrelevant
+observation did nothing to justify Irving’s manipulation of the record,
+which revealed, once again, how he had plucked out the part of a single
+statement which suited his purposes and suppressed the other part
+which
+did not. At no other point in this letter or in his subsequent correspon-
+dence did Irving try to defend his editing of the Ribbentrop note.lo7
+Despite such devastating criticism
+by Chester and Sereny, the quotation
+remained intact and was still without the missing sentence on page 809
+of the 1991 edition of Hitler’s War:
+Irving’s argument that Hitler did not
+know or approve of actions
+against the Jews thus clearly rested on a substantial number
+of historical
+falsifications. Although some of them, looked at individually, might
+appear relatively insignificant, there were others that, in my view. were
+
+end citation
+
+The relevant aspect of this citation is that Irving included a quote from Joachim von Ribbentrop’s Nuremberg prison notes. '''He did not claim that Hitler knew nothing of the extermination of Jews.''' He merely inserted a quote from Ribbentrop's journal outlining how Hitler's '''order for''' the extermination of the Jewish individuals did not fit Ribbentrop's own perception of Hitler ('''In fact, not even Ribbentrop's journal notes claim that Hitler knew nothing of the extermination of the Jews, rather that he couldn't imagine Hitler being the originator of the idea'''). '''Nowhere''' in this secondary text does Irving make the claim that Hitler was unaware of the mass executions of Jews. Instead, the author of the text makes a spurious and unfounded claim that such is the case, using only the insertion of Ribbentrop's memo of internal conflict with regard to his image of Hitler as support.
+
+Were this to be upheld, the citation should quote Irving's book directly, not this secondary source. [[User:JarmoTheKing|JarmoTheKing]] ([[User talk:JarmoTheKing|talk]]) 00:51, 24 September 2025 (UTC)
+:Page 101 of the 2001 edition says "Irving had manipulated and falsified the documentation. He suppressed material that he knew ran against his case, in order to support an untenable conclusion which was in fact the exact opposite of what the documents indicated. ... After this lengthy examination of Irving's 'chain of documents,' I [Evans] had to conclude that Irving consistently and repeatedly manipulated the historical evidence in order to give the impression that it supported his view that Hitler did not know about the extermination of the Jews, or, if he did, opposed it."
+
+:Page 5 of the 2002 edition says: "This has not stopped him [Irving] from continuing to try to prevent the publication of material, such as I [Evans] present in this book, that exposed him as a manipulator of historical documents and a Holocaust denier."
+
+:Pages 10-11 of the 2002 edition says: "With the publication of his massive study of ''Hitler's War'' in 1977, Irving stirred up fresh debate.  In this book, he argued that far from ordering it himself, Hitler had not known about the extermination of the Jews until late in 1943, and both before and after that had done his best to mitigate the worst antisemitic excesses of his subordinates."
+
+:We could leave it as it is, because what is stated is supported by the citation, or we could alter:
+:*In his works, he falsely claimed that [[Adolf Hitler]] did not know of the [[Final Solution|extermination of Jews]], or, if he did, he opposed it.<ref>{{Harvnb|Evans|2001|p=101}}.</ref>
+:to
+:*In his book ''Hitler's War'' he falsely claimed that [[Adolf Hitler]] did not know of the [[Final Solution|extermination of Jews]] until late 1943, and "tried to mitigate the worst antisemitic excesses of his subordinates".<ref>{{Harvnb|Evans|2002|pp=10-11}}.</ref>
+:<span style="font-family:Monotype Corsiva;font-size:10pt;color:#000000">--[[User:Toddy1| Toddy1]] [[User talk:Toddy1|(talk)]]</span> 11:00, 24 September 2025 (UTC)
+
+:The policy ([[:WP:PSTS]]) would not allow us to back a statement about Irving making false claims with a citation to one of Irving's books.  Primary sources can only be used to make straightforward, descriptive statements of facts, such as what Irving wrote.  A secondary source is required to support the judgment that Irving's claims were false, and that he manipulated historical documents to support his claims.<span style="font-family:Monotype Corsiva;font-size:10pt;color:#000000">--[[User:Toddy1| Toddy1]] [[User talk:Toddy1|(talk)]]</span> 09:48, 24 September 2025 (UTC)
+
+== Duplicate information  ==
+
+The Kennedy quote is included twice in the article, one in block quote format and the other in regular quotes. Not sure where the placement "should" be, but I don't think it's something that needs to be emphasized twice. I'll also note that the way the [[Goebbels' diaries]] is covered here is much better than the section dedicated to it there (it implies he only lost the deal because of protests/political pressure). Courtesy ping to {{u|Nick-D}} because you're probably quite knowledgeable about everything regarding this article/sourcing with the recent GA review. [[User:Clovermoss|<span style="color:mediumpurple">Clovermoss</span><span style="color:green">🍀</span>]] [[User talk:Clovermoss|(talk)]] 08:48, 4 November 2025 (UTC)
+:Thanks for spotting this - I've removed the block quote. [[User:Nick-D|Nick-D]] ([[User talk:Nick-D|talk]]) 08:54, 4 November 2025 (UTC)
+::Well, I only really caught it because I was reading the whole article in one go. It occurs to me that I should probably be a bit more specific about what I meant on the second part. I'm talking about the state of the #David Irving controversy subsection in History. I realize it's another article entirely but it bothers me when I notice inconsistencies in framing between articles that cover the same subject. [[User:Clovermoss|<span style="color:mediumpurple">Clovermoss</span><span style="color:green">🍀</span>]] [[User talk:Clovermoss|(talk)]] 09:07, 4 November 2025 (UTC)

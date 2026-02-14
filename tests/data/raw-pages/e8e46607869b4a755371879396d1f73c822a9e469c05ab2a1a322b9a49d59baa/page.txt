@@ -1,0 +1,19 @@
+{{Talk header|search=yes}}
+{{On this day|date1=2011-08-26|oldid1=446726383|date2=2012-08-26|oldid2=509171068|date3=2015-08-26|oldid3=677993508}}
+{{WikiProject banner shell|class=B|1=
+{{WikiProject Canada|importance=High |qc=yes |canlaw=yes}}
+{{WikiProject Linguistics|applied=yes|importance=low}}
+{{WikiProject Law|importance=Low}}
+}}
+<!--{{Archive box|
+*[[/Archive1|Archive 1 (December 2006 - September 2008)]]
+}}-->
+{{User:ClueBot III/ArchiveThis
+|header=<nowiki>{{talkarchive}}</nowiki>
+|archiveprefix=Talk:Charter of the French Language/Archive
+|format= %%i
+|age=2688
+|index=no
+|maxarchsize=50000
+|numberstart=1
+}}

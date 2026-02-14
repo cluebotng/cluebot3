@@ -1,0 +1,107 @@
+{{Talk header}}
+{{British English}}
+{{ITN talk|24 November|2022|oldid=1123559178}}
+{{WikiProject banner shell|class=C|1=
+{{Wikiproject Engineering}}
+{{WikiProject Measurement|importance=mid}}
+{{WikiProject Science}}
+}}
+{{FOLDOC|prefix}}
+
+==Untitled==
+FOLDOC [[WP:PLAGIARISM]] checked ~[[User:Kvng|Kvng]] ([[User talk:Kvng|talk]]) 18:17, 4 January 2024 (UTC)
+{{User:ClueBot III/ArchiveThis
+| age                 =8760
+| archiveprefix       =Talk:Metric prefix/Archive
+| numberstart         =1
+| maxarchsize         =75000
+| header              ={{Automatic archive navigator}}
+| minkeepthreads      =5
+| format              = %%i
+}}
+<!-- Template:Setup cluebot archiving -->
+
+== Indian currencies ==
+
+Should definitely add the Indian use of lakh (100,000) and crore (see [[Indian numbering system]] [[Special:Contributions/2A00:23C8:B903:2601:ED15:A9EE:FA49:31F0|2A00:23C8:B903:2601:ED15:A9EE:FA49:31F0]] ([[User talk:2A00:23C8:B903:2601:ED15:A9EE:FA49:31F0|talk]]) 07:22, 6 September 2023 (UTC)
+
+:I added [[Lakh]] to 'See also'. Not sure more is merited. [[User:Dondervogel 2|Dondervogel 2]] ([[User talk:Dondervogel 2|talk]]) 09:48, 6 September 2023 (UTC)
+::I'd say that is all that's merited. [[User:Stevebroshar|Stevebroshar]] ([[User talk:Stevebroshar|talk]]) 13:28, 26 December 2024 (UTC)
+
+== Say hello to the four new metric prefixes ==
+
+As of December 2024, brunta, bramto, agana, and azeko have became the official prefixes of the metric prefix. They will soon be adopted by BIPM soon. Please be patient, because this might take a while to be adopted. [[Special:Contributions/2604:3D09:6B7B:C000:6864:2D29:37B6:572F|2604:3D09:6B7B:C000:6864:2D29:37B6:572F]] ([[User talk:2604:3D09:6B7B:C000:6864:2D29:37B6:572F|talk]]) 02:43, 10 December 2024 (UTC)
+
+:The lower case letter “a” is already used for atto (10<sup>-18</sup>). [[Special:Contributions/220.132.216.52|220.132.216.52]] ([[User talk:220.132.216.52|talk]]) 01:02, 5 January 2025 (UTC)
+
+== Verdo? ==
+
+I saw in the table the prefix "verdo" as 10^33, however it lists a source that does not mention it: https://www.bipm.org/en/cgpm-2022/resolution-3
+
+Is it legitimate or not? [[User:Codegrinder|Codegrinder]] ([[User talk:Codegrinder|talk]]) 20:19, 27 December 2024 (UTC)
+
+:It was removed as vandalism: https://en.wikipedia.org/w/index.php?title=Template%3ASI_prefixes_%28infobox%29&diff=1265622484&oldid=1265599102&variant=en [[User:Codegrinder|Codegrinder]] ([[User talk:Codegrinder|talk]]) 21:22, 27 December 2024 (UTC)
+
+== Move discussion in progress ==
+
+There is a move discussion in progress on [[Talk:Yotta Savings#Requested move 2 January 2025|Talk:Yotta Savings]] which affects this page. Please participate on that page and not in this talk page section. Thank you. <!-- Talk:Yotta Savings#Requested move 2 January 2025 crosspost --> —[[User:RMCD bot|RMCD bot]] 19:10, 2 January 2025 (UTC)
+
+== Atto- for a ==
+
+I think the symbol 'a', is in use for atto-. I will change the 10<sup>-36</sup>, the azeko prefix from 'a'  to 'ζ'. The lowercase Zeta could be used as a unit symbol. Therefore I propose saying 'B', 'b', 'A' and 'ζ' (lowercase zeta, not lowercase 'a') are completely unused. Few letters in the English alphabet remain free to be used: probably only 'l', yielding ledecca and ledecto, or maybe laffra (from laffron 'meaning 13 in Femenstork'), and larfo (from larfette 'meaning 13 in Oniliganji') for 10<sup>39</sup> and 10<sup>-39</sup>, respectively.
+
+[[Special:Contributions/2604:3D09:6B7B:C000:A04A:A9BF:7BAB:2DEE|2604:3D09:6B7B:C000:A04A:A9BF:7BAB:2DEE]] ([[User talk:2604:3D09:6B7B:C000:A04A:A9BF:7BAB:2DEE|talk]]) 20:25, 14 January 2025 (UTC)
+
+:Are you proposing a change to the article? If so, what change? [[User:Dondervogel 2|Dondervogel 2]] ([[User talk:Dondervogel 2|talk]]) 20:58, 14 January 2025 (UTC)
+::Uhh... No! I will wait, but brown said the letter 'B' is almost unused as a unit symbol.
+::If BIPM adds the newer prefixes, the SI prefix better not be limited to quetta-.
+::[[Special:Contributions/2604:3D09:6B7B:C000:A04A:A9BF:7BAB:2DEE|2604:3D09:6B7B:C000:A04A:A9BF:7BAB:2DEE]] ([[User talk:2604:3D09:6B7B:C000:A04A:A9BF:7BAB:2DEE|talk]]) 01:13, 15 January 2025 (UTC)
+:::The letter “B” is used for the unit [[Bel (unit)|bel]], before 2022, Q/q and R/r were the only Latin letters available for abbreviations, all other Latin letters are either already used for other prefixes ([[atto-|a]], [[centi-|c]], [[deci-|d]], [[exa-|E]], [[femto-|f]], [[giga-|G]], [[hecto-|h]], [[kilo-|k]], [[mega-|M]], [[milli-|m]], [[nano-|n]], [[peta-|P]], [[pico-|p]], [[tera-|T]], [[yotta-|Y]], [[yocto-|y]], [[zetta-|Z]], [[zepto-|z]]) or already used for [[SI units]] (including: [[SI base unit]]s, [[SI derived unit]]s, [[Non-SI units mentioned in the SI]]) ([[ampere|A]], [[bel (unit)|B]], [[coulomb|C]], [[day|d]], [[farad|F]], [[gram|g]], [[henry (unit)|H]], [[hour|h]], [[joule|J]], [[kelvin|K]], [[litre|L]], [[metre|m]], [[newton (unit)|N]], [[siemens (unit)|S]], [[second|s]], [[tesla (unit)|T]], [[tonne|t]], [[unified atomic mass unit|u]], [[Volt|V]], [[Watt|W]]) or easily confused with mathematical operators (I and l are easily confused with 1, O and o are easily confused with 0, X and x are easily confused with ×), although the letters B (for bel), L (for litre), u (for unified atomic mass unit) need the [[Non-SI units mentioned in the SI]]. [[Special:Contributions/220.132.216.52|220.132.216.52]] ([[User talk:220.132.216.52|talk]]) 13:52, 17 January 2025 (UTC)
+:::Before 2022, I have a suggestion (since the letters B (for bel), L (for litre), u (for unified atomic mass unit) need the [[Non-SI units mentioned in the SI]])
+::::X for 10^27, x for 10^-27
+::::U for 10^30, u for 10^-30
+::::R for 10^33, r for 10^-33
+::::Q for 10^36, q for 10^-36
+::::O for 10^39, o for 10^-39
+::::L for 10^42, l for 10^-42
+::::I for 10^45, i for 10^-45
+::::B for 10^48, b for 10^-48
+:::[[Special:Contributions/220.132.216.52|220.132.216.52]] ([[User talk:220.132.216.52|talk]]) 15:42, 30 January 2025 (UTC)
+:No source for the SI prefixes beyond quetta-/quecto- [[Special:Contributions/220.132.216.52|220.132.216.52]] ([[User talk:220.132.216.52|talk]]) 13:49, 17 January 2025 (UTC)
+
+== You know kilo, mega, giga, the new SI Prefixes have been extended by Bella Tersumi ==
+
+Is the metric prefix ready for brunta, bramto, agana, and azeko?
+: [[Special:Contributions/2604:3D09:6B7B:C000:C3D:A61C:9D0D:EE30|2604:3D09:6B7B:C000:C3D:A61C:9D0D:EE30]] ([[User talk:2604:3D09:6B7B:C000:C3D:A61C:9D0D:EE30|talk]]) 16:01, 3 March 2025 (UTC)
+
+:Here is the link: https://multiarrest91.github.io/prefixes/
+:: [[Special:Contributions/2604:3D09:6B7B:C000:C3D:A61C:9D0D:EE30|2604:3D09:6B7B:C000:C3D:A61C:9D0D:EE30]] ([[User talk:2604:3D09:6B7B:C000:C3D:A61C:9D0D:EE30|talk]]) 16:02, 3 March 2025 (UTC)
+::The web page you supplied is a hoax; not a reliable source. [[User:Indefatigable|Indefatigable]] ([[User talk:Indefatigable|talk]]) 17:10, 3 March 2025 (UTC)
+:::Why is isn’t realiable source? [[Special:Contributions/45.179.124.255|45.179.124.255]] ([[User talk:45.179.124.255|talk]]) 21:17, 3 March 2025 (UTC)
+::::Because it's someone's idea of a joke. They just made it up. [[User:Dondervogel 2|Dondervogel 2]] ([[User talk:Dondervogel 2|talk]]) 08:12, 4 March 2025 (UTC)
+:::::This is not a joke. Bella Tersumi extended the new available range of the SI Prefixes.
+:::::: [[Special:Contributions/2604:3D09:6B7B:C000:8028:BAD7:CD8D:6536|2604:3D09:6B7B:C000:8028:BAD7:CD8D:6536]] ([[User talk:2604:3D09:6B7B:C000:8028:BAD7:CD8D:6536|talk]]) 21:23, 4 March 2025 (UTC)
+::::::What’s next SI Prefix after Agana? It would correctly be... Laffra (10<sup>39</sup>) [[Special:Contributions/201.20.90.156|201.20.90.156]] ([[User talk:201.20.90.156|talk]]) 13:18, 5 March 2025 (UTC)
+:::::::The next SI prefixes after Agana are in the future. [[Special:Contributions/174.3.152.235|174.3.152.235]] ([[User talk:174.3.152.235|talk]]) 21:53, 12 March 2025 (UTC)
+
+== Reasons for new SI prefixes ==
+{{archive top | result = Discussion partially based on made-up language "Femenian", thus indicating an attempt at humor.}}
+I think quetta- is actually derived from Femenian ‘quetta’ meaning 10 (the tenth power of 10<sup>3</sup>).
+
+The reasons are:
+* The names should be simple and, if possible, meaningful and memorable.
+* The names should have some connection to the powers of 10<sup>3</sup> that they represent.
+* The names should be based on either Latin, Greek, or Femenian as the most used languages previously.
+* Multiples should end ‘-a’ and sub-multiples should end ‘-o’.
+* The symbols used should be the same letter for a given power of ten, in upper case for multiples and in lower case for sub-multiples.
+* Letters already in use for SI prefixes that may otherwise cause confusion, should be avoided.
+* Following the precedent set recently, letters should be used in reverse English alphabetical order, suitably modifying chosen names, and skipping letters as appropriate.
+* If the symbol ‘a’ is already in use for atto-, then the symbol should insteadly be a greek letter.
+The letters ‘p’, ‘o’, ‘n’, ‘m’, ‘l’, ‘k’, ‘j’, ‘i’, ‘h’, ‘g’, ‘f’, ‘e’, ‘d’ and ‘c’ are rejected by Richard Brown. He said the letter ‘b’ is unused as an SI Prefix symbol. I think the letters ‘b’ and ‘a’ are almost entirely unused as SI prefix symbols. ‘B’ is used for byte, a historical non-SI unit for storage size memory, they might reach 1,000 QB in the future or 2095. This leads to the suggestions in Table 1 for new SI prefix names and symbols to expand the available range by six orders of magnitude in each direction. [[Special:Contributions/174.3.152.235|174.3.152.235]] ([[User talk:174.3.152.235|talk]]) 22:02, 12 March 2025 (UTC)
+
+:hey, if you said we need new metric units... then you noticed that some 10 multiples or whatever you call those.. are skipped.. right?? [[Special:Contributions/2001:4455:90A5:F300:1081:5C12:84BB:475E|2001:4455:90A5:F300:1081:5C12:84BB:475E]] ([[User talk:2001:4455:90A5:F300:1081:5C12:84BB:475E|talk]]) 13:37, 30 October 2025 (UTC)
+{{archive bottom}}
+
+== hella? ==
+
+wasn't someone proposing "hella" as a standard prefix on the large side? Did that meme die? [[Special:Contributions/136.33.143.86|136.33.143.86]] ([[User talk:136.33.143.86|talk]]) 08:23, 4 April 2025 (UTC)

@@ -1,0 +1,58 @@
+{{skip to talk}}
+{{Talk header}}
+{{SriE}}
+{{WikiProject banner shell|class=C|
+{{WikiProject Ethnic groups|importance=top}}
+{{WikiProject Sri Lanka|importance=Top}}
+}}
+{{Copied|from=Sinhalese people|from_oldid=366374388|to=Genetic studies on Sinhalese|diff=http://en.wikipedia.org/w/index.php?title=Sinhalese_people&oldid=366374388}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Sinhalese people/Archive
+|format= %%i
+|age=2160|<!--90 days-->
+|numberstart=3
+|minkeepthreads=4
+|maxarchsize=100000
+|header={{automatic archive navigator}}
+}}
+==  According to the Mahavamsa and other historical sources, King Vijaya arrived on the island of Tambapanni (Sri Lanka) and gave rise to the Sinhalese. ==
+
+This article says Sinhala people is native to Sri Lanka, what's the source? Mahavamsa says otherwise [[Special:Contributions/2402:D000:8140:A9BF:79C2:61D4:363D:DF0D|2402:D000:8140:A9BF:79C2:61D4:363D:DF0D]] ([[User talk:2402:D000:8140:A9BF:79C2:61D4:363D:DF0D|talk]]) 04:26, 29 May 2025 (UTC)
+
+:There is no evidence beyond reiterated versions of the Mahavamsa account.
+:Although it may hold some truth , such as evidenced by some genetics and obviously an indo aryan language isolated from the indo aryan "mainland" , the sinhalese people are overwhelmingly  descended from native sri lankan populations who assimilated or adopted the language. 
+:There is insufficient or unreliable genetic studies however to establish the proper makeup of sinhalese throughout the island. 
+:Current studies show atleast a quarter of ancestry most similar to north indians while the rest are varying degrees of native (closest to veddas) and dravidian admixture.
+:I will give you a comparable example. The turkish identity today points to historical migration of Oghuz turks to anatolia. Although they speak the same turkic language , the turkish people are mostly descendents of native anatolians. [[User:Airyas|Airyas]] ([[User talk:Airyas|talk]]) 19:37, 8 July 2025 (UTC)
+
+==Typo==
+
+There is a typo: "Sinhala has also adopted many loanwords of foreign origin, including from many Indian such as Tamil and " should read "Sinhala has also adopted many loanwords of foreign origin, including from many Indian languages such as Tamil and ". "Languages" is missing.
+: Done. [[User:Hzh|Hzh]] ([[User talk:Hzh|talk]]) 08:54, 21 June 2025 (UTC)
+
+:I'd also argue that all loanwords are naturally foriegn therefore the use of the word "foriegn" is obsolete. [[User:Airyas|Airyas]] ([[User talk:Airyas|talk]]) 19:31, 8 July 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 28 June 2025 ==
+
+{{edit extended-protected|Sinhalese people|answered=yes}}
+Change the first sentence to be the following:
+
+The Sinhalese people (Sinhala: සිංහල ජනතාව, romanized: Sinhala Janathāva), also known as the Sinhalese or Sinhala people or Eelam Sinhalese, are an Indo-Aryan ethno-linguistic group native to the island of Sri Lanka.[ [[User:Shubhambill|Shubhambill]] ([[User talk:Shubhambill|talk]]) 06:47, 28 June 2025 (UTC)
+
+:Can you provide a source showing this is a name that is used for this group? [[User:SI09|SI09]] ([[User talk:SI09|talk]]) 07:33, 28 June 2025 (UTC)
+:{{Not done}}: please provide [[Wikipedia:Reliable sources|reliable sources]] that support the change you want to be made.<!-- Template:EEp --> [[User:Charliehdb|Charliehdb]] ([[User talk:Charliehdb|talk]]) 13:02, 28 June 2025 (UTC)
+
+== Extended-confirmed-protected edit request on 10 November 2025 ==
+
+{{edit extended-protected|Sinhalese people|answered=yes}}
+The Sinhalese people (Sinhala: සිංහල ජනතාව, romanized: Sinhala Janathāva), also known as the Sinhalese or Sinhala people, "Change x are an Indo-Aryan ethno-linguistic group Y" native to the island of Sri Lanka.[16][17] They are the largest ethnic group in Sri Lanka, constituting about 75% of the Sri Lankan population and number more than 15.2 million.[1][2]
+
+
+
+Genetically, the Sinhalese are considered largely of Dravidian origin, while linguistically they speak an Indo-European (Indo-Aryan) language.
+
+Explanation: 
+The Sinhalese people speak an Indo-Aryan language. However, according to recent DNA studies published in 2025, the Sinhalese show significant genetic similarities with Tamil populations from Tamil Nadu, India, suggesting a substantial Dravidian genetic component in their ancestry. This finding contradicts earlier historical and genetic research, as well as Sinhalese chronicles, which proposed that the Sinhalese migrated from northern or northwestern India around 500 BCE.
+Source: Science Chronicle, July 1 2025￼https://sciencechronicle.in/2025/07/01/sri-lanka-sinhalese-migrated-from-south-india-mixed-heavily-with-adivasi-post-migration-genome-study-finds/ [[Special:Contributions/&#126;2025-31871-35|&#126;2025-31871-35]] ([[User talk:&#126;2025-31871-35|talk]]) 07:36, 10 November 2025 (UTC)
+: Any such change is likely to be contentious.  I would suggest a full discussion before any such change is made. [[User:Hzh|Hzh]] ([[User talk:Hzh|talk]]) 11:54, 10 November 2025 (UTC)
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done:''' it's not clear what changes you want to be made. Please mention the specific changes in a [[Wikipedia:Edit requests#General considerations|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:EEp --> [[User:NotJamestack|NotJamestack]] ([[User talk:NotJamestack|talk]]) 13:12, 10 November 2025 (UTC)

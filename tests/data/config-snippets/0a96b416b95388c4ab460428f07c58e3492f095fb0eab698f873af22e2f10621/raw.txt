@@ -1,0 +1,47 @@
+{{talk header}}
+{{ArticleHistory
+|action1=FAC
+|action1date=29 March 2005
+|action1link=Wikipedia:Featured article candidates/New Deal/Archive 1
+|action1result=not promoted
+|action1oldid=11636946
+|currentstatus=FFAC
+}}
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject United States|importance=High|UShistory=yes|UShistory-importance=High|USGov=yes|USGov-importance=High}}
+{{WikiProject History|importance=Mid}}
+{{WikiProject Economics|importance=Mid}}
+{{WikiProject Politics|importance=high|American=yes |American-importance=high}}
+}}
+{{American English}}
+{{archive box|auto= short|search= yes |index=/Archive index |bot= ClueBot III |age= 90 |collapsible=yes}}
+{{User:ClueBot III/ArchiveThis
+|age=2160
+|archiveprefix=Talk:New Deal/Archive
+|numberstart=5
+|maxarchsize=100000
+|header={{Automatic archive navigator}}
+|minkeepthreads=4
+|minarchthreads=1
+|format= %%i
+}}
+
+==Wiki Education assignment: HIST 463 Consumerism in Modern America==
+{{dashboard.wikiedu.org assignment | course = Wikipedia:Wiki_Ed/University_of_Oregon/HIST_463_Consumerism_in_Modern_America_(Fall) | assignments = [[User:Doas52|Doas52]] | reviewers = [[User:Huckstuhr|Huckstuhr]], [[User:JKBrenner|JKBrenner]] | start_date = 2023-09-28 | end_date = 2023-12-15 }}
+
+<span class="wikied-assignment" style="font-size:85%;">— Assignment last updated by [[User:Heinzam|Heinzam]] ([[User talk:Heinzam|talk]]) 18:59, 9 November 2023 (UTC)</span>
+
+== False statement ==
+
+This is not true: "In 1938, the Republican Party gained control of Congress..."  
+
+True: In 1938, a conservative coalition of southern Democrats and Republicans took control of Congress, though the body was still nominally controlled by Democrats. [[Special:Contributions/173.79.45.183|173.79.45.183]] ([[User talk:173.79.45.183|talk]]) 13:43, 8 November 2024 (UTC)
+
+== Historiography and evaluation of New Deal policies Section ==
+
+This section relies too much on a single paper for pro/neutral/cons (11 out of 16 citations) [[User:Craiggery|Craiggery]] ([[User talk:Craiggery|talk]]) 20:10, 23 September 2025 (UTC)
+
+==Wiki Education assignment: HIST 463 Consumerism in Modern America==
+{{dashboard.wikiedu.org assignment | course = Wikipedia:Wiki_Ed/University_of_Oregon/HIST_463_Consumerism_in_Modern_America_(FALL_2025) | assignments = [[User:Elizabethcarney|Elizabethcarney]] | reviewers = [[User:Bbaker11|Bbaker11]], [[User:Ellaosmussen|Ellaosmussen]] | start_date = 2025-09-29 | end_date = 2025-12-18 }}
+
+<span class="wikied-assignment" style="font-size:85%;">— Assignment last updated by [[User:Heinzam|Heinzam]] ([[User talk:Heinzam|talk]]) 20:45, 13 November 2025 (UTC)</span>

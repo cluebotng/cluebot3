@@ -1,0 +1,163 @@
+{{talkheader}}
+{{WikiProject banner shell|class=B|vital=yes|1=
+{{WikiProject Physics|importance=high|relativity=yes}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Lorentz transformation/Archive
+|format= %%i
+|age=150
+|index=yes
+|minkeepthreads=8
+|maxarchsize=15000
+|numberstart=1
+|archivebox=yes
+|box-advert=yes
+}}
+
+== Section 6.2 ==
+
+The Tex for section 6.2 (contravariant vectors) is not showing the "-" on the "-1" in the exponents. It just looks like a " 1"  <!-- Template:Unsigned IP --><small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/2600:6C44:E7F:1100:F0B3:3663:E21A:A6FE|2600:6C44:E7F:1100:F0B3:3663:E21A:A6FE]] ([[User talk:2600:6C44:E7F:1100:F0B3:3663:E21A:A6FE#top|talk]]) 22:37, 2 February 2021 (UTC)</small> <!--Autosigned by SineBot-->
+:If you were using chrome, it is probably poor setups in handling MathML. See discussion in [[Pauli matrices]]. [[User:Cuzkatzimhut|Cuzkatzimhut]] ([[User talk:Cuzkatzimhut|talk]]) 22:46, 2 February 2021 (UTC)
+::I see it with Firefox under Windows. -- [[User:motorfingers|motorfingers]] : [[User talk:Motorfingers|Talk]]  00:52, 3 February 2021 (UTC)
+
+== I just want to say that I love this picture :) ==
+
+This picture! [[File:Lorentz boost x direction standard configuration.svg|thumb|right|upright=1.75]] <!-- Template:Unsigned --><span class="autosigned" style="font-size:85%;">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:98.128.172.242|98.128.172.242]] ([[User talk:98.128.172.242#top|talk]] • [[Special:Contributions/98.128.172.242|contribs]]) 04:07, 25 April 2021 (UTC)</span>
+
+:Same here mate! [[User:Jmafoko|petite]] ([[User talk:Jmafoko|talk]]) 10:42, 10 January 2022 (UTC)
+
+{{clr}}
+== First equation condition ==
+
+I think it should be mentioned that the two frames have the same origin at t=0 for the first equation [[Special:Contributions/31.164.189.193|31.164.189.193]] ([[User talk:31.164.189.193|talk]]) 11:19, 13 January 2022 (UTC)
+:{{done}}. Not really needed, but won't do any harm: [https://en.wikipedia.org/w/index.php?title=Lorentz_transformation&type=revision&diff=1065424469&oldid=1065050059]. - [[User:DVdm|DVdm]] ([[User talk:DVdm|talk]]) 13:29, 13 January 2022 (UTC)
+::I came to this page to comment that the phrase "two frames with the origins coinciding at ''t''=''t''′=0" is confusing, and found this comment thread.
+::The coordinates are for spacetime, so the origin is defined as (0, 0, 0, 0), which includes t=0.  Saying two frames have the same origin at t=0 is like saying they have the same origin at x=0, or y=0, or z=0.
+::My concern is that the current text encourages people to think in terms of 3D space with time somehow separate, rather than thinking in term of 4D spacetime.
+::Maybe "... two frames with the origins coinciding at (0, 0, 0, 0)" would satisfy the original comment, while emphasizing spacetime.  On the other hand, given that this is the definition of an origin it is an odd statement. [[User:Subbookkeepper|Subbookkeepper]] ([[User talk:Subbookkeepper|talk]]) 16:18, 14 September 2023 (UTC)
+::: {{rto|Subbookkeepper}} A very late reply, this, but I have solved it [https://en.wikipedia.org/w/index.php?title=Lorentz_transformation&diff=1250322412&oldid=1250092961 this way]. - [[User:DVdm|DVdm]] ([[User talk:DVdm|talk]]) 18:51, 9 October 2024 (UTC)
+
+== Eigenstates ==
+
+It is a simple matter to find the eigenvalues Sqrt[1-b)/(1+b)] and its inverse, where b is beta, and eigenstates ([1, 1] and [-1, 1]) of the [x, ct] Lorentz transformation. Some commentators on web forums claim that the eigenvalues are related to the [[Relativistic Doppler effect|Doppler effect]]. Should this be discussed in the article? [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 22:52, 10 July 2024 (UTC).
+
+:Yes, a photon moving in the same direction as the implicit boost direction of the Lorentz transformation will have its energy and momentum scaled by the same multiplicative factor — an amount determined by the Doppler shift.  Because it is the same scaling factor for the momentum and energy, that's saying that the photon's four-momentum is an eigenstate.  Likewise for a photon with the opposite momentum — that is, with momentum antiparallel to the implicit boost direction of the Lorentz transformation — it will be red-shifted rather than blue-shifted but otherwise this too is a Doppler shift and an eigenstate.  If we do mention any of this in the article, I'm thinking it should be exceedingly brief.  —[[User:Quantling|<span class="texhtml"><i>Q</i></span>uantling]]&nbsp;([[User talk:Quantling|talk]]&nbsp;&#124;&nbsp;[[Special:Contributions/Quantling|contribs]]) 15:33, 11 July 2024 (UTC)
+::The eigenstructure is a significant algebraic feature of any linear transformation, so it is odd that it is not mentioned in an article on the most important linear transformation in physics. This case, in particular, needs some discussion as it involves the apparent paradox (to Galilean thinkers) of transforming between frames that are both traveling at the same speed c, and the limiting processes that are involved because of that. However, I will leave additions to this topic to editors with more experience than myself. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 04:23, 12 July 2024 (UTC).
+:More of a technical question, but how does the eigenvector interpretation generalise to higher dimensions? For example, if we have two dimensions (space and time), we find two linearly independent eigenvectors whose direction (speed) does not change, c and -c. So far so good. However, if we add another spatial dimension, introducing the famous light cones, what would the independent eigenvectors be in this case? As far as I understand, an n-dimensional space can only have n linearly-independent eigenvectors (in this case n=3), which does not seem to be enough to represent the vectors where the speed does not change (light cones). [[User:Viktaur|Viktaur]] ([[User talk:Viktaur|talk]]) 22:36, 13 August 2024 (UTC)
+::A spatial vector orthogonal to the implicit boost direction will have an eigenvalue of 1.  There will not be length contraction of this vector.  —[[User:Quantling|<span class="texhtml"><i>Q</i></span>uantling]]&nbsp;([[User talk:Quantling|talk]]&nbsp;&#124;&nbsp;[[Special:Contributions/Quantling|contribs]]) 16:22, 15 August 2024 (UTC)
+:::I want to make some short comments about the properties of the eigenfunctions of the Lorentz transformation but cannot find a suitable source. Any suggestions? [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 04:10, 7 June 2025 (UTC).
+
+== Format errors ==
+
+There are lots of Math output errors (Firefox 129.0.2), but renders OK with Chrome 128.0.6613.85. Could somebody identify the problem? I am reluctant to meddle myself due to inexperience. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 01:13, 29 August 2024 (UTC).
+
+:I don't see the render errors with Firefox.  Perhaps refresh the page, restart your browser, etc.  —[[User:Quantling|<span class="texhtml"><i>Q</i></span>uantling]]&nbsp;([[User talk:Quantling|talk]]&nbsp;&#124;&nbsp;[[Special:Contributions/Quantling|contribs]]) 00:31, 30 August 2024 (UTC)
+::Many thanks for your advice. I have restarted Mac OS 14.6.1 and Firefox 129.0.2 but still get a dozen yellow banners with "Math output error" in red. The rest of the math renders OK. Chrome renders all the math OK but I get the same yellow banners on Safari. Best wishes [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 01:08, 30 August 2024 (UTC).
+:::A note to say that I got satisfactory rendering results after changing  my Appearance Skin from legacy to default. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 07:14, 1 September 2024 (UTC).
+
+== General boost direction ==
+
+I have added the expression for the general boost direction. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 06:20, 8 September 2024 (UTC).
+
+:If we keep it here, I have made [https://en.wikipedia.org/w/index.php?title=Lorentz_transformation&diff=1244666524&oldid=1244630495 some tweaks]: proper link to given source, looks, remove [[wp:repeatlink]], wording. I know, the trace is easily verified, but it's certainly beyond basic arithmetic as outlined in [[wp:CALC]]. - [[User:DVdm|DVdm]] ([[User talk:DVdm|talk]]) 12:53, 8 September 2024 (UTC)
+::I have restored the original formatting. Users can say which version they prefer. I have not yet mastered the alignment of matrices: maybe it can be done better by some clever person. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 02:32, 21 September 2024 (UTC).
+::: I have restored the alignment, as was —admittedly tersly— explained in my edit summary and here in my message above, with the word "looks".
+::: The way you had formatted, namely
+::::<math display="block">\begin{bmatrix} ct' \\ \\\\\\x' \\ \\\\\\y' \\\\\\ z' \end{bmatrix} =
+\begin{bmatrix}
+  \gamma & -\gamma\beta _x  & -\gamma\beta _y  & -\gamma\beta _z \\
+  -\gamma\beta _x   & 1+\frac{\gamma^2}{1+\gamma}\beta _x^2 & \frac{\gamma^2}{1+\gamma}\beta _x \beta _y& \frac{\gamma^2}{1+\gamma}\beta _x\beta _z \\
+  -\gamma\beta _y &  \frac{\gamma^2}{1+\gamma}\beta _x \beta _y & 1+\frac{\gamma^2}{1+\gamma}\beta _y^2 & \frac{\gamma^2}{1+\gamma}\beta _y\beta _z \\
+  -\gamma\beta _z &  \frac{\gamma^2}{1+\gamma}\beta _x\beta _z & \frac{\gamma^2}{1+\gamma}\beta _y\beta _z  & 1+\frac{\gamma^2}{1+\gamma}\beta _z^2 \\
+\end{bmatrix}
+\begin{bmatrix} ct \\\\\\x \\\\\\\\ y \\\\\\\\ z \end{bmatrix}, </math>
+::: has the 4x1 matrices (vectors) extremely elongated. Compare with
+::::<math display="block">\begin{bmatrix} ct' \\ x' \\ y' \\ z' \\ \end{bmatrix} =
+\begin{bmatrix}
+  \gamma & -\gamma\beta _x  & -\gamma\beta _y  & -\gamma\beta _z \\
+  -\gamma\beta _x   & 1+\frac{\gamma^2}{1+\gamma}\beta _x^2 & \frac{\gamma^2}{1+\gamma}\beta _x \beta _y& \frac{\gamma^2}{1+\gamma}\beta _x\beta _z \\
+  -\gamma\beta _y &  \frac{\gamma^2}{1+\gamma}\beta _x \beta _y & 1+\frac{\gamma^2}{1+\gamma}\beta _y^2 & \frac{\gamma^2}{1+\gamma}\beta _y\beta _z \\
+  -\gamma\beta _z &  \frac{\gamma^2}{1+\gamma}\beta _x\beta _z & \frac{\gamma^2}{1+\gamma}\beta _y\beta _z  & 1+\frac{\gamma^2}{1+\gamma}\beta _z^2 \\
+\end{bmatrix}
+\begin{bmatrix} ct \\ x \\ y \\ z \end{bmatrix}, </math>
+::: which looks better and is done along the standard as in [[Help:Displaying a formula]]. See other examples in articles such as [[Matrix multiplication]] and [[Transformation matrix]].
+::: In our same article in subsection [[Lorentz_transformation#Proper_transformations]], we see
+::::<math display="block">B(\mathbf{v}) =
+\begin{bmatrix}
+ \gamma      &-\gamma v_x/c                   &-\gamma v_y/c                   &-\gamma v_z/c                    \\
+-\gamma v_x/c&1+(\gamma-1)\dfrac{v_x^2}  {v^2}&  (\gamma-1)\dfrac{v_x v_y}{v^2}&  (\gamma-1)\dfrac{v_x v_z}{v^2} \\
+-\gamma v_y/c&  (\gamma-1)\dfrac{v_y v_x}{v^2}&1+(\gamma-1)\dfrac{v_y^2}  {v^2}&  (\gamma-1)\dfrac{v_y v_z}{v^2} \\
+-\gamma v_z/c&  (\gamma-1)\dfrac{v_z v_x}{v^2}&  (\gamma-1)\dfrac{v_z v_y}{v^2}&1+(\gamma-1)\dfrac{v_z^2}  {v^2}
+\end{bmatrix} =
+\begin{bmatrix}
+ \gamma             & -\gamma \vec{\beta}^T \\
+-\gamma \vec{\beta} & I + (\gamma-1)\dfrac{\vec{\beta}\vec{\beta}^T}{\beta^2}
+\end{bmatrix},</math>
+::: where the height of the RHS matrix is, depending on the number of columns, automatically adjusted, and not artificially "elongated" by inserting empty lines.
+::: Comments by others are welcome. Cheers. - [[User:DVdm|DVdm]] ([[User talk:DVdm|talk]]) 12:25, 5 October 2024 (UTC)
+::::There is an \align command but I have yet to master it. Until [[Wikipedia:Lamest edit wars|then]]. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 02:59, 8 October 2024 (UTC).
+
+{{unindent}}
+{{ping|Xxanthippe}} Got it! We need to factor each vector component with a ''vertical phantom'', an invisible element taken from the corresponding row of the matrix, using \vphantom{<MaxHeightElementOfRow>}: 
+<math display="block">\begin{bmatrix} ct' \vphantom{-\gamma\beta _x} \\ x' \vphantom{1+\frac{\gamma^2}{1+\gamma}\beta _x^2} \\ y' \vphantom{ \frac{\gamma^2}{1+\gamma}\beta _x \beta _y } \\ z' \vphantom{\frac{\gamma^2}{1+\gamma}\beta _y\beta _z} \end{bmatrix} =
+\begin{bmatrix}
+  \gamma & -\gamma\beta _x  & -\gamma\beta _y  & -\gamma\beta _z \\
+  -\gamma\beta _x   & 1+\frac{\gamma^2}{1+\gamma}\beta _x^2 & \frac{\gamma^2}{1+\gamma}\beta _x \beta _y& \frac{\gamma^2}{1+\gamma}\beta _x\beta _z \\
+  -\gamma\beta _y &  \frac{\gamma^2}{1+\gamma}\beta _x \beta _y & 1+\frac{\gamma^2}{1+\gamma}\beta _y^2 & \frac{\gamma^2}{1+\gamma}\beta _y\beta _z \\
+  -\gamma\beta _z &  \frac{\gamma^2}{1+\gamma}\beta _x\beta _z & \frac{\gamma^2}{1+\gamma}\beta _y\beta _z  & 1+\frac{\gamma^2}{1+\gamma}\beta _z^2 \\
+\end{bmatrix}
+\begin{bmatrix} ct \vphantom{-\gamma\beta _x} \\ x \vphantom{1+\frac{\gamma^2}{1+\gamma}\beta _x^2} \\ y \vphantom{ \frac{\gamma^2}{1+\gamma}\beta _x \beta _y } \\ z \vphantom{\frac{\gamma^2}{1+\gamma}\beta _y\beta _z} \end{bmatrix}, </math>
+[[User:DVdm|DVdm]] ([[User talk:DVdm|talk]]) 10:00, 8 October 2024 (UTC)
+
+==Galilean and Lorentz transformations==
+In the section on '''Physical implications''' it is claimed that ''For relative speeds much less than the speed of light, the Lorentz transformations reduce to the Galilean transformation''. This seems questionable. As <math>\beta</math> (''= v/c'') approaches zero, the leading terms in the Lorentz transformation ''L'' with one spatial dimension {''ct, x''} become 
+
+''L'' =<math display="block">
+\begin{bmatrix}
+  \ 1& -\beta\\
+  -\beta & 1\\
+  \end{bmatrix}</math>.
+
+However, the [[Galilean invariance|Galilean transformation]] ''G'', where time is taken to be a universal invariant is, purportedly valid for all <math>\beta</math>, 
+
+''G'' =<math display="block">
+\begin{bmatrix}
+  \ 1& 0\\
+  -\beta & 1\\
+  \end{bmatrix}</math>,
+which is qualitatively different. Should the statement be removed? [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 05:50, 28 November 2024 (UTC).
+:Done. [[User:Xxanthippe|Xxanthippe]] ([[User talk:Xxanthippe|talk]]) 03:26, 3 December 2024 (UTC).
+
+:: Yet, it is well-known to be correct. Note that 
+:::<math display="block">
+L = \begin{bmatrix}
+  \ \gamma & - \gamma \beta \\
+  -\gamma \beta & \gamma\\
+  \end{bmatrix},</math>
+:: and the time variables have an extra ''c'' factor, so with <math>\gamma</math> very close to 1, this recuces first to
+:::<math display="block">c t' = c t - \beta x,</math>
+::which for small <math>\beta</math>, dividing by ''c'', in turn recudes to
+:::<math display="block"> t' = t.</math>
+::  I have undone it and added two proper sources. The first says how it works. There must be a gazillion of similar sources {{smiley}}.
+:::* {{cite book |title=International Edition University Physics |author1=George Arfken |edition= |publisher=Elsevier |year=2012 |isbn=978-0-323-14203-8 |page=367 |url=https://books.google.com/books?id=XzQK42x6uaEC}} [https://books.google.com/books?id=XzQK42x6uaEC&pg=PA367 Extract of page 367]
+:::* {{cite book |title=Basic Electromagnetism |author1=E.R. Dobbs |edition=illustrated |publisher=Springer Science & Business Media |year=2013 |isbn=978-94-011-2112-5 |page=113 |url=https://books.google.com/books?id=v3fsCAAAQBAJ}} [https://books.google.com/books?id=v3fsCAAAQBAJ&pg=PA113 Extract of page 113]
+:: - [[User:DVdm|DVdm]] ([[User talk:DVdm|talk]]) 11:22, 3 December 2024 (UTC)
+
+== Error in wording in "Derivation of the group of Lorentz transformations"? ==
+
+In the paragraph after Equation D1
+
+"The quantity on the left is called the ''spacetime interval'' ..."
+
+Shouldn't this be either
+
+"The quantity on the left is called the ''square of the spacetime interval'' ..."
+
+or equivalently, and probably better,
+
+"The square root
+of the quantity on the left is called the ''spacetime interval'' ..."?
+
+(NOTE:  Not an editor, not a Special Relativity expert, merely an "educated layman" who was surprised by this.  Am I misunderstanding something?  Thanks.) [[User:Dudley Brooks|Dudley Brooks]] ([[User talk:Dudley Brooks|talk]]) 21:38, 8 July 2025 (UTC)
+:A link to [[spacetime interval]] has been inserted into the text. Actually, the link is a [[WP:Redirect]] to a section of [[Spacetime]]. Language in this matter is challenged by tendency in some works to use Metric for quantification of spacetime separations. Metric is unsuitable since the mathematical notion refers to a non-negative quantity, yet in spacetime the separation is sometimes negative. Further, as you note the squares are involved and the Euclidean precedent calls for a square root, something not done in spacetime since square roots of negative numbers are imaginary, a notion to be avoided here. Thank you for noting the subtlety; the new link aims to clarify the matter. — [[User:Rgdboer|Rgdboer]] ([[User talk:Rgdboer|talk]]) 23:22, 8 July 2025 (UTC)
+:: As Rgdboer says, the terminology in use in the field is problematic, with "metric" and "interval" being used in incompatible ways by different people.  I like the term "scalar square" (akin to "[[scalar product]]") as used by [[Élie Cartan]], but the term does not appear to have gained traction.  —[[User_talk:Quondum|Quondum]] 14:08, 9 July 2025 (UTC)

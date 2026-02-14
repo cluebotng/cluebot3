@@ -1,0 +1,56 @@
+{{Talk header}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Primates |importance=top }}
+{{WikiProject Mammals |importance=high }}
+}}
+{{Banner holder |collapsed=yes|1=
+{{Former TAFI |date=July 29, 2013}}
+{{Former TAFI|date= 8 January 2018|page={{PAGENAME}}|oldid2=819824576|oldid1=817710822}}
+{{spotlighted|start=00:00, 13 August 2009 [[File:Start-icon.svg|20px]] |date=23:59, 20 August 2009 [[File:Start-icon.svg|20px]]|url=http://en.wikipedia.org/w/index.php?title=Monkey&diff=309436680&oldid=305195124}}
+}}
+{{Refideas|1={{cite book | last1 = Groves | first1 = C. | authorlink = Colin Groves | title = Extended Family: Long Lost Cousins | year = 2008 | publisher = [[Conservation International]] | url = http://www.conservation.org/publications/Pages/extended_family_groves.aspx | isbn = 978-1-934151-25-9 | oclc = 300051037}} – Gives background on our perception of primates.}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:Monkey/Archive
+| numberstart=1
+| maxarchsize=400000
+| header={{Automatic archive navigator}}
+| minkeepthreads=4
+| minarchthreads=1
+| format= %%i
+}}
+
+== Semi-protected edit request on January 29, 2023 ==
+
+{{Edit semi-protected|Monkey|answered=yes}}
+
+Rename Geoffroy in the second paragraph to Étienne Geoffroy, to show his full name [[Special:Contributions/108.49.72.125|108.49.72.125]] ([[User talk:108.49.72.125|talk]]) 00:09, 29 January 2024 (UTC)
+:{{done}}<!-- Template:ESp --> : I can't think of a reason why his full name shouldn't be there. [[User:NotAGenious|NotAGenious]] ([[User talk:NotAGenious|talk]]) 16:14, 29 January 2024 (UTC)
+::Thanks! [[Special:Contributions/108.49.72.125|108.49.72.125]] ([[User talk:108.49.72.125|talk]]) 22:50, 29 January 2024 (UTC)
+
+== Semi-protected edit request on 2 June 2024 ==
+
+{{Edit semi-protected|Monkey|answered=yes}}
+Original: Monkeys a diverse species of animals. 
+My edited version: Monkeys have been a diverse species of animals for a long time of period however lately monkeys have been decreasing in population to do deforestation and palm oil. These issues are slowly killing monkeys and if we don't do anything they may soon go extinct. 
+Source: 
+https://www.bbc.com/news/science-environment-45146581
+https://www.rewild.org/lost-species/lost-primates
+
+I want to fix the wording and grammar of the Wikipedia article. [[User:Bobjoebobiscoolmonkey|Bobjoebobiscoolmonkey]] ([[User talk:Bobjoebobiscoolmonkey|talk]]) 01:26, 2 June 2024 (UTC)
+:[[File:Red information icon with gradient background.svg|20px|link=|alt=]] '''Not done:'''<!-- Template:ESp --> Original text does not exist. Proposed text is not encyclopedic.  [[User:UtherSRG|UtherSRG]] [[User_talk:UtherSRG|(talk)]] 11:36, 2 June 2024 (UTC)
+
+== Semi-protected edit request on 13 August 2024 ==
+
+{{Edit semi-protected|Monkey|answered=yes}}
+Monkeys mainly live in the jungle [[Special:Contributions/2600:1011:B027:906C:A18C:C24A:FFEC:8357|2600:1011:B027:906C:A18C:C24A:FFEC:8357]] ([[User talk:2600:1011:B027:906C:A18C:C24A:FFEC:8357|talk]]) 18:53, 13 August 2024 (UTC)
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done:''' it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:ESp --> [[User:Bsoyka|<span style="color:#fff;background:#055;padding:.2em">'''Bsoyka'''</span>]] (<i>[[User talk:Bsoyka|t]] &bull; [[Special:Contributions/Bsoyka|c]] &bull; [[User:Bsoyka/Guestbook|g]]</i>) 19:01, 13 August 2024 (UTC)
+
+== Are humans monkeys? ==
+
+Are birds dinosaurs, are humans animals, and are apes monkeys? If you agree that the first two are true, then the next one should also be true. Using a monophyletic definition is a trend in [[science communication]] and transforms our [[folk taxonomy]] and public understanding of evolution. Wikipedia is an encyclopedia and not a dictionary, so should we prioritize the colloquial usage and of "monkey" as a small primate with a tail, or should we be more biologically and scientifically accurate instead? Modern biology favors cladistics after all. We could also provide a scientific alternative, the term "non-human animals" has become popular even though animals are assumed to be non-humans colloquially. Maybe we could do the same for monkeys and use "non-ape monkeys" to translate it to the previous meaning. For science communication it is still important to have a section on how the colloquial use differs from the scientific one. All apes are monkeys, but not all monkeys are apes, is an often used line of explanation for explaining such differences.
+
+If apes (Hominoidea) evolved from Old World ''monkeys'', and modern taxonomy avoids paraphyletic groups, then apes are monkeys. Otherwise people will have to say a monkey became a non-monkey, which breaks the law of monophyly and how evolution only creates [[Nested heirarchies|nested hierarchies]]. [[Young Earth creationism|Young earth creationists]] and other science deniers namely use the "a dog can never create a non-dog" argument which evolution can't do and yet things can evolve. We shouldn't go against people's intuition when it is true. [[User:Stopshot|Stopshot]] ([[User talk:Stopshot|talk]]) 14:45, 30 July 2025 (UTC)
+:As has been discussed regularly, there's a difference between ordinary language use, in which monophyly or not is irrelevant, and scientific classification. It all depends on context. See [[User:Peter_coxhead/Info#Dawkins' use of "ape"]], where I point out that no less an evolutionist than Richard Dawkins uses terms like "ape" and "monkey" in both ordinary language and scientific senses. [[User:Peter coxhead|Peter coxhead]] ([[User talk:Peter coxhead|talk]]) 09:24, 31 July 2025 (UTC)
+
+Please consider removing image from infobox. --[[Special:Contributions/5.43.76.5|5.43.76.5]] ([[User talk:5.43.76.5|talk]]); 02.12, <span class="nowrap" style="white-space:nowrap;">2025-09-07</span> (UTC)

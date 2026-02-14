@@ -1,0 +1,90 @@
+{{Talk header}}
+{{Copied|from=White Base|to=Mobile Suit Gundam|diff=http://en.wikipedia.org/w/index.php?title=Mobile_Suit_Gundam&diff=533085000&oldid=532931064}} {{ArticleHistory
+|action1=FAC
+|action1date=00:39, 14 October 2006
+|action1link=Wikipedia:Featured article candidates/Mobile Suit Gundam/archive1
+|action1result=not promoted
+|action1oldid=81229863
+|currentstatus=FFAC
+}}
+{{WikiProject banner shell|class=C|
+{{WikiProject Japan|importance=low}}
+{{WikiProject Anime and manga|b1=n<!--Few references-->|b2=n<!-- Reception? -->|b3=n<!-- Many lists which should be converted to prose -->|b4=y|b5=y|b6=y|importance=High|gundam-work-group=yes}}
+{{WikiProject Science Fiction |importance=Mid}}
+}}
+{{American English}}
+{{Refideas
+ |1=http://www.animenewsnetwork.com/the-mike-toole-show/2017-04-30/.115495
+ |2=http://www.animenewsnetwork.com/feature/2017-06-21/the-mobile-suit-gundam-films-the-best-the-worst-and-what-worth-watching/.117792
+ |3=http://www.animenewsnetwork.com/review/gundam-movie-trilogy
+ |4=http://www.fandompost.com/2016/01/14/mobile-suit-gundam-movie-trilogy-anime-dvd-review/
+ |5=http://www.fandompost.com/2015/10/19/mobile-suit-gundam-collection-1-blu-ray-anime-review/
+ |6=http://www.fandompost.com/2015/12/14/mobile-suit-gundam-collection-2-blu-ray-anime-review/
+ |7=http://www.animenewsnetwork.com/news/2017-08-14/gundam-character-designer-yoshikazu-yasuhiko-is-open-to-remaking-1st-series/.120085
+}}
+{{User:ClueBot III/ArchiveThis
+| age=720
+| archiveprefix=Talk:Mobile Suit Gundam/Archive
+| numberstart=1
+| maxarchsize=100000
+| header={{Automatic archive navigator}}
+| minkeepthreads=5
+| minarchthreads=1
+| format= %%i
+}}
+
+== White Base merge ==
+
+I think [[White Base]] should be merged with the general article about ''MS Gundam''. Though the White Base article has some merits and relevant analyses, thanks to its "Development" section, I don't think the vehicle itself has demonstrated notability outside of affilitated sources, as it only gets trivial or inconsequential mentions (such as being featured in an obscure listing). The details on the WB creation are interesting, but generally fit the overall themes of mecha design in ''MS Gundam'', and of the conflict between Tomino and sponsors. All these comments (which are not too long) should be included here because they'd give more substance to [[Mobile_Suit_Gundam#Original concept and development]], which would help the article reach GA status. The rest of the WB article being plot summary, it could easily be used to flesh out [[Mobile_Suit_Gundam#Plot]] if necessary. As it is, I don't see how keeping the details on WB separate would benefit anything.[[User:Folken de Fanel|Folken de Fanel]] ([[User talk:Folken de Fanel|talk]]) 16:17, 6 January 2013 (UTC)
+:Unconvinced, and don't think it is a good idea, generally speaking, I am against this idea, but I don't really care if you do a good merge and write up that can actually get the article to GA status.  <small>—Preceding [[Wikipedia:Signatures|signed]] comment added by</small> [[User:Mythsearcher|MythSearcher]]<sup>[[User talk:Mythsearcher|talk]]</sup>  19:14, 6 January 2013 (UTC)
+No formal opposition, I'm performing the merge. I'll let those who deem it necessary to deal with anything related to plot.[[User:Folken de Fanel|Folken de Fanel]] ([[User talk:Folken de Fanel|talk]]) 19:54, 14 January 2013 (UTC)
+:The so called merge was actually a deletion with no consensus.  You who proposed the merge did not include any of that article's reliable sources.  I'm reverting. <small>—Preceding [[Wikipedia:Signatures|signed]] comment added by</small> [[User:Mythsearcher|MythSearcher]]<sup>[[User talk:Mythsearcher|talk]]</sup>  15:23, 25 September 2013 (UTC)
+::That is perfectly inaccurate as I [https://en.wikipedia.org/w/index.php?title=Mobile_Suit_Gundam&diff=533085000&oldid=532931064 did merge content] to the article. I merged everything that I considered valuable, but any user remains free to move as much content as they think is necessary. There is neither a valid reason, nor consensus, to restore the article itself. Move more content if you want, but do not touch the redirect.[[User:Folken de Fanel|Folken de Fanel]] ([[User talk:Folken de Fanel|talk]]) 19:33, 26 September 2013 (UTC)
+:::You so called consensus is actually inaccurate.  I did give opposition and agreed only conditionally.  Thus you have no consensus if you did not meet the condition I gave. <small>—Preceding [[Wikipedia:Signatures|signed]] comment added by</small> [[User:Mythsearcher|MythSearcher]]<sup>[[User talk:Mythsearcher|talk]]</sup>  08:20, 27 September 2013 (UTC)
+::::https://en.wikipedia.org/w/index.php?title=White_Base&action=history is still accessible, from then on there's nothing more than I can say other than you do not have neither consensus nor reason to undo the merge.[[User:Folken de Fanel|Folken de Fanel]] ([[User talk:Folken de Fanel|talk]]) 10:44, 27 September 2013 (UTC)
+==Review(s)==
+Animefringe: [http://www.animefringe.com/magazine/01.09/reviews/2/index.php3 vol. 1]
+--[[User:Lucia Black|Lucia Black]] ([[User talk:Lucia Black|talk]]) 06:53, 23 February 2014 (UTC)
+
+== External links modified (January 2018) ==
+
+Hello fellow Wikipedians,
+
+I have just modified one external link on [[Mobile Suit Gundam]]. Please take a moment to review [[special:diff/821648102|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes:
+*Added archive https://web.archive.org/web/20090813121403/http://www.animeigo.com/Liner/MACROSS.t to http://www.animeigo.com/Liner/MACROSS.t
+
+When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.
+
+{{sourcecheck|checked=false|needhelp=}}
+
+Cheers.—[[User:InternetArchiveBot|'''<span style="color:darkgrey;font-family:monospace">InternetArchiveBot</span>''']] <span style="color:green;font-family:Rockwell">([[User talk:InternetArchiveBot|Report bug]])</span> 19:54, 21 January 2018 (UTC)
+
+== External links modified (February 2018) ==
+
+Hello fellow Wikipedians,
+
+I have just modified one external link on [[Mobile Suit Gundam]]. Please take a moment to review [[special:diff/823749928|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes:
+*Added archive https://web.archive.org/web/20080830085019/http://www.animenation.net/blog/2008/06/24/ask-john-which-anime-have-been-ahead-of-their-time/ to http://www.animenation.net/blog/2008/06/24/ask-john-which-anime-have-been-ahead-of-their-time/
+
+When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.
+
+{{sourcecheck|checked=false|needhelp=}}
+
+Cheers.—[[User:InternetArchiveBot|'''<span style="color:darkgrey;font-family:monospace">InternetArchiveBot</span>''']] <span style="color:green;font-family:Rockwell">([[User talk:InternetArchiveBot|Report bug]])</span> 04:27, 3 February 2018 (UTC)
+
+== 1979 Manga ==
+
+The infobox lists a Manga written between 1979-1980, but I can't find any proof this existed. Could someone add a citation to a source proving that it is real if it is? Otherwise, it should be removed.
+[[User:AnyGuy|AnyGuy]] ([[User talk:AnyGuy|talk]]) 06:37, 28 May 2020 (UTC)
+
+{{ping|AnyGuy}} Found it in Amazon. Then again, this article sure lacks sources.[[User:Tintor2|Tintor2]] ([[User talk:Tintor2|talk]]) 15:10, 28 May 2020 (UTC)
+
+{{ping|Tintor2}} Do you have the Amazon item as proof? I also feel like there has to be better proof of its existence than a purported amazon item (which may be fake). [[User:AnyGuy|AnyGuy]] ([[User talk:AnyGuy|talk]]) 17:19, 4 June 2020 (UTC)
+
+
+{{ping|AnyGuy}} It's already on the article. Did you see my edit? Then again, while Amazon is considered a reliable source in the guidelines, it is also preferred to use primary sources to cite material.[[User:Tintor2|Tintor2]] ([[User talk:Tintor2|talk]]) 18:46, 4 June 2020 (UTC)
+
+{{ping|Tintor2}} No I didn't, sorry.
+{{ping|Tintor2}} However, that wasn't the manga I was talking about; the one I was referring to was the one mentioned in the infobox that supposedly lasted from 1979-1980.
+[[User:AnyGuy|AnyGuy]] ([[User talk:AnyGuy|talk]]) 01:07, 5 June 2020 (UTC)
+{{ping|AnyGuy}} Found and added. The author is Yū Okazaki.[[User:Tintor2|Tintor2]] ([[User talk:Tintor2|talk]]) 02:05, 5 June 2020 (UTC)

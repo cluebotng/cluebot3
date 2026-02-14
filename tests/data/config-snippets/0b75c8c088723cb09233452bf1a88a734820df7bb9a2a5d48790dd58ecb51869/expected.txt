@@ -1,0 +1,9 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Monkey/Archive
+|format= %%i
+|age=2160
+|minarchthreads=1
+|minkeepthreads=4
+|header={{Automatic archive navigator}}
+|maxarchsize=400000
+}}

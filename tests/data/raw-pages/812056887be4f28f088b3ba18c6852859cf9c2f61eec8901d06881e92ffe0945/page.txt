@@ -1,0 +1,61 @@
+{{Talk header}}
+{{afd-merged-from|Capture bonding|Capture bonding (3rd nomination)|09 September 2011|date=September 2011}}
+{{Old AfD multi| date = 2009-05-15
+|result = keep
+|page = Lima syndrome}}
+{{On this day|date1=2013-08-28|oldid1=570564356|date2=2015-08-28|oldid2=677906350}}
+{{WikiProject banner shell|class=C|1=
+{{WikiProject Psychology|importance=Mid}}
+{{WikiProject Sweden|importance=Low}}
+{{WikiProject Religion|importance=Low|NRM=yes|NRMImp=Mid}}
+}}
+{{Archives|age=90|bot=ClueBot III|auto=long |1=
+* [[/Archive 1|Start to April, 2009]]
+* [[/Lima syndrome|Lima syndrome]]
+}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:Stockholm syndrome/Archive
+| numberstart=2
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=5
+| minarchthreads=1
+| format= %%i
+}}
+
+== bias ==
+
+The overall Wiki article is clearly biased towards saying there is no such thing a Stockholm Syndrome and, if there is, it's 8% of less. It is also very selective in which cases and evidence it presents. [[User:APaul2021|APaul2021]] ([[User talk:APaul2021|talk]]) 12:40, 2 December 2023 (UTC)
+
+:Extraordinary claims require extraordinary evidence. [[User:DragonflySixtyseven|DS]] ([[User talk:DragonflySixtyseven|talk]]) 16:38, 2 December 2023 (UTC)
+
+:There isn't much evidence to support the existence of Stockholm Syndrome or to differentiate it from [[transference]]. So, I wouldn't call it bias but rather, a theory that has been found to be far less widespread (if present at all) over the intervening years since 1973.  :Unfortunately, Stockholm Syndrome has spawned so-called London Syndrome which exists in Urban Dictionary and not much anywhere else besides an incorrect entry on a mostly wordplay website. It is kind of obvious: If a hostage is aggressive and strident, he is more likely to be physically harmed. The sole instance for which London Syndrome is named is due to the one killing when 26 hostages were held by terrorists who captured and held them in the Iranian Embassy in London. There is ZERO evidence that the one person who was killed was hostile and bold toward the captors. Rather, it is well-documented that he was the Iranian cultural attache, and was the primary focus of the captors' anger to begin with. They tortured him, unlike the others, then shot him.  The entire London Syndrome seems to be based on this scenario which is NOT sufficient to consider it a syndrome (no research, no studies, etc.) Internet searches turn up nothing other than a few hits on that sole incident. Further clarification by WP:RS confirm that the motive for the Iranian's death was due to his role at the embassy.
+:As for the supposed Lima Syndrome, it is poorly documented and seems unlikely but I won't alter it for the moment.--[[User:FeralOink|FeralOink]] ([[User talk:FeralOink|talk]]) 03:42, 2 November 2025 (UTC)--[[User:FeralOink|FeralOink]] ([[User talk:FeralOink|talk]]) 03:42, 2 November 2025 (UTC)
+
+== lead ==
+
+If the purpose of a lead is to accurately summarize the article, this one should state that Stockholm syndrome is a widely criticized theory with no acceptance in the scientific community. Instead this lead tries to convince you its real using dubious FBI statistics while the rest of the article is almost entirely criticism of the theory. Either the lead is wrong or the main body of the article is, but currently they are contradictory and the cited sources point into a very clear direction. [[User:Jonas1015119|jonas]] ([[User talk:Jonas1015119|talk]]) 10:05, 4 February 2024 (UTC)
+
+:Last sentence of the first paragraph: "in fact it is a "contested illness" due to doubts about the legitimacy of the condition"
+:How would you improve that? [[User:DragonflySixtyseven|DS]] ([[User talk:DragonflySixtyseven|talk]]) 16:22, 4 February 2024 (UTC)
+
+==Wiki Education assignment: Psychology Capstone==
+{{dashboard.wikiedu.org assignment | course = Wikipedia:Wiki_Ed/University_of_Alabama_at_Birmingham/Psychology_Capstone_(Summer_2024) | assignments = [[User:Queenr78|Queenr78]] | start_date = 2024-05-07 | end_date = 2024-08-12 }}
+
+<span class="wikied-assignment" style="font-size:85%;">— Assignment last updated by [[User:Caitlincaterinichia|Caitlincaterinichia]] ([[User talk:Caitlincaterinichia|talk]]) 22:06, 23 May 2024 (UTC)</span>
+
+== COPYVIO ==
+
+{{textdiff|1=Stockholm Syndrome results from a rather specific set of circumstances, namely the power imbalances contained in hostage-taking, kidnapping, and abusive relationships. Therefore, it is difficult to find a large number of people who experience Stockholm Syndrome to conduct studies with any sort of power. This makes it hard to determine trends in the development and effects of the condition.|2=It is supposed to result from a rather specific set of circumstances, namely the power imbalances contained in [[hostage|hostage-taking]], [[kidnapping]], and abusive relationships. Therefore, it is difficult to find a large number of people who experience Stockholm syndrome to conduct studies with any sort of validity or useful sample size. This makes it hard to determine trends in the development and effects of the condition.}} [[User:Polygnotus|Polygnotus]] ([[User talk:Polygnotus|talk]]) 19:17, 11 September 2024 (UTC)
+
+== facts? ==
+
+I just heard David King, cited in footnote #1, on Radiolab (Dec 6, 2024, How Stockholm Stuck).  He repeated and then completely debunked both assertions in this sentence: "When the hostages were released, none of them would testify against either captor in court; instead, they began raising money for their defense." [[Special:Contributions/198.176.81.33|198.176.81.33]] ([[User talk:198.176.81.33|talk]]) 21:48, 12 February 2025 (UTC)
+
+: Hi [[Special:Contributions/198.176.81.33|198.176.81.33]]! Thank you for your comment. I have listened to that show as well, and there seem to be a lot of mistakes in the interpretation of the behaviour of the Stockholm hostages. I will take a look, and I will also see if I can find some good sources. [[User:Lova Falk|Lova Falk]] ([[User talk:Lova Falk|talk]]) 09:42, 5 March 2025 (UTC)
+
+: There is a lot of criticism against this syndrome already in the article. I cannot find any good sources to show that it was not true that the hostages began raising money for the kidnappers' defense. This seems to be an erroneous statement that was copied by the whole world. If you can find anything to improve the article, please add to it. I did add the Radiolab episode and a transcript in the external links section. [[User:Lova Falk|Lova Falk]] ([[User talk:Lova Falk|talk]]) 10:14, 5 March 2025 (UTC)
+
+::Yes, you're right, [[User:Lova Falk|Lova Falk]], about the presence of criticisms, which are mostly or all well-sourced (I'm still checking). Also There are now sources that say the hostages never raised money for the robbers' defense, although at least one and maybe all four refused to testify against the robbers at the trial. I'll get to that in a moment. 
+::Also, I replaced one source which erroneously claimed that one of the three women hostages had married one of the robbers!  That was totally untrue. In addition, the psychiatrist never met or spoke to any of the four hostages, yet diagnosed them with a syndrome that he invented.  He had nothing to do with the negotiations and rescue, wasn't even there, so I rewrote that part too. The reason the hostages were so upset with the authorities, including police, and refused to testify at trial was because they were very upset with Sweden's prime minister and with law enforcement nearly getting the four of them killed due to misidentification of the robbers and what happened as a result; it is now detailed in the article. I am removing erroneous content, correcting, and updating with WP:RS, WP:V sources.--[[User:FeralOink|FeralOink]] ([[User talk:FeralOink|talk]]) 02:31, 2 November 2025 (UTC)
