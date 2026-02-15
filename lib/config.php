@@ -65,7 +65,7 @@ class ArchiveConfig {
     public string $key;
 
     // This is a flag which causes the config to be removed on the archiving run
-    public bool $once;
+    public bool $once = false;
 
     // Note: these keys are not used by the bot, but are used in User:ClueBot_III/ArchiveThis
     //       we need to keep the settings to ensure the correct behaviour of the transcluded page
@@ -155,11 +155,25 @@ class ArchiveConfig {
                 if ($this->talkcolour != DefaultConfig::$talkcolour) { $config .= '|talkcolour=' . $this->talkcolour . "\n"; }
             }
             if ($this->index != DefaultConfig::$index) { $config .= '|index=' . ($this->index ? 'yes' : 'no') . "\n"; }
+            if ($this->once) { $config .= "|once=1\n"; }
 
-            $config .= "}}\n";
+            $config .= "}}";
             return $config;
         }
         return null;
+    }
+}
+
+class RawConfig {
+    public int $start_position;
+    public int $end_position;
+    public string $text;
+
+    public function __construct($start_position, $end_position, $text)
+    {
+        $this->start_position = $start_position;
+        $this->end_position = $end_position;
+        $this->text = $text;
     }
 }
 
@@ -181,7 +195,11 @@ function find_config_blocks($user, $text) {
                     --$block_depth;
                 }
                 if ($block_depth == 0) {
-                    $config_blocks[] = substr($text, $start_position, $block_position + 1);
+                    $config_blocks[] = new RawConfig(
+                        $start_position,
+                        $block_position + 1,
+                        substr($text, $start_position, $block_position + 1)
+                    );
                 }
                 if (substr($data, $block_position, 8) == '<nowiki>') {
                     $ignore_block = true;
@@ -425,6 +443,10 @@ function build_config_from_config_block($text) {
 
     if (array_key_exists('talkcolour', $options)) {
         $config->talkcolour = $options['talkcolour'];
+    }
+
+    if (array_key_exists('once', $options)) {
+        $config->once = $options['once'] === '1';
     }
 
     return $config;

@@ -125,7 +125,6 @@ function doarchive(
     global $logger;
     global $wpq;
     global $wpapi;
-    global $wpi;
 
     $rv = $wpapi->revisions($page, 1, 'older', true);
     if (!is_array($rv)) {
@@ -512,15 +511,32 @@ function process_page($page)
 {
     global $logger;
     global $wpq;
+    global $wpapi;
     global $user;
 
     if ($pagedata = $wpq->getpage($page)) {
         $config_blocks = Config\find_config_blocks($user, $pagedata);
         foreach ($config_blocks as $config_block) {
-            $config = Config\build_config_from_config_block($config_block);
+            $config = Config\build_config_from_config_block($config_block->text);
             if (!$config->is_valid()) {
                 $logger->warning("Skipping invalid config on " . $page . ": " . $config_block);
                 continue;
+            }
+
+            if ($config->once) {
+                $logger->info("Disabling config on " . $page . " at " . $config_block->start_position . " due to once");
+
+                $newPageData = substr($pagedata, 0, $config_block->start_position);
+                $newPageData .= '<!-- ' . $config->to_wiki() . ' -->';
+                $newPageData .= substr($pagedata, $config_block->start_position + $config_block->end_position);
+
+                $wpapi->edit(
+                    $page,
+                    $newPageData,
+                    'Commenting out config. (BOT)',
+                    true,
+                    true
+                );
             }
 
             $logger->info("Handling archive config on " . $page . ": " . $config->to_wiki());
