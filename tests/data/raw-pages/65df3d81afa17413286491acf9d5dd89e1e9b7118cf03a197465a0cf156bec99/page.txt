@@ -1,0 +1,127 @@
+{{Skip to talk}}
+{{Talk header|search=yes}}
+{{Article history
+|action1=FAC
+|action1date=13:12, 30 August 2006
+|action1link=Wikipedia:Featured article candidates/Megadeth/Archive1
+|action1result=failed
+|action1oldid=72717100
+
+|action2=PR
+|action2date=12:46, 27 November 2006
+|action2link=Wikipedia:Peer review/Megadeth/archive1
+|action2result=reviewed
+|action2oldid=90420058
+
+|action3=FAC
+|action3date=16:03, 8 December 2006
+|action3link=Wikipedia:Featured article candidates/Megadeth
+|action3result=passed
+|action3oldid=92923774
+
+|action4=FTC
+|action4date=20:53, 19 April 2009
+|action4link=Wikipedia:Featured topic candidates/Megadeth/archive1
+|action4result=failed
+|action4oldid=284849608
+
+|action5=FAR
+|action5date=23:52, 20 April 2010
+|action5link=Wikipedia:Featured article review/Megadeth/archive1
+|action5result=removed
+|action5oldid=357265064
+
+|action6=GAN
+|action6date=02:26, 16 March 2014
+|action6link=Talk:Megadeth/GA1
+|action6result=passed
+|action6oldid=599834868
+
+|action7=PR
+|action7date=15:15, 23 April 2014
+|action7link=Wikipedia:Peer review/Megadeth/archive2
+|action7result=reviewed
+|action7oldid=605105304
+
+|action8=FAC
+|action8date=13:17, 4 June 2014
+|action8link=Wikipedia:Featured_article_candidates/Megadeth/archive1
+|action8result=failed
+|action8oldid=612352243
+
+|action9=FAC
+|action9date=01:44, 10 August 2014
+|action9link=Wikipedia:Featured_article_candidates/Megadeth/archive2
+|action9result=promoted
+|action9oldid=620574390
+
+|dykdate=21 March 2014
+|dykentry= ... that '''[[Megadeth]]''' was temporarily disbanded in 2002 because of frontman [[Dave Mustaine]]'s arm injury?
+|currentstatus=FA
+|topic=Music
+|four=no
+|maindate=7 September 2014
+}}
+{{WikiProject banner shell|blp=yes|class=FA|vital=yes|listas=Megadeth|1=
+{{WikiProject Biography|musician-priority=high|musician-work-group=yes}}
+{{WikiProject Metal}}
+{{WikiProject Rock music|importance=high}}
+{{WikiProject United States|importance=low|USMusic=yes|USMusic-importance=High}}
+}}
+{{User:ClueBot III/ArchiveThis
+| age                 =8760
+| archiveprefix       =Talk:Megadeth/Archive
+| numberstart         =3
+| maxarchsize         =100000
+| header              ={{Archive}}
+| minkeepthreads      =4
+| format              = %%i
+}}<!-- {{Archives|bot=ClueBot III|age=365}} -->
+<!-- Template:Setup cluebot archiving -->
+
+== Members section ==
+I removed the timeline and the incomplete Former Members list because with a page dedicated to that information, it seemed redundant. My edit was reverted and apparently I have to get permission here? Anyway, does anyone agree that we don't need the information in two places? [[User:Crispy385|Crispy385]] ([[User talk:Crispy385|talk]]) 07:24, 31 December 2014 (UTC)
+
+:Yes definitely. That would be the commonly accepted practice. [[User:DLManiac|DLManiac]] ([[User talk:DLManiac|talk]]) 20:30, 5 January 2015 (UTC)
+
+== Albums sales source should be RIAA, soundscan, NOT a sports radio station and fox news no less ==
+
+megadeth has not even sold half of the figure their wiki asserts. Its a ridiculous and embarrassing over-exaggerating by an overzealous fan or a megadeth manager. Fox news radio is NOT A LEGITIMATE SOURCE FOR MUSIC INDUSTRY.  Media makes errors all the time and fox news particularly is known for its lack of journalistic ethics and fox sports radio no less as a source for music industry figures? They probably interviewed davids agent and he gave them that ridiculous figure.
+
+I used RIAA official certifications which even includes digital downloads! Megadeth really sold less than ten million records I am still be generous in saying over 10 million to appease the freaks that stalk this page. More importantly its a legitimate source and a rational same figure. [[Special:Contributions/2600:1012:B1C5:43AD:15F1:E461:6E99:9340|2600:1012:B1C5:43AD:15F1:E461:6E99:9340]] ([[User talk:2600:1012:B1C5:43AD:15F1:E461:6E99:9340|talk]]) 08:45, 3 September 2022 (UTC)
+:you could've just said " i corrected an error in the album sales and added a better source" instead of going completely apeshit --[[User:FMSky|FMSky]] ([[User talk:FMSky|talk]]) 13:56, 3 September 2022 (UTC)
+
+::Please calm down (continuing along the "appease the freaks that stalk this page" path will only get you blocked). For starters, you didn't really fix the source, just replaced the URL and otherwise left the reference broken; also, does the RIAA depict worldwide sales, or just in the U.S.? If they're worldwide sales, the album sales in the source total 8.85 million, and that's the only definitive figure from the source, so that's what you would write – you don't just ''guess'' "over 10 million"; if they're only U.S. sales, you would either say so or not include the information at all until a better source with a definitive number of the band's worldwide sales can be found. [[User:4TheWynne|<span style="color:#00008B">'''4TheWynne'''</span>]] [[User talk:4TheWynne#top|<span style="color:#00008B">(talk</span>]] <span style="color:#00008B">•</span> [[Special:Contribs/4TheWynne|<span style="color:#00008B">contribs)</span>]] 14:25, 3 September 2022 (UTC)
+:You are not representing album sales in a correct way.
+:Firstly, you are only taking USA derived sales. According to Nielsen SoundScan, Megadeth has sold 9.2 million copies of its albums in the United States as of 2016. This would be over 10 million by now. Importantly to note, Soundscan ONLY FACTORS SALES FROM MARCH 1991. So, the lions share of Killing, Peace, So far and Rust are not counted. ie their output from 85 - early 91. So they would have sold at least 12 - 15 million in the USA alone.
+:Now factor in Worldwide sales and you are probably upto 25 - 30 million albums sold.
+:I will do more research on this and come back to you but, saying "10 million records sold" is a bit misleading really. [[Special:Contributions/2A02:C7C:41D:3000:D8FD:7D22:B879:5994|2A02:C7C:41D:3000:D8FD:7D22:B879:5994]] ([[User talk:2A02:C7C:41D:3000:D8FD:7D22:B879:5994|talk]]) 11:57, 6 September 2022 (UTC)
+
+With all that said, that still doesn’t add up to 50 million or even half that. Most american metal bands don’t do that well outside of america, and ither countries do do certifications and megadeath has very few.  another ridiculous figure. Im familiar with music industry and pop music history and I can tell you anyone else who is would look at the 50 million figure or even half that suspiciously.  Megadeath was successful but they were never on that level to achieve those sales figures you are throwing out there. American sales are well counted for and it is not anything close to 20 million. Nor is the “lion share” of sales happened during the brief five years at the time of release as you claim, sales don’t work like that.  These huge figures are only figured through guestimation and if i can be nice about it, also based on scant knowledge of pop music history. I also disagree in using a dubious source like a random sports radio article , that something is better than nothing, that is not a standard that would fly in any academia or encyclopedia communities. [[User:Shhsbavavaa|Shhsbavavaa]] ([[User talk:Shhsbavavaa|talk]]) 10:47, 5 October 2022 (UTC)
+
+== Kiko's status ==
+Kiko should not be listed as a member. Teemu is the new guitarist, as the website shows.
+
+~
+[[Special:Contributions/81.166.107.145|81.166.107.145]] ([[User talk:81.166.107.145|talk]]) [[Special:Contributions/81.166.107.145|81.166.107.145]] ([[User talk:81.166.107.145|talk]]) 18:30, 29 November 2023 (UTC)
+
+:The Megadeth website isn't the best source, but I did find a Blabbermouth article that talks about Kiko leaving the band. [https://blabbermouth.net/news/kiko-loureiro-opens-up-about-decision-to-leave-megadeth] [[User:David O. Johnson|David O. Johnson]] ([[User talk:David O. Johnson|talk]]) 21:18, 29 November 2023 (UTC)
+::How?? [[Special:Contributions/176.89.117.247|176.89.117.247]] ([[User talk:176.89.117.247|talk]]) 06:13, 30 December 2024 (UTC)
+
+== Metallica's spinoff or not? ==
+
+If you look at Metallica's wiki page, there is written "Spinoffs: Megadeth · Phantasm". In my mind it makes sense since David Scott "Dave" Mustaine was fired from Metallica and went to form Fallen Angels → Megadeth.
+
+So, should we (or me or maybe you, dear reader) add the section "(Megadeth) Spinoff of: Metallica"? [[Special:Contributions/37.30.48.43|37.30.48.43]] ([[User talk:37.30.48.43|talk]]) 12:14, 14 September 2025 (UTC)
+
+:I've added it since, like you said, it's on the Metallica page. And has been for quite some time. [[User:Xanarki|Xanarki]] ([[User talk:Xanarki|talk]]) 23:37, 18 October 2025 (UTC)
+
+== Would "key former members" be acceptable here? ==
+
+Certain band pages, such as [[The Smashing Pumpkins]] and [[Nine Inch Nails]], lists former members, despite having a separate Members page. The former members are usually pretty obvious, and typically aren't more than a dozen names, anyway.
+
+In Megadeth's case, I think it'd be appropriate here. The "key former members" criteria would be pretty simple - the members that appeared on the full-length studio albums as official members: David Ellefson, Gar Samuelson, Chris Poland, Jeff Young, Chuck Behler, Nick Menza, Marty Friedman, Jimmy DeGrasso, Al Pitrelli, Glen Drover, Shawn Drover, Chris Broderick, Kiko Loureiro, and Chris Adler. That's 14 names. A tad longer than my aforementioned examples, but not unbearable.
+
+FYI - in a few years, there won't be any current members to list, due to Megadeth's inevitable disbandment. It will look similar to [[Kiss (band)#Band_members|Kiss]] when that happens. So having this settled beforehand is ideal, too. [[User:Xanarki|Xanarki]] ([[User talk:Xanarki|talk]]) 23:46, 18 October 2025 (UTC)
+
+:No, I reckon just leave it as is – 14 is still a lot, which is why it's usually formatted where only the current members are listed if there's a separate members page and a certain number or more of former members/other musicians. [[User:4TheWynne|<span style="color:#00008B">'''4TheWynne'''</span>]] [[User talk:4TheWynne#top|<span style="color:#00008B">(talk</span>]] <span style="color:#00008B">•</span> [[Special:Contribs/4TheWynne|<span style="color:#00008B">contribs)</span>]] 01:20, 19 October 2025 (UTC)

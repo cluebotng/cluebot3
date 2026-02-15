@@ -3,7 +3,8 @@
     "description": "ClueBot III - Archiving Bot For Wikipedia",
     "require-dev": {
         "overtrue/phplint": "@stable",
-	"squizlabs/php_codesniffer": "^4.0",
+	    "squizlabs/php_codesniffer": "^4.0",
+        "phpunit/phpunit": "^12.0",
         "phpmd/phpmd" : "@stable"
     },
     "repositories": [
@@ -15,11 +16,6 @@
     "require": {
         "monolog/monolog": "^3.0",
         "cluebotng/wikipedia": "^v1.1.1"
-    },
-    "config": {
-        "platform": {
-            "php": "8.2"
-        }
     },
     "license": "GNU General Public License"
 }

@@ -1,0 +1,327 @@
+{{Skip to talk}}
+{{Talk page header}}
+{{Article history
+|currentstatus=FA
+
+|action1=GAN
+|action1date=21:41, 9 November 2013 (UTC)
+|action1link=Talk:Taiko/GA1
+|action1result=listed
+|action1oldid=580953066
+
+|action2=PR
+|action2date=2014-08-25
+|action2link=Wikipedia:Peer_review/Taiko/archive1
+|action2result=reviewed 
+|action2oldid=621062421
+
+|action3=FAC
+|action3date=2014-12-15
+|action3link=Wikipedia:Featured article candidates/Taiko/archive1
+|action3result=failed
+|action3oldid=638166046
+
+|action4=FAC
+|action4date=2015-03-19
+|action4link=Wikipedia:Featured article candidates/Taiko/archive2
+|action4result=promoted
+|action4oldid=651610457
+|maindate=April 14, 2015
+}}
+{{WikiProject banner shell|class=FA|vital=yes|1=
+{{WikiProject Japan|importance=high |music=yes}}
+{{WikiProject Musical Instruments|importance=Mid}}
+{{WikiProject Percussion|importance=high}}
+}}
+{{User:ClueBot III/ArchiveThis
+| age=1800
+| archiveprefix=Talk:Taiko/Archive
+| numberstart=1
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=5
+| minarchthreads=1
+| format= %%i
+}}
+{{Archives|auto=yes|search=yes}}
+
+==Comments from Curly Turkey from FAC==
+
+While I do speak & read Japanese and live in Japan, my knowledge of taiko is extremely casual—I'm checking prose and formatting rather than comprehensiveness or whatever.
+
+===General===
+
+* <s>What [[WP:ENGVAR]] is this in?  I see "archaeology" and "colored".</s> [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 09:58, 7 December 2014 (UTC)
+*:'''Done'''.  American English, and I honestly thought the term was always spelled with an ae. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 15:50, 7 December 2014 (UTC)
+* <s>There's some [[MOS:IMAGELOCATION|sandwiching]] of images in "Categorization"—you'll want to move some of those images to other sections, or create a [[Help:Gallery tag|gallery]].</s> [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 10:03, 7 December 2014 (UTC)
+*:'''Done'''.  {{ping|Curly Turkey}} I added another image here I came across for an okedo, and have added it to the gallery.  Thanks for shuffling things around so the images wouldn't interfere with each other. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 03:01, 8 December 2014 (UTC)
+* <s>It's not a good idea to set the sizes of images; logged-in users can set image size in the preferences, but this is overridden when the image sizes are set in the article.  Everyone has different screen sizes and dimensions, so it's not a good idea to judge from your own screen.</s>
+*:'''Done''', these have been removed. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:47, 8 December 2014 (UTC)
+* <s>[[WP:ALT|Alt text]] for images would improve accessibility</s>
+*:'''Done'''.  Some captions seem to fit well for alt text, so I have noted that where appropriate. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:47, 8 December 2014 (UTC)
+* <s>Did you know that if you formatted your refs as <nowiki>{{sfn|Turnbull|2008|p=37}}</nowiki> instead of <nowiki>{{sfn|Turnbull 2008|p=37}}</nowiki> you could do "| ref=harv" instead of "| ref=<nowiki>{{sfnRef|Turnbull 2012}}</nowiki>" and let the software format it all for you?  I'm not suggesting you bother with this article---just pointing it out to save you work in the future.</s>
+*: I was aware of this, and it was giving me trouble for some reason; I kept getting broken links using the author and year in some cases piped separately.  No doubt the problem was my own fault, I just wanted it to work.  But I'll keep this in mind. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:47, 8 December 2014 (UTC)
+* <s>On a similar topic, [[WP:CITEBUNDLE|bundling]] your sources is much more reader-friendly; since you're using {{tld|sfn}}s anyways, it's particularly easy to do with {{tl|sfnm}}.</s>
+*: Now this I wasn't aware of, and I will also endeavor to use this in future articles. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:47, 8 December 2014 (UTC)
+
+===Lead===
+
+* <s>''often used to refer to any of the various Japanese drums'': "often" and not almost always?  I doubt an English speaker would refer to non-Japanese drums as ''taiko''</s>
+*: '''Done'''.  We can probably drop the qualifier altogether and just say "it is used to refer to to."  I've made this change. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 20:40, 8 December 2014 (UTC)
+* <s>''during the 6th century in the [[Kofun period]]'': the [[Kofun period]] article says the period ended in 538; "during the 6th century"; do the sources specifically say the Kofun period?</s>
+*: Yes "Kofun period" is specified in the the [http://www.tnm.jp/modules/r_free_page/index.php?id=684 Tokyo National Museum article in reference to the statues], and from the Dean reference, p.: {{tq|Two haniwa statues at the Tokyo National Museum exist from the Kofun period, a time of increased contact with China and Korea.}}. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 20:40, 8 December 2014 (UTC)
+*:: I've tweaked the wording a bit. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 23:12, 8 December 2014 (UTC)
+* <s>''and both festival and professional performances'': I can imagine professionals performing at festivals; would "concert performances" be appropriate?</s>
+*:'''Done'''.  Yeah, I think that's more precise language and have changed it accordingly. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 20:41, 8 December 2014 (UTC)
+* <s>''In contemporary times, taiko have played a central role in social movements for minorities both within and outside Japan.'': has this been a big enough deal (a big enough part of these movements) to make it lead-worthy?</s>
+*:I do think this point is lead worthy, as there are a number of regular and academic publications that focus on the instrument in the context of social movements (not all are used in the article at this time due to access issues):
+::*''[http://ssjj.oxfordjournals.org/content/8/2/197.short Of Roots and Race: Discourses of Body and Place in Japanese Taiko Drumming]''
+::*''[http://www.jstor.org/discover/10.2307/3052419?uid=2&uid=4&sid=21105409907233 "She's Really Become Japanese Now!": Taiko Drumming and Asian American Identifications]''
+::*''[http://sv121.wadax.ne.jp/~jaas-gr-jp/jjas/PDF/2001/No.12-105.pdf Taiko as Performance: Creating Japanese American Traditions]''
+::*''[https://sites.otago.ac.nz/index.php/Sites/article/view/104 Why Taiko? Understanding Taiko performance at New Zealand's first Taiko Festival.]''
+::*''[http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/journal_of_asian_american_studies/v004/4.1izumi.html Reconsidering Ethnic Culture and Community: A Case Study on Japanese Canadian Taiko Drumming]''
+::*Chapters in Bender's ''Taiko Boom'' Terada's '' Transcending boundaries: Asian Musics in North America''.
+::We could consider reframing these ideas in terms of [[ethnomusicology]] rather than the much broader idea of social movements. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 21:04, 8 December 2014 (UTC)
+::: If you have access issues with any sources, you should put in a request at [[WP:RX|the Resource Exchange]]—I've had surprising good luck there. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 23:09, 8 December 2014 (UTC)
+::::These have been appropriately integrated. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 20:52, 10 December 2014 (UTC)
+
+===Body===
+
+* <s>''The [[Nihon Shoki]] contains a mythological story'': should probably let the reader know what the ''Nihon Shoki'' is</s>
+::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+* <s>''Her performance is considered to be the creation of taiko music.'': considered so in the myth, or considered so by 21st-century Japanese?</s>
+::'''Done'''.  Appears to be considered so by present-day Japanese historians, and have noted this as such. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+* <s>''During the [[Sengoku period]], specific drum calls'': what's the "Sengoku period", and when was it?  Most English speakers aren't familiar with Japanese history.  You could do something simple like "During the 16th-century <nowiki>[[Sengoku period|Warring States period]]</nowiki>" (while technically it was c. 1467 – c. 1603 I don't think you need to get that hairsplitting for the purposes of this article---we just need to orient the reader)</s>
+::'''Done''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+* <s>''According to the Gunji Yoshu'': do you know the kanji for "Gunji Yoshu"?  I'm not asking for it to be put in the article, I just want to know---though you should probably describe what this was</s>
+::'''Done'''.  I've described it as a war chronicle per sources.  {{u|Margin1522}} mentioned this same question above— I can't find a source that specifies the kanji, but it's probably 「軍事予習」. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+::: I suppose that's important-ish—if it's those kanji, then it needs a macron on "Yoshu". [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 01:10, 10 December 2014 (UTC)
+:::: '''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 09:26, 10 December 2014 (UTC)
+* <s>''Folklore on [[Emperor Keitai]] offers a story during his reign'': meaning the story was written during his reign, or takes place during it?</s>
+::'''Done'''.  Written during the 16th century, well after his reign (est. 507–531 CE) apparently. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+::: Okay, I've tweaked the wording a bit. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 04:42, 15 December 2014 (UTC)
+* <s>''One school of drumming for Noh theater'': can we name the school?</s>
+::'''Done'''.  Malm described it as the Komparu school, no kanji given. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+::: I suppose [[:ja:金春流|金春流]]? [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 01:12, 10 December 2014 (UTC)
+:::: '''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:07, 12 December 2014 (UTC)
+:::: Not at all necessary, but I like to use the {{tl|ill}} template in these situations to (a) direct readers to an existing interwiki article; and (b) encourage somehwat to translate that article by providing a redlink.  If someone does create teh en.wp article, the interwiki link automagically disappears. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 04:42, 15 December 2014 (UTC)
+* If it doesn't take an undue amount of space, it would be good to give a brief description of gagaku, kagura, and the bon odori, and how taiko are used in them
+::{{ping|Curly Turkey}} You have a good point here, but I am little worried about getting out of scope.  Suggestions on where these sections might best placed?  One the one hand, they might fit under the history section before the section on ''kumi-daiko'', but they might also better fit under the "In traditional settings" where I can keep the short. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+::: I wasn't thinking of anything particularly in-depth, just brief one-sentence-ish descriptions to orient the reader—the reader should only have to click through if they're interested in learning about the subject of the link in-depth, no to find out what it means. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 01:10, 10 December 2014 (UTC)
+::: '''Checking...''' Gagaku is contextualized decently well, I think.  For the others, checking sources... [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:12, 11 December 2014 (UTC)
+::::'''Done'''.  I've contextualized these a bit more under the ''In traditional settings'' section. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 14:24, 22 December 2014 (UTC)
+* <s>''took them to [[Sado Island]] for training'': is there any special significance to the choice of this island?</s>
+::<s>Checking...</s> [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:36, 10 December 2014 (UTC)
+:::'''Done.'''  There's a ''ton'' of detail that could go into this, about his travels through Japan and meeting other groups.  His experience on the island appears to be most relevant though; additional details is more appropriate for a bio of [[Den Tagayasu]]. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 20:51, 10 December 2014 (UTC)
+* <s>''Their first performance occurred just after the group finished running the [[Boston Marathon]] while wearing their traditional uniforms.'': meaning they ran the marathon in their uniforms?</s>
+::Correct. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 01:05, 10 December 2014 (UTC)
+* <s>''Kodo is the most recognized taiko group worldwide'': is there a better source than a ''New York Times'' article from 1986 to back this claim up?</s>
+::<s>Checking...</s> [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 01:05, 10 December 2014 (UTC)
+:::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 22:05, 10 December 2014 (UTC)
+:::: Ugh ... this is exactly where I'd like to see some [[WP:BUNDLING]]. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 04:48, 15 December 2014 (UTC)
+:::::'''Done.''' Bundled. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:21, 15 December 2014 (UTC)
+:::::: Okay.  I'm going to sound ''shitsukoi'', but I really think doing this throughout will improve readability (though not a condition for FA). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:00, 15 December 2014 (UTC)
+:::::::I'm willing to do these for claims that have 3 or more refs, but it doesn't seem useful to bundle two-reference claims. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 14:25, 22 December 2014 (UTC)
+* <s>''Some classic pieces that have emerged'': "classic" might be POV</s>
+::'''Done'''.  This has been removed.
+* <s>''Many taiko are not tunable, and a drum with high head tension would counteract the slacking effects of humidity.'': this is uncited</s>
+::'''Done'''.  I've removed this statement as I cannot find a source for the latter part; I've replaced it with a general statement that some taiko are tunable and other are not. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 01:05, 10 December 2014 (UTC)
+* <s>''Many taiko are not tunable, and a drum with high head tension would counteract the slacking effects of humidity.'': "would" makes it sound like conjecture in this case</s>
+::See above. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 01:05, 10 December 2014 (UTC)
+* <s>''that are stave constructed'': is there something good to link to here?  I have no idea what "stave construction" is</s>
+::Not really— the difference is that some taiko are shaped from an tree trunk, and others are built using lengths of wood (i.e. staves).  I've looked at the article on [[woodworking]] and related topics, but couldn't find anything sensible to link to.  I guess we could just link to [[Stave (wood)]], but the article is not in a good way. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:13, 10 December 2014 (UTC)
+:::I'd still link to stave---who knows, it could encourage someone to expand it. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:02, 10 December 2014 (UTC)
+::::'''Done'''. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:43, 10 December 2014 (UTC)
+* I am astounded that {{tld|convert}} handles shaku; the folk who work on that template deserve a round of applause---I have yet to find an edge case that thing couldn't handle
+::Yeah, I remember being pretty astounded at this, too. :P [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:13, 10 December 2014 (UTC)
+* <s>''numbered 1 to 5 with names: "namitsuke", "nichō-gakke", "sanchō-gakke", "yonchō-gakke", and "gochō-gakke"'': most won't realize that most of the names are based on numbers</s>
+::{{ping|Curly Turkey}} Would something like {{tq|namitsuke (1), nichō-gakke (2)...}} be an improvement? [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:13, 10 December 2014 (UTC)
+::: I think it would, though it would be ideal to explicate that the names themselves include the numbers (I suppose "nami" implies "one", but only in the context of the others being explicitly numbered). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 07:57, 10 December 2014 (UTC)
+* ''Okedō are played using the same or similar bachi'': bachi have not yet been introduced, so this will set heads a-scratch
+::'''Done'''.  Eep, thanks.  I've changed it to "sticks." [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:14, 10 December 2014 (UTC)
+::: <s>Or you could just introduce "bachi" (say, ''the drumsticks, called "bachi"'', or somesuch). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:02, 10 December 2014 (UTC)</s>
+:::: '''Done.'''
+* <s>''They are placed on a tall pedestal'': one tall pedastal, or on a tall pedastal each?</s>
+::Uh, I'm not sure I understand the question here?  A single tsuri-daiko is placed on a single pedestal. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:13, 10 December 2014 (UTC)
+::: I've tweaked this. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 04:48, 15 December 2014 (UTC)
+* <s>''It is typically played for [[bugaku]] performances.'': a brief explanation of bugaku would be helpful</s>
+::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 23:45, 10 December 2014 (UTC)
+* <s>''The {{nihongo4|''tsuri-daiko''|釣太鼓}} is a smaller drum'': no translation of "tusri-daiko"? (perhaps "suspended drum"?)  I assume it's called that because of the way it's hung in a frame, but the text says "when the drum is suspended on a stand", which seems to suggest it sometimes isn't suspended---is that the case?</s>
+::'''Done.''' This was a misread of the source text on my part when I wrote this some time ago; the instrument is always suspended, and the player is sitting down while it is being played.  The source text from Miki reads that {{tq|In ''gagaku'', the performer sits to play the tsuri-daiko}} which I thought meant the instrument was played flat to the ground.  After checking out some images of the instrument being played, like [https://c1.staticflickr.com/9/8011/7292128588_82a389a5e0_z.jpg this one], it's clear the player is still sitting while performing. I've rephrased this accordingly. <small>I also learned that 釣 can apparently refer to trolling?</small>  [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 23:45, 10 December 2014 (UTC)
+::: I'm not hip to Japanese Internet lingo, but it sounds plausible: "釣" also means fishing, so I suppose it means something like "angling for a reaction"? [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 00:31, 11 December 2014 (UTC)
+* <s>''There are other taiko used in gagaku such as the {{nihongo4|''san-no-tsuzumi''|三の鼓}}'': no description?</s>
+::'''Done'''. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 23:45, 10 December 2014 (UTC)
+::: Looks like this has been removed. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+I'm going to take a break here (gotta see the doctor about a pain in my chest).  Ping me if I forget to return within a few days (something I'm prone to). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:17, 8 December 2014 (UTC)
+:Also, I hope you feel better.  Chest pains are no good. :( [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:41, 10 December 2014 (UTC)
+:: It's lasted more than a month and hasn't gotten in the least better, but the doctor thinks it's just a pinched nerve or something and not to worry about.  I've been reviewing the [[pancreatic cancer]] FAC, so guess what was going through my head? [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 01:10, 10 December 2014 (UTC)
+
+===Body (cont'd)===
+
+* <s>something needs to be done about italicization—many unassimilated foreign terms are unitalicized, and some terms ("kumi-daiko") are sometimes italicized and sometimes not</s>
+::'''Done'''.  I've standardized italics throughout the article for Japanese terms lacking an article.  I've avoided italicizing proper nouns, like the names of people and companies. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 10:31, 11 December 2014 (UTC)
+* I'd like to see more examples of, for example, the differences in rhythm alluded to
+::'''Checking...''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 05:30, 12 December 2014 (UTC)
+:::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:31, 15 December 2014 (UTC)
+:::: That's a nice addition, but it doesn't illustrate any "differences", does it? [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:00, 15 December 2014 (UTC)
+:::::I think it'd be better to frame the differences as more of a general thing rather than specifically on the rhythms.  Getting into rhythm becomes overly technical I think, especially considering that this all is basically coming from just a few sources.  Admittedly the differences in rhythm are not that stark.  Shin-daiko has underlying rhythms that tend to be faster (and are also louder) in comparison to Kumaoji-daiko.  I'd like to stick with that, and also add into this section a note on how stance is different between the two. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 14:36, 22 December 2014 (UTC)
+::::::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 02:40, 24 December 2014 (UTC)
+* <s>''Taiko construction has several components'': are these "components" a sequence?  Would it be better described as "stages"?</s>
+::'''Done.''' Agreed, this is a better description. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:00, 12 December 2014 (UTC)
+* <s>''to precisely tension the skin to the drumhead'': this sounds strange to me, but I'm not sure how best to reword it</s>
+::How about ''to precisely apply tension across the drumhead'' ? [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:44, 12 December 2014 (UTC)
+::: Yes, that's better.  I've made the change. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+* <s>''[[Miyamoto Unosuke Shoten]] in Tokyo, made taiko for several generations'': the company no longer exists?</s>
+::'''Done.''' Fixed to "has been making" as they are still around and continue to produce high-quality taiko. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:00, 12 December 2014 (UTC) 
+* <s>''It bears similarity to the same term in [[martial arts]]'': well, no, it ''is'' the same term, applied in a different context</s>
+::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:00, 12 December 2014 (UTC)
+::: I've tweaked the wording, but I still feel like it could be better. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+* <s>''which is often accomplished by keeping a wide, low stance with the legs'': how often?  Is it usual?</s>
+::'''Checking...''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:06, 12 December 2014 (UTC)
+:::'''Done'''.  The [http://books.google.com/books?id=gGlX7c66X1sC&vq=%22taiko%22+%2B+%22kata%22&source=gbs_navlinks_s source] refers to one group, San Jose Taiko, so I'll simply say here that stabilization ''can'' be accomplished through this low stance rather than refer to how often it is used.  I've also added the Varian (2013) source that suggests this stance, but does not indicate how frequently it is used.  IMO, it is a pretty common stance in my experience performing and watching other groups, but I can't find a source specifying how common it is. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 04:29, 15 December 2014 (UTC)
+:::: Oh, so you perform?  I guess the wording's acceptable, but something more specific would be ideal. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 04:42, 15 December 2014 (UTC)
+:::::'''Done'''.  I've added a few more points on form with regard to the shoulders and hips of the player.  And yes, I've been performing for about 4 years; we have a ragtag group here in Chicago called Kaiju Daiko （怪獣太鼓） that's somewhere between amateur and semi-professional.  Japanese folks are a bit taken aback by the name, but they get it once we start playing— we try to play big.  We've played at some decent venues in the city, but we're nowhere near as disciplined or skilled as many groups. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:31, 15 December 2014 (UTC)
+:::::: Awesome! [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:00, 15 December 2014 (UTC)
+* <s>''which refers to very specific kinds of movement while performing'': "iki" itself "refers to very specific kinds of movement while performing"?  I know how difficult it is to sum up terms from [[Japanese aesthetics]], but a bit more elaboration would be helpful</s>
+::'''Checking...''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:06, 12 December 2014 (UTC)
+:::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 03:28, 15 December 2014 (UTC)
+:::: Hmmm ... this description doesn't jive well with the one at [[Iki (aesthetics)]] ... [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+::::: {{ping|Curly Turkey}} It may not, but that's because the article needs work.  See [https://books.google.com/books?id=Fiv-lTVZV10C&pg=PA204&lpg=PA204&dq=%22Iki%22+%2B+%22vivacious%22+%2B+%22Japanese%22&source=bl&ots=ZPP6ttPnqk&sig=EyWQPB1kEOljD15FveAw-3mZzsI&hl=en&sa=X&ei=G4GOVOOOKsr3yQSP-oE4&ved=0CB4Q6AEwAA#v=onepage&q=%22Iki%22%20%2B%20%22vivacious%22%20%2B%20%22Japanese%22&f=false], [https://books.google.com/books?id=yaMCAAAAQAAJ&pg=PA350&lpg=PA350&dq=%22Iki%22+%2B+%22vivacious%22+%2B+%22Japanese%22&source=bl&ots=5plKE-ix2z&sig=iEesrLDb-xmabX9LEFWrMEsB_78&hl=en&sa=X&ei=G4GOVOOOKsr3yQSP-oE4&ved=0CCYQ6AEwAw#v=onepage&q=%22Iki%22%20%2B%20%22vivacious%22%20%2B%20%22Japanese%22&f=false], [http://asia.nikkei.com/print/article/26451] {{tq|"Japanese at that time valued iki (urbanity), which was characterized by...a vivacious lifestyle."}}.  I don't think Bender is off in his interpretation of the term. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:44, 15 December 2014 (UTC)
+:::::: Okay, I'll buy that (I've tightened the wording). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:00, 15 December 2014 (UTC)
+* ''such as the shime grip'': which is?  Also, I wonder if a pronunciation guide would be helpful—even I read this as /ʃaɪm/ before I realized it was a Japanese word (thus the importance of italicizing unfamiliar foreign words).  Rather than cluttering up the body, perhaps a table of pronunciations could be thrown in?
+::'''Checking...''' Perhaps the pronunciation table could be integrated into the glossary you mentioned below?  I actually don't really know IPA that well, so I may need some help with this one. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:04, 12 December 2014 (UTC)
+::: If you go with that, I could provide the pronunciations (we could go with both IPA and whatever-they-call-non-IPA-pronunciation-guides). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+{{od}}
+:{{ping|Curly Turkey}}:  I've started a table here for some of the frequent terms in the article:
+{| class="wikitable" margin:0.80em;"
+! scope="col" | Romanized Japanese
+! scope="col" | [[IPA|IPA Pronunciation]]
+! scope="col" | Kanji
+! scope="col" | Definition
+|-
+|''Bachi''|| ||撥|| Various drumsticks used for taiko performance
+|-
+|''Byō-uchi-daiko'' || ||鋲打ち太鼓|| Category of taiko where the skin is tacked onto the head
+|-
+|''Gagakki'' ||  ||雅楽器|| Category of instruments used in the theatrical tradition called [[gagaku]].
+|-
+|''Kumi-daiko'' ||  ||組太鼓|| Type of performance involving multiple players and different types of taiko
+|-
+|''Nagadō-daiko'' ||  ||長胴太鼓|| Subcategory of ''Byō-uchi-daiko'' that have a longer, barrel-shaped body
+|-
+|''Okedō-daiko'' || ||桶胴太鼓|| Category of taiko with bucket-like frames, and tensioned using ropes or bolts
+|-
+|''Shime-daiko'' || ||締め太鼓|| Small, high-pitched taiko where the skin is pulled across the head using rope or through bolts
+|}
+:Was there another type of pronunciation you were thinking might be useful here besides the [[IPA]] one?  Also, still looking into the whole ''shime'' grip thing. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:40, 26 December 2014 (UTC)
+::I'd personally like to see IPA, and I think international audiences would appreciate it, but I realize North Americans in particular tend to be IPA-illiterate, so phonics-like guide would also be helpful.  I'll see if I can hunt down a standardized version rather than make stuff up.  It's the New Year's holidays, though, so I may take more time than I'd like to to get this done.  Ping me if you think I'm taking to long—just in case I've forgotten. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 08:12, 26 December 2014 (UTC)
+:::It looks like [[Wikipedia:Pronunciation respelling key]] is maybe what we want. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 22:46, 26 December 2014 (UTC)
+::::So perhaps something more like this:
+:::::{| class="wikitable" margin:0.80em;"
+! scope="col" | Romanized Japanese
+! scope="col" | [[Wikipedia:Pronunciation respelling key|Respelling symbols]]
+! scope="col" | [[IPA|IPA Pronunciation]]
+! scope="col" | Kanji
+! scope="col" | Definition
+|-
+! scope="row" |''Bachi''
+| {{respell|BAH|chee}} || {{IPAc-ja|ba|chi}} ||撥|| Various drumsticks used for taiko performance
+|-
+! scope="row" |''Byō-uchi-daiko''
+| {{respell|byoh-oo-chee-dy-koh}} || {{IPAc-ja|byō|u|chi|da|i|ko}} ||{{nowrap|鋲打ち太鼓}}|| Category of taiko where the skin is tacked onto the head
+|-
+! scope="row" |''Gagakki''
+| {{respell|gah-gahk-kee}} || {{IPAc-ja|ga|ga|k|ki}} ||雅楽器|| Category of instruments used in the theatrical tradition called [[gagaku]]
+|-
+! scope="row" |''Kumi-daiko''
+| {{respell|KOO|mee|DY|koh}} || {{IPAc-ja|ku|mi|da|i|ko}} ||組太鼓|| Type of performance involving multiple players and different types of taiko
+|-
+! scope="row" |''Nagadō-daiko''
+| {{nowrap|{{respell|nah-gah-doh-dy-koh}} }} || {{IPAc-ja|na|ga|dō|da|i|ko}} ||長胴太鼓|| Subcategory of ''Byō-uchi-daiko'' that have a longer, barrel-shaped body
+|-
+! scope="row" |''Okedō-daiko''
+| {{respell|oh-keh-doh-dy-koh}} || {{IPAc-ja|o|ke|dō|da|i|ko}} ||桶胴太鼓|| Category of taiko with bucket-like frames, and tensioned using ropes or bolts
+|-
+! scope="row" |''Shime-daiko''
+| {{respell|shee-meh-dy-koh}} || {{IPAc-ja|shi|me|da|i|ko}} ||締め太鼓|| Small, high-pitched taiko where the skin is pulled across the head using rope or through bolts
+|-
+!scope="row" |''Tsuzumi''
+| {{respell|tsoo-zoo-mee }} || {{IPAc-ja|tsu|zu|mi}} ||鼓|| Category of hourglass-shaped drums that are rope-tensioned
+|}
+::::Two concerns I have relate to the fact that I haven't really seen glossaries all that often on articles.  I'm not against this idea, but I am concerned about 1) whether readers can easily find this (i.e. the bottom of the page does not seem ideal), and 2) what degree we should focus on correct pronunciation of Japanese in this article.  [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:01, 27 December 2014 (UTC)
+::::: Well, I suggested it to unclutter the article, because there are so many of these terms throughout, and in the case of ''shime'' and others it's not obvious to non-Japanese speakers how to pronounce it.  Also, since there ''are'' so many terms, I think it would be nice to have a glossary anyways, and I think it would make for easier reading to bounce the kanji out of the prose.  As for pronunciation, I think we should go with English-like pronunciation for the respelling and Japanese pronunciation for IPA, but not get hairsplitting with it. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 01:45, 27 December 2014 (UTC)
+::::::{{ping|Curly Turkey}} Thanks for adding the pronunciations and fixing my attempts.  I think that's reasonable, and you're right, there are a lot of terms here.  It would be nice to transition some of the kanji out from the prose section.  Are there other terms you think we should include here?  I've only included the terms that are most common; we could make it comprehensive, but I think it's OK to leave some kanji in the body.  One other term that might be worth putting in is one for the tsuzumi (鼓), a category of hand drums, since some of its types of are discussed in the categorization section. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 04:23, 27 December 2014 (UTC)
+::::::{{ping|Curly Turkey}} Also, I've taken care of the issue with the ''shime'' grip.  I had to rewrite this section because I had apparently misread the source from Vogel (2009) and also found some additional detail in the Varian (2013) publication. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:23, 27 December 2014 (UTC)
+:::::::Added the glossary into the article. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:09, 31 December 2014 (UTC)
+* <s>''The way the bachi are held is also significant in the context of [[Buddhism]]. For some groups, ''bachi'' represent a spiritual link between the body and the sky.'': can this be elaborated?</s>
+::'''Done'''.  Not this point specifically, but the more general point can be made that physical objects like the taiko body, skin, and ''byo'' all are symbolically significant in Buddhism.  There's a bit more about taiko and Buddhism in another source that I've added as well. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:17, 12 December 2014 (UTC)
+* <s>''called [[kakegoe]] or [[kiai]]'': this could be interpreted as "kakegoe" and "kiai" being synonyms</s>
+::'''Done.''' I've changed this to ''[[kakegoe]] and [[kiai]]''. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:44, 12 December 2014 (UTC)
+* <s>''there has been literature published on taiko performance based on Japanese standards'': based on Japanese standards of performance, standards of criticism, standards of...?</s>
+::'''Done.''' Yeah, this could use a rephrase.  I've changed this to, ''...Japanese publications have emerged in an attempt to standardize taiko performance.'' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 19:44, 12 December 2014 (UTC)
+* <s>The subsections of the "Hachijō-daiko" section are brief enough that I don't they they warrant being subsections</s>
+::'''Done'''. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:06, 12 December 2014 (UTC)
+* <s>''typically improvised musical composition'': are "improvised" and "composition" not contradictory?</s>
+::'''Done.''' Changed from "musical composition" to "rhythms."
+* Are there really only two regionally styles worth mentioning?
+::'''Checking...''' Kumi-daiko dominates the literature because of its popularity; there was precious little I've found on regional varieties.  These are folk traditions, and as such, do not get much in the way of coverage.  I'll give another look around to see what I can dig up, though. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 05:30, 12 December 2014 (UTC)
+::: Well, if there's a paucity of literature, perhaps the "Regional styles" section could begin with a brief section giving an overview of what little you can find as examples, and then introduce the subsections. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+::::{{ping|Curly Turkey}} There are a few styles that can be mentioned in such a section.  I think one additional subsection that can be could be on [[Eisa (dance)|eisa]] (エイサー), in which there appears to be a specific dance called ''taiko-odori'' ([https://books.google.com/books?id=_syhAgAAQBAJ&pg=PA234&dq=%22Eisa%22+%2B+%22Taiko%22&hl=en&sa=X&ei=5M6eVOn5BJWkyASR4ICgAw&ved=0CDsQ6AEwAg#v=onepage&q=%22Eisa%22%20%2B%20%22Taiko%22&f=false]). [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 15:38, 27 December 2014 (UTC)
+:::::{{ping|Curly Turkey}} '''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 09:28, 29 December 2014 (UTC)
+Taking another break to respond to your responses above. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 01:04, 10 December 2014 (UTC)
+
+* <s>I've removed the "lit." and "trans." from the translations---"literally" almost never means quite what people think it does, and "trans." is just redundant.  Another issue with it I've just found is ''三の鼓 trans. "hourglass drum"''---it may be called an "hourglass drum" in English, but that sure ain't a translation of "三".</s>
+::"Third hand drum" is probably best here, if the goal is literal translations from the kanji.  I don't always think literal translations are the best though-- "third hand drum" seems disorienting to me as a reader, and leaves me asking, "what about the other two?"  The problem is that there are other drums, but precious little is written about them (in part because they have long been abandoned) and are pretty much out of scope for this article. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:47, 11 December 2014 (UTC)
+::: I'm not pushing for a literal translation, just a "good enough" gloss.  Where does the "hand" come from, by the way? [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 00:57, 11 December 2014 (UTC)
+:::: Well, that translation was taken from [http://www.edrdg.org/cgi-bin/wwwjdic/wwwjdic?1E Jim Breen's WWWJDIC].  My Casio XD ST4500 has this entry for 鼓:  {{tq|a kind of small shoulder drum which they tap with the finger tips}}.  It seems like this is generally the case, with the exception of the 三の鼓.  I'm thinking it might be better just to use a different example here, probably the 小鼓　since we have an image of it now. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 05:09, 11 December 2014 (UTC)
+::::: I see---the problem with that gloss is that it reads as "''three hand'' drum" rather than three "''hand drum''".  Maybe it ''is'' best to drop it---it doesn't seem too important to the article. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:24, 11 December 2014 (UTC)
+:::::: I've removed the content on the san-no-tsuzumi and added in a new section on Noh instruments as I neglected to mention them at all in prose (yet it's on the table).  I think this fits pretty well. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:34, 11 December 2014 (UTC)
+* <s>''[[Tangue Setsuko]] founded an eponymous group'': meaning [[Tangue Setsuko]] founded "Tangue Setsuko"?</s>
+::Well, the Tangue Setsuko Taiko Dojo is the official name.  We could change this to ''[[Tangue Setsuko]] founded an eponymous taiko dojo''.  Just trying to avoid the whole ''Tangue Setsuko founded the Tangue Setsuko Taiko Doko'' redundancy because it doesn't read well.  [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:43, 11 December 2014 (UTC)
+* <s>''Certain peoples have used taiko as a means'': while there's nothing incorrect with the wording, keeping in mind that Wikipedia serves a general, international audience, I might choose a clearer term than "peoples" here</s>
+::I remember mulling over this; the groups in the article are a gender, a social class in Japan, and an immigrant racial group in North America.  I considered "societies," but that sounded too organized to me.  These are such broad groups, "peoples" seemed apt in the sense that these are broad groups of people. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:52, 11 December 2014 (UTC)
+* <s>''of the social movement by third-generation'': which social movement?  I know it's explained, but the sentence seems unfinished somehow</s>
+::To be more specific, I've rephrased this to "cultural development" rather than having to summarize the entire social movement. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:52, 11 December 2014 (UTC)
+* <s>''social scientist Hideyo Konogaya remarks'': just double-checking: this is "Hideyo" and not "Hideo"?  And it's "Konogaya" and not "Konagaya"?</s>
+::'''Done'''.  Confound it all, I've messed up both the first ''and'' last name of this author while working on this.  The actual name is Hideyo Konagaya ([http://sv121.wadax.ne.jp/~jaas-gr-jp/jjas/PDF/2001/No.12-105.pdf], [https://www.worldcat.org/title/performing-the-okinawan-woman-in-taiko-gender-folklore-and-identity-politics-in-modern-japan/oclc/244976556]).  Fixed up the refs and name in prose.  Sheesh. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 00:43, 11 December 2014 (UTC)
+* ''while in the United States it was meant to be an explicit representation of masculinity and power in Japanese-Americans'': despite the fact of high female participation?
+::'''Checking...''' I'll have to reread the Bronner source, but he focuses a bit more on the male experience of being Japanese in the U.S., particularly how they responded to perceptions that Japanese-American men were physically weak and soft-spoken (i.e. stereotypically feminine), and that taiko was a vehicle by which to combat those perceptions.  I'll have to see if he discusses female particiption. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:52, 11 December 2014 (UTC)
+:::'''Done'''.  The chapter from Bronner exclusively focuses on the male experience in this case.  That said, even some [http://articles.latimes.com/2002/jul/15/local/me-taiko15 other publications] suggest that participating in taiko can be about strength for women as well: {{tq|"Through performance, we're able to redefine the status quo ... not by denying the body but by redefining the body in terms of strength and discipline."}} [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 15:38, 27 December 2014 (UTC)
+* ''Related terms'': I'm not sure about this section---it's very short, when it's obvious there are many more terms in the taiko vocabulary.  Here's an idea: include all the pertinent terms throughout the article in a "Taiko glossary" section---even better, move all the kanji to this section, which'll free up the flow of the straight prose.
+* ''Taiko no Tatsujin'': an entire section on this?  That seems a bit [[WP:UNDUE]] and over-detailed---yes, I'm aware of what a phenomenon the game is.  Perhaps a "Cultural legacy" section?  I'm sure taiko has shown up elsewere---is there taiko manga, for instance, or movies, TV shows, TV themes, do groups release CDs?
+::'''Checking...''' It's not in the GA nomination, but I seem to recall {{u|ChrisGualtieri}} asking to add this section during the GA process (but I could be mistaken).  I'll look into other cultural phenomena involving taiko, but this will take some time. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 07:28, 11 December 2014 (UTC)
+::: [[Taiko no Tatsujin]] is much more of a hit in Japan than in North America with more than 30 different games and some tie in manga, and little anime shorts. Taiko do show up in other cultural works, just not as the focus. It is a good argument you make, unless something comes to balance the whole in sufficient detail - it is probably best to do an "in culture" section. [[User:ChrisGualtieri|ChrisGualtieri]] ([[User talk:ChrisGualtieri|talk]]) 15:37, 11 December 2014 (UTC)
+:::: It's a phenomenon and should be mentioned of course, but the level of detail is inappropriate for the ''taiko'' article (what consoles it was released on, etc).  It really needs no more detail than a brief description of the gameplay and the fact that it's popular and has had numerous sequels.
+:::: I've hunted around and I'm surprised how little other media I could find.  I've found the odd thing like [http://www.amazon.co.jp/%E5%92%8C%E5%A4%AA%E9%BC%93%E2%80%A0%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA-1-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E6%9C%88%E5%88%8A%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E3%81%99%E3%81%9F%E3%81%B2%E3%82%8D/dp/4575843636 this], but not in third-party sources.  I assumed I'd find a film in the vein of ''[[Sumo Do, Sumo Don't]]'', but I've found zip. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 05:10, 15 December 2014 (UTC)
+:::::{{ping|Curly Turkey}} OK, a couple of comments:
+:::::*I also haven't been able to find any other cultural work that ties in taiko real well, so for now, I don't think a "Cultural legacy" section is appropriate.  IMO, ''kumi-daiko'' in general ''is'' the popular culture aspect of this instrument.
+:::::*{{tq|is there taiko manga, for instance, or movies, TV shows, TV themes, do groups release CDs?}} Yes, groups do release CDs, but I think those are better suited on the articles for those groups rather than the instrument page itself.  I unfortunately can't find a lot of commentary about the phenomenon of taiko groups producing CDs generally.  
+:::::*{{tq|the level of detail is inappropriate for the taiko article}} Agreed.  I've pared this down based on your suggestions, but ultimately, I support moving this to the See Also section with just a link rather than creating a new section all on its own.  What do you think?
+:::::** I never thought of that.  Perhaps that ''would'' be best. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 00:12, 31 December 2014 (UTC)
+:::::[[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 23:56, 30 December 2014 (UTC)
+* ''called Taiko no Tatsujin, or in North America, [[Taiko: Drum Master]]'': I think normally we would introduce it with its English title [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 00:29, 11 December 2014 (UTC)
+::The problem is that the Japanese title was released first.  We could frame it as, ''it was released in North America in 2005 as [[Taiko: Drum Master]] based on the original game in Japan, [[Taiko no Tatsujin]].''  If we're moving this to the ''See Also'' section, this is of course, moot. [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 23:56, 30 December 2014 (UTC)
+:::Almost every Japanee video game is released in Japanese first.  It's not the ''title'' that is under discussion, but the game itself. [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 00:14, 31 December 2014 (UTC)
+* <s>''[[Seidō Kobayashi]] is the founder and is the current leader'': we'll need an "as of" or something here, as this will obviously date (when he retires or kicks it, and it doesn't get updated). [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 00:33, 11 December 2014 (UTC)</s>
+::'''Done.''' [[User:I JethroBT|<span style="color:green; font-family:Candara;"><b>I, JethroBT</b></span>]][[User talk:I JethroBT| <sup>drop me a line</sup>]] 06:36, 11 December 2014 (UTC)
+
+
+== Congratulations!==
+Congratulations to all the contributors to this featured article. You deserve a lot of applause, recognition and appreciation. What a wonderful article.
+:<span style="font-family:Monotype Corsiva;background:#E6E6FA;border:solid 1px;border-radius:7px;box-shadow:darkgray 0px 3px 3px;">&nbsp;&nbsp;[[User:Bfpage|Bfpage]]&nbsp;&#124;[[User talk:Bfpage|leave a message]]&nbsp;</span> 12:55, 14 April 2015 (UTC)
+
+== [[:File:Yashima Gakutei - A woman playing a large suspended drum (tsuridaiko) A set of five prints for the Hisakataya poetry c... - Google Art Project.jpg]] to appear as POTD ==
+Hello! This is a note to let the editors of this article know that [[:File:Yashima Gakutei - A woman playing a large suspended drum (tsuridaiko) A set of five prints for the Hisakataya poetry c... - Google Art Project.jpg]] will be appearing as [[Wikipedia:picture of the day|picture of the day]] on July 27, 2015. You can view and edit the POTD blurb at [[Template:POTD/2015-07-27]]. If this article needs any attention or maintenance, it would be preferable if that could be done before its appearance on the [[Main Page]]. Thanks!&nbsp;—&nbsp;[[User:Crisco 1492|Chris Woodrich]] ([[User talk:Crisco 1492|talk]]) 23:43, 10 July 2015 (UTC)
+{{POTD/2015-07-27}}
+
+== Taiko drum festival usually last for ==
+
+Taiko [[Special:Contributions/49.145.45.245|49.145.45.245]] ([[User talk:49.145.45.245|talk]]) 23:19, 18 April 2022 (UTC)
+
+== Regional Styles? ==
+
+There are a few other regional styles that could be listed, but I'm not sure if this is going too much into details.
+
+Chichibu yatai bayashi is another regional style that could be listed. Bender talks about this on page 73.
+
+Additionally, Oedo Sukeroku is often credited as its own style with its use of naname slant stands. Much of North American taiko is rooted in the style of Oedo Sukeroku. Bender refers to this on page 192. [[Special:Contributions/24.63.251.4|24.63.251.4]] ([[User talk:24.63.251.4|talk]]) 22:29, 8 July 2023 (UTC)

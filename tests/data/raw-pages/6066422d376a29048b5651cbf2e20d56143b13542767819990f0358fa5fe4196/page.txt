@@ -1,0 +1,34 @@
+{{Talk header}}
+{{Article history
+|action1=GAN |action1date=29 July 2017 |action1link=/GA1 |action1result=listed |action1oldid=792745178
+|currentstatus=GA |topic=history
+|dykdate=23 August 2017 |dykentry=... that '''[[Tvrtko I of Bosnia|Tvrtko I]]''', the first [[King of Bosnia]], maintained cordial relations with all three churches in his realm—[[Bosnian Church|Bosnian]], [[Catholic Church|Catholic]], and [[Eastern Orthodox Church|Orthodox]]? |dyknom=Template:Did you know nominations/Tvrtko I of Bosnia
+|otd1date=2020-03-10|otd1oldid=944899238
+|otd2date=2021-03-10|otd2oldid=1011268127
+|otd3date=2024-03-10|otd3oldid=1212691374
+|otd4date=2025-03-10|otd4oldid=1279754604
+}}
+{{WikiProject banner shell|class=GA|blp=no |listas=Tvrtko 01 Of Bosnia|
+{{WikiProject Biography|royalty-work-group=yes}}
+{{WikiProject Middle Ages|importance=mid}}
+{{WikiProject Bosnia and Herzegovina |importance=high}}
+{{WikiProject Croatia|importance=mid}}
+{{WikiProject Serbia|importance=mid}}
+{{WPMH|Biography=y|Balkan=y|European=y|Medieval=y}}
+{{WikiProject Guild of Copy Editors|user=Dhtwiki |date=22 April 2017}}
+}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:Tvrtko I of Bosnia/Archive
+| numberstart=2
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=1
+| minarchthreads=1
+| format= %%i
+}}
+
+== A Commons file used on this page or its Wikidata item has been nominated for deletion ==
+The following Wikimedia Commons file used on this page or its Wikidata item has been nominated for deletion:
+* [[commons:File:Spomenik kralju Stefanu Tvrtku I Kotromaniću Banja Luka.jpg|Spomenik kralju Stefanu Tvrtku I Kotromaniću Banja Luka.jpg]]<!-- COMMONSBOT: discussion | 2025-11-16T01:53:37.290253 | Spomenik kralju Stefanu Tvrtku I Kotromaniću Banja Luka.jpg -->
+Participate in the deletion discussion at the [[commons:Commons:Deletion requests/Files in Category:Equestrian monument to King Tvrtko, Banja Luka|nomination page]]. —[[User:Community Tech bot|Community Tech bot]] ([[User talk:Community Tech bot|talk]]) 01:53, 16 November 2025 (UTC)

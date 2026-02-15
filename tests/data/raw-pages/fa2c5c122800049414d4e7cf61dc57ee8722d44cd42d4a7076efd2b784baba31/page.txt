@@ -1,0 +1,74 @@
+{{User:ClueBot III/ArchiveThis
+| age=3600
+| archiveprefix=Talk:Magnetic sail/Archives/
+| numberstart=1
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=2
+| minarchthreads=1
+| format= %%i
+}}
+{{WikiProject banner shell|class=Start|
+{{WikiProject Spaceflight|importance=low}}
+{{WikiProject Physics|importance=low}}
+}}
+{{Archives|age=60
+|1=[[/Archives/_1]]
+|bot=ClueBot III
+}}
+== Proposed Article Reorganization ==
+<!-- START PIN -->{{Pin message|}}<!-- [[User:DoNotArchiveUntil]] 19:50, 20 October 2033 (UTC) -->{{User:ClueBot III/DoNotArchiveUntil|2013450654}}<!-- END PIN -->
+This article has a an unchecked status for structure for the B-class. There is good material here, but many results are not cited. Also, there is some replication of topics. The [[Solar sail]] article provides a better structure and is a good model for this related technology. Since most of magnetic sail is based upon analogy to the Earth's magnetosphere, theoretical, simulation, lab experiments and only a few proposed trials the outline at this time need not contain sections for actual flight experience. Therefore, I propose the following re-organized structure.
+
+#History of concept
+#Physical Principles
+#Modes of operation
+#Proposed magnetic sail systems
+#Theoretical models
+#Experimental results and trials
+#Performance comparison
+#Fictional uses in popular culture
+#See also
+#References
+#External links
+
+Offline I have placed all of the existing material in this structure and have begun work on the uncited topics. I will continue working offline to collect this material, figures and citations so that parts of the above structure will not appear empty when I perform the reorganization.
+
+Comments?  <!-- Template:Unsigned --><span class="autosigned" style="font-size:85%;">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan#top|talk]] • [[Special:Contributions/Dmcdysan|contribs]]) 18:01, 28 June 2022 (UTC)</span> <!--Autosigned by SineBot-->
+
+:Hi, I have filled out most of the above outline with prior text and new text, equations and images. Major changes and deletion of prior text has been placed in Talk page sections. I have inserted several Invisible comments (as a note to myself) regarding some additional editorial work to reduce duplication, reduce number of citations and shorten the article. Don't know if anyone is following this article and wants to discuss anything. I so, please reply to the appropriate topic, or reply to this topic.
+:Thanks! [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 21:47, 9 September 2022 (UTC)
+:Have completed filling out the outline. May add or delete a few sentences here and there. Ended up being several hundred papers published on the topic of "magnetic sails." Selected those highlighting key results, performance predictions, design details and challenges. 
+:Please discuss on Talk page for major issues or proposed changes. 
+:Make lesser edits to the text with a brief description of what was changed and why, or minor edits to correct grammar, spelling, add clarity. [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 22:56, 17 September 2022 (UTC)
+:Based upon comments from ScottForschler, an initial change to the outline and content by increasing the summary, adding an Overview section with illustrations and moving all content from the "History of concept" section into the Overview or the corresponding proposed design section is in progress and may take several weeks to complete. Therefore, I pinned this section from auto-archive. [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 19:59, 23 October 2023 (UTC)
+::Have completed moving material and populating the new Overview section with higher level text descriptions and images. Intent is to make the article more accessible to readers who don't want to go through the equations and glean what are the important messages.
+::Decided to keep a shorter "History of Concept" section that Wikilinks to the individual proposed design sections. 
+::Created a new animation and replaced static image in the Summary section with wikilinks to sections in the article. Some of these still need higher level sentence(s) before delving into the equations.
+::Inserted a number of invisible comments on summarized thoughts that need to be verified against verifiable source.
+::Please comment here with constructive suggestions on the revised outline, duplication, portions that may not be necessary. [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 22:48, 26 October 2023 (UTC)
+:::Saw on another Wikipedia thread a comment from an editor that one editor was responsible for the majority of the edits, so wanted to explain here why this is so for this article. As also mentioned on my Talk page: a large percentage of the edits were due to cut/paste reorganizing existing material (sometimes more than once) to fit in the proposed outline above, deleting material without reliable source citation, making summary of existing citations verifiable as documented by various topics in the archive. Reformatted equations and added a number of others from reliable source authors giving the equation number in the citation using [[Template:Rp]] to make this more readily verifiable. Rewrote summary paragraph and added Overview section in response to questions and suggestions by [[User:ScottForschler|ScottForschler]].  [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 19:36, 3 March 2024 (UTC)
+
+== Comparison with electric and solar sails ==
+<!-- START PIN -->{{Pin message|}}<!-- [[User:DoNotArchiveUntil]] 19:54, 20 October 2033 (UTC) -->{{User:ClueBot III/DoNotArchiveUntil|2013450887}}<!-- END PIN -->
+Section heading added to outline. Anticipated using other citations, but Perakis & Hein 2016 citation used was a preprint and not WP:RS - so deleted that text. Also, exponent for magnetic sail force may have had an error in that and Sharma 2020 citation. Reached out to Perakis & Hein in August 2022, but so far have not gotten response.
+
+Text from prior to article reorganization placed there cut and pasted below: for discussion:
+
+The operation of magnetic sails using plasma wind is analogous to the operation of solar sails using the radiation pressure of photons emitted by the Sun. Although solar wind particles have rest mass and photons do not, sunlight has thousands of times more momentum than the solar wind. Therefore, a magnetic sail must deflect a proportionally larger area of the solar wind than a comparable solar sail to generate the same amount of thrust. However, it need not be as massive as a solar sail because the solar wind is deflected by a magnetic field instead of a large physical sail. Conventional materials for solar sails weigh around 7 g/m<sup>2</sup> (0.0014&nbsp;lb/sq ft), giving a thrust of 0.01 mPa (1.5×10<sup>−9</sup> psi) at 1 AU (150,000,000&nbsp;km; 93,000,000&nbsp;mi). This gives a mass/thrust ratio of at least 700&nbsp;kg/N, similar to a magnetic sail, neglecting other structural components.
+
+The [[Solar sail|solar]] and magnetic sails have a thrust that falls off as the square of the distance from the Sun. [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 03:30, 8 September 2022 (UTC)
+
+:This may still be a useful topic. There are two references that describe this but appear use an older version of the Freeland paper where the equation for magsail force has an error that significantly overestimate the magsail force. Another paper from Chineses authors is mentioned in "History of Concept." Keeping this topic here for now in planned auto-archive. [[User:Dmcdysan|Dmcdysan]] ([[User talk:Dmcdysan|talk]]) 19:54, 23 October 2023 (UTC)
+
+== Some comments on the diagrams ==
+
+1) They need an identifier to explicitly connect them to the main text that refers to them, and preferably a caption to explain what they show without having to find and read that main text.
+
+2) The diagram of Relative Force versus Astronomical Units: This must be meant to illustrate the main text that says "the magnetic field falls off as 1/r^f0", so how can the red line for f0=1 stay at 100% regardless of distance? The red line should be where the blue line is, and the others below that.
+
+3) The diagram immediately under the heading "Overview": Aren't these spiral paths what would happen for charged particles moving in a uniform "vertical" magnetic field, ie: constant and parallel to the black axis vector? The text that seems to refer to this is not nearby, and says "As shown in the illustration in the presence of a magnetic field shown in green, charged particles gyrate in circular arcs...". The "magnetic field shown in green" is circular rather than vertical, and the charged particles are moving in spirals rather than "circular arcs".
+
+4) The main text following this goes on to discuss the gyroradius: "[At 1 AU], the distance from the Sun to the Earth, the gyroradius of a proton is ~72 km ...". Due to what magnetic field? The values 72 km and 36 nT (or 4x10^-8 nT) occur several times in the article, but it is not clear where the "36 nT" comes from. Is it the Earth's magnetic field, or the Sun's magnetic field, or what? A bit later, the gyroradius is ~500 km, but there is no mention why. Is this from the lower magnetic field of the interstellar medium, or from the spacecraft's own field generator? Since the ambient magnetic field is one of the conditions the magsail has to work within, it would help understanding to have this explicitly stated.   [[Special:Contributions/180.150.36.190|180.150.36.190]] ([[User talk:180.150.36.190|talk]]) 09:20, 17 August 2025 (UTC)
+
+:Also, the word "asy" occurs in the History of Concept, and I'm not sure what it ought to be.  [[Special:Contributions/180.150.36.190|180.150.36.190]] ([[User talk:180.150.36.190|talk]]) 09:31, 17 August 2025 (UTC)

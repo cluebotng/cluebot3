@@ -1,0 +1,55 @@
+{{talkheader}}
+{{ArticleHistory
+|action1=GAN
+|action1date=03:51, 22 June 2006
+|action1link=
+|action1result=listed
+|action1oldid=59936951
+
+|action2=FTC
+|action2date=15:04, 7 November 2006
+|action2link=Wikipedia:Featured topic candidates/Final Fantasy VII characters/archive1
+|action2result=not promoted
+|action2oldid=86097008
+
+|action3=GAR
+|action3date=18:34, 17 June 2007
+|action3link=Talk:Sephiroth (Final Fantasy)#Delisted good article
+|action3result=delisted
+|action3oldid=138669115
+
+|action4=GAN
+|action4date=01:36, 23 March 2008
+|action4link=Talk:Sephiroth (Final Fantasy)#GAN
+|action4result=failed
+|action4oldid=200031776
+
+|action5=GAN
+|action5date=02:38, 18 July 2013
+|action5link=Talk:Sephiroth (Final Fantasy)/GA1
+|action5result=listed
+|action5oldid=564734197
+
+|currentstatus=GA
+|topic=Video games
+}}
+{{WikiProject banner shell|class=GA|
+{{WikiProject Video games|class=GA|importance=High|Characters=yes|characters-importance=High}}
+{{WikiProject Square Enix|class=GA|importance=High}}
+{{WikiProject Fictional characters}}
+}}
+{{refideas
+|1=https://www.escapistmagazine.com/final-fantasy-vii-ever-crisis-reveals-young-sephiroth-closed-beta-registration-starts/
+|2=https://www.inside-games.jp/article/2021/11/07/135143.html
+|3=https://www.themarysue.com/the-best-kingdom-hearts-bosses/
+|4=https://kotaku.com/lgbtq-games-mass-effect-romance-options-overwatch-pride-1850586480/slides/10
+|5=https://futaman.futabanet.jp/articles/-/120268?page=2
+}}{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Sephiroth (Final Fantasy)/Archive
+|format= %%i
+|age=8760
+|maxarchsize=50000
+|numberstart=2
+}}
+
+{{old move|date=27 October 2024|destination=Sephiroth|result=not moved|link=Special:Permalink/1254811627#Requested move 27 October 2024}}

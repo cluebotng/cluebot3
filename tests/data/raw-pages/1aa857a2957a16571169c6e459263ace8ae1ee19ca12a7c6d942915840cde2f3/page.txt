@@ -1,0 +1,45 @@
+{{Talk header}}
+{{British English}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Computing|importance=top}}
+{{WikiProject Occupations|importance=top}}
+{{WikiProject Computer science|importance=mid}}
+{{WikiProject Engineering|importance=mid}}
+{{WikiProject Technology}}
+{{WikiProject Systems|importance=high|field=Programmer}}
+}}
+{{merged from|Software developer|12 May 2019}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:Programmer/Archive
+| numberstart=1
+| maxarchsize=250000
+| header={{Automatic archive navigator}}
+| minkeepthreads=5
+| minarchthreads=1
+| format= %%i
+}}
+
+== Semi-protected edit request on 7 January 2025 ==
+
+{{edit semi-protected|Programmer|answered=yes}}
+ [[Special:Contributions/116.212.143.153|116.212.143.153]] ([[User talk:116.212.143.153|talk]]) 06:50, 7 January 2025 (UTC)
+:{{not done}}:<!-- Template:ESp --> Empty request [[User:Ultraodan|Ultraodan]] ([[User talk:Ultraodan|talk]]) 07:06, 7 January 2025 (UTC)
+
+== Semi-protected edit request on 7 January 2025 (2) ==
+
+{{edit semi-protected|Programmer|answered=yes}}
+ [[Special:Contributions/188.113.195.121|188.113.195.121]] ([[User talk:188.113.195.121|talk]]) 09:49, 7 January 2025 (UTC)
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done''': it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:ESp --> [[User:Ultraodan|Ultraodan]] ([[User talk:Ultraodan|talk]]) 09:52, 7 January 2025 (UTC)
+
+== Semi-protected edit request on 10 February 2025 ==
+
+←{{Edit semi-protected|Programmer|answered=yes}}
+ [[Special:Contributions/103.166.41.76|103.166.41.76]] ([[User talk:103.166.41.76|talk]]) 20:35, 10 February 2025 (UTC)
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done''': it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate.<!-- Template:ESp --> <span style="font-family: Brush Script MT; text-shadow: 5px 3px 8px;">[[User:Sophisticatedevening|<span style="color: purple">Sophisticatedevening</span>]] <sup>[[User talk:Sophisticatedevening|<span style="color: purple">(talk)</span>]]</sup></span> 20:36, 10 February 2025 (UTC)
+
+== Men are erased ==
+
+The only images in this article are all women. This erases men from the history of programming. This is a severe gender bias and misrepresentation. [[Special:Contributions/2001:4C4E:24AF:5A00:EB5A:416D:DE81:CA5A|2001:4C4E:24AF:5A00:EB5A:416D:DE81:CA5A]] ([[User talk:2001:4C4E:24AF:5A00:EB5A:416D:DE81:CA5A|talk]]) 07:50, 10 August 2025 (UTC)
+
+:Obviously it is likely all the men in the world have been laid off, died off, retired, or have gone into other engineering fields with real jobs ;-). I also noticed there might be a tiny emphasis on convincing primary women and minorities that programming is a viable career choice while others types of people are pushed to the sidelines and this is what you may have noticed on WP. Take for instance, much AI training is currently done by mostly women in poorer countries around the world because of the deleterious nature of the work and lower wages. So yes, someone should put in the article an archive  picture that showed men where programmers. [[User:Septagram|Septagram]] ([[User talk:Septagram|talk]]) 16:06, 10 August 2025 (UTC)

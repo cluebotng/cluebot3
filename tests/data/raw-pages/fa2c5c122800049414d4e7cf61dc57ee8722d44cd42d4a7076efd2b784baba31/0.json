@@ -1,0 +1,10 @@
+{
+    "age": "3600",
+    "archiveprefix": "Talk:Magnetic sail\/Archives\/",
+    "numberstart": "1",
+    "maxarchsize": "75000",
+    "header": "{{Automatic archive navigator}}",
+    "minkeepthreads": "2",
+    "minarchthreads": "1",
+    "format": " %%i"
+}

@@ -1,0 +1,10 @@
+{
+    "age": "1800",
+    "archiveprefix": "Talk:Taiko\/Archive",
+    "numberstart": "1",
+    "maxarchsize": "75000",
+    "header": "{{Automatic archive navigator}}",
+    "minkeepthreads": "5",
+    "minarchthreads": "1",
+    "format": " %%i"
+}

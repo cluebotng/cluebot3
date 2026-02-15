@@ -1,0 +1,24 @@
+{{talk header}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Computing|importance=Low|hardware=yes|hardware-importance=mid}}
+}}
+<hr style="border:4px solid #020; width:80%; margin:auto;">
+{{Copied 
+|from       = Personal Computer Memory Card International Association
+|from_oldid = 373144445
+|to         = PC Card
+|to_diff    = 
+|to_oldid   = 373145086
+|date       = July 12, 2010
+|small      =
+}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:PC Card/Archive
+| numberstart=1
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=0
+| minarchthreads=0
+| format= %%i
+}}

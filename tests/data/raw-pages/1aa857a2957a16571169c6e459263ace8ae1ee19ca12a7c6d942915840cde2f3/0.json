@@ -1,0 +1,10 @@
+{
+    "age": "2160",
+    "archiveprefix": "Talk:Programmer\/Archive",
+    "numberstart": "1",
+    "maxarchsize": "250000",
+    "header": "{{Automatic archive navigator}}",
+    "minkeepthreads": "5",
+    "minarchthreads": "1",
+    "format": " %%i"
+}

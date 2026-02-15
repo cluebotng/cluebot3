@@ -1,0 +1,123 @@
+{{Talk header}}
+{{Article history|action1=GAN
+|action1date=12:38, 1 January 2007
+|action1link=Talk:Adenosine triphosphate/GA1
+|action1result=listed
+|action1oldid=97714238
+
+|action2=GAR
+|action2date=22:09, 7 September 2009 (UTC)
+|action2result=kept
+|action2oldid=310875615
+
+|action3=GAR
+|action3date=22:35, 26 March 2018 (UTC)
+|action3link=Talk:Adenosine triphosphate/GA2
+|action3result=delisted
+|action3oldid=832594929
+
+|currentstatus=DGA
+|topic=Natsci
+}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Molecular Biology|importance=High|genetics=yes|genetics-importance=High|MCB=yes|MCB-importance=Top|signaling=yes }}
+{{WikiProject Chemicals |importance=High}}
+{{WikiProject Neuroscience |importance=Mid}}
+{{WikiProject Physiology |importance=High |field=respiratory}}
+}}
+{{MCBprev|month=October 2006}}
+
+{{Archives|auto=yes|search=yes}}
+{{User:ClueBot III/ArchiveThis
+| age=8760
+| archiveprefix=Talk:American Pekin/Archive
+| numberstart=1
+| maxarchsize=200000
+| header={{Automatic archive navigator}}
+| minkeepthreads=2
+| minarchthreads=1
+| format= %%i
+}}
+
+== "Found in all known forms of life..." ==
+
+How far does that go? Does it include Viruses? [[User:MarkMLl|MarkMLl]] ([[User talk:MarkMLl|talk]]) 13:43, 10 February 2025 (UTC)
+
+:yes [[User:Frogmug|Frogmug]] ([[User talk:Frogmug|talk]]) 17:28, 2 June 2025 (UTC)
+:Yes, a lot of viruses actually hijack the cell's mitochondria to get ATP.
+:On the pathogenic side influenza is one and both of the SARS coronaviruses are others, as is HIV. On the non-pathogenic side are some pegiviruses and some rhinoviruses. [[Special:Contributions/2600:1011:B334:D64B:D82E:6B1:A60E:8DB0|2600:1011:B334:D64B:D82E:6B1:A60E:8DB0]] ([[User talk:2600:1011:B334:D64B:D82E:6B1:A60E:8DB0|talk]]) 07:17, 1 October 2025 (UTC)
+:"Viruses" are non-living things. So, no, this would not apply. [[Special:Contributions/47.188.53.54|47.188.53.54]] ([[User talk:47.188.53.54|talk]]) 12:31, 31 October 2025 (UTC)
+
+== ATP article ==
+
+"An average adult human processes around 50 kilograms (about 100 moles) [of ATP] daily." This is more than half the body weight. I find it hard to believe. Where does all this stuff come from? We don't eat and drink this much. What does "processes" mean? [[Special:Contributions/2A02:A45B:37D6:0:89B1:7766:BE75:2418|2A02:A45B:37D6:0:89B1:7766:BE75:2418]] ([[User talk:2A02:A45B:37D6:0:89B1:7766:BE75:2418|talk]]) 00:09, 21 September 2025 (UTC)
+
+:See Statpearl's summary [https://www.ncbi.nlm.nih.gov/books/NBK553175/] and Gary Kaiser's writing on microbiology, [https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Kaiser)/Unit_7%3A_Microbial_Genetics_and_Microbial_Metabolism/17%3A_Bacterial_Growth_and_Energy_Production/17.4%3A_Adenosine_Triphosphate_(ATP)].
+:ATP is merely the delivery agent of energy. The energy comes from the chemical process of converting an ATP to ADP, instead of making an ATP dissappear. When a cell "processes" ATP, it is converting it into ADP. The converted ADP gets recycled somewhere else, and synthesized back into ATP again.
+:To make a terribly simplified and misplaced metaphor - your red blood cells carry oxygen molecules, and cells taking O2 from them will not make the red blood cells dissappear. ATP and ADP is like red blood cells with and without oxygen carried.
+:<small>References:</small>
+:<small>From the Statpearl page: ATP is "...''hydrolyzed into ADP, or further to AMP, and free inorganic phosphate groups''", where "''ATP hydrolysis to ADP is energetically favorable''".</small>
+:<small>From Kaiser: "[Cell] uses some [energy to] attach an inorganic phosphate group on to adenosine diphosphate (ADP) [, this makes the ADP into ATP.] Because the phosphate groups are all negatively charged, they repel each other and stress the bond holding them together, much like a bent diving board. Thus, energy is trapped and stored in these stressed bonds known as high-energy phosphate bonds. To obtain energy to do cellular work during endergonic anabolic chemical reactions, the organism enzymatically removes the third phosphate from ATP thus releasing the stored energy and forming ADP and inorganic phosphate once again</small> [[User:IrisChronomia|海盐沙冰]] <sub>[[User talk:IrisChronomia| / irisChronomia / Talk ]]</sub> 05:14, 21 September 2025 (UTC)
+::The key is that ATP is used again and again and again and...  Heavily recycled.  "Processed" means that ATP was consumed by conversion (eventually) to ADP and AMP (via phosphorylation of diverse substrates, ATP is not directly hydrolyzed).
+::The tricky calculation is how much ATP do we have in us?  According to Biochem J. 1975, 23–32. doi: 10.1042/bj1520023 ("The contents of adenine nucleotides, phosphagens and some glycolytic intermediates in resting muscles from vertebrates and invertebrates"), muscle contains most ATP (6 micromol/g). The molecular weight of ATP is 507 g/mol. Male humans are about 32% muscle (32000 g for 100 kg).  So the rough calculation is (0.000006 mol/g)(507 g/mol)(32000 g) = 97 grams of ATP in a typical 100 kg bloke.  So if my calc is correct, each ATP is being regenerated 500x.... per day--[[User:Smokefoot|Smokefoot]] ([[User talk:Smokefoot|talk]]) 16:05, 21 September 2025 (UTC)
+
+== ATP Analogues needs more information ==
+
+The ATP analogues section doesn't actually mention any specific analogues.  I had AI help me with an example how to better flesh out this section .. but someone smarter than me would need to verify/rewrite it appropriately.  
+
+---
+
+
+<big>'''Non-Hydrolyzable ATP Analogues'''</big>
+
+These analogues resist enzymatic hydrolysis and are valuable for studying enzyme binding sites:
+
+1. '''Adenosine 5′-(γ-thiotriphosphate) (ATPγS)''': One of the gamma-phosphate oxygens is replaced by a sulfur atom, dramatically slowing hydrolysis rates. It serves as a competitive inhibitor in ATP-dependent processes and is widely used in kinase studies.
+
+2. '''Adenosine 5′-(β,γ-imido)triphosphate (AMPPNP or AMP-PNP)''': Contains a nitrogen atom replacing the oxygen between the beta and gamma phosphates. This modification renders the molecule resistant to hydrolysis by most ATPases and kinases.
+
+3. '''Adenosine 5′-(β,γ-methylene)triphosphate (AMP-PCP)''': Contains a methylene group between the beta and gamma phosphates, making it non-hydrolyzable by most enzymes.
+
+<big>'''Photoaffinity ATP Analogues'''</big>
+
+These analogues contain photoreactive groups that form covalent bonds with proteins upon UV irradiation:
+
+1. '''8-Azido-ATP''': Contains an azido group at the 8-position of the adenine ring, allowing for photoaffinity labeling of ATP-binding proteins.
+
+2. '''2',3'-O-(2,4,6-Trinitrophenyl)-ATP (TNP-ATP)''': A fluorescent ATP analogue that changes quantum yield upon binding to proteins, useful for studying conformational changes.
+
+<big>'''Fluorescent ATP Analogues'''</big>
+
+These analogues enable visualization of ATP binding and hydrolysis:
+
+1. '''2'(3')-O-(N-Methylanthraniloyl)-ATP (MANT-ATP)''': Exhibits increased fluorescence when bound to proteins, allowing real-time monitoring of binding events.
+
+2. '''Etheno-ATP (ε-ATP)''': Contains a modified adenine base that fluoresces, useful for studying ATP-binding kinetics.
+
+3. '''Bodipy-FL-ATP''': Contains a boron-dipyrromethene fluorophore, providing high quantum yield for sensitive detection of ATP binding.
+
+<big>'''Radiolabeled ATP Analogues'''</big>
+
+1. '''[γ-32P]ATP''': Contains a radioactive phosphorus atom in the gamma position, commonly used in kinase assays to track phosphoryl transfer.
+
+2. '''[α-35S]ATP''': Contains a radioactive sulfur atom, used in applications requiring longer half-life than 32P.
+
+<big>'''Transition State Analogues'''</big>
+
+In crystallographic studies, hydrolysis transition states are modeled by:
+
+1. '''Vanadate ion (VO4³⁻)''': Mimics the pentavalent transition state of phosphoryl transfer.
+
+2. '''Aluminum fluoride (AlF4⁻)''': When combined with ADP, mimics the ATP transition state during hydrolysis.
+
+3. '''Beryllium fluoride (BeF3⁻)''': Forms a tetrahedral complex with ADP that resembles ATP.
+
+Caution is warranted in interpreting the results of experiments using ATP analogs, since some enzymes can hydrolyze them at appreciable rates at high concentration. Additionally, structural differences between analogues and ATP may affect binding affinity and protein conformation. [[Special:Contributions/47.188.53.54|47.188.53.54]] ([[User talk:47.188.53.54|talk]]) 12:56, 31 October 2025 (UTC)
+
+== Interactive rotating model ==
+
+This feature is pretty cool, but it also borders on inaccessible on mobile. A mobile user only sees a png preview unless they specifically 
+1. Click the image 
+2. Click "details"
+3. Notice the "see original" link on the details page and click that
+Should we include an inline note or something with instructions to make this model more readily available to all users? Thanks! [[User:EllieDellie|EllieDellie]] ([[User talk:EllieDellie|talk]]) 15:45, 13 November 2025 (UTC)

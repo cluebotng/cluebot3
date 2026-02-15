@@ -1,0 +1,10 @@
+{
+    "age": "4320",
+    "archiveprefix": "Talk:Nostradamus\/Archive",
+    "numberstart": "9",
+    "maxarchsize": "100000",
+    "header": "{{talkarchivenav}}",
+    "minkeepthreads": "4",
+    "minarchthreads": "1",
+    "format": " %%i"
+}

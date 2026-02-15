@@ -1,0 +1,138 @@
+{{Skip to talk}}
+{{Talk header}}
+{{Contentious topics/talk notice|topic=ipa}}
+{{Article history
+|action1=FLC
+|action1date=August 9, 2005
+|action1link=Wikipedia:Featured list candidates/List of countries with nuclear weapons
+|action1result=promoted
+|action1oldid=20638788
+
+|action2=FTC
+|action2date=06:40, 29 April 2006
+|action2link=Wikipedia:Featured topic candidates/Nuclear weapons/archive1
+|action2result=not promoted
+|action2oldid=50620118
+
+|action3=FLR
+|action3date=July 4, 2007
+|action3link=Wikipedia:Featured list removal candidates/List of states with nuclear weapons
+|action3result=demoted
+|action3oldid=142515863
+
+|currentstatus=FFL
+}}
+{{WikiProject banner shell|class=List|1=
+{{WikiProject Military history|class=list|list=yes|B-Class-1=yes|B-Class-2= yes|B-Class-3= yes|B-Class-4= yes|B-Class-5= yes|Weaponry=yes}}
+{{WikiProject Lists|class=List|importance=High}}
+{{WikiProject International relations|importance=Mid}}
+{{WikiProject Explosives|importance=Mid}}
+{{WikiProject Countries}}
+}}
+{{User:ClueBot III/ArchiveThis
+|age=4320
+|archiveprefix=Talk:List of states with nuclear weapons/Archive
+|numberstart=7
+|maxarchsize=100000
+|header={{Automatic archive navigator}}
+|minkeepthreads=4
+|format= %%i
+}}
+
+== Ukraine is same case as Canada ==
+
+Ukraine never had nuclear weapons. There were Russian missiles stationed there, under central Moscow control.
+
+Unable to edit/fix the incorrect mentions in the main text.  <!-- Template:Unsigned --><small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Jfxbsb|Jfxbsb]] ([[User talk:Jfxbsb#top|talk]] • [[Special:Contributions/Jfxbsb|contribs]]) 13:50, 14 June 2025 (UTC)</small> <!--Autosigned by SineBot-->
+
+:They were Soviet weapons.  Then they were under the Commonwealth of Independent States.  Ukraine was a member, but Russia was the dominant state.  Ukraine had no independent control, but there is a question whether it could have asserted control. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 21:21, 14 June 2025 (UTC)
+
+== reverting confusing addition ==
+
+{{re|Doeze}} Thanks for your recent edits to this article. I'm reverting one, because it's factually false, and I cannot conveniently check the reference you cite. You wrote: 
+
+:The five recognized nuclear-weapon states, and possibly others, possess [[thermonuclear weapons]].<ref name="yearbook202407">Kristensen, Hans M; Korda, Matt. (2024). "[https://www.sipri.org/yearbook/2024/07]". In ''[https://www.sipri.org/yearbook/2024 SIPRI Yearbook 2024: Armaments, Disarmament and International Security].''Oxford University Press.</ref>
+
+There are currently NINE -- not five -- recognized nuclear-weapon states, as documented in this article. I'm confused. [[User:DavidMCEddy|DavidMCEddy]] ([[User talk:DavidMCEddy|talk]]) 08:58, 24 June 2025 (UTC)
+:Yes, there appear to be at least 8 (the UK, USA, France, China, Russia, India, Pakistan, North Korea). [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 09:01, 24 June 2025 (UTC)
+:@[[User:DavidMCEddy|DavidMCEddy]] The beginning of the lead establishes only five are recognized by the NPT. You're right it should be changed to "NPT-recognized". [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 12:03, 24 June 2025 (UTC)
+::"Recognized" is a bit of a confusing word here, it only makes sense within the context of the NPT's application. [[User:Chipmunkdavis|CMD]] ([[User talk:Chipmunkdavis|talk]]) 12:36, 24 June 2025 (UTC)
+
+:::Should the lede end with something like, "Only five of the nine state widely believed to have nuclear weapons are members of the [[Treaty on the Non-Proliferation of Nuclear Weapons]] (NPT).<ref name="yearbook202407"/>"? [[User:DavidMCEddy|DavidMCEddy]] ([[User talk:DavidMCEddy|talk]]) 12:44, 24 June 2025 (UTC)
+::::I agree the NPT mention is somewhat confusing, I just am taking it as established for the lead. That statement is equivalent to the first and second sentences of the lead. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 14:39, 24 June 2025 (UTC)
+:::::"Nuclear-weapon state" is a term of art defined by the NPT.  There are five of them.  When referring to other states that have nuclear weapons, use other terms, like "nuclear-armed state." [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 16:27, 25 June 2025 (UTC)
+::::::It also bans proliferation of nuclear weapons, thus is clearly null and void. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 16:30, 25 June 2025 (UTC)
+:::::::I agree with your general sentiment but the article and lead should mention it does have some effect in international law, it just isn't as relevant to the main topic. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 13:34, 26 June 2025 (UTC)
+::::::"Nuclear weapons state" is far more common English language way of articulating the concept of "nuclear-armed state". This article is not primarily concerned with international law, but military reality. I think the phrase the NPT terminology "nuclear-weapon state" should remain italicized and not bolded as it is distinct and not equivalent to the article title and subject. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 13:32, 26 June 2025 (UTC)
+:::::::It should be taken out of the lead, it is likely to confuse more than elucidate. [[User:Chipmunkdavis|CMD]] ([[User talk:Chipmunkdavis|talk]]) 13:58, 26 June 2025 (UTC)
+::::::::I'm not sure who is responding to what, but the term "nuclear-weapon state" is important to keep and explain as a term of art. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 17:16, 26 June 2025 (UTC)
+:::::::::That is what the body is for, not the lede, which is just a summary. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 17:18, 26 June 2025 (UTC)
+::::::::::I disagree.  The term NWS is central to the article and belongs in the lede. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 17:40, 26 June 2025 (UTC)
+:::::::::::No its not as (in effect) there are now as almost as many non "Nuclear weapons state"'s with Nukes as there are "Nuclear weapons state"", it's (in effect) a legal fiction. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 17:42, 26 June 2025 (UTC)
+::::::::::::Agree. This article is not [[Treaty on the Non-Proliferation of Nuclear Weapons]]. It is worth mentioning the NPT as a major divide among the nuclear weapons countries, but it should definitely not be bolded. It creates a misleading equivalence for readers at a glance, that the NPT might include all nine or that only five operationally deploy nuclear weapons or that "nuclear-weapons state" is synonymous with "state with nuclear weapons". [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 00:31, 27 June 2025 (UTC)
+Strongly disagree.  Any article talking about what states have nuclear weapons has to be clear up front that there are distinct categories.  The distinctions are not just trivialities of treaty definitions but the whole structure of law and policy surrounding nuclear weapons. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 16:59, 27 June 2025 (UTC)
+
+:Regardless, the law and policy surrounding nuclear weapons clearly doesn't do much lol. The article title is "List of states with nuclear weapons" and the subject is military reality. It is okay to bold the phrase "states with nuclear weapons". It is not okay to bold a completely different concept, describing a different set, and based in international legal and political reality.  Like I said mention away with the distinct categories, but don't equate one category with the superset. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 22:44, 27 June 2025 (UTC)
+{{reflist-talk}} [[User:DavidMCEddy|DavidMCEddy]] ([[User talk:DavidMCEddy|talk]]) 08:58, 24 June 2025 (UTC)
+
+::Again, I disagree.  The legal distinctions are important and consequential.  I do not find the current wording of the article misleading or confusing. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 22:23, 29 June 2025 (UTC)
+:::If the legal distinctions are important and consequential there should be a section explaining why and how in the body. [[User:Chipmunkdavis|CMD]] ([[User talk:Chipmunkdavis|talk]]) 00:29, 30 June 2025 (UTC)
+::::And if it's so consequential that the concepts are somehow identical, then why don't we move the page to "Nuclear-weapons state (NPT)"? That's the only way that it would be okay to keep it bolded in my opinion. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 13:03, 30 June 2025 (UTC)
+:::::It's hard to respond to arguments that seem purely argumentative.  This article is not just about the NPT NWS, but it should give prominence to that important distinction.  Why is that a problem? [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 15:59, 30 June 2025 (UTC)
+::::::Apologies, I am happy with the lead as it is, leaving the NWS mention in italicized. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 01:11, 3 July 2025 (UTC)
+
+I think people need to read [[wp:bludgeon]]. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 16:05, 30 June 2025 (UTC)
+
+== Wording of the first line ==
+
+I just changed the first line from "Nine sovereign states are generally understood to possess nuclear weapons" to "Nine sovereign states possess nuclear weapons". I know this edit might get some contest but I think the previous is misleading, as it implies that there is scholarly disagreement about Israel's possession of nuclear weapons, or that there is any material evidence that supports the conclusion of Israel as a country without nuclear weapons (government statements obviously not being relevant to this). Furthermore, the article should avoid describing nuclear ambiguity by Israeli politicians as  variations of "not acknowledging". As many officials have inadvertently or informally acknowledged the capability on many occasions, the article should decide on one of "not formally acknowledging" or "not officially acknowledging". [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 13:43, 26 June 2025 (UTC)
+
+== Statement taken from an irrelevant person ==
+
+The state given by the pakistan railway minister is quite should not be put under that tab as that person doesn't have anything todo with nuclear weapons and was likely making a statement from what he knew on his own and can not be take into account. [[Special:Contributions/103.151.46.140|103.151.46.140]] ([[User talk:103.151.46.140|talk]]) 19:10, 2 July 2025 (UTC)
+
+== Mention of US shared weapons in the UK in the lead ==
+
+The article currently reads:
+
+In addition, six non-nuclear-armed states currently have [[nuclear weapons sharing|foreign nuclear weapons based on their territory]]. United States weapons are deployed in [[Belgium and weapons of mass destruction|Belgium]], [[Germany and weapons of mass destruction|Germany]], [[Italy and weapons of mass destruction|Italy]], [[Netherlands and weapons of mass destruction|the Netherlands]], and [[Turkey and weapons of mass destruction|Turkey]], while Russian weapons are deployed in Belarus. During the Cold War, NATO and Soviet nuclear weapons were deployed in at least 23 countries.
+
+I suggest it reads:
+
+In addition, six non-nuclear-armed states currently have [[nuclear weapons sharing|foreign nuclear weapons based on their territory]]. United States weapons are deployed in [[Belgium and weapons of mass destruction|Belgium]], [[Germany and weapons of mass destruction|Germany]], [[Italy and weapons of mass destruction|Italy]], [[Netherlands and weapons of mass destruction|the Netherlands]], and [[Turkey and weapons of mass destruction|Turkey]], while Russian weapons are deployed in Belarus. The US also deploys weapons in the United Kingdom. During the Cold War, NATO and Soviet nuclear weapons were deployed in at least 23 countries.
+
+I believe despite the qualification "non-nuclear-armed states" in the first line, many new readers will incorrectly assume that list of foreign US deployments is comprehensive. By not discussing nuclear sharing among nuclear states, the lead could also create some strange opposite perception for new readers, like that US nuclear weapons are widely shared to not only the UK but France or others. 
+
+This section of the lead should also continue to make clear shared weapons come with no sharing of authority, so the UK's status is changed by their presence. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 15:25, 4 August 2025 (UTC)
+:That is why people need to read the article, and not rely on the lede. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 15:30, 4 August 2025 (UTC)
+::What is the harm in adding this one extra line to the lead to remove confusion, per [[wp:lead]] "establish context". [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 16:07, 4 August 2025 (UTC)
+:::The line could also be linked as: "The US also [[Nuclear weapons of the United Kingdom#Return in 2025|deploys weapons in the United Kingdom]]". [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 16:08, 4 August 2025 (UTC)
+::::Because it just adds more words, without providing any real benefit. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 16:10, 4 August 2025 (UTC)
+:::::The real benefit is that the article is called "states with nuclear weapons" and discusses this in terms of possession and stationing, so why wouldn't it mention the UK in both terms? [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 17:28, 4 August 2025 (UTC)
+::::::It clutters the lead with info that serves no meaningful purpose. [[User:Slatersteven|Slatersteven]] ([[User talk:Slatersteven|talk]]) 17:36, 4 August 2025 (UTC)
+:::::::One of the comments in this thread illustrates why I think we should not say too much about nuclear sharing in the lede, perhaps even less than the current text.  The article was originally about states that possessed and controlled nuclear weapons.  That was what "with nuclear weapons" was intended to cover.  Nuclear sharing was added so as not to confuse by omission or certain states and to distinguish between possessing nuclear weapons and having them deployed on the state's territory. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 02:02, 6 August 2025 (UTC)
+
+== Order of acquisition ==
+
+The lead currently reads "In order of acquisition of nuclear weapons, these are ..." and lists India before Pakistan, based on the 1974 Indian Smiling Buddha and 1998 Pakistani Chagai tests. But the Smiling Buddha device arguably fits the definition of a "nuclear device" rather than a usable weapon, and India only developed weaponized designs in 1994 per https://doi.org/10.1515%2F9780691223063-005. Pakistan on the other hand received extensive help from China, allegedly developing a HEU bomb in 1984 per https://web.archive.org/web/20140810150255/http://www.thenews.com.pk/Todays-News-9-252241-A-historic-day and more importantly in 1990 having China test a Pakistani-built derivative bomb of an early Chinese design https://doi.org/10.1063%2F1.2982122. Obviously "weaponization" can be a bit difficult to qualify, and many details of these programs remain unclear, but we should consider a details note if not changing the order. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 23:36, 17 August 2025 (UTC)
+:I don't think anyone credits India's 1974 peaceful nuclear explosion as anything other than a cover story for a nuclear weapon test.  The distinction is not particularly meaningful.  And Pakistan's nuclear weapons program was clearly prompted by India's test.  So the current sequence makes sense.  My impression is that the article uses order of overt testing as a proxy for order of acquisition, since in most cases they coincide.  Pakistan and Israel are exceptions.  Pakistan tested overtly about a decade after it likely developed a bomb and Israel never overtly tested or confirmed acquisition. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 00:28, 18 August 2025 (UTC)
+::Yes I agree that's fair, but I think there should be a note mentioning it's mostly based on date of first test and weaponization is different. [[User:Doeze|Doeze]] ([[User talk:Doeze|talk]]) 12:38, 18 August 2025 (UTC)
+
+== Semi-protected edit request on 21 September 2025 ==
+
+{{Edit semi-protected|List of states with nuclear weapons|answered=yes}}
+A quote from this article: "The United States developed the first nuclear weapons during World War II in cooperation with..." This is false. The author(s) need to understand the differences between "atomic" (single stage) and "nuclear" (a two stage with theoretically unlimited number of stages) weapons.
+
+The Trinity test was "atomic" in nature; a single-stage device. "Nuclear" devices were not created until after WWII. It is questionable if North Korea has "nuclear" devices but maybe.
+
+Bottom line: "atomic" bombs are not "nuclear" bombs. It is a common mischaracterization to say "nuclear" when one should be saying "atomic".  The arc of history has a very distinct border between those two types of bombs. [[Special:Contributions/85.244.55.234|85.244.55.234]] ([[User talk:85.244.55.234|talk]]) 15:04, 21 September 2025 (UTC)
+:[[File:Red question icon with gradient background.svg|20px|link=|alt=]] '''Not done:''' it's not clear what changes you want to be made. Please mention the specific changes in a [[WP:EDITXY|"change X to Y" format]] and provide a [[Wikipedia:Reliable sources|reliable source]] if appropriate. Sources would disagree with you at present.<!-- Template:ESp --> [[User:Nubzor|<span style="color:#FF0000;">'''Nubzor'''</span>]] [[User talk:Nubzor|<span style="color:#6600FF;">'''[T]'''</span>]][[Special:Contributions/Nubzor|<span style="color:#0000FF;">'''[C]'''</span>]] 16:03, 21 September 2025 (UTC)
+:I am rather surprised to read this. [[Nuclear weapon]] on Wikipedia does not make a distinction between the terms “nuclear” and “atomic” bombs. [[User:Slomo666|Slomo666]] ([[User talk:Slomo666|talk]]) 16:09, 21 September 2025 (UTC)
+::This is incorrect. Pure fission weapons are nuclear weapons. "Atomic weapon" is just an archaic term for "nuclear weapon." There was an colloquial distinction between "A-Bomb" (fission) and "H-Bomb" (thermonuclear), but those terms and the distinction are archaic. [[User:NPguy|NPguy]] ([[User talk:NPguy|talk]]) 17:51, 21 September 2025 (UTC)
+:::Yeah I was a bit confused by their comment. Because in Dutch, we also refer to the atomic bom as a “kernbom”. My guess is that they confused “nuclear” with “thermonuclear”. [[User:Slomo666|Slomo666]] ([[User talk:Slomo666|talk]]) 18:00, 21 September 2025 (UTC)
+
+== Semi-protected edit request on 11 November 2025 ==
+
+{{edit semi-protected|List of states with nuclear weapons|answered=yes}}
+under delivery methods - change india's status for air launched cruise missiles, ground launched cruise missiles and submarine launched cruise missiles to yes, since the brahmos missile is nuclear capable [[User:Abhiramra|Abhiramra]] ([[User talk:Abhiramra|talk]]) 19:15, 11 November 2025 (UTC)
+:{{Not done}}''':''' please provide [[Wikipedia:Reliable sources|reliable sources]] that support the change you want to be made.<!-- Template:ESp --> - <span style="font-family:Trebuchet MS">[[User:FlightTime|<span style="color:#800000">'''FlightTime'''</span>]] <small>([[User talk:FlightTime|<span style="color:#1C0978">'''open channel'''</span>]])</small></span> 19:29, 11 November 2025 (UTC)

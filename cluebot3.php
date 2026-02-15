@@ -22,6 +22,7 @@
 namespace ClueBot3;
 
 require_once 'lib/bot.php';
+require_once 'lib/config.php';
 require_once 'cluebot3.config.php';
 
 date_default_timezone_set('Europe/London');
@@ -29,22 +30,7 @@ include 'vendor/autoload.php';
 
 // Logger
 $logger = new \Monolog\Logger('cluebot3');
-
-// In a build pack log to stderr (no NFS), else log to disk (NFS)
-if (getenv('NO_HOME')) {
-    $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::INFO));
-} else {
-    $logger->pushHandler(
-        new \Monolog\Handler\RotatingFileHandler(
-            getenv('HOME') . '/logs/cluebot3.log',
-            2,
-            \Monolog\Logger::INFO,
-            true,
-            0600,
-            false
-        )
-    );
-}
+$logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::INFO));
 
 $wph = new \Wikipedia\Http($logger);
 $wpq = new \Wikipedia\Query($wph, $logger);
@@ -53,7 +39,8 @@ $wpapi = new \Wikipedia\Api($wph, $logger);
 
 while (true) {
     if (!$wpapi->login($user, $pass)) {
-        die('Failed to authenticate');
+        $logger->error('Failed to authenticate as ' . $user);
+        die();
     }
 
     $titles = array();
@@ -76,7 +63,7 @@ while (true) {
     $logger->info("Processing " . count($titles) . " titles");
     shuffle($titles);
     foreach ($titles as $title) {
-        parsetemplate($title);
+        process_page($title);
     }
 
     $logger->info("Sleeping until next execution");

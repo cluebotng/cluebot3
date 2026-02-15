@@ -1,0 +1,42 @@
+{{Talk header|search=yes}}
+{{COI editnotice}}
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Film|Filmmaking-task-force=yes}}
+{{WikiProject Animation|importance=top|computer-animation=yes|computer-animation-importance=Top}}
+{{WikiProject Computer graphics|importance=High}}
+}}
+{{Connected contributor|Caprockranger|Computer animation|declared=yes|otherlinks= COI declared [https://en.wikipedia.org/w/index.php?title=User_talk%3ACaprockranger&type=revision&diff=664546607&oldid=664518500 here]}}
+{{To do|* {{ null | revisionid=608128415 | Frozen }} -- 22:03, 11 May 2014 (UTC)}}
+{{Educational assignment|month=02|year=2013|link=Wikipedia:School_and_university_projects/Interaction_Experience_and_Engagement_2013}}
+
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Computer animation/Archives/
+|format=Y/F
+|age=720
+|minkeepthreads=4
+|archivebox=yes
+|box-advert=yes
+}}
+
+== Splitting 3D and 2D into two different categories ==
+
+{{Discussion top|result=The result of this discussion was to split [[User:GothicGolem29|<span style="color: DarkViolet">GothicGolem29</span>]] ([[User talk:GothicGolem29|<span style="color: DeepSkyBlue">talk</span>]]) 23:54, 19 October 2025 (UTC)}}
+
+Hello,
+
+Over the next few weeks I plan to separate the topics of 3D and 2D animation into two separate categories as is noted on this article's "To-do list." I will be sure to preserve the content and particularly focus on making the article more readable and organized by allowing each sub topic to have its own section. Feel free to leave any suggestions here or questions about what I will do here. [[User:ZacZig|ZacZig]] ([[User talk:ZacZig|talk]]) 18:07, 20 February 2024 (UTC)
+
+:I definitely support. —'''[[User:TheMainLogan|<span style="color:green;">the</span><span style="color:teal;">Main</span><span style="color:#3366cc;">Logan</span>]]''' ('''[[User talk:TheMainLogan|t]]'''•'''[[Special:Contributions/TheMainLogan|c]]''') 01:40, 4 June 2024 (UTC)
+:is this still happening? Some related articles that also need some work are [[virtual cinematography]], and the [[Traditional animation]] article, which is terribly named and mixes digital 2D animation and hand-drawn cel animation. — [[User:Jonas1015119|jonas]] ([[User_talk:Jonas1015119|talk]]) 05:10, 4 November 2024 (UTC)
+:[[File:Symbol support vote.svg|28px|alt=]] '''Support''' They are entirely different. [[User:RuzDD|RuzDD]] ([[User talk:RuzDD|talk]]) 11:59, 8 May 2025 (UTC)
+::So, it's been over a year. Shall we do the split? [[User:Lililolol|Lililolol]] ([[User talk:Lililolol|talk]]) 04:11, 5 June 2025 (UTC)
+:::I think so. Not being solely a reason and not being limited to these articles, seperation between 2D and 3D CGI should be made well. [[User:RuzDD|RuzDD]] ([[User talk:RuzDD|talk]]) 16:34, 7 June 2025 (UTC)
+::::Should we request a closure first do you think? [[User:GothicGolem29|<span style="color: DarkViolet">GothicGolem29</span>]] ([[User talk:GothicGolem29|<span style="color: DeepSkyBlue">talk</span>]]) 23:48, 19 October 2025 (UTC)
+:::::Asking because [[Wikipedia:Splitting]] says to close the discussion. [[User:GothicGolem29|<span style="color: DarkViolet">GothicGolem29</span>]] ([[User talk:GothicGolem29|<span style="color: DeepSkyBlue">talk</span>]]) 23:48, 19 October 2025 (UTC)
+::::::Nevermind it says any user can close so I will close and perform the split. [[User:GothicGolem29|<span style="color: DarkViolet">GothicGolem29</span>]] ([[User talk:GothicGolem29|<span style="color: DeepSkyBlue">talk</span>]]) 23:53, 19 October 2025 (UTC)
+
+{{Discussion bottom}}
+
+== New topic structure ==
+
+Hello all - I see that there is a plan to split the article into 2d and 3d animation pages but I have a different idea - given that animation has advanced so much, there is now 1d, 2d, 3d, 4d (yes it exists now), and hybrid. So instead I would like to remove the 2 parts and discuss the coordinate systems and how they make the animation disciplines different. This will also enable us to make the article more specific on the topics which are ubiquitous across, for example, 2d and 3d animation. [[User:SnoopLoops|SnoopLoops]] ([[User talk:SnoopLoops|talk]]) 20:01, 13 November 2025 (UTC)

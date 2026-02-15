@@ -1,0 +1,34 @@
+{{WikiProject banner shell|class=C|1=
+{{WikiProject European Union|importance=Top}}
+{{WikiProject Politics|importance=Mid}}
+{{WikiProject International relations|importance=Mid}}
+}}
+{{European English}}
+{{Other banners|collapsed=y|
+{{ArticleHistory
+|action1=GAN
+|action1date=31 August 2007
+|action1result=listed
+|action1link=
+|action1oldid=154767983
+|topic=Socsci
+
+|action2 = GAR
+|action2date = 17:15, 20 March 2023 (UTC)
+|action2link = Wikipedia:Good article reassessment/European Council/1
+|action2result = delisted
+|action2oldid = 1144959914
+|currentstatus = DGA
+}}
+}}
+
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:European Council/Archive
+|format= %%i
+|age=2160
+|maxarchsize=150000
+|numberstart=1
+|maxkeepthreads=1
+|archivebox=yes
+|box-advert=yes
+}}

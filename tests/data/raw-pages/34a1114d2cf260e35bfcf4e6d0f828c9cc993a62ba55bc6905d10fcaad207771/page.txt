@@ -1,0 +1,14 @@
+{{WikiProject banner shell|class=C|vital=yes|1=
+{{WikiProject Chemicals|importance=High}}
+{{WikiProject Molecular Biology|importance=Low|MCB=yes|MCB-importance=high}}
+{{WikiProject Food and drink|importance=Low}}
+{{WikiProject Pharmacology|importance=Low}}
+}}
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Citric acid/Archive
+|format= %%i
+|age=730
+|index=yes
+|archivebox=yes
+|header={{aan}}
+}}

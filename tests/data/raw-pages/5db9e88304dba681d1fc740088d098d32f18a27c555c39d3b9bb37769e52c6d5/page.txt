@@ -1,0 +1,19 @@
+{{talkheader}}
+{{WikiProject banner shell|class=B|
+{{WikiProject Greece| importance=Mid}}
+{{WikiProject Classical Greece and Rome| importance=High}}
+{{WikiProject Mythology| importance=High}}
+{{WikiProject Religion| importance=Top}}
+{{WikiProject Death| importance=Low}}
+{{WikiProject Women's History| importance=Mid}}
+{{WikiProject Women in Religion|importance=high}}
+}}
+{{User:ClueBot III/ArchiveThis
+| age=43800
+| archiveprefix=Talk:Persephone/Archive
+| numberstart=1
+| maxarchsize=75000
+| minkeepthreads=8
+| minarchthreads=2
+| format= %%i
+}}

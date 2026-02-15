@@ -1,0 +1,79 @@
+{{Skip to talk}}
+{{Talk header|disclaimer=yes|bottom=yes}}
+{{Article history
+|action1=FAC
+|action1date=03:32, 20 July 2005
+|action1link=Wikipedia:Featured article candidates/1964 New York World's Fair/archive1
+|action1result=not promoted
+|action1oldid=19201167
+
+|action2=GAN
+|action2date=16:31, 19 December 2005
+|action2result=listed
+|action2oldid=31594206
+
+|action3=GAR
+|action3date=04:44, 9 August 2006
+|action3result=delisted
+|action3oldid=68545216
+
+|action4 = GAN
+|action4date = 00:25, 17 June 2024 (UTC)
+|action4link = Talk:1964 New York World's Fair/GA1
+|action4result = listed
+|action4oldid = 1229448028
+|currentstatus = FFAC/GA
+|dykdate=30 June 2024
+|dykentry=... that despite lagging attendance at the '''[[1964 New York World's Fair]]''', its organizer rejected nearly every suggestion to increase attendance?
+|dyknom=Template:Did you know nominations/1964 New York World's Fair
+|topic = History
+}}
+{{WikiProject banner shell|class=GA|1=
+{{WikiProject Festivals|importance=low}}
+{{WikiProject International relations|importance=low}}
+{{WikiProject New York City|importance=mid}}
+{{WikiProject United States|importance=low|UShistory=yes|UShistory-importance=low}}
+}}
+{{User:ClueBot III/ArchiveThis
+| age=2160
+| archiveprefix=Talk:1964 New York World's Fair/Archive
+| numberstart=1
+| maxarchsize=75000
+| header={{Automatic archive navigator}}
+| minkeepthreads=4
+| minarchthreads=2
+| format= %%i
+}}
+== External links modified ==
+
+Hello fellow Wikipedians,
+
+I have just modified 7 external links on [[1964 New York World's Fair]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=785759759 my edit]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes:
+*Corrected formatting/usage for http://www.nywf64.com/pavpar01.shtml
+*Corrected formatting/usage for http://www.nywf64.com/berlin01.shtml
+*Corrected formatting/usage for http://www.nywf64.com/spain01.shtml
+*Corrected formatting/usage for http://www.time.com/time/magazine/article/0%2C9171%2C896379%2C00.html
+*Corrected formatting/usage for http://pittsburgh.pirates.mlb.com/news/article.jsp?ymd=20090331&content_id=4096474&vkey=news_nym&fext=.jsp&c_id=nym
+*Added archive https://web.archive.org/web/20140222171537/http://www.post-journal.com/page/content.detail/id/578606/Trying-To-Regroup.html to http://www.post-journal.com/page/content.detail/id/578606/Trying-To-Regroup.html
+*Added archive https://web.archive.org/web/20160505133148/https://www.sinclairoil.com/history/1960.html to https://www.sinclairoil.com/history/1960.html
+
+When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.
+
+{{sourcecheck|checked=false|needhelp=}}
+
+Cheers.—[[User:InternetArchiveBot|'''<span style="color:darkgrey;font-family:monospace">InternetArchiveBot</span>''']] <span style="color:green;font-family:Rockwell">([[User talk:InternetArchiveBot|Report bug]])</span> 08:16, 15 June 2017 (UTC)
+
+== Article rewrite ==
+
+For anyone who is interested, I am going to attempt to rewrite the article [[User:Epicgenius/sandbox/article-draft3|in my sandbox]], with the goal of getting it back to Good Article status. Although I haven't added much to the draft yet, I plan to rewrite large parts of the page from scratch. 
+
+Currently, the article is disorganized, giving undue weight to certain aspects of the fair (e.g. some pavilions have three paragraphs, while other pavilions have a single sentence or even nothing at all). There is a lot that can be said about other aspects, such as food. There are a lot of sourcing issues in the page, including info sourced to blogs and other unreliable sources. It might take me several months to rewrite this page, but I'm hoping to iron out all of the issues that currently exist. &ndash; [[User:Epicgenius|Epicgenius]] ([[User talk:Epicgenius|talk]]) 21:49, 20 May 2024 (UTC)
+
+:I've just rewritten the article last night. The pavilions are now detailed in the [[1964 New York World's Fair pavilions]] article.[[User:Epicgenius|Epicgenius]] ([[User talk:Epicgenius|talk]]) 14:14, 5 June 2024 (UTC)
+{{Talk:1964 New York World's Fair/GA1}}
+
+==Did you know nomination==
+{{Template:Did you know nominations/1964 New York World's Fair}}
+== "[[:Chun King Inn (1964 World's Fair)]]" listed at [[Wikipedia:Redirects for discussion|Redirects for discussion]] ==
+[[File:Information.svg|30px]]
+The redirect <span class="plainlinks">[//en.wikipedia.org/w/index.php?title=Chun_King_Inn_(1964_World%27s_Fair)&redirect=no Chun King Inn (1964 World's Fair)]</span> has been listed at [[Wikipedia:Redirects for discussion|redirects for discussion]] to determine whether its use and function meets the [[Wikipedia:Redirect|redirect guidelines]]. Readers of this page are welcome to comment on this redirect at '''{{slink|Wikipedia:Redirects for discussion/Log/2024 September 27#Chun King Inn (1964 World's Fair)}}''' until a consensus is reached. <!-- Template:RFDNote --> [[User:Blethering Scot|<span style="color: maroon">Blethering</span>]] [[User talk:Blethering Scot|<span style="color: green;">Scot</span>]] 12:23, 27 September 2024 (UTC)
