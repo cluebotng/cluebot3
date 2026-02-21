@@ -7,7 +7,7 @@ jobs:
   create-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: cluebotng/ci-create-release@30a08a2e64218a8053a194aa94bb1b82a4abc87b
+      - uses: cluebotng/ci-create-release@main
         with:
           repo_name: '${{ github.repository }}'
           tag_name: '${{ github.ref }}'
