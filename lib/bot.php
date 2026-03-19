@@ -367,7 +367,7 @@ function doarchive(
             $revisionData = $wph->unserialize(
                 $wph->get(
                     $wpapi->apiurl . '?action=query&prop=revisions&rvslots=main' .
-                    '&rvprop=content&format=php&titles=' . urlencode(implode('|', $titles))
+                    '&rvprop=content&format=json&titles=' . urlencode(implode('|', $titles))
                 )
             );
 
