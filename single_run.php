@@ -29,24 +29,31 @@ include 'vendor/autoload.php';
 
 // Logger
 $logger = new \Monolog\Logger('cluebot3');
-$logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::INFO));
+$logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::DEBUG));
 
-$wph = new \Wikipedia\Http($logger);
-$wpq = new \Wikipedia\Query($wph, $logger);
-$wpi = new \Wikipedia\Index($wph, $logger);
-$wpapi = new \Wikipedia\Api($wph, $logger);
+$wikiLogger = new \Monolog\Logger('cluebot3.wikipedia');
+$wikiLogger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::INFO));
 
-while (true) {
-    if (!$wpapi->login($user, $pass)) {
-        die('Failed to authenticate');
-    }
+$wph = new \Wikipedia\Http($wikiLogger);
+$wpq = new \Wikipedia\Query($wph, $wikiLogger);
+$wpi = new \Wikipedia\Index($wph, $wikiLogger);
+$wpapi = new \Wikipedia\Api($wph, $wikiLogger);
 
-    $titles = get_target_titles();
-    $logger->info("Processing " . count($titles) . " titles");
-    foreach ($titles as $title) {
-        parsetemplate($title);
-    }
-
-    $logger->info("Sleeping until next execution");
-    sleep(21600);
+if (!$wpapi->login($user, $pass)) {
+    die('Failed to authenticate\n');
 }
+
+$target_title = $argv[1] ?? null;
+if (!$target_title) {
+    die("Usage: " . $argv[0] . " <title>\n");
+}
+
+if (getenv("BYPASS_SAFETY_CHECK") != "1") {
+    $configured_titles = get_target_titles();
+    if (!in_array($target_title, $configured_titles)) {
+        die("Not found in configured titles: " . $target_title . "\n");
+    }
+}
+
+$logger->info("Processing " . $target_title);
+parsetemplate($target_title);

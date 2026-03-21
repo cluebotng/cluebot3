@@ -206,8 +206,10 @@ function doarchive(
             }
         }
         if ((count($cursects) - count($archsects)) <= $minkeep) {
+            $logger->debug("Keeping section due to minkeep: " . $array['header']);
             $keepsects[$id] = $array;
         } elseif ($an == true) {
+            $logger->debug("Archiving section due to archivenow: " . $array['header']);
             $array['content'] = str_replace($ans, $anr, $array['content']);
             $archsects[$id] = $array;
         } elseif (
@@ -217,12 +219,16 @@ function doarchive(
                 $m
             ) && time() < $m[1]
         ) {
+            $logger->debug("Keeping section due to DoNotArchiveUntil: " . $array['header']);
             $keepsects[$id] = $array;
         } elseif (!isset($oldsects[$id])) {
+            $logger->debug("Keeping section due missing old section: " . $array['header']);
             $keepsects[$id] = $array;
         } elseif (trim($array['content']) == trim($oldsects[$id]['content'])) {
+            $logger->debug("Archiving section as contents has not changed: " . $array['header']);
             $archsects[$id] = $array;
         } else {
+            $logger->debug("Keeping section due to contents change: " . $array['header']);
             $keepsects[$id] = $array;
         }
     }
@@ -235,9 +241,11 @@ function doarchive(
             ++$i;
             $b += strlen($array['content']);
             if (($maxsects > 0) and ($i > $maxsects)) {
+                $logger->debug("Archiving section due to max sections: " . $array['header']);
                 $archsects[$id] = $array;
                 unset($keepsects[$id]);
             } elseif (($maxbytes > 0) and ($b > $maxbytes)) {
+                $logger->debug("Archiving section due to max bytes: " . $array['header']);
                 $archsects[$id] = $array;
                 unset($keepsects[$id]);
             }
@@ -260,10 +268,19 @@ function doarchive(
     }
 
     $logger->info("[" . $page . "] calculated sections: " .
-                     count($oldsects) . " old, " .
-                     count($cursects) . " current, " .
-                     count($keepsects) . " keep, " .
-                     count($archsects) . " archive");
+                  count($cursects) . " current, " .
+                  count($oldsects) . " old, " .
+                  count($keepsects) . " keep, " .
+                  count($archsects) . " archive");
+
+    if ($logger->isHandling(\Monolog\Logger::DEBUG)) {
+        foreach ($keepsects as $array) {
+            $logger->debug("keep: " . $array['header']);
+        }
+        foreach ($archsects as $array) {
+            $logger->debug("archive: " . $array['header']);
+        }
+    }
 
     if ((count($archsects) > 0) and (count($archsects) >= $minarch)) {
         $pdata = $header;
@@ -665,4 +682,29 @@ function parsetemplate($page)
             (isset($set['key']) ? $set['key'] : '')
         );
     }
+}
+
+function get_target_titles()
+{
+    global $user;
+    global $wpapi;
+    $titles = array();
+    $continue = null;
+    $ei = $wpapi->embeddedin('User:' . $user . '/ArchiveThis', 500, $continue);
+    if ($ei != null) {
+        foreach ($ei as $data) {
+            $titles[] = $data['title'];
+        }
+        while (isset($ei[499])) {
+            $ei = $wpapi->embeddedin('User:' . $user . '/ArchiveThis', 500, $continue);
+            if ($ei != null) {
+                foreach ($ei as $data) {
+                    $titles[] = $data['title'];
+                }
+            }
+        }
+    }
+
+    shuffle($titles);
+    return $titles;
 }
