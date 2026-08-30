@@ -27,6 +27,8 @@ require_once 'cluebot3.config.php';
 date_default_timezone_set('Europe/London');
 include 'vendor/autoload.php';
 
+Config::init();
+
 // Logger
 $logger = new \Monolog\Logger('cluebot3');
 $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stdout', \Monolog\Logger::INFO));
@@ -45,9 +47,9 @@ $wph = new \Wikipedia\Http($logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
 
 /* Get our last edit time */
-$usercontribs = $wpapi->usercontribs($user, 1);
+$usercontribs = $wpapi->usercontribs(Config::$user, 1);
 if (count($usercontribs) != 1) {
-    $logger->error('Failed to find usercontribs for ' . $user);
+    $logger->error('Failed to find usercontribs for ' . Config::$user);
     exit(1);
 }
 $last_contrib_timestamp = $usercontribs[0]['timestamp'];

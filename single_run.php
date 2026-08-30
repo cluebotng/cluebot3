@@ -27,6 +27,8 @@ require_once 'cluebot3.config.php';
 date_default_timezone_set('Europe/London');
 include 'vendor/autoload.php';
 
+Config::init();
+
 // Logger
 $logger = new \Monolog\Logger('cluebot3');
 $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::DEBUG));
@@ -39,7 +41,7 @@ $wpq = new \Wikipedia\Query($wph, $wikiLogger);
 $wpi = new \Wikipedia\Index($wph, $wikiLogger);
 $wpapi = new \Wikipedia\Api($wph, $wikiLogger);
 
-if (!$wpapi->login($user, $pass)) {
+if (!$wpapi->login(Config::$user, Config::$pass)) {
     die('Failed to authenticate\n');
 }
 
