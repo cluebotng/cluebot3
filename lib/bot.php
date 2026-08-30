@@ -411,7 +411,6 @@ function doarchive(
 function generateindex($origpage, $archiveprefix, $level)
 {
     global $logger;
-    global $user;
     global $wpapi;
 
     $tmp = extractnamespace($archiveprefix);
@@ -434,17 +433,17 @@ function generateindex($origpage, $archiveprefix, $level)
         asort($newarray);
         foreach ($newarray as $page => $time) {
             $data .= '* [[' . $page . '|' . str_replace($archiveprefix, '', $page) . ']]' . "\n";
-            $ddata .= '{{User:' . $user . '/Detailed Indices/' . $page . '}}' . "\n";
+            $ddata .= '{{User:' . Config::$user . '/Detailed Indices/' . $page . '}}' . "\n";
             generatedetailedindex($page, $level);
         }
         $ddata .= '|}';
         $wpapi->edit(
-            'User:' . $user . '/Indices/' . $origpage,
+            'User:' . Config::$user . '/Indices/' . $origpage,
             $data,
             'Setting index for [[' . $origpage . ']]. (BOT)'
         );
         $wpapi->edit(
-            'User:' . $user . '/Master Detailed Indices/' . $origpage,
+            'User:' . Config::$user . '/Master Detailed Indices/' . $origpage,
             $ddata,
             'Setting detailed index for [[' . $origpage . ']]. (BOT)'
         );
@@ -453,7 +452,6 @@ function generateindex($origpage, $archiveprefix, $level)
 
 function generatedetailedindex($apage, $level, $adata = null, $ret = false)
 {
-    global $user;
     global $wpq;
     global $wpapi;
 
@@ -467,7 +465,7 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
 
     $checksum = md5(md5($version) . md5($adata));
 
-    $cdata = $wpq->getpage('User:' . $user . '/Detailed Indices/' . $apage);
+    $cdata = $wpq->getpage('User:' . Config::$user . '/Detailed Indices/' . $apage);
     if ($cdata && preg_match('/\<\!-- CB3 MD5:([0-9a-f]{32}) --\>/i', $cdata, $m)) {
         if (trim(strtolower($m[1])) == trim(strtolower($checksum))) {
             return;
@@ -516,7 +514,7 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
     $footer = '|}';
     if (!$ret) {
         $wpapi->edit(
-            'User:' . $user . '/Detailed Indices/' . $apage,
+            'User:' . Config::$user . '/Detailed Indices/' . $apage,
             '<noinclude>' .
                      $header . '</noinclude>' . $data . '<noinclude>' . $footer . '</noinclude>',
             'Updating detailed index for [[' . $apage . ']]. (BOT)'
@@ -542,14 +540,13 @@ function parsetemplate($page)
     global $logger;
     global $wpq;
     global $wpapi;
-    global $user;
 
     $pagedata = $wpq->getpage($page);
 
     $positions = array();
 
     $x = 0;
-    while (($x = stripos($pagedata, '{{user:' . $user . '/archivethis', $x)) !== false) {
+    while (($x = stripos($pagedata, '{{user:' . Config::$user . '/archivethis', $x)) !== false) {
         $positions[] = $x;
         ++$x;
     }
@@ -686,17 +683,16 @@ function parsetemplate($page)
 
 function get_target_titles()
 {
-    global $user;
     global $wpapi;
     $titles = array();
     $continue = null;
-    $ei = $wpapi->embeddedin('User:' . $user . '/ArchiveThis', 500, $continue);
+    $ei = $wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue);
     if ($ei != null) {
         foreach ($ei as $data) {
             $titles[] = $data['title'];
         }
         while (isset($ei[499])) {
-            $ei = $wpapi->embeddedin('User:' . $user . '/ArchiveThis', 500, $continue);
+            $ei = $wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue);
             if ($ei != null) {
                 foreach ($ei as $data) {
                     $titles[] = $data['title'];
