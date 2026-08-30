@@ -19,9 +19,17 @@
      * along with ClueBot III.  If not, see <http://www.gnu.org/licenses/>.
      */
 
-    $owner = 'Cobi';
-    $user = 'ClueBot III';
-    $pass = getenv('CLUEBOT3_BOT_PASSWORD');
-    $status = 'rw';
-    $maxlag = 2;
-    $maxlagkeepgoing = true;
+namespace ClueBot3;
+
+class Config
+{
+    public static $user = 'ClueBot III';
+    public static $pass = '';
+
+    public static function init()
+    {
+        if ($bot_password = getenv('CLUEBOT3_BOT_PASSWORD')) {
+            self::$pass = $bot_password;
+        }
+    }
+}
