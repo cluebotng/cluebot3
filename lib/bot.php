@@ -288,16 +288,6 @@ function doarchive(
             $pdata .= str_repeat('=', $level) . $array['header'] . str_repeat('=', $level) . $array['content'];
         }
 
-        if (substr(strtolower(str_replace('_', ' ', $archiveprefix)), 0, strlen($page)) != strtolower($page)) {
-            $expected_key = hash('sha256', trim($page) . trim($config->archiveprefix) . trim(Config::$archive_key));
-            if (trim($key) != $expected_key) {
-                $logger->error(
-                    'Incorrect key for archive prefix; page=' . $page . ', prefix=' . $config->archiveprefix
-                );
-                $archiveprefix = $page . '/Archives/';
-            }
-        }
-
         if ($age == '99999') {
             $age = 0;
         }
