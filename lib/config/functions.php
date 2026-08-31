@@ -194,15 +194,13 @@ function build_config_from_config_block(string $page, RawConfig $block)
     if (!$options) {
         return $config;
     }
+    $config->is_valid = true;
 
     if (array_key_exists('archiveprefix', $options) && !empty($options['archiveprefix'])) {
         $config->archiveprefix = $options['archiveprefix'];
     } else {
-        // This hits the fallback where the archive prefix is not prefixed with the page,
-        // so set it to the implicit value up-front.
-        // Note: this has a side effect that toWiki will populate the value.
-        $config->archiveprefix = $page . '/Archives/';
-        $config->rewrite = true;
+        $logger->info('No or empty archive prefix found', ['page' => $page]);
+        $config->is_valid = false;
     }
 
     if (array_key_exists('format', $options) && !empty($options['format'])) {
@@ -310,13 +308,13 @@ function build_config_from_config_block(string $page, RawConfig $block)
     if (substr(strtolower(str_replace('_', ' ', $config->archiveprefix)), 0, strlen($page)) != strtolower($page)) {
         $expected_key = hash('sha256', trim($page) . trim($config->archiveprefix) . trim(Config::$archive_key));
         if ($config->key != $expected_key) {
-            $logger->error('Incorrect key for archive prefix; page=' . $page . ', prefix=' . $config->archiveprefix);
-            $config->archiveprefix = $page . '/Archives/';
-            $config->key = DefaultConfig::$key;
-            $config->rewrite = true;
+            $logger->info(
+                'Incorrect archive prefix key found',
+                ['page' => $page, 'archiveprefix' => $config->archiveprefix],
+            );
+            $config->is_valid = false;
         }
     }
 
-    $config->is_valid = true;
     return $config;
 }
