@@ -25,11 +25,16 @@ class Config
 {
     public static $user = 'ClueBot III';
     public static $pass = '';
+    public static $archive_key = '';
 
     public static function init()
     {
         if ($bot_password = getenv('CLUEBOT3_BOT_PASSWORD')) {
             self::$pass = $bot_password;
+        }
+
+        if ($archive_key = getenv('CLUEBOT3_BOT_ARCHIVE_KEY')) {
+            self::$archive_key = $archive_key;
         }
     }
 }
