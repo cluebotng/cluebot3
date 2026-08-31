@@ -573,6 +573,20 @@ function process_page($page)
                     true,
                     true
                 );
+            } elseif ($config->rewrite) {
+                $logger->info("Updating config on " . $page . " at " . $config_block->start_position);
+
+                $newPageData = substr($pagedata, 0, $config_block->start_position);
+                $newPageData .= $config->toWiki();
+                $newPageData .= substr($pagedata, $config_block->start_position + $config_block->end_position);
+
+                $wpapi->edit(
+                    $page,
+                    $newPageData,
+                    'Updating config. (BOT)',
+                    true,
+                    true
+                );
             }
 
             $logger->info("Handling archive config on " . $page . ": " . $config->toWiki());
