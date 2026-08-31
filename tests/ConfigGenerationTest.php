@@ -68,4 +68,20 @@ final class ConfigGenerationTest extends TestCase
 
         $this->assertEquals($generated_config, $expected_config);
     }
+
+    public function testMismatchedArchivePrefixWithoutValidKeyResetsToDefault(): void
+    {
+        $raw_config = '{{User:ClueBot III/ArchiveThis' .
+            '|archiveprefix=Some Other Page/Archives/' .
+            '|key=totally-wrong-key' .
+            '|format=Y/F}}';
+
+        $config_blocks = find_config_blocks("ClueBot III", $raw_config);
+        $this->assertCount(1, $config_blocks);
+
+        $config = build_config_from_config_block("Test Page", $config_blocks[0]);
+
+        $this->assertEquals("Test Page/Archives/", $config->archiveprefix);
+        $this->assertEquals(DefaultConfig::$key, $config->key);
+    }
 }
