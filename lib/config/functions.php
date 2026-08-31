@@ -304,6 +304,17 @@ function build_config_from_config_block(string $page, RawConfig $block)
         $config->once = $options['once'] === '1';
     }
 
+    // If the archive prefix is not under the same page, then it requires a key,
+    // verify the key is correct, otherwise use a default archive prefix.
+    if (substr(strtolower(str_replace('_', ' ', $config->archiveprefix)), 0, strlen($page)) != strtolower($page)) {
+        $expected_key = hash('sha256', trim($page) . trim($config->archiveprefix) . trim(Config::$archive_key));
+        if ($config->key != $expected_key) {
+            $logger->error('Incorrect key for archive prefix; page=' . $page . ', prefix=' . $config->archiveprefix);
+            $config->archiveprefix = $page . '/Archives/';
+            $config->key = DefaultConfig::$key;
+        }
+    }
+
     $config->is_valid = true;
     return $config;
 }
