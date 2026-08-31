@@ -202,6 +202,7 @@ function build_config_from_config_block(string $page, RawConfig $block)
         // so set it to the implicit value up-front.
         // Note: this has a side effect that toWiki will populate the value.
         $config->archiveprefix = $page . '/Archives/';
+        $config->rewrite = true;
     }
 
     if (array_key_exists('format', $options) && !empty($options['format'])) {
@@ -312,6 +313,7 @@ function build_config_from_config_block(string $page, RawConfig $block)
             $logger->error('Incorrect key for archive prefix; page=' . $page . ', prefix=' . $config->archiveprefix);
             $config->archiveprefix = $page . '/Archives/';
             $config->key = DefaultConfig::$key;
+            $config->rewrite = true;
         }
     }
 
