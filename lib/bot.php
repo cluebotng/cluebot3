@@ -289,8 +289,7 @@ function doarchive(
         }
 
         if (substr(strtolower(str_replace('_', ' ', $archiveprefix)), 0, strlen($page)) != strtolower($page)) {
-            global $pass;
-            $ckey = trim(md5(trim($page) . trim($archiveprefix) . trim($pass)));
+            $ckey = trim(md5(trim($page) . trim($archiveprefix) . trim(Config::$archive_key)));
             if (trim($key) != $ckey) {
                 $logger->error('Incorrect key and archiveprefix.  $archiveprefix=\'' .
                                   $archiveprefix . '\';$correctkey=\'' . $ckey . '\';');
