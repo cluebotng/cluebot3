@@ -19,7 +19,7 @@
     },
     "config": {
         "platform": {
-            "php": "8.4"
+            "php": "8.5"
         }
     },
     "license": "GNU General Public License"
