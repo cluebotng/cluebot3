@@ -289,10 +289,11 @@ function doarchive(
         }
 
         if (substr(strtolower(str_replace('_', ' ', $archiveprefix)), 0, strlen($page)) != strtolower($page)) {
-            $ckey = trim(md5(trim($page) . trim($archiveprefix) . trim(Config::$archive_key)));
-            if (trim($key) != $ckey) {
-                $logger->error('Incorrect key and archiveprefix.  $archiveprefix=\'' .
-                                  $archiveprefix . '\';$correctkey=\'' . $ckey . '\';');
+            $expected_key = hash('sha256', trim($page) . trim($config->archiveprefix) . trim(Config::$archive_key));
+            if (trim($key) != $expected_key) {
+                $logger->error(
+                    'Incorrect key for archive prefix; page=' . $page . ', prefix=' . $config->archiveprefix
+                );
                 $archiveprefix = $page . '/Archives/';
             }
         }
