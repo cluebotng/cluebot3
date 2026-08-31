@@ -41,6 +41,7 @@ class ArchiveConfig
 
     // This is a flag which causes the config to be removed on the archiving run
     public bool $once = false;
+    public bool $rewrite = false;
 
     // Internal flag
     public bool $is_valid = false;
