@@ -39,15 +39,14 @@ $wpq = new \Wikipedia\Query($wph, $logger);
 $wpi = new \Wikipedia\Index($wph, $logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
 
+$last_auth_check = 0;
 while (true) {
-    if (!$wpapi->login(Config::$user, Config::$pass)) {
-        $logger->error('Failed to authenticate as ' . Config::$user);
-        die();
-    }
+    check_bot_is_authenticated(true);
 
     $titles = get_target_titles();
     $logger->info("Processing " . count($titles) . " titles");
     foreach ($titles as $title) {
+        check_bot_is_authenticated();
         process_page($title);
     }
 
