@@ -128,7 +128,7 @@ function doarchive(
     global $wph;
 
     $rv = $wpapi->revisions($page, 1, 'older', true);
-    if (!is_array($rv)) {
+    if (!is_array($rv) || !isset($rv[0])) {
         $logger->info("[" . $page . "] skipping due to no revisions");
         return false;
     }
