@@ -621,3 +621,15 @@ function get_target_titles()
     shuffle($titles);
     return $titles;
 }
+
+function check_bot_is_authenticated(bool $force = false)
+{
+    global $wpapi, $logger, $last_auth_check;
+    if ($force || (time() - $last_auth_check) >= 600) {
+        if (!$wpapi->loggedin() && !$wpapi->login(Config::$user, Config::$pass)) {
+            $logger->error('Failed to authenticate as ' . Config::$user);
+            die();
+        }
+        $last_auth_check = time();
+    }
+}
