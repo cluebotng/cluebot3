@@ -47,3 +47,21 @@ function get_master_indexes()
 
     return $index_titles;
 }
+
+function get_detailed_indexes()
+{
+    global $wpapi;
+    $user_namespace = namespacetoid("User");
+    $prefix_regex = '/^' . preg_quote('User:' . Config::$user . '/Detailed Indices/', '/') . '/';
+
+    $index_titles = [];
+    $continue = null;
+    do {
+        foreach ($wpapi->listprefix(Config::$user . '/Detailed Indices/', $user_namespace, 500, $continue) as $page) {
+            $title = preg_replace($prefix_regex, '', $page['title']);
+            $index_titles[$title] = $page['title'];
+        }
+    } while ($continue !== null);
+
+    return $index_titles;
+}
