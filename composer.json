@@ -15,7 +15,7 @@
     ],
     "require": {
         "monolog/monolog": "^3.0",
-        "cluebotng/wikipedia": "^v2.2.0"
+        "cluebotng/wikipedia": "^v2.2.1"
     },
     "config": {
         "platform": {
