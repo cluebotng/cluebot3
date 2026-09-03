@@ -61,3 +61,40 @@ foreach (get_master_indexes() as $page_title => $index_titles) {
         }
     }
 }
+
+// Find all configured archive prefixes - this comes from the user config,
+// thus we need to parse all the pages and it is quite slow.
+// Default to configured pages for safety (i.e. getpage does not return the content).
+$target_archive_prefixes = $target_titles;
+foreach ($target_titles as $page_title) {
+    if ($pagedata = $wpq->getpage($page_title)) {
+        foreach (UserConfig\find_config_blocks(Config::$user, $pagedata) as $config_block) {
+            $config = UserConfig\build_config_from_config_block($page_title, $config_block);
+            if ($config->is_valid && !in_array($config->archiveprefix, $target_archive_prefixes)) {
+                $target_archive_prefixes[] = $config->archiveprefix;
+            }
+        }
+    }
+}
+$logger->info("Found " . count($target_archive_prefixes) . " archive prefixes");
+
+// Cleanup any detailed indexes, which are not currently configured as prefixes.
+foreach (get_detailed_indexes() as $archive_title => $index_title) {
+    $have_config = false;
+    foreach ($target_archive_prefixes as $target_archive_prefix) {
+        if (str_starts_with($archive_title, $target_archive_prefix)) {
+            $have_config = true;
+            break;
+        }
+    }
+    if (!$have_config) {
+        $logger->info('Cleaning up old detailed index: ' . $archive_title . ' (' . $index_title . ')');
+        $wpapi->edit(
+            $index_title,
+            '{{db-u1}}',
+            'Removing old index page. (BOT)',
+            true,
+            true
+        );
+    }
+}
