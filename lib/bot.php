@@ -615,23 +615,15 @@ function process_page($page)
 function get_target_titles()
 {
     global $wpapi;
-    $titles = array();
+    $titles = [];
     $continue = null;
-    $ei = $wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue);
-    if ($ei != null) {
-        foreach ($ei as $data) {
-            $titles[] = $data['title'];
+    do {
+        foreach ($wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue) as $data) {
+            $titles[$data['title']] = true;
         }
-        while (isset($ei[499])) {
-            $ei = $wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue);
-            if ($ei != null) {
-                foreach ($ei as $data) {
-                    $titles[] = $data['title'];
-                }
-            }
-        }
-    }
+    } while ($continue !== null);
 
+    $titles = array_keys($titles);
     shuffle($titles);
     return $titles;
 }
