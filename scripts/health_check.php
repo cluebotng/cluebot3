@@ -21,11 +21,11 @@
 
 namespace ClueBot3;
 
-require_once 'lib/bot.php';
-require_once 'cluebot3.config.php';
+require_once __DIR__ . '/../lib/bot.php';
+require_once __DIR__ . '/../cluebot3.config.php';
 
 date_default_timezone_set('Europe/London');
-include 'vendor/autoload.php';
+include __DIR__ . '/../vendor/autoload.php';
 
 Config::init();
 
