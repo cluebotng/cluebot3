@@ -573,6 +573,20 @@ function process_page($page)
                     true,
                     true
                 );
+            } elseif ($config->rewrite) {
+                $logger->info("Updating config on " . $page . " at " . $config_block->start_position);
+
+                $newPageData = substr($pagedata, 0, $config_block->start_position);
+                $newPageData .= $config->toWiki();
+                $newPageData .= substr($pagedata, $config_block->start_position + $config_block->end_position);
+
+                $wpapi->edit(
+                    $page,
+                    $newPageData,
+                    'Updating config. (BOT)',
+                    true,
+                    true
+                );
             }
 
             $logger->info("Handling archive config on " . $page . ": " . $config->toWiki());
@@ -601,23 +615,15 @@ function process_page($page)
 function get_target_titles()
 {
     global $wpapi;
-    $titles = array();
+    $titles = [];
     $continue = null;
-    $ei = $wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue);
-    if ($ei != null) {
-        foreach ($ei as $data) {
-            $titles[] = $data['title'];
+    do {
+        foreach ($wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue) as $data) {
+            $titles[$data['title']] = true;
         }
-        while (isset($ei[499])) {
-            $ei = $wpapi->embeddedin('User:' . Config::$user . '/ArchiveThis', 500, $continue);
-            if ($ei != null) {
-                foreach ($ei as $data) {
-                    $titles[] = $data['title'];
-                }
-            }
-        }
-    }
+    } while ($continue !== null);
 
+    $titles = array_keys($titles);
     shuffle($titles);
     return $titles;
 }
