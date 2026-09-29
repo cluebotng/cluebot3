@@ -37,7 +37,6 @@ class ArchiveConfig
     public string $transformheader;
     public int $maxarchsize;
     public int $numberstart;
-    public string $key;
 
     // This is a flag which causes the config to be removed on the archiving run
     public bool $once = false;
@@ -74,7 +73,6 @@ class ArchiveConfig
         $this->transformheader = DefaultConfig::$transformheader;
         $this->maxarchsize = DefaultConfig::$maxarchsize;
         $this->numberstart = DefaultConfig::$numberstart;
-        $this->key = DefaultConfig::$key;
 
         $this->index = DefaultConfig::$index;
         $this->archivebox = DefaultConfig::$archivebox;
@@ -132,10 +130,6 @@ class ArchiveConfig
             if ($this->numberstart != DefaultConfig::$numberstart) {
                 $config .= '|numberstart=' . $this->numberstart . "\n";
             }
-            if ($this->key != DefaultConfig::$key) {
-                $config .= '|key=' . $this->key . "\n";
-            }
-
             if ($this->archivebox != DefaultConfig::$archivebox) {
                 $config .= '|archivebox=' . ($this->archivebox ? 'yes' : 'no') . "\n";
             }

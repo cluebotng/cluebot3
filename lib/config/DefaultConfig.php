@@ -36,7 +36,6 @@ class DefaultConfig
     public static string $transformheader = '';
     public static int $maxarchsize = 0;
     public static int $numberstart = 1;
-    public static string $key = '';
 
     public static bool $archivebox = false;
     public static string $box_width = "238px";

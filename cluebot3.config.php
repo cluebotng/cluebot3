@@ -25,16 +25,18 @@ class Config
 {
     public static $user = 'ClueBot III';
     public static $pass = '';
-    public static $archive_key = '';
+
+    // Pages mapped to the list of archive prefixes they are allowed to additionally use.
+    // For example, an entry of `'User_talk:DamianZaremba_Scripts' => ['User_talk:DamianZaremba']`,
+    // would allow an archive prefix of `User_talk:DamianZaremba` in addition to `User_talk:DamianZaremba_Scripts`.
+    public static $allowed_archive_prefixes = [
+        'User_talk:DamianZaremba_Scripts' => ['User_talk:DamianZaremba'],
+    ];
 
     public static function init()
     {
         if ($bot_password = getenv('CLUEBOT3_BOT_PASSWORD')) {
             self::$pass = $bot_password;
-        }
-
-        if ($archive_key = getenv('CLUEBOT3_BOT_ARCHIVE_KEY')) {
-            self::$archive_key = $archive_key;
         }
     }
 }

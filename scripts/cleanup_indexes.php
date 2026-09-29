@@ -36,7 +36,6 @@ $logger = new \Monolog\Logger('cluebot3');
 $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog\Logger::INFO));
 
 $wph = new \Wikipedia\Http($logger);
-$wpq = new \Wikipedia\Query($wph, $logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
 
 if (!$wpapi->login(Config::$user, Config::$pass)) {
@@ -62,18 +61,12 @@ foreach (get_master_indexes() as $page_title => $index_titles) {
     }
 }
 
-// Find all configured archive prefixes - this comes from the user config,
-// thus we need to parse all the pages and it is quite slow.
-// Default to configured pages for safety (i.e. getpage does not return the content).
+// Find all configured archive prefixes - these are enforced to be either the same page,
+// or an entry explicitly listed on our config.
 $target_archive_prefixes = $target_titles;
 foreach ($target_titles as $page_title) {
-    if ($pagedata = $wpq->getpage($page_title)) {
-        foreach (UserConfig\find_config_blocks(Config::$user, $pagedata) as $config_block) {
-            $config = UserConfig\build_config_from_config_block($page_title, $config_block);
-            if ($config->is_valid && !in_array($config->archiveprefix, $target_archive_prefixes)) {
-                $target_archive_prefixes[] = $config->archiveprefix;
-            }
-        }
+    foreach (Config::$allowed_archive_prefixes[$page_title] ?? [] as $allowed_prefix) {
+        $target_archive_prefixes[] = $allowed_prefix;
     }
 }
 $logger->info("Found " . count($target_archive_prefixes) . " archive prefixes");
