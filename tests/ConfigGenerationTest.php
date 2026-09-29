@@ -23,7 +23,7 @@ namespace ClueBot3\Tests;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use ClueBot3\UserConfig\DefaultConfig;
+use ClueBot3\Config;
 
 use function ClueBot3\UserConfig\build_config_from_config_block;
 use function ClueBot3\UserConfig\find_config_blocks;
@@ -69,11 +69,10 @@ final class ConfigGenerationTest extends TestCase
         $this->assertEquals($generated_config, $expected_config);
     }
 
-    public function testMismatchedArchivePrefixWithoutValidKeyResetsToDefault(): void
+    public function testMismatchedArchivePrefixNotInAllowListResetsToDefault(): void
     {
         $raw_config = '{{User:ClueBot III/ArchiveThis' .
             '|archiveprefix=Some Other Page/Archives/' .
-            '|key=totally-wrong-key' .
             '|format=Y/F}}';
 
         $config_blocks = find_config_blocks("ClueBot III", $raw_config);
@@ -82,6 +81,29 @@ final class ConfigGenerationTest extends TestCase
         $config = build_config_from_config_block("Test Page", $config_blocks[0]);
 
         $this->assertEquals("Test Page/Archives/", $config->archiveprefix);
-        $this->assertEquals(DefaultConfig::$key, $config->key);
+    }
+
+    public function testMismatchedArchivePrefixInAllowListIsKept(): void
+    {
+        $page = 'User talk:DamianZaremba Scripts';
+        $allowed_prefix = 'User talk:DamianZaremba';
+
+        $original_allowed_archive_prefixes = Config::$allowed_archive_prefixes;
+        Config::$allowed_archive_prefixes = [$page => [$allowed_prefix]];
+
+        try {
+            $raw_config = '{{User:ClueBot III/ArchiveThis' .
+                '|archiveprefix=' . $allowed_prefix .
+                '|format=Y/F}}';
+
+            $config_blocks = find_config_blocks("ClueBot III", $raw_config);
+            $this->assertCount(1, $config_blocks);
+
+            $config = build_config_from_config_block($page, $config_blocks[0]);
+
+            $this->assertEquals($allowed_prefix, $config->archiveprefix);
+        } finally {
+            Config::$allowed_archive_prefixes = $original_allowed_archive_prefixes;
+        }
     }
 }

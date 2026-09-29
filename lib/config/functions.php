@@ -257,10 +257,6 @@ function build_config_from_config_block(string $page, RawConfig $block)
         $config->numberstart = (int) $options['numberstart'];
     }
 
-    if (array_key_exists('key', $options) && !empty($options['key'])) {
-        $config->key = trim($options['key']);
-    }
-
     if (array_key_exists('index', $options)) {
         $config->index = $options['index'] === 'yes';
     }
@@ -305,14 +301,17 @@ function build_config_from_config_block(string $page, RawConfig $block)
         $config->once = $options['once'] === '1';
     }
 
-    // If the archive prefix is not under the same page, then it requires a key,
-    // verify the key is correct, otherwise use a default archive prefix.
+    // If the archive prefix is not under the same page, it must be explicitly allowed
+    // for this page via Config::$allowed_archive_prefixes, otherwise reset to the default.
     if (substr(strtolower(str_replace('_', ' ', $config->archiveprefix)), 0, strlen($page)) != strtolower($page)) {
-        $expected_key = hash('sha256', trim($page) . trim($config->archiveprefix) . trim(Config::$archive_key));
-        if ($config->key != $expected_key) {
-            $logger->error('Incorrect key for archive prefix; page=' . $page . ', prefix=' . $config->archiveprefix);
+        $clean_archiveprefix = strtolower(str_replace('_', ' ', $config->archiveprefix));
+        $allowed_prefixes = array_map(
+            fn ($prefix) => strtolower(str_replace('_', ' ', $prefix)),
+            Config::$allowed_archive_prefixes[$page] ?? []
+        );
+        if (!in_array($clean_archiveprefix, $allowed_prefixes)) {
+            $logger->error('Archive prefix not allowed for page; page=' . $page . ', prefix=' . $config->archiveprefix);
             $config->archiveprefix = $page . '/Archives/';
-            $config->key = DefaultConfig::$key;
             $config->rewrite = true;
         }
     }

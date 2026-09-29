@@ -119,8 +119,7 @@ function doarchive(
     $maxbytes,
     $htransform,
     $maxarchsize,
-    $archnumberstart,
-    $key
+    $archnumberstart
 ) {
     global $logger;
     global $wpq;
@@ -605,8 +604,7 @@ function process_page($page)
                 $config->maxkeepbytes,
                 $config->transformheader,
                 $config->maxarchsize,
-                $config->numberstart,
-                $config->key,
+                $config->numberstart
             );
         }
     }
