@@ -307,14 +307,19 @@ function build_config_from_config_block(string $page, RawConfig $block)
         $config->once = $options['once'] === '1';
     }
 
+    // The prefix is under the page if it is the page itself, or a subpage of it,
+    // e.g. `Talk:Foo` or `Talk:Foo/Archive` but not `Talk:Foobar/Archive`.
+    $is_prefix_under_page = fn (string $prefix, string $page) =>
+        $prefix === $page || str_starts_with($prefix, $page . '/');
+
     // If the archive prefix is not under the same page, it must be allowed.
-    if (substr(str_replace('_', ' ', $config->archiveprefix), 0, strlen($page)) != $page) {
+    if (!$is_prefix_under_page(str_replace('_', ' ', $config->archiveprefix), $page)) {
         // Previous behaviour applied this case insensitively - pages are actually case sensitive e.g.
         // [[Apple]] and [[APPLE]] are 2 distinct pages
         // To minimise user impact support translating the config e.g.
         // On `Talk:Casa by the Sea` from `Talk:Casa by the sea/Archives/` to `Talk:Casa by the Sea/Archives/`
         // using our rewrite support.
-        if (substr(strtolower(str_replace('_', ' ', $config->archiveprefix)), 0, strlen($page)) == strtolower($page)) {
+        if ($is_prefix_under_page(strtolower(str_replace('_', ' ', $config->archiveprefix)), strtolower($page))) {
             $logger->warning(
                 'Archive prefix has case mismatch for page; page=' . $page . ', prefix=' . $config->archiveprefix
             );
