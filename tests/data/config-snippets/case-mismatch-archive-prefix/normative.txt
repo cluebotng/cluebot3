@@ -1,0 +1,5 @@
+{{User:ClueBot III/ArchiveThis
+|archiveprefix=Talk:Casa by the Sea/Archive
+|format= %%i
+|age=2160
+}}

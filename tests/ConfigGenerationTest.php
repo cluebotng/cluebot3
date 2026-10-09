@@ -83,6 +83,60 @@ final class ConfigGenerationTest extends TestCase
         $this->assertEquals("Test Page/Archives/", $config->archiveprefix);
     }
 
+    public function testCaseMismatchedArchivePrefixIsRewrittenToPageCase(): void
+    {
+        $raw_config = '{{User:ClueBot III/ArchiveThis' .
+            '|archiveprefix=Talk:Casa_by_the_sea/Archive' .
+            '|format=%%i}}';
+
+        $config_blocks = find_config_blocks("ClueBot III", $raw_config);
+        $this->assertCount(1, $config_blocks);
+
+        $config = build_config_from_config_block("Talk:Casa by the Sea", $config_blocks[0]);
+        $this->assertEquals("Talk:Casa by the Sea/Archive", $config->archiveprefix);
+        $this->assertTrue($config->rewrite);
+        $this->assertStringContainsString("|archiveprefix=Talk:Casa by the Sea/Archive\n", $config->toWiki());
+    }
+
+    public static function archivePrefixBoundaryProvider(): array
+    {
+        return [
+            'exact page' => ['Talk:Foo', 'Talk:Foo', 'Talk:Foo', false],
+            'subpage' => ['Talk:Foo', 'Talk:Foo/Archive', 'Talk:Foo/Archive', false],
+            'subpage with underscores' => ['Talk:Foo bar', 'Talk:Foo_bar/Archive', 'Talk:Foo_bar/Archive', false],
+            'case mismatch exact page' => ['Talk:Foo', 'talk:foo', 'Talk:Foo', true],
+            'case mismatch subpage' => [
+                'Talk:Casa by the Sea',
+                'Talk:Casa_by_the_sea/Archive',
+                'Talk:Casa by the Sea/Archive',
+                true,
+            ],
+            'sibling page' => ['Talk:Foo', 'Talk:Foobar/Archive', 'Talk:Foo/Archives/', true],
+            'sibling page case mismatch' => ['Talk:Foo', 'Talk:FOObar/Archive', 'Talk:Foo/Archives/', true],
+            'non-subpage suffix' => ['Talk:Foo', 'Talk:Foo archive', 'Talk:Foo/Archives/', true],
+        ];
+    }
+
+    #[DataProvider('archivePrefixBoundaryProvider')]
+    public function testArchivePrefixBoundary(
+        string $page,
+        string $archive_prefix,
+        string $expected_prefix,
+        bool $expected_rewrite
+    ): void {
+        $raw_config = '{{User:ClueBot III/ArchiveThis' .
+            '|archiveprefix=' . $archive_prefix .
+            '|format=%%i}}';
+
+        $config_blocks = find_config_blocks("ClueBot III", $raw_config);
+        $this->assertCount(1, $config_blocks);
+
+        $config = build_config_from_config_block($page, $config_blocks[0]);
+
+        $this->assertEquals($expected_prefix, $config->archiveprefix);
+        $this->assertEquals($expected_rewrite, $config->rewrite);
+    }
+
     public function testMismatchedArchivePrefixInAllowListIsKept(): void
     {
         $page = 'User talk:DamianZaremba Scripts';
