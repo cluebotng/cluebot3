@@ -27,11 +27,9 @@ class Config
     public static $pass = '';
 
     // Pages mapped to the list of archive prefixes they are allowed to additionally use.
-    // For example, an entry of `'User_talk:DamianZaremba_Scripts' => ['User_talk:DamianZaremba']`,
-    // would allow an archive prefix of `User_talk:DamianZaremba` in addition to `User_talk:DamianZaremba_Scripts`.
-    public static $allowed_archive_prefixes = [
-        'User_talk:DamianZaremba_Scripts' => ['User_talk:DamianZaremba'],
-    ];
+    // For example, an entry of `'User_talk:DamianZaremba Scripts' => ['User_talk:DamianZaremba']`,
+    // would allow an archive prefix of `User_talk:DamianZaremba` in addition to `User_talk:DamianZaremba Scripts`.
+    public static $allowed_archive_prefixes = [];
 
     public static function init()
     {
