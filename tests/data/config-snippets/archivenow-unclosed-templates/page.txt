@@ -1,0 +1,10 @@
+{{User:ClueBot III/ArchiveThis
+| age=180
+| archiveprefix=Talk:PH indicator/Archive
+| numberstart=1
+| maxarchsize=150000
+| minkeepthreads=3
+| archivenow=<nowiki>{{User:ClueBot III/ArchiveNow}},{{resolved|,{{Resolved|,{{done}},{{Done}}</nowiki>
+| header={{talk archive navigation}}
+| format= %%i
+}}

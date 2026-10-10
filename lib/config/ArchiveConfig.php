@@ -86,6 +86,36 @@ class ArchiveConfig
         $this->talkcolour = DefaultConfig::$talkcolour;
     }
 
+    private function escapeWikiText($text)
+    {
+        // If we have un-closed wiki syntax, then ensure we are wrapped in `nowiki` e.g.
+        // `{{User:ClueBot III/ArchiveNow}},{{resolved|,{{Resolved|,{{done}},{{Done}}`
+        // must be transformed into
+        // `<nowiki>{{User:ClueBot III/ArchiveNow}},{{resolved|,{{Resolved|,{{done}},{{Done}}</nowiki>`
+        // otherwise the template will be closed and the 'left over' displayed on the page.
+        // Balanced syntax such as `{{Automatic archive navigator}}` is left as-is
+        $depth = 0;
+        $length = strlen($text);
+        for ($i = 0; $i < $length; ++$i) {
+            if ($text[$i] == '{') {
+                ++$depth;
+            } elseif ($text[$i] == '}') {
+                // Closing before opening would close our template
+                if (--$depth < 0) {
+                    break;
+                }
+            } elseif ($text[$i] == '|' && $depth == 0) {
+                // Top level pipe would be treated as a parameter separator
+                $depth = -1;
+                break;
+            }
+        }
+        if ($depth != 0) {
+            return '<nowiki>' . $text . '</nowiki>';
+        }
+        return $text;
+    }
+
     public function toWiki()
     {
         if ($this->is_valid) {
@@ -104,10 +134,10 @@ class ArchiveConfig
                 $config .= '|minkeepthreads=' . $this->minkeepthreads . "\n";
             }
             if ($this->header != DefaultConfig::$header) {
-                $config .= '|header=' . $this->header . "\n";
+                $config .= '|header=' . $this->escapeWikiText($this->header) . "\n";
             }
             if ($this->archivenow != DefaultConfig::$archivenow) {
-                $config .= '|archivenow=' . implode(",", $this->archivenow) . "\n";
+                $config .= '|archivenow=' . $this->escapeWikiText(implode(",", $this->archivenow)) . "\n";
             }
             if ($this->headerlevel != DefaultConfig::$headerlevel) {
                 $config .= '|headerlevel=' . $this->headerlevel . "\n";
