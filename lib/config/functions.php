@@ -48,12 +48,12 @@ function find_config_blocks($user, $text)
                         substr($text, $start_position, $block_position + 1)
                     );
                 }
-                if (substr($data, $block_position, 8) == '<nowiki>') {
+                if (strcasecmp(substr($data, $block_position, 8), '<nowiki>') == 0) {
                     $ignore_block = true;
                     $block_position += 7;
                 }
             }
-            if (substr($data, $block_position, 9) == '</nowiki>') {
+            if (strcasecmp(substr($data, $block_position, 9), '</nowiki>') == 0) {
                 $ignore_block = false;
                 $block_position += 8;
             }
@@ -81,7 +81,7 @@ function parse_config_block($text)
 
         // Handle nowiki blocks - content inside is literal
         if ($ignore_block) {
-            if (substr($text, $pos, 9) == '</nowiki>') {
+            if (strcasecmp(substr($text, $pos, 9), '</nowiki>') == 0) {
                 $ignore_block = false;
                 $pos += 9;
                 continue;
@@ -96,9 +96,15 @@ function parse_config_block($text)
         }
 
         // Start of nowiki block - skip the tag
-        if (substr($text, $pos, 8) == '<nowiki>') {
+        if (strcasecmp(substr($text, $pos, 8), '<nowiki>') == 0) {
             $ignore_block = true;
             $pos += 8;
+            continue;
+        }
+
+        // Empty nowiki tag - skip the tag
+        if (strcasecmp(substr($text, $pos, 9), '<nowiki/>') == 0) {
+            $pos += 9;
             continue;
         }
 
