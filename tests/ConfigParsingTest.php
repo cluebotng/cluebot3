@@ -91,4 +91,39 @@ final class ConfigParsingTest extends TestCase
             }
         }
     }
+
+    public static function nowikiStrippedProvider(): array
+    {
+        return [
+            'archivenow with un-closed templates' => [
+                '|archivenow=<nowiki>{{User:ClueBot III/ArchiveNow}},{{resolved|,{{done}}</nowiki>',
+                'archivenow',
+                ['{{User:ClueBot III/ArchiveNow}}', '{{resolved|', '{{done}}'],
+            ],
+            'archivenow with top level pipe' => [
+                '|archivenow=<nowiki>foo|bar</nowiki>',
+                'archivenow',
+                ['foo|bar'],
+            ],
+            'header' => ['|header=<nowiki>{{talkarchive}}</nowiki>', 'header', '{{talkarchive}}'],
+            'upper case tags' => ['|header=<NOWIKI>{{Talkarchive|</NOWIKI>', 'header', '{{Talkarchive|'],
+            'empty tag' => ['|header={{Talkarchive}}<nowiki/>', 'header', '{{Talkarchive}}'],
+        ];
+    }
+
+    #[DataProvider('nowikiStrippedProvider')]
+    public function testNowikiIsStripped(string $option, string $key, string|array $expected_value): void
+    {
+        $raw_config = '{{User:ClueBot III/ArchiveThis' .
+            '|archiveprefix=Talk:Foo/Archive' .
+            $option .
+            '|format=%%i}}';
+
+        $config_blocks = find_config_blocks("ClueBot III", $raw_config);
+        $this->assertCount(1, $config_blocks);
+
+        $config = build_config_from_config_block("Talk:Foo", $config_blocks[0]);
+        $this->assertEquals($expected_value, $config->{$key});
+        $this->assertEquals("%%i", $config->format);
+    }
 }
