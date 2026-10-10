@@ -307,18 +307,39 @@ function build_config_from_config_block(string $page, RawConfig $block)
         $config->once = $options['once'] === '1';
     }
 
-    // If the archive prefix is not under the same page, it must be explicitly allowed
-    // for this page via Config::$allowed_archive_prefixes, otherwise reset to the default.
-    if (substr(strtolower(str_replace('_', ' ', $config->archiveprefix)), 0, strlen($page)) != strtolower($page)) {
-        $clean_archiveprefix = strtolower(str_replace('_', ' ', $config->archiveprefix));
-        $allowed_prefixes = array_map(
-            fn ($prefix) => strtolower(str_replace('_', ' ', $prefix)),
-            Config::$allowed_archive_prefixes[$page] ?? []
-        );
-        if (!in_array($clean_archiveprefix, $allowed_prefixes)) {
-            $logger->error('Archive prefix not allowed for page; page=' . $page . ', prefix=' . $config->archiveprefix);
-            $config->archiveprefix = $page . '/Archives/';
+    // The prefix is under the page if it is the page itself, or a subpage of it,
+    // e.g. `Talk:Foo` or `Talk:Foo/Archive` but not `Talk:Foobar/Archive`.
+    $is_prefix_under_page = fn (string $prefix, string $page) =>
+        $prefix === $page || str_starts_with($prefix, $page . '/');
+
+    // If the archive prefix is not under the same page, it must be allowed.
+    if (!$is_prefix_under_page(str_replace('_', ' ', $config->archiveprefix), $page)) {
+        // Previous behaviour applied this case insensitively - pages are actually case sensitive e.g.
+        // [[Apple]] and [[APPLE]] are 2 distinct pages
+        // To minimise user impact support translating the config e.g.
+        // On `Talk:Casa by the Sea` from `Talk:Casa by the sea/Archives/` to `Talk:Casa by the Sea/Archives/`
+        // using our rewrite support.
+        if ($is_prefix_under_page(strtolower(str_replace('_', ' ', $config->archiveprefix)), strtolower($page))) {
+            $logger->warning(
+                'Archive prefix has case mismatch for page; page=' . $page . ', prefix=' . $config->archiveprefix
+            );
+            $config->archiveprefix = $page . substr($config->archiveprefix, strlen($page));
             $config->rewrite = true;
+        } else {
+            // Check if the prefix is explicitly allowed via Config::$allowed_archive_prefixes,
+            // otherwise reset to the default.
+            $clean_archiveprefix = str_replace('_', ' ', $config->archiveprefix);
+            $allowed_prefixes = array_map(
+                fn ($prefix) => str_replace('_', ' ', $prefix),
+                Config::$allowed_archive_prefixes[$page] ?? []
+            );
+            if (!in_array($clean_archiveprefix, $allowed_prefixes)) {
+                $logger->error(
+                    'Archive prefix not allowed for page; page=' . $page . ', prefix=' . $config->archiveprefix
+                );
+                $config->archiveprefix = $page . '/Archives/';
+                $config->rewrite = true;
+            }
         }
     }
 
