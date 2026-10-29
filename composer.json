@@ -2,7 +2,7 @@
     "name": "cluenet/cluebot3",
     "description": "ClueBot III - Archiving Bot For Wikipedia",
     "require-dev": {
-        "overtrue/phplint": "@stable",
+        "overtrue/phplint": "^9.8",
 	"squizlabs/php_codesniffer": "^4.0",
         "phpunit/phpunit": "^13.0"
     },
