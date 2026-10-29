@@ -4,8 +4,7 @@
     "require-dev": {
         "overtrue/phplint": "@stable",
 	"squizlabs/php_codesniffer": "^4.0",
-        "phpunit/phpunit": "^13.0",
-        "phpmd/phpmd" : "@stable"
+        "phpunit/phpunit": "^13.0"
     },
     "repositories": [
         {
