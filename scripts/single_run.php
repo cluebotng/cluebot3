@@ -39,7 +39,6 @@ $wikiLogger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Mon
 
 $wph = new \Wikipedia\Http($wikiLogger);
 $wpq = new \Wikipedia\Query($wph, $wikiLogger);
-$wpi = new \Wikipedia\Index($wph, $wikiLogger);
 $wpapi = new \Wikipedia\Api($wph, $wikiLogger);
 
 if (!$wpapi->login(Config::$user, Config::$pass)) {
