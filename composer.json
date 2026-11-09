@@ -15,7 +15,7 @@
     "require": {
         "php": ">=8.5.12",
         "monolog/monolog": "^3.0",
-        "cluebotng/wikipedia": "^v2.3.0"
+        "cluebotng/wikipedia": "^v3.0.0"
     },
     "config": {
         "platform": {
