@@ -45,8 +45,20 @@ if (!$wpapi->login(Config::$user, Config::$pass)) {
 $target_titles = get_target_titles();
 $logger->info("Found " . count($target_titles) . " titles");
 
+// Find all configured archive prefixes - these are enforced to be either the same page,
+// or an entry explicitly listed on our config.
+$target_archive_prefixes = $target_titles;
+foreach ($target_titles as $page_title) {
+    foreach (Config::$allowed_archive_prefixes[$page_title] ?? [] as $allowed_prefix) {
+        $target_archive_prefixes[] = $allowed_prefix;
+    }
+}
+$logger->info("Found " . count($target_archive_prefixes) . " archive prefixes");
+
 // Cleanup top level indexes - this is a 1:1 mapping with the page title
-foreach (get_master_indexes() as $page_title => $index_titles) {
+$master_indexes = get_master_indexes();
+$logger->info("Found " . count($master_indexes) . " pages with master indexes");
+foreach ($master_indexes as $page_title => $index_titles) {
     if (!in_array($page_title, $target_titles)) {
         foreach ($index_titles as $index_title) {
             $logger->info('Cleaning up old master index: ' . $page_title . ' (' . $index_title . ')');
@@ -61,18 +73,10 @@ foreach (get_master_indexes() as $page_title => $index_titles) {
     }
 }
 
-// Find all configured archive prefixes - these are enforced to be either the same page,
-// or an entry explicitly listed on our config.
-$target_archive_prefixes = $target_titles;
-foreach ($target_titles as $page_title) {
-    foreach (Config::$allowed_archive_prefixes[$page_title] ?? [] as $allowed_prefix) {
-        $target_archive_prefixes[] = $allowed_prefix;
-    }
-}
-$logger->info("Found " . count($target_archive_prefixes) . " archive prefixes");
-
 // Cleanup any detailed indexes, which are not currently configured as prefixes.
-foreach (get_detailed_indexes() as $archive_title => $index_title) {
+$detailed_indexes = get_detailed_indexes();
+$logger->info("Found " . count($detailed_indexes) . " detailed indexes");
+foreach ($detailed_indexes as $archive_title => $index_title) {
     $have_config = false;
     foreach ($target_archive_prefixes as $target_archive_prefix) {
         if (str_starts_with($archive_title, $target_archive_prefix)) {
