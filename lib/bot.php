@@ -356,17 +356,13 @@ function doarchive(
         }
 
         $pagelist = array();
+
         $continue = null;
-        $bl = $wpapi->backlinks($page, 500, $continue);
-        foreach ($bl as $data) {
-            $pagelist[] = $data['title'];
-        }
-        while (count($bl) >= 500) {
-            $bl = $wpapi->backlinks($page, 500, $continue);
-            foreach ($bl as $data) {
+        do {
+            foreach ($wpapi->backlinks($page, 500, $continue) as $data) {
                 $pagelist[] = $data['title'];
             }
-        }
+        } while ($continue !== null);
 
         $logger->info("[" . $page . "] found " . count($pagelist) . " pages to check links on");
         foreach (array_chunk($pagelist, 50) as $titles) {
