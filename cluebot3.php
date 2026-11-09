@@ -36,7 +36,6 @@ $logger->pushHandler(new \Monolog\Handler\StreamHandler('php://stderr', \Monolog
 
 $wph = new \Wikipedia\Http($logger);
 $wpq = new \Wikipedia\Query($wph, $logger);
-$wpi = new \Wikipedia\Index($wph, $logger);
 $wpapi = new \Wikipedia\Api($wph, $logger);
 
 $last_auth_check = 0;
