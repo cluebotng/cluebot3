@@ -50,5 +50,5 @@ while (true) {
     }
 
     $logger->info("Sleeping until next execution");
-    sleep(21600);
+    sleep(3600);
 }
