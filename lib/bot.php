@@ -347,7 +347,7 @@ function doarchive(
 
         $pagelist = getbacklinks($page);
         $logger->info("[" . $page . "] found " . count($pagelist) . " pages to check links on");
-        fixlinks($pagelist, $search, $replace);
+        fixlinks($page, $pagelist, $search, $replace);
     }
     if ($noindex != 1) {
         $logger->info("[" . $page . "] generating index page");

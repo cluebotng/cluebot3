@@ -60,7 +60,7 @@ function getbacklinks($page)
     return $pagelist;
 }
 
-function fixlinks($pagelist, $search, $replace)
+function fixlinks($page, $pagelist, $search, $replace)
 {
     global $logger;
     global $wpapi;
@@ -84,11 +84,14 @@ function fixlinks($pagelist, $search, $replace)
                 true
             );
             if (!is_array($revisionData)) {
-                $logger->error('Failed to decode API response');
+                $logger->error("[" . $page . "] Failed to decode API response for backlink revisions");
                 break;
             }
             if (isset($revisionData['error'])) {
-                $logger->error('API Error: ' . var_export($revisionData['error'], true));
+                $logger->error(
+                    "[" . $page . "] API error for backlink revisions: " .
+                    var_export($revisionData['error'], true)
+                );
                 break;
             }
 
@@ -101,6 +104,7 @@ function fixlinks($pagelist, $search, $replace)
                 $data = $pageData['revisions'][0]['slots']['main']['*'];
                 $newdata = str_replace($search, $replace, $data);
                 if ($data != $newdata) {
+                    $logger->info("[" . $page . "] Updating backlinks on " . $title);
                     $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
                 }
             }
@@ -108,4 +112,32 @@ function fixlinks($pagelist, $search, $replace)
             $continue = $revisionData['continue'] ?? array();
         } while (!empty($continue));
     }
+}
+
+function get_archive_titles($archiveprefix)
+{
+    global $wpapi;
+
+    $tmp = extractnamespace($archiveprefix);
+    $titles = array();
+    $continue = null;
+    do {
+        foreach ($wpapi->listprefix($tmp[1], namespacetoid($tmp[0]), 500, $continue) as $data) {
+            $titles[] = $data['title'];
+        }
+    } while ($continue !== null);
+    return $titles;
+}
+
+function sort_titles_newest_first($titles)
+{
+    global $wpapi;
+
+    $created = array();
+    foreach ($titles as $title) {
+        $tmp = $wpapi->revisions($title, 1, 'newer');
+        $created[$title] = $tmp[0]['timestamp'] ?? '';
+    }
+    arsort($created);
+    return array_keys($created);
 }
