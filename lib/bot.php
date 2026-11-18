@@ -529,17 +529,6 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
     return $data;
 }
 
-function strip_comments($text, $trim = true)
-{
-    if (str_contains($text, "<!--")) {
-        $text = preg_replace("/<!--.+-->/", "", $text);
-        if ($trim) {
-            $text = trim($text);
-        }
-    }
-    return $text;
-}
-
 function process_page($page)
 {
     global $logger;
