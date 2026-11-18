@@ -171,6 +171,10 @@ function doarchive(
     ));
     unset($tmp);
 
+    if (!isset($rv[0]['slots']['main']['*'])) {
+        $logger->info("[" . $page . "] skipping due to no content in current revision");
+        return false;
+    }
     $cursects = splitintosections($rv[0]['slots']['main']['*'], $level);
 
     $ans = array();
@@ -213,7 +217,7 @@ function doarchive(
     } else {
         $tmp = $wpapi->revisions($page, 1, 'older', true, $lastrvid);
     }
-    $oldsects = splitintosections($tmp[0]['slots']['main']['*'], $level);
+    $oldsects = splitintosections($tmp[0]['slots']['main']['*'] ?? '', $level);
     $header = $cursects[0];
     unset($cursects[0]);
     unset($oldsects[0]);
