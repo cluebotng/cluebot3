@@ -22,6 +22,7 @@
 namespace ClueBot3;
 
 require_once 'lib/bot.php';
+require_once 'lib/links.php';
 require_once 'lib/config.php';
 require_once 'cluebot3.config.php';
 
