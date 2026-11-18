@@ -492,6 +492,7 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
 
     foreach ($sects as $sect) {
         $data .= '|-' . "\n" . '| ' . $i . ' || ' . trim($sect['header']) . ' || ';
+        $times = array();
         if (
             preg_match_all(
                 '/(\d{2}):(\d{2}), (\d+) ([a-zA-Z]+) (\d{4}) \(UTC\)/i',
@@ -500,11 +501,15 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
                 PREG_SET_ORDER
             )
         ) {
-            $times = array();
             foreach ($dates as $date) {
+                if (!isset(MONTHS[strtolower($date[4])])) {
+                    continue;
+                }
                 $times[] = gmmktime($date[1], $date[2], 0, MONTHS[strtolower($date[4])], $date[3], $date[5]);
             }
             sort($times, SORT_NUMERIC);
+        }
+        if (!empty($times)) {
             $data .= gmdate('Y-m-d H:i', $times[0]) . ' || ' .
                      gmdate('Y-m-d H:i', $times[count($times) - 1]) . ' || ' . count($times);
         } else {
