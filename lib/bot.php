@@ -21,6 +21,33 @@
 
 namespace ClueBot3;
 
+const MONTHS = array(
+    'january' => 1,
+    'jan' => 1,
+    'february' => 2,
+    'feb' => 2,
+    'march' => 3,
+    'mar' => 3,
+    'april' => 4,
+    'apr' => 4,
+    'may' => 5,
+    'june' => 6,
+    'jun' => 6,
+    'july' => 7,
+    'jul' => 7,
+    'august' => 8,
+    'aug' => 8,
+    'september' => 9,
+    'sept' => 9,
+    'sep' => 9,
+    'october' => 10,
+    'oct' => 10,
+    'november' => 11,
+    'nov' => 11,
+    'december' => 12,
+    'dec' => 12,
+);
+
 function splitintosections($d, $level = 2)
 {
     $ret = array();
@@ -474,33 +501,8 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
             )
         ) {
             $times = array();
-            $month = array(
-                'January' => 1,
-                'Jan' => 1,
-                'February' => 2,
-                'Feb' => 2,
-                'March' => 3,
-                'Mar' => 3,
-                'April' => 4,
-                'Apr' => 4,
-                'May' => 5,
-                'June' => 6,
-                'Jun' => 6,
-                'July' => 7,
-                'Jul' => 7,
-                'August' => 8,
-                'Aug' => 8,
-                'September' => 9,
-                'Sept' => 9,
-                'October' => 10,
-                'Oct' => 10,
-                'November' => 11,
-                'Nov' => 11,
-                'December' => 12,
-                'Dec' => 12,
-            );
             foreach ($dates as $date) {
-                $times[] = gmmktime($date[1], $date[2], 0, $month[$date[4]], $date[3], $date[5]);
+                $times[] = gmmktime($date[1], $date[2], 0, MONTHS[strtolower($date[4])], $date[3], $date[5]);
             }
             sort($times, SORT_NUMERIC);
             $data .= gmdate('Y-m-d H:i', $times[0]) . ' || ' .
