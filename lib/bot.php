@@ -296,7 +296,7 @@ function doarchive(
         $apage = $archiveprefix . gmdate(str_replace('%%i', $i, $archivename), (time() - ($age * 60 * 60)));
 
         if (($maxarchsize > 10000) and (strpos($archivename, '%%i') !== false)) {
-            while (strlen($wpq->getpage($apage)) > $maxarchsize) {
+            while (strlen($wpq->getpage($apage) ?? '') > $maxarchsize) {
                 $apage = $archiveprefix . gmdate(str_replace('%%i', $i, $archivename), (time() - ($age * 60 * 60)));
                 ++$i;
             }
@@ -445,7 +445,7 @@ function generatedetailedindex($apage, $level, $adata = null, $ret = false)
     $version = '1.1';
 
     if ($adata === null) {
-        $adata = $wpq->getpage($apage);
+        $adata = $wpq->getpage($apage) ?? '';
     }
 
     $checksum = md5(md5($version) . md5($adata));
