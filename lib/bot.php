@@ -124,7 +124,6 @@ function doarchive(
     global $logger;
     global $wpq;
     global $wpapi;
-    global $wph;
 
     $rv = $wpapi->revisions($page, 1, 'older', true);
     if (!is_array($rv) || !isset($rv[0])) {
@@ -344,48 +343,11 @@ function doarchive(
 
         $search = array();
         $replace = array();
-        foreach ($archsects as $header => $data) {
-            $anchor = str_replace('%', '.', urlencode(str_replace(' ', '_', $header)));
-            $newanchor = str_replace('%', '.', urlencode(str_replace(' ', '_', trim($data['header']))));
-            $search[] = $page . '#' . $anchor;
-            $replace[] = $apage . '#' . $newanchor;
-            $search[] = $page . '#' . str_replace('.20', '_', $anchor);
-            $replace[] = $apage . '#' . str_replace('.20', '_', $newanchor);
-            $search[] = $page . '#' . $header;
-            $replace[] = $apage . '#' . trim($data['header']);
-        }
+        buildlinkreplacements($page, $apage, $archsects, $search, $replace);
 
-        $pagelist = array();
-
-        $continue = null;
-        do {
-            foreach ($wpapi->backlinks($page, 500, $continue) as $data) {
-                $pagelist[] = $data['title'];
-            }
-        } while ($continue !== null);
-
+        $pagelist = getbacklinks($page);
         $logger->info("[" . $page . "] found " . count($pagelist) . " pages to check links on");
-        foreach (array_chunk($pagelist, 50) as $titles) {
-            $revisionData = $wph->unserialize(
-                $wph->get(
-                    $wpapi->apiurl . '?action=query&prop=revisions&rvslots=main' .
-                    '&rvprop=content&format=json&titles=' . urlencode(implode('|', $titles))
-                )
-            );
-
-            foreach ($revisionData['query']['pages'] as $pageData) {
-                if (!isset($pageData['revisions'][0]['slots']['main']['*'])) {
-                    continue;
-                }
-
-                $title = $pageData['title'];
-                $data = $pageData['revisions'][0]['slots']['main']['*'];
-                $newdata = str_replace($search, $replace, $data);
-                if ($data != $newdata) {
-                    $wpapi->edit($title, $newdata, 'Fixing links to archived content. (BOT)', true, true);
-                }
-            }
-        }
+        fixlinks($pagelist, $search, $replace);
     }
     if ($noindex != 1) {
         $logger->info("[" . $page . "] generating index page");

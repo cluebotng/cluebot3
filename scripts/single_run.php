@@ -22,6 +22,7 @@
 namespace ClueBot3;
 
 require_once __DIR__ . '/../lib/bot.php';
+require_once __DIR__ . '/../lib/links.php';
 require_once __DIR__ . '/../lib/config.php';
 require_once __DIR__ . '/../cluebot3.config.php';
 
