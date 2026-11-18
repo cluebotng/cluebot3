@@ -112,5 +112,5 @@ foreach (UserConfig\find_config_blocks(Config::$user, $pagedata) as $config_bloc
 $pagelist = getbacklinks($target_title);
 $logger->info("[" . $target_title . "] found " . count($pagelist) . " pages to check links on");
 
-fixlinks($target_title, $pagelist, $search, $replace);
+fixlinks_parallel($target_title, $pagelist, $search, $replace);
 $logger->info("[" . $target_title . "] finished fixing links");

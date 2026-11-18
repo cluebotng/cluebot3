@@ -114,6 +114,40 @@ function fixlinks($page, $pagelist, $search, $replace)
     }
 }
 
+function fixlinks_parallel($page, $pagelist, $search, $replace)
+{
+    global $logger;
+
+    $workers = min(Config::$link_update_workers, (int)ceil(count($pagelist) / 500));
+    if ($workers <= 1 || !function_exists('pcntl_fork')) {
+        fixlinks($page, $pagelist, $search, $replace);
+        return;
+    }
+
+    $pids = array();
+    foreach (array_chunk($pagelist, (int)ceil(count($pagelist) / $workers)) as $batch) {
+        $pid = pcntl_fork();
+        if ($pid == -1) {
+            $logger->error("Failed to fork");
+            die();
+        }
+        if ($pid != 0) {
+            // Parent
+            $logger->debug("Created fork with " . $pid);
+            $pids[] = $pid;
+        } else {
+            // Child
+            fixlinks($page, $batch, $search, $replace);
+            die();
+        }
+    }
+
+    $logger->info("[" . $page . "] waiting on " . count($pids) . " link update workers");
+    foreach ($pids as $pid) {
+        pcntl_waitpid($pid, $status);
+    }
+}
+
 function get_archive_titles($archiveprefix)
 {
     global $wpapi;

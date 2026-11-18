@@ -31,10 +31,16 @@ class Config
     // would allow an archive prefix of `User_talk:DamianZaremba` in addition to `User_talk:DamianZaremba Scripts`.
     public static $allowed_archive_prefixes = [];
 
+    // Number of processes to fork when fixing links to archived content (1 disables forking).
+    public static $link_update_workers = 4;
+
     public static function init()
     {
         if ($bot_password = getenv('CLUEBOT3_BOT_PASSWORD')) {
             self::$pass = $bot_password;
+        }
+        if ($link_update_workers = getenv('CLUEBOT3_LINK_UPDATE_WORKERS')) {
+            self::$link_update_workers = max(1, (int)$link_update_workers);
         }
     }
 }
