@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d979037f8eeea208782246382dd0b65e",
+    "content-hash": "b7296a384aa9d162811667225f19f118",
     "packages": [
         {
             "name": "cluebotng/wikipedia",
@@ -4004,12 +4004,12 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.5.12",
+        "php": ">=8.5.13",
         "ext-pcntl": "*"
     },
     "platform-dev": {},
     "platform-overrides": {
-        "php": "8.5.12"
+        "php": "8.5.13"
     },
     "plugin-api-version": "2.11.0"
 }
