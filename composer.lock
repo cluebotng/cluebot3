@@ -8,14 +8,14 @@
     "packages": [
         {
             "name": "cluebotng/wikipedia",
-            "version": "v3.2.0",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cluebotng/wikipedia.git",
-                "reference": "726cb473368d0c5d7a6557813298c3df9168c2bf"
+                "reference": "3ed28bda863017a57a6e62bf09e823bf13e2e1bd"
             },
             "require": {
-                "php": ">=8.5.12"
+                "php": ">=8.5.13"
             },
             "require-dev": {
                 "monolog/monolog": "@stable",
@@ -39,7 +39,7 @@
                 "GNU General Public License"
             ],
             "description": "ClueBot Wikipedia API Helpers",
-            "time": "2026-11-16T13:43:54+00:00"
+            "time": "2026-11-19T14:52:29+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -321,16 +321,16 @@
         },
         {
             "name": "overtrue/phplint",
-            "version": "9.8.2",
+            "version": "9.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/phplint.git",
-                "reference": "b8f8ad7306170c61142dc72487c58b7e667a0132"
+                "reference": "47af9f81a55d48ca1123c589b5f12c9b2d4766d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/phplint/zipball/b8f8ad7306170c61142dc72487c58b7e667a0132",
-                "reference": "b8f8ad7306170c61142dc72487c58b7e667a0132",
+                "url": "https://api.github.com/repos/overtrue/phplint/zipball/47af9f81a55d48ca1123c589b5f12c9b2d4766d6",
+                "reference": "47af9f81a55d48ca1123c589b5f12c9b2d4766d6",
                 "shasum": ""
             },
             "require": {
@@ -395,7 +395,7 @@
             ],
             "support": {
                 "issues": "https://github.com/overtrue/phplint/issues",
-                "source": "https://github.com/overtrue/phplint/tree/9.8.2"
+                "source": "https://github.com/overtrue/phplint/tree/9.8.3"
             },
             "funding": [
                 {
@@ -403,8 +403,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-16T05:23:21+00:00",
-            "published-time": "2026-11-16T05:25:17+00:00"
+            "time": "2026-11-20T08:27:38+00:00",
+            "published-time": "2026-11-20T08:29:58+00:00"
         },
         {
             "name": "phar-io/manifest",
