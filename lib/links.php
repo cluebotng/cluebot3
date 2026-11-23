@@ -147,31 +147,3 @@ function fixlinks_parallel($page, $pagelist, $search, $replace)
         pcntl_waitpid($pid, $status);
     }
 }
-
-function get_archive_titles($archiveprefix)
-{
-    global $wpapi;
-
-    $tmp = extractnamespace($archiveprefix);
-    $titles = array();
-    $continue = null;
-    do {
-        foreach ($wpapi->listprefix($tmp[1], namespacetoid($tmp[0]), 500, $continue) as $data) {
-            $titles[] = $data['title'];
-        }
-    } while ($continue !== null);
-    return $titles;
-}
-
-function sort_titles_newest_first($titles)
-{
-    global $wpapi;
-
-    $created = array();
-    foreach ($titles as $title) {
-        $tmp = $wpapi->revisions($title, 1, 'newer');
-        $created[$title] = $tmp[0]['timestamp'] ?? '';
-    }
-    arsort($created);
-    return array_keys($created);
-}
